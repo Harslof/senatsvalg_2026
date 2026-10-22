@@ -1,0 +1,4165 @@
+{
+  "schema_version": 1,
+  "polls": [
+    {
+      "id": "alabama-001",
+      "state": "Alabama",
+      "start": "2026-07-08",
+      "end": "2026-07-11",
+      "margin_dr": -15.0,
+      "pollster": "yes. every kid.",
+      "series": "Everett Wess / Barry Moore",
+      "kind": "D-R"
+    },
+    {
+      "id": "alabama-002",
+      "state": "Alabama",
+      "start": "2026-09-21",
+      "end": "2026-09-25",
+      "margin_dr": -21.0,
+      "pollster": "RMG",
+      "series": "Everett Wess / Barry Moore",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-001",
+      "state": "Alaska",
+      "start": "2026-03-19",
+      "end": "2026-03-22",
+      "margin_dr": 4.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-002",
+      "state": "Alaska",
+      "start": "2026-04-16",
+      "end": "2026-04-19",
+      "margin_dr": 6.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-003",
+      "state": "Alaska",
+      "start": "2026-06-15",
+      "end": "2026-06-29",
+      "margin_dr": -2.0,
+      "pollster": "NYT/Siena",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-004",
+      "state": "Alaska",
+      "start": "2026-07-28",
+      "end": "2026-08-04",
+      "margin_dr": 6.0,
+      "pollster": "Data for Progress",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-005",
+      "state": "Alaska",
+      "start": "2026-08-02",
+      "end": "2026-08-05",
+      "margin_dr": 2.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-006",
+      "state": "Alaska",
+      "start": "2026-08-20",
+      "end": "2026-08-23",
+      "margin_dr": 2.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-007",
+      "state": "Alaska",
+      "start": "2026-09-08",
+      "end": "2026-09-11",
+      "margin_dr": 6.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-008",
+      "state": "Alaska",
+      "start": "2026-09-10",
+      "end": "2026-09-12",
+      "margin_dr": 4.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-009",
+      "state": "Alaska",
+      "start": "2026-09-14",
+      "end": "2026-09-17",
+      "margin_dr": -2.0,
+      "pollster": "co/efficient",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-010",
+      "state": "Alaska",
+      "start": "2026-09-22",
+      "end": "2026-09-24",
+      "margin_dr": -1.0,
+      "pollster": "Trafalgar",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-011",
+      "state": "Alaska",
+      "start": "2026-09-24",
+      "end": "2026-10-01",
+      "margin_dr": 7.0,
+      "pollster": "NYT/Siena",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-012",
+      "state": "Alaska",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "margin_dr": 0.0,
+      "pollster": "Quantus",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "alaska-013",
+      "state": "Alaska",
+      "start": "2026-10-01",
+      "end": "2026-10-03",
+      "margin_dr": 2.0,
+      "pollster": "Alaska Survey Research",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R"
+    },
+    {
+      "id": "arkansas-001",
+      "state": "Arkansas",
+      "start": "2026-02-07",
+      "end": "2026-02-09",
+      "margin_dr": -22.0,
+      "pollster": "GrayHouse",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R"
+    },
+    {
+      "id": "arkansas-002",
+      "state": "Arkansas",
+      "start": "2026-07-17",
+      "end": "2026-07-25",
+      "margin_dr": -3.0,
+      "pollster": "2040 Strategy Group",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R"
+    },
+    {
+      "id": "arkansas-003",
+      "state": "Arkansas",
+      "start": "2026-08-11",
+      "end": "2026-08-12",
+      "margin_dr": 3.0,
+      "pollster": "Hendrix",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R"
+    },
+    {
+      "id": "arkansas-004",
+      "state": "Arkansas",
+      "start": "2026-08-14",
+      "end": "2026-08-18",
+      "margin_dr": -16.0,
+      "pollster": "J.L. Partners",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R"
+    },
+    {
+      "id": "arkansas-005",
+      "state": "Arkansas",
+      "start": "2026-09-30",
+      "end": "2026-10-04",
+      "margin_dr": -11.0,
+      "pollster": "GrayHouse",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-001",
+      "state": "Florida",
+      "start": "2026-02-21",
+      "end": "2026-03-02",
+      "margin_dr": -8.0,
+      "pollster": "University of North Florida",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-002",
+      "state": "Florida",
+      "start": "2026-03-25",
+      "end": "2026-04-13",
+      "margin_dr": -13.0,
+      "pollster": "Stetson University",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-003",
+      "state": "Florida",
+      "start": "2026-03-29",
+      "end": "2026-03-31",
+      "margin_dr": -11.0,
+      "pollster": "Emerson College",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-004",
+      "state": "Florida",
+      "start": "2026-07-08",
+      "end": "2026-07-17",
+      "margin_dr": -8.0,
+      "pollster": "UNF",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-005",
+      "state": "Florida",
+      "start": "2026-09-07",
+      "end": "2026-09-09",
+      "margin_dr": 0.0,
+      "pollster": "Change Research",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-006",
+      "state": "Florida",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "margin_dr": -7.0,
+      "pollster": "Quantus",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-007",
+      "state": "Florida",
+      "start": "2026-09-14",
+      "end": "2026-09-21",
+      "margin_dr": -11.0,
+      "pollster": "Stetson",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-008",
+      "state": "Florida",
+      "start": "2026-09-15",
+      "end": "2026-09-17",
+      "margin_dr": 0.0,
+      "pollster": "St Pete Polls",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-009",
+      "state": "Florida",
+      "start": "2026-09-20",
+      "end": "2026-09-21",
+      "margin_dr": -7.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-010",
+      "state": "Florida",
+      "start": "2026-09-25",
+      "end": "2026-09-27",
+      "margin_dr": -1.0,
+      "pollster": "Change Research",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-011",
+      "state": "Florida",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "margin_dr": -10.0,
+      "pollster": "Mason-Dixon",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-012",
+      "state": "Florida",
+      "start": "2026-09-28",
+      "end": "2026-10-04",
+      "margin_dr": -10.0,
+      "pollster": "Targoz",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-013",
+      "state": "Florida",
+      "start": "2026-09-28",
+      "end": "2026-10-05",
+      "margin_dr": -5.0,
+      "pollster": "YouGov",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "florida-014",
+      "state": "Florida",
+      "start": "2026-10-05",
+      "end": "2026-10-07",
+      "margin_dr": -2.0,
+      "pollster": "St Pete Polls",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-001",
+      "state": "Georgia",
+      "start": "2026-02-28",
+      "end": "2026-03-02",
+      "margin_dr": 5.0,
+      "pollster": "Emerson College",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-002",
+      "state": "Georgia",
+      "start": "2026-04-03",
+      "end": "2026-04-09",
+      "margin_dr": 7.0,
+      "pollster": "Echelon Insights",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-003",
+      "state": "Georgia",
+      "start": "2026-06-23",
+      "end": "2026-06-27",
+      "margin_dr": 13.0,
+      "pollster": "Beacon Research/Shaw & Company",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-004",
+      "state": "Georgia",
+      "start": "2026-06-27",
+      "end": "2026-06-30",
+      "margin_dr": 4.0,
+      "pollster": "Wick",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-005",
+      "state": "Georgia",
+      "start": "2026-07-13",
+      "end": "2026-07-16",
+      "margin_dr": 9.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-006",
+      "state": "Georgia",
+      "start": "2026-08-16",
+      "end": "2026-08-17",
+      "margin_dr": 7.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-007",
+      "state": "Georgia",
+      "start": "2026-09-10",
+      "end": "2026-09-12",
+      "margin_dr": 6.0,
+      "pollster": "Trafalgar",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-008",
+      "state": "Georgia",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "margin_dr": 4.0,
+      "pollster": "Quantus",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-009",
+      "state": "Georgia",
+      "start": "2026-09-15",
+      "end": "2026-09-18",
+      "margin_dr": 10.0,
+      "pollster": "YouGov",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-010",
+      "state": "Georgia",
+      "start": "2026-09-21",
+      "end": "2026-09-23",
+      "margin_dr": 10.0,
+      "pollster": "Big Data",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-011",
+      "state": "Georgia",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "margin_dr": 8.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-012",
+      "state": "Georgia",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "margin_dr": 10.0,
+      "pollster": "Wedgewood",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "georgia-013",
+      "state": "Georgia",
+      "start": "2026-10-07",
+      "end": "2026-10-09",
+      "margin_dr": 8.0,
+      "pollster": "Trafalgar Group",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "idaho-001",
+      "state": "Idaho",
+      "start": "2026-03-16",
+      "end": "2026-03-17",
+      "margin_dr": -14.0,
+      "pollster": "Public Policy Polling",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "idaho-002",
+      "state": "Idaho",
+      "start": "2026-05-29",
+      "end": "2026-06-01",
+      "margin_dr": -4.0,
+      "pollster": "Bullfinch",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "idaho-003",
+      "state": "Idaho",
+      "start": "2026-07-28",
+      "end": "2026-07-30",
+      "margin_dr": -24.0,
+      "pollster": "Change Research",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "idaho-004",
+      "state": "Idaho",
+      "start": "2026-08-04",
+      "end": "2026-08-07",
+      "margin_dr": 5.0,
+      "pollster": "Bullfinch",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "idaho-005",
+      "state": "Idaho",
+      "start": "2026-08-11",
+      "end": "2026-08-13",
+      "margin_dr": -34.0,
+      "pollster": "Peak Insights",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "idaho-006",
+      "state": "Idaho",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "margin_dr": -25.0,
+      "pollster": "Peak Insights",
+      "series": "James Risch / Todd Achilles",
+      "kind": "I-R"
+    },
+    {
+      "id": "illinois-001",
+      "state": "Illinois",
+      "start": "2026-09-30",
+      "end": "2026-10-01",
+      "margin_dr": 13.0,
+      "pollster": "Public Policy Polling",
+      "series": "Juliana Stratton / Don Tracy",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-001",
+      "state": "Iowa",
+      "start": "2026-03-10",
+      "end": "2026-03-16",
+      "margin_dr": -4.0,
+      "pollster": "GBAO",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-002",
+      "state": "Iowa",
+      "start": "2026-04-03",
+      "end": "2026-04-09",
+      "margin_dr": 1.0,
+      "pollster": "Echelon Insights",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-003",
+      "state": "Iowa",
+      "start": "2026-06-03",
+      "end": "2026-06-04",
+      "margin_dr": 0.0,
+      "pollster": "Public Policy Polling",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-004",
+      "state": "Iowa",
+      "start": "2026-06-08",
+      "end": "2026-06-11",
+      "margin_dr": 2.0,
+      "pollster": "Global Strategy Group",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-005",
+      "state": "Iowa",
+      "start": "2026-06-15",
+      "end": "2026-06-27",
+      "margin_dr": -2.0,
+      "pollster": "NYT/Siena",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-006",
+      "state": "Iowa",
+      "start": "2026-06-16",
+      "end": "2026-06-19",
+      "margin_dr": -2.0,
+      "pollster": "Cygnal Political",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-007",
+      "state": "Iowa",
+      "start": "2026-06-23",
+      "end": "2026-06-27",
+      "margin_dr": 4.0,
+      "pollster": "Beacon Research/Shaw & Company",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-008",
+      "state": "Iowa",
+      "start": "2026-08-02",
+      "end": "2026-08-04",
+      "margin_dr": -3.0,
+      "pollster": "Emerson",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-009",
+      "state": "Iowa",
+      "start": "2026-08-20",
+      "end": "2026-08-23",
+      "margin_dr": -4.0,
+      "pollster": "Suffolk",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-010",
+      "state": "Iowa",
+      "start": "2026-08-26",
+      "end": "2026-08-28",
+      "margin_dr": 7.0,
+      "pollster": "Abacus",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-011",
+      "state": "Iowa",
+      "start": "2026-08-27",
+      "end": "2026-08-29",
+      "margin_dr": -2.0,
+      "pollster": "Wedgewood",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-012",
+      "state": "Iowa",
+      "start": "2026-08-27",
+      "end": "2026-08-31",
+      "margin_dr": 4.0,
+      "pollster": "Global Strategy Group",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-013",
+      "state": "Iowa",
+      "start": "2026-08-31",
+      "end": "2026-09-01",
+      "margin_dr": -4.0,
+      "pollster": "Emerson",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-014",
+      "state": "Iowa",
+      "start": "2026-09-03",
+      "end": "2026-09-08",
+      "margin_dr": 2.0,
+      "pollster": "YouGov",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-015",
+      "state": "Iowa",
+      "start": "2026-09-09",
+      "end": "2026-09-11",
+      "margin_dr": 0.0,
+      "pollster": "Cygnal",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-016",
+      "state": "Iowa",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "margin_dr": -4.0,
+      "pollster": "co/efficient",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-017",
+      "state": "Iowa",
+      "start": "2026-09-16",
+      "end": "2026-09-18",
+      "margin_dr": -2.0,
+      "pollster": "Trafalgar",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-018",
+      "state": "Iowa",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "margin_dr": 8.0,
+      "pollster": "Marist",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-019",
+      "state": "Iowa",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "margin_dr": 1.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-020",
+      "state": "Iowa",
+      "start": "2026-09-22",
+      "end": "2026-10-01",
+      "margin_dr": -1.0,
+      "pollster": "NYT/Siena",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-021",
+      "state": "Iowa",
+      "start": "2026-09-24",
+      "end": "2026-09-28",
+      "margin_dr": 2.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-022",
+      "state": "Iowa",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "margin_dr": -2.0,
+      "pollster": "Quantus",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-023",
+      "state": "Iowa",
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "margin_dr": -2.0,
+      "pollster": "CNN/SSRS",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-024",
+      "state": "Iowa",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "margin_dr": 4.0,
+      "pollster": "Suffolk",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "iowa-025",
+      "state": "Iowa",
+      "start": "2026-10-05",
+      "end": "2026-10-06",
+      "margin_dr": -2.0,
+      "pollster": "Emerson",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-001",
+      "state": "Kansas",
+      "start": "2026-01-26",
+      "end": "2026-01-28",
+      "margin_dr": -8.0,
+      "pollster": "Tavern Research",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-002",
+      "state": "Kansas",
+      "start": "2026-07-08",
+      "end": "2026-07-13",
+      "margin_dr": -4.0,
+      "pollster": "GBAO",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-003",
+      "state": "Kansas",
+      "start": "2026-08-07",
+      "end": "2026-08-08",
+      "margin_dr": -1.0,
+      "pollster": "Public Policy Polling",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-004",
+      "state": "Kansas",
+      "start": "2026-08-12",
+      "end": "2026-08-16",
+      "margin_dr": 1.0,
+      "pollster": "Global Strategy Group",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-005",
+      "state": "Kansas",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "margin_dr": -5.0,
+      "pollster": "co/efficient",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-006",
+      "state": "Kansas",
+      "start": "2026-09-13",
+      "end": "2026-09-16",
+      "margin_dr": 4.0,
+      "pollster": "Global Strategy Group",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-007",
+      "state": "Kansas",
+      "start": "2026-09-15",
+      "end": "2026-09-16",
+      "margin_dr": 2.0,
+      "pollster": "Emerson",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-008",
+      "state": "Kansas",
+      "start": "2026-09-22",
+      "end": "2026-09-24",
+      "margin_dr": 2.0,
+      "pollster": "Wedgewood",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-009",
+      "state": "Kansas",
+      "start": "2026-09-22",
+      "end": "2026-09-30",
+      "margin_dr": 0.0,
+      "pollster": "NYT/Siena",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-010",
+      "state": "Kansas",
+      "start": "2026-09-24",
+      "end": "2026-10-04",
+      "margin_dr": 3.0,
+      "pollster": "YouGov",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-011",
+      "state": "Kansas",
+      "start": "2026-09-29",
+      "end": "2026-10-01",
+      "margin_dr": 0.0,
+      "pollster": "Trafalgar",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kansas-012",
+      "state": "Kansas",
+      "start": "2026-09-30",
+      "end": "2026-10-04",
+      "margin_dr": 5.0,
+      "pollster": "GBAO",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R"
+    },
+    {
+      "id": "kentucky-001",
+      "state": "Kentucky",
+      "start": "2026-08-24",
+      "end": "2026-08-27",
+      "margin_dr": -9.0,
+      "pollster": "Global Strategy Group",
+      "series": "Charles Booker / Andy Barr",
+      "kind": "D-R"
+    },
+    {
+      "id": "louisiana-001",
+      "state": "Louisiana",
+      "start": "2026-07-21",
+      "end": "2026-07-22",
+      "margin_dr": -4.0,
+      "pollster": "Public Policy Polling",
+      "series": "Jamie Davis / Julia Letlow",
+      "kind": "D-R"
+    },
+    {
+      "id": "louisiana-002",
+      "state": "Louisiana",
+      "start": "2026-09-17",
+      "end": "2026-09-19",
+      "margin_dr": -4.0,
+      "pollster": "Hart Research",
+      "series": "Jamie Davis / Julia Letlow",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-001",
+      "state": "Maine",
+      "start": "2026-07-04",
+      "end": "2026-07-06",
+      "margin_dr": 5.0,
+      "pollster": "Wedgewood Polls",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-002",
+      "state": "Maine",
+      "start": "2026-07-07",
+      "end": "2026-07-07",
+      "margin_dr": 5.0,
+      "pollster": "Public Policy Polling",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-003",
+      "state": "Maine",
+      "start": "2026-07-15",
+      "end": "2026-07-20",
+      "margin_dr": 3.0,
+      "pollster": "UNH",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-004",
+      "state": "Maine",
+      "start": "2026-07-27",
+      "end": "2026-08-01",
+      "margin_dr": 4.0,
+      "pollster": "Hart Research",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-005",
+      "state": "Maine",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "margin_dr": 2.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-006",
+      "state": "Maine",
+      "start": "2026-08-26",
+      "end": "2026-08-28",
+      "margin_dr": 8.0,
+      "pollster": "Abacus",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-007",
+      "state": "Maine",
+      "start": "2026-08-28",
+      "end": "2026-09-14",
+      "margin_dr": 5.0,
+      "pollster": "UMass Lowell/YouGov",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-008",
+      "state": "Maine",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "margin_dr": 3.0,
+      "pollster": "CNN/SSRS",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-009",
+      "state": "Maine",
+      "start": "2026-09-02",
+      "end": "2026-09-08",
+      "margin_dr": 4.0,
+      "pollster": "YouGov",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-010",
+      "state": "Maine",
+      "start": "2026-09-14",
+      "end": "2026-09-15",
+      "margin_dr": -1.0,
+      "pollster": "Quantus",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-011",
+      "state": "Maine",
+      "start": "2026-09-15",
+      "end": "2026-09-22",
+      "margin_dr": -3.0,
+      "pollster": "NYT/Siena",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-012",
+      "state": "Maine",
+      "start": "2026-09-17",
+      "end": "2026-09-21",
+      "margin_dr": 4.0,
+      "pollster": "UNH",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-013",
+      "state": "Maine",
+      "start": "2026-09-20",
+      "end": "2026-09-22",
+      "margin_dr": 3.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-014",
+      "state": "Maine",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "margin_dr": 0.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-015",
+      "state": "Maine",
+      "start": "2026-09-23",
+      "end": "2026-10-01",
+      "margin_dr": 0.0,
+      "pollster": "YouGov",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-016",
+      "state": "Maine",
+      "start": "2026-09-25",
+      "end": "2026-09-29",
+      "margin_dr": 2.0,
+      "pollster": "Maine People's Resource Center",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-017",
+      "state": "Maine",
+      "start": "2026-09-27",
+      "end": "2026-10-01",
+      "margin_dr": 4.0,
+      "pollster": "Wedgewood",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-018",
+      "state": "Maine",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "margin_dr": -2.0,
+      "pollster": "co/efficient",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-019",
+      "state": "Maine",
+      "start": "2026-09-29",
+      "end": "2026-10-01",
+      "margin_dr": 0.0,
+      "pollster": "Trafalgar",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-020",
+      "state": "Maine",
+      "start": "2026-09-30",
+      "end": "2026-10-05",
+      "margin_dr": 4.0,
+      "pollster": "Washington Post/George Mason",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "maine-021",
+      "state": "Maine",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "margin_dr": 4.0,
+      "pollster": "Marist",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-001",
+      "state": "Massachusetts",
+      "start": "2026-01-22",
+      "end": "2026-01-25",
+      "margin_dr": 24.0,
+      "pollster": "Cygnal Political",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-002",
+      "state": "Massachusetts",
+      "start": "2026-02-12",
+      "end": "2026-02-16",
+      "margin_dr": 29.0,
+      "pollster": "University of New Hampshire",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-003",
+      "state": "Massachusetts",
+      "start": "2026-04-16",
+      "end": "2026-04-20",
+      "margin_dr": 23.0,
+      "pollster": "University of New Hampshire",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-004",
+      "state": "Massachusetts",
+      "start": "2026-06-08",
+      "end": "2026-06-12",
+      "margin_dr": 25.0,
+      "pollster": "Suffolk University",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-005",
+      "state": "Massachusetts",
+      "start": "2026-06-18",
+      "end": "2026-06-23",
+      "margin_dr": 16.0,
+      "pollster": "University of New Hampshire",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-006",
+      "state": "Massachusetts",
+      "start": "2026-08-05",
+      "end": "2026-08-12",
+      "margin_dr": 21.0,
+      "pollster": "YouGov",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-007",
+      "state": "Massachusetts",
+      "start": "2026-08-20",
+      "end": "2026-08-24",
+      "margin_dr": 19.0,
+      "pollster": "UNH",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-008",
+      "state": "Massachusetts",
+      "start": "2026-09-14",
+      "end": "2026-09-22",
+      "margin_dr": 26.0,
+      "pollster": "MassINC",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "massachusetts-009",
+      "state": "Massachusetts",
+      "start": "2026-09-17",
+      "end": "2026-09-21",
+      "margin_dr": 23.0,
+      "pollster": "UNH",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-001",
+      "state": "Michigan",
+      "start": "2026-04-28",
+      "end": "2026-05-01",
+      "margin_dr": -5.0,
+      "pollster": "Glengariff Group",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-002",
+      "state": "Michigan",
+      "start": "2026-05-01",
+      "end": "2026-05-07",
+      "margin_dr": -1.0,
+      "pollster": "Mitchell Research",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-003",
+      "state": "Michigan",
+      "start": "2026-05-20",
+      "end": "2026-05-23",
+      "margin_dr": 1.0,
+      "pollster": "TIPP Insights",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-004",
+      "state": "Michigan",
+      "start": "2026-06-02",
+      "end": "2026-06-04",
+      "margin_dr": 5.0,
+      "pollster": "Tulchin Research",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-005",
+      "state": "Michigan",
+      "start": "2026-06-11",
+      "end": "2026-06-13",
+      "margin_dr": 5.0,
+      "pollster": "Mitchell Research",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-006",
+      "state": "Michigan",
+      "start": "2026-06-11",
+      "end": "2026-06-14",
+      "margin_dr": 3.0,
+      "pollster": "Zenith Research",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-007",
+      "state": "Michigan",
+      "start": "2026-06-15",
+      "end": "2026-06-22",
+      "margin_dr": 1.0,
+      "pollster": "Data for Progress",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-008",
+      "state": "Michigan",
+      "start": "2026-06-25",
+      "end": "2026-06-28",
+      "margin_dr": 5.0,
+      "pollster": "Wedgewood Polls",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-009",
+      "state": "Michigan",
+      "start": "2026-06-29",
+      "end": "2026-06-30",
+      "margin_dr": 1.0,
+      "pollster": "Quantus Insights",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-010",
+      "state": "Michigan",
+      "start": "2026-07-22",
+      "end": "2026-07-24",
+      "margin_dr": -10.0,
+      "pollster": "Glengariff",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-011",
+      "state": "Michigan",
+      "start": "2026-07-24",
+      "end": "2026-07-31",
+      "margin_dr": -3.0,
+      "pollster": "EPIC-MRA",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-012",
+      "state": "Michigan",
+      "start": "2026-07-28",
+      "end": "2026-07-29",
+      "margin_dr": 0.0,
+      "pollster": "Mitchell",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-013",
+      "state": "Michigan",
+      "start": "2026-07-28",
+      "end": "2026-07-30",
+      "margin_dr": -1.0,
+      "pollster": "SoCal",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-014",
+      "state": "Michigan",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "margin_dr": 3.0,
+      "pollster": "TIPP",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-015",
+      "state": "Michigan",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "margin_dr": 6.0,
+      "pollster": "GBAO",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-016",
+      "state": "Michigan",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "margin_dr": -4.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-017",
+      "state": "Michigan",
+      "start": "2026-08-09",
+      "end": "2026-08-11",
+      "margin_dr": 1.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-018",
+      "state": "Michigan",
+      "start": "2026-08-10",
+      "end": "2026-08-20",
+      "margin_dr": 5.0,
+      "pollster": "MSU/YouGov",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-019",
+      "state": "Michigan",
+      "start": "2026-08-11",
+      "end": "2026-08-17",
+      "margin_dr": 7.0,
+      "pollster": "Susquehanna",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-020",
+      "state": "Michigan",
+      "start": "2026-08-22",
+      "end": "2026-08-28",
+      "margin_dr": 4.0,
+      "pollster": "EPIC-MRA",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-021",
+      "state": "Michigan",
+      "start": "2026-08-26",
+      "end": "2026-08-28",
+      "margin_dr": 5.0,
+      "pollster": "Abacus",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-022",
+      "state": "Michigan",
+      "start": "2026-08-31",
+      "end": "2026-09-03",
+      "margin_dr": -2.0,
+      "pollster": "Glengariff",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-023",
+      "state": "Michigan",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "margin_dr": 3.0,
+      "pollster": "CNN/SSRS",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-024",
+      "state": "Michigan",
+      "start": "2026-09-07",
+      "end": "2026-09-09",
+      "margin_dr": 1.0,
+      "pollster": "Trafalgar",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-025",
+      "state": "Michigan",
+      "start": "2026-09-10",
+      "end": "2026-09-14",
+      "margin_dr": 3.0,
+      "pollster": "Washington Post/George Mason",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-026",
+      "state": "Michigan",
+      "start": "2026-09-12",
+      "end": "2026-09-14",
+      "margin_dr": 2.0,
+      "pollster": "Emerson",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-027",
+      "state": "Michigan",
+      "start": "2026-09-15",
+      "end": "2026-09-19",
+      "margin_dr": -1.0,
+      "pollster": "Torchlight",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-028",
+      "state": "Michigan",
+      "start": "2026-09-15",
+      "end": "2026-09-22",
+      "margin_dr": 4.0,
+      "pollster": "NYT/Siena",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-029",
+      "state": "Michigan",
+      "start": "2026-09-16",
+      "end": "2026-09-17",
+      "margin_dr": 2.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-030",
+      "state": "Michigan",
+      "start": "2026-09-16",
+      "end": "2026-09-20",
+      "margin_dr": 7.0,
+      "pollster": "Suffolk",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-031",
+      "state": "Michigan",
+      "start": "2026-09-18",
+      "end": "2026-09-21",
+      "margin_dr": 5.0,
+      "pollster": "Cygnal/Beacon",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-032",
+      "state": "Michigan",
+      "start": "2026-09-19",
+      "end": "2026-09-22",
+      "margin_dr": 4.0,
+      "pollster": "GBAO",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-033",
+      "state": "Michigan",
+      "start": "2026-09-20",
+      "end": "2026-09-27",
+      "margin_dr": 4.0,
+      "pollster": "Guidant",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-034",
+      "state": "Michigan",
+      "start": "2026-09-21",
+      "end": "2026-09-23",
+      "margin_dr": 0.0,
+      "pollster": "co/efficient",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-035",
+      "state": "Michigan",
+      "start": "2026-09-22",
+      "end": "2026-09-24",
+      "margin_dr": 5.0,
+      "pollster": "Big Data",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-036",
+      "state": "Michigan",
+      "start": "2026-09-22",
+      "end": "2026-10-04",
+      "margin_dr": 1.0,
+      "pollster": "YouGov",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-037",
+      "state": "Michigan",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "margin_dr": 7.0,
+      "pollster": "Marist",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-038",
+      "state": "Michigan",
+      "start": "2026-09-24",
+      "end": "2026-09-28",
+      "margin_dr": 1.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-039",
+      "state": "Michigan",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "margin_dr": 2.0,
+      "pollster": "Trafalgar",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-040",
+      "state": "Michigan",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "margin_dr": 7.0,
+      "pollster": "Z to A",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-041",
+      "state": "Michigan",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "margin_dr": 5.0,
+      "pollster": "Mitchell",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-042",
+      "state": "Michigan",
+      "start": "2026-10-05",
+      "end": "2026-10-06",
+      "margin_dr": 1.0,
+      "pollster": "Quantus",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "michigan-043",
+      "state": "Michigan",
+      "start": "2026-10-08",
+      "end": "2026-10-09",
+      "margin_dr": 6.0,
+      "pollster": "Wedgewood",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-001",
+      "state": "Minnesota",
+      "start": "2026-05-26",
+      "end": "2026-05-28",
+      "margin_dr": 7.0,
+      "pollster": "Impact Research",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-002",
+      "state": "Minnesota",
+      "start": "2026-08-13",
+      "end": "2026-08-17",
+      "margin_dr": 5.0,
+      "pollster": "SurveyUSA",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-003",
+      "state": "Minnesota",
+      "start": "2026-08-31",
+      "end": "2026-09-02",
+      "margin_dr": 2.0,
+      "pollster": "TIPP",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-004",
+      "state": "Minnesota",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "margin_dr": 4.0,
+      "pollster": "Quantus",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-005",
+      "state": "Minnesota",
+      "start": "2026-09-09",
+      "end": "2026-09-14",
+      "margin_dr": 0.0,
+      "pollster": "SurveyUSA",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-006",
+      "state": "Minnesota",
+      "start": "2026-09-14",
+      "end": "2026-09-15",
+      "margin_dr": 1.0,
+      "pollster": "co/efficient",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-007",
+      "state": "Minnesota",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "margin_dr": 1.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-008",
+      "state": "Minnesota",
+      "start": "2026-09-29",
+      "end": "2026-09-30",
+      "margin_dr": 2.0,
+      "pollster": "Big Data",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-009",
+      "state": "Minnesota",
+      "start": "2026-10-01",
+      "end": "2026-10-04",
+      "margin_dr": 8.0,
+      "pollster": "GQR",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-010",
+      "state": "Minnesota",
+      "start": "2026-10-02",
+      "end": "2026-10-07",
+      "margin_dr": 4.0,
+      "pollster": "Morning Consult",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R"
+    },
+    {
+      "id": "mississippi-001",
+      "state": "Mississippi",
+      "start": "2026-08-05",
+      "end": "2026-08-15",
+      "margin_dr": -6.0,
+      "pollster": "Data for Progress",
+      "series": "Scott Colom / Cindy Hyde-Smith",
+      "kind": "D-R"
+    },
+    {
+      "id": "montana-001",
+      "state": "Montana",
+      "start": "2026-03-17",
+      "end": "2026-03-20",
+      "margin_dr": -2.0,
+      "pollster": "Change Research",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-002",
+      "state": "Montana",
+      "start": "2026-05-13",
+      "end": "2026-05-18",
+      "margin_dr": -20.0,
+      "pollster": "Tavern Research",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-003",
+      "state": "Montana",
+      "start": "2026-06-18",
+      "end": "2026-06-24",
+      "margin_dr": -2.0,
+      "pollster": "Hart Research",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-004",
+      "state": "Montana",
+      "start": "2026-07-23",
+      "end": "2026-07-26",
+      "margin_dr": 4.0,
+      "pollster": "GQR",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-005",
+      "state": "Montana",
+      "start": "2026-08-01",
+      "end": "2026-08-04",
+      "margin_dr": 0.0,
+      "pollster": "Hart Research",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-006",
+      "state": "Montana",
+      "start": "2026-08-23",
+      "end": "2026-08-25",
+      "margin_dr": -22.0,
+      "pollster": "Peak Insights",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-007",
+      "state": "Montana",
+      "start": "2026-08-27",
+      "end": "2026-09-07",
+      "margin_dr": -8.0,
+      "pollster": "Rutgers-Eagleton",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-008",
+      "state": "Montana",
+      "start": "2026-09-07",
+      "end": "2026-09-15",
+      "margin_dr": -12.0,
+      "pollster": "Aspect Strategic",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "montana-009",
+      "state": "Montana",
+      "start": "2026-09-19",
+      "end": "2026-09-24",
+      "margin_dr": -19.0,
+      "pollster": "American Pulse",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-001",
+      "state": "Nebraska",
+      "start": "2026-02-02",
+      "end": "2026-02-05",
+      "margin_dr": -1.0,
+      "pollster": "Impact Research",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-002",
+      "state": "Nebraska",
+      "start": "2026-04-16",
+      "end": "2026-04-20",
+      "margin_dr": 1.0,
+      "pollster": "GBAO",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-003",
+      "state": "Nebraska",
+      "start": "2026-05-08",
+      "end": "2026-05-11",
+      "margin_dr": 5.0,
+      "pollster": "Tavern Research",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-004",
+      "state": "Nebraska",
+      "start": "2026-07-22",
+      "end": "2026-07-26",
+      "margin_dr": 0.0,
+      "pollster": "GBAO",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-005",
+      "state": "Nebraska",
+      "start": "2026-08-09",
+      "end": "2026-08-13",
+      "margin_dr": 0.0,
+      "pollster": "Impact Research",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-006",
+      "state": "Nebraska",
+      "start": "2026-09-03",
+      "end": "2026-09-08",
+      "margin_dr": 1.0,
+      "pollster": "GBAO",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-007",
+      "state": "Nebraska",
+      "start": "2026-09-08",
+      "end": "2026-09-13",
+      "margin_dr": 4.0,
+      "pollster": "SurveyUSA",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-008",
+      "state": "Nebraska",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "margin_dr": -4.0,
+      "pollster": "Wedgewood",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-009",
+      "state": "Nebraska",
+      "start": "2026-09-24",
+      "end": "2026-10-03",
+      "margin_dr": 1.0,
+      "pollster": "YouGov",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "nebraska-010",
+      "state": "Nebraska",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "margin_dr": -3.0,
+      "pollster": "co/efficient",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R"
+    },
+    {
+      "id": "new-hampshire-001",
+      "state": "New Hampshire",
+      "start": "2026-03-21",
+      "end": "2026-03-23",
+      "margin_dr": 1.0,
+      "pollster": "Emerson College",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-002",
+      "state": "New Hampshire",
+      "start": "2026-04-17",
+      "end": "2026-04-21",
+      "margin_dr": 7.0,
+      "pollster": "University of New Hampshire",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-003",
+      "state": "New Hampshire",
+      "start": "2026-06-18",
+      "end": "2026-06-23",
+      "margin_dr": 3.0,
+      "pollster": "University of New Hampshire",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-004",
+      "state": "New Hampshire",
+      "start": "2026-06-24",
+      "end": "2026-06-25",
+      "margin_dr": 6.0,
+      "pollster": "St. Anselm",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-005",
+      "state": "New Hampshire",
+      "start": "2026-06-24",
+      "end": "2026-06-27",
+      "margin_dr": 1.0,
+      "pollster": "Peak Insights",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-006",
+      "state": "New Hampshire",
+      "start": "2026-08-17",
+      "end": "2026-08-18",
+      "margin_dr": 7.0,
+      "pollster": "St Anselm",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-007",
+      "state": "New Hampshire",
+      "start": "2026-08-20",
+      "end": "2026-08-24",
+      "margin_dr": -2.0,
+      "pollster": "UNH",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-008",
+      "state": "New Hampshire",
+      "start": "2026-08-27",
+      "end": "2026-08-30",
+      "margin_dr": -1.0,
+      "pollster": "Fabrizio Lee",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-009",
+      "state": "New Hampshire",
+      "start": "2026-09-09",
+      "end": "2026-09-11",
+      "margin_dr": 0.0,
+      "pollster": "co/efficient",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-010",
+      "state": "New Hampshire",
+      "start": "2026-09-15",
+      "end": "2026-09-22",
+      "margin_dr": 5.0,
+      "pollster": "NYT/Siena",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-011",
+      "state": "New Hampshire",
+      "start": "2026-09-16",
+      "end": "2026-09-17",
+      "margin_dr": 8.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-012",
+      "state": "New Hampshire",
+      "start": "2026-09-17",
+      "end": "2026-09-21",
+      "margin_dr": 8.0,
+      "pollster": "UNH",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-013",
+      "state": "New Hampshire",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "margin_dr": 6.0,
+      "pollster": "Trafalgar",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-014",
+      "state": "New Hampshire",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "margin_dr": 7.0,
+      "pollster": "St Anselm",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-hampshire-015",
+      "state": "New Hampshire",
+      "start": "2026-09-28",
+      "end": "2026-10-05",
+      "margin_dr": 8.0,
+      "pollster": "YouGov",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-mexico-001",
+      "state": "New Mexico",
+      "start": "2026-08-21",
+      "end": "2026-08-28",
+      "margin_dr": 15.0,
+      "pollster": "Research & Polling",
+      "series": "Ben Ray Luján / Larry Marker",
+      "kind": "D-R"
+    },
+    {
+      "id": "new-mexico-002",
+      "state": "New Mexico",
+      "start": "2026-09-25",
+      "end": "2026-09-30",
+      "margin_dr": 18.0,
+      "pollster": "SurveyUSA",
+      "series": "Ben Ray Luján / Larry Marker",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-001",
+      "state": "North Carolina",
+      "start": "2026-01-31",
+      "end": "2026-02-04",
+      "margin_dr": 10.0,
+      "pollster": "Change Research",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-002",
+      "state": "North Carolina",
+      "start": "2026-03-09",
+      "end": "2026-03-18",
+      "margin_dr": 14.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-003",
+      "state": "North Carolina",
+      "start": "2026-03-13",
+      "end": "2026-03-14",
+      "margin_dr": 3.0,
+      "pollster": "Public Policy Polling",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-004",
+      "state": "North Carolina",
+      "start": "2026-03-22",
+      "end": "2026-03-23",
+      "margin_dr": 8.0,
+      "pollster": "Harper Polling",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-005",
+      "state": "North Carolina",
+      "start": "2026-03-26",
+      "end": "2026-04-06",
+      "margin_dr": 8.0,
+      "pollster": "High Point University",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-006",
+      "state": "North Carolina",
+      "start": "2026-03-31",
+      "end": "2026-04-01",
+      "margin_dr": 5.0,
+      "pollster": "Quantus Insights",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-007",
+      "state": "North Carolina",
+      "start": "2026-04-21",
+      "end": "2026-04-24",
+      "margin_dr": 9.0,
+      "pollster": "Opinion Diagnostics",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-008",
+      "state": "North Carolina",
+      "start": "2026-05-04",
+      "end": "2026-05-08",
+      "margin_dr": 7.0,
+      "pollster": "Change Research",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-009",
+      "state": "North Carolina",
+      "start": "2026-05-10",
+      "end": "2026-05-11",
+      "margin_dr": 11.0,
+      "pollster": "Harper Polling",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-010",
+      "state": "North Carolina",
+      "start": "2026-06-01",
+      "end": "2026-06-10",
+      "margin_dr": 14.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-011",
+      "state": "North Carolina",
+      "start": "2026-06-15",
+      "end": "2026-06-27",
+      "margin_dr": 7.0,
+      "pollster": "NYT/Siena",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-012",
+      "state": "North Carolina",
+      "start": "2026-07-10",
+      "end": "2026-07-11",
+      "margin_dr": 4.0,
+      "pollster": "Public Policy Polling",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-013",
+      "state": "North Carolina",
+      "start": "2026-07-23",
+      "end": "2026-07-27",
+      "margin_dr": 9.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-014",
+      "state": "North Carolina",
+      "start": "2026-07-23",
+      "end": "2026-07-31",
+      "margin_dr": 11.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-015",
+      "state": "North Carolina",
+      "start": "2026-07-29",
+      "end": "2026-08-01",
+      "margin_dr": 9.0,
+      "pollster": "Change Research",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-016",
+      "state": "North Carolina",
+      "start": "2026-08-03",
+      "end": "2026-08-06",
+      "margin_dr": 7.0,
+      "pollster": "Change Research",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-017",
+      "state": "North Carolina",
+      "start": "2026-08-03",
+      "end": "2026-08-12",
+      "margin_dr": 5.0,
+      "pollster": "High Point",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-018",
+      "state": "North Carolina",
+      "start": "2026-08-09",
+      "end": "2026-08-10",
+      "margin_dr": 13.0,
+      "pollster": "Harper",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-019",
+      "state": "North Carolina",
+      "start": "2026-08-21",
+      "end": "2026-08-31",
+      "margin_dr": 11.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-020",
+      "state": "North Carolina",
+      "start": "2026-08-31",
+      "end": "2026-09-03",
+      "margin_dr": 8.0,
+      "pollster": "ECU",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-021",
+      "state": "North Carolina",
+      "start": "2026-09-04",
+      "end": "2026-09-15",
+      "margin_dr": 11.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-022",
+      "state": "North Carolina",
+      "start": "2026-09-06",
+      "end": "2026-09-16",
+      "margin_dr": 8.0,
+      "pollster": "High Point",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-023",
+      "state": "North Carolina",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "margin_dr": 6.0,
+      "pollster": "Trafalgar",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-024",
+      "state": "North Carolina",
+      "start": "2026-09-13",
+      "end": "2026-09-15",
+      "margin_dr": 15.0,
+      "pollster": "Harper",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-025",
+      "state": "North Carolina",
+      "start": "2026-09-15",
+      "end": "2026-09-18",
+      "margin_dr": 12.0,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-026",
+      "state": "North Carolina",
+      "start": "2026-09-16",
+      "end": "2026-09-17",
+      "margin_dr": 5.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-027",
+      "state": "North Carolina",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "margin_dr": 11.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-028",
+      "state": "North Carolina",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "margin_dr": 8.0,
+      "pollster": "Opinion Diagnostics",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-029",
+      "state": "North Carolina",
+      "start": "2026-09-21",
+      "end": "2026-09-22",
+      "margin_dr": 5.0,
+      "pollster": "Quantus",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-030",
+      "state": "North Carolina",
+      "start": "2026-09-27",
+      "end": "2026-09-29",
+      "margin_dr": 12.0,
+      "pollster": "Big Data",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "north-carolina-031",
+      "state": "North Carolina",
+      "start": "2026-09-30",
+      "end": "2026-10-03",
+      "margin_dr": 7.0,
+      "pollster": "ECU",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-001",
+      "state": "Ohio",
+      "start": "2026-02-10",
+      "end": "2026-02-22",
+      "margin_dr": 4.0,
+      "pollster": "EMC Research",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-002",
+      "state": "Ohio",
+      "start": "2026-03-03",
+      "end": "2026-03-08",
+      "margin_dr": 2.0,
+      "pollster": "OnMessage",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-003",
+      "state": "Ohio",
+      "start": "2026-03-13",
+      "end": "2026-03-14",
+      "margin_dr": -2.0,
+      "pollster": "Quantus Insights",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-004",
+      "state": "Ohio",
+      "start": "2026-04-03",
+      "end": "2026-04-09",
+      "margin_dr": -6.0,
+      "pollster": "Echelon Insights",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-005",
+      "state": "Ohio",
+      "start": "2026-04-07",
+      "end": "2026-04-14",
+      "margin_dr": -3.0,
+      "pollster": "BGSU/YouGov",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-006",
+      "state": "Ohio",
+      "start": "2026-05-28",
+      "end": "2026-06-01",
+      "margin_dr": 8.0,
+      "pollster": "Beacon Research/Shaw & Company",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-007",
+      "state": "Ohio",
+      "start": "2026-06-02",
+      "end": "2026-06-04",
+      "margin_dr": 4.0,
+      "pollster": "Tulchin Research",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-008",
+      "state": "Ohio",
+      "start": "2026-06-14",
+      "end": "2026-06-16",
+      "margin_dr": 3.0,
+      "pollster": "Fabrizio Ward/Impact Research",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-009",
+      "state": "Ohio",
+      "start": "2026-06-15",
+      "end": "2026-06-28",
+      "margin_dr": -3.0,
+      "pollster": "NYT/Siena",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-010",
+      "state": "Ohio",
+      "start": "2026-07-29",
+      "end": "2026-08-04",
+      "margin_dr": 4.0,
+      "pollster": "Tulchin",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-011",
+      "state": "Ohio",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "margin_dr": 8.0,
+      "pollster": "Beacon/Shaw",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-012",
+      "state": "Ohio",
+      "start": "2026-08-11",
+      "end": "2026-08-13",
+      "margin_dr": 4.0,
+      "pollster": "Wedgewood",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-013",
+      "state": "Ohio",
+      "start": "2026-08-26",
+      "end": "2026-08-28",
+      "margin_dr": 5.0,
+      "pollster": "Abacus",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-014",
+      "state": "Ohio",
+      "start": "2026-09-01",
+      "end": "2026-09-10",
+      "margin_dr": 3.0,
+      "pollster": "YouGov",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-015",
+      "state": "Ohio",
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "margin_dr": 5.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-016",
+      "state": "Ohio",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "margin_dr": 3.0,
+      "pollster": "Trafalgar",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-017",
+      "state": "Ohio",
+      "start": "2026-09-18",
+      "end": "2026-09-30",
+      "margin_dr": 4.0,
+      "pollster": "YouGov",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-018",
+      "state": "Ohio",
+      "start": "2026-09-21",
+      "end": "2026-09-23",
+      "margin_dr": 0.0,
+      "pollster": "Quantus",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-019",
+      "state": "Ohio",
+      "start": "2026-09-22",
+      "end": "2026-10-01",
+      "margin_dr": 3.0,
+      "pollster": "NYT/Siena",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-020",
+      "state": "Ohio",
+      "start": "2026-09-23",
+      "end": "2026-09-27",
+      "margin_dr": 3.0,
+      "pollster": "Suffolk",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-021",
+      "state": "Ohio",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "margin_dr": 8.0,
+      "pollster": "Marist",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-022",
+      "state": "Ohio",
+      "start": "2026-09-26",
+      "end": "2026-09-27",
+      "margin_dr": 3.0,
+      "pollster": "Big Data",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-023",
+      "state": "Ohio",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "margin_dr": 1.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-024",
+      "state": "Ohio",
+      "start": "2026-09-29",
+      "end": "2026-10-05",
+      "margin_dr": 6.0,
+      "pollster": "CNN/SSRS",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "ohio-025",
+      "state": "Ohio",
+      "start": "2026-10-05",
+      "end": "2026-10-06",
+      "margin_dr": -1.0,
+      "pollster": "co/efficient",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R"
+    },
+    {
+      "id": "oklahoma-001",
+      "state": "Oklahoma",
+      "start": "2026-08-03",
+      "end": "2026-08-06",
+      "margin_dr": -21.0,
+      "pollster": "Cole Hargrave",
+      "series": "Jim Priest / Kevin Hern",
+      "kind": "D-R"
+    },
+    {
+      "id": "rhode-island-001",
+      "state": "Rhode Island",
+      "start": "2026-04-16",
+      "end": "2026-04-20",
+      "margin_dr": 18.0,
+      "pollster": "University of New Hampshire",
+      "series": "Jack Reed / Raymond McKay",
+      "kind": "D-R"
+    },
+    {
+      "id": "rhode-island-002",
+      "state": "Rhode Island",
+      "start": "2026-06-18",
+      "end": "2026-06-23",
+      "margin_dr": 17.0,
+      "pollster": "University of New Hampshire",
+      "series": "Jack Reed / Raymond McKay",
+      "kind": "D-R"
+    },
+    {
+      "id": "rhode-island-003",
+      "state": "Rhode Island",
+      "start": "2026-08-20",
+      "end": "2026-08-24",
+      "margin_dr": 20.0,
+      "pollster": "UNH",
+      "series": "Jack Reed / Raymond McKay",
+      "kind": "D-R"
+    },
+    {
+      "id": "rhode-island-004",
+      "state": "Rhode Island",
+      "start": "2026-09-17",
+      "end": "2026-09-21",
+      "margin_dr": 20.0,
+      "pollster": "UNH",
+      "series": "Jack Reed / Raymond McKay",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-carolina-001",
+      "state": "South Carolina",
+      "start": "2026-08-18",
+      "end": "2026-08-24",
+      "margin_dr": 0.0,
+      "pollster": "Impact Research",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-carolina-002",
+      "state": "South Carolina",
+      "start": "2026-08-26",
+      "end": "2026-08-28",
+      "margin_dr": -13.0,
+      "pollster": "Abacus",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-carolina-003",
+      "state": "South Carolina",
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "margin_dr": -2.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-carolina-004",
+      "state": "South Carolina",
+      "start": "2026-09-23",
+      "end": "2026-09-25",
+      "margin_dr": -1.0,
+      "pollster": "Trafalgar",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-carolina-005",
+      "state": "South Carolina",
+      "start": "2026-09-28",
+      "end": "2026-09-29",
+      "margin_dr": -1.0,
+      "pollster": "InsiderAdvantage",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R"
+    },
+    {
+      "id": "south-dakota-001",
+      "state": "South Dakota",
+      "start": "2026-02-17",
+      "end": "2026-02-18",
+      "margin_dr": -12.0,
+      "pollster": "Public Policy Polling",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "south-dakota-002",
+      "state": "South Dakota",
+      "start": "2026-05-29",
+      "end": "2026-05-30",
+      "margin_dr": -4.0,
+      "pollster": "Public Policy Polling",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "south-dakota-003",
+      "state": "South Dakota",
+      "start": "2026-07-06",
+      "end": "2026-07-09",
+      "margin_dr": -23.0,
+      "pollster": "Public Opinion Strategies",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "south-dakota-004",
+      "state": "South Dakota",
+      "start": "2026-08-13",
+      "end": "2026-08-17",
+      "margin_dr": 0.0,
+      "pollster": "Impact Research",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "south-dakota-005",
+      "state": "South Dakota",
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "margin_dr": -3.0,
+      "pollster": "Public Policy Polling",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "south-dakota-006",
+      "state": "South Dakota",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "margin_dr": -6.0,
+      "pollster": "Zenith",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R"
+    },
+    {
+      "id": "tennessee-001",
+      "state": "Tennessee",
+      "start": "2026-08-15",
+      "end": "2026-08-26",
+      "margin_dr": -25.0,
+      "pollster": "Targoz",
+      "series": "Marquita Bradshaw / Bill Hagerty",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-001",
+      "state": "Texas",
+      "start": "2026-03-04",
+      "end": "2026-03-05",
+      "margin_dr": 2.0,
+      "pollster": "Public Policy Polling",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-002",
+      "state": "Texas",
+      "start": "2026-03-12",
+      "end": "2026-03-17",
+      "margin_dr": 1.0,
+      "pollster": "Impact Research",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-003",
+      "state": "Texas",
+      "start": "2026-04-10",
+      "end": "2026-04-20",
+      "margin_dr": 8.0,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-004",
+      "state": "Texas",
+      "start": "2026-04-17",
+      "end": "2026-04-20",
+      "margin_dr": 5.0,
+      "pollster": "Slingshot Strategies",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-005",
+      "state": "Texas",
+      "start": "2026-04-22",
+      "end": "2026-05-06",
+      "margin_dr": 0.0,
+      "pollster": "Barbara Jordan Center",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-006",
+      "state": "Texas",
+      "start": "2026-05-22",
+      "end": "2026-05-23",
+      "margin_dr": 7.0,
+      "pollster": "Public Policy Polling",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-007",
+      "state": "Texas",
+      "start": "2026-05-27",
+      "end": "2026-05-28",
+      "margin_dr": 3.0,
+      "pollster": "Slingshot Strategies",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-008",
+      "state": "Texas",
+      "start": "2026-06-01",
+      "end": "2026-06-04",
+      "margin_dr": 0.0,
+      "pollster": "ReconMR/Siena",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-009",
+      "state": "Texas",
+      "start": "2026-06-03",
+      "end": "2026-06-04",
+      "margin_dr": -2.0,
+      "pollster": "Quantus Insights",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-010",
+      "state": "Texas",
+      "start": "2026-06-05",
+      "end": "2026-06-12",
+      "margin_dr": -1.0,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-011",
+      "state": "Texas",
+      "start": "2026-06-19",
+      "end": "2026-06-27",
+      "margin_dr": 0.0,
+      "pollster": "NYT/Siena",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-012",
+      "state": "Texas",
+      "start": "2026-06-21",
+      "end": "2026-06-21",
+      "margin_dr": -2.0,
+      "pollster": "SoCal Strategies",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-013",
+      "state": "Texas",
+      "start": "2026-06-23",
+      "end": "2026-06-28",
+      "margin_dr": 2.0,
+      "pollster": "A2 Insights",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-014",
+      "state": "Texas",
+      "start": "2026-07-15",
+      "end": "2026-07-17",
+      "margin_dr": 5.0,
+      "pollster": "Slingshot",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-015",
+      "state": "Texas",
+      "start": "2026-07-15",
+      "end": "2026-07-31",
+      "margin_dr": 3.0,
+      "pollster": "YouGov Blue",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-016",
+      "state": "Texas",
+      "start": "2026-07-23",
+      "end": "2026-07-27",
+      "margin_dr": 3.0,
+      "pollster": "Beacon/Shaw",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-017",
+      "state": "Texas",
+      "start": "2026-07-27",
+      "end": "2026-07-30",
+      "margin_dr": 4.0,
+      "pollster": "ReconMR/Siena",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-018",
+      "state": "Texas",
+      "start": "2026-07-27",
+      "end": "2026-07-30",
+      "margin_dr": 2.0,
+      "pollster": "Barbara Jordan",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-019",
+      "state": "Texas",
+      "start": "2026-07-30",
+      "end": "2026-07-31",
+      "margin_dr": 2.0,
+      "pollster": "Wedgewood",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-020",
+      "state": "Texas",
+      "start": "2026-08-05",
+      "end": "2026-08-13",
+      "margin_dr": 3.0,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-021",
+      "state": "Texas",
+      "start": "2026-08-09",
+      "end": "2026-08-10",
+      "margin_dr": -1.0,
+      "pollster": "Emerson",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-022",
+      "state": "Texas",
+      "start": "2026-08-21",
+      "end": "2026-08-24",
+      "margin_dr": 6.0,
+      "pollster": "Slingshot",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-023",
+      "state": "Texas",
+      "start": "2026-08-24",
+      "end": "2026-08-26",
+      "margin_dr": 0.0,
+      "pollster": "Overton",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-024",
+      "state": "Texas",
+      "start": "2026-08-27",
+      "end": "2026-09-04",
+      "margin_dr": 5.0,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-025",
+      "state": "Texas",
+      "start": "2026-08-30",
+      "end": "2026-09-01",
+      "margin_dr": 4.0,
+      "pollster": "Fabrizio Ward/Impact",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-026",
+      "state": "Texas",
+      "start": "2026-09-08",
+      "end": "2026-09-09",
+      "margin_dr": 1.0,
+      "pollster": "InsiderAdvantage",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-027",
+      "state": "Texas",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "margin_dr": 3.0,
+      "pollster": "Mason-Dixon",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-028",
+      "state": "Texas",
+      "start": "2026-09-08",
+      "end": "2026-09-11",
+      "margin_dr": 6.0,
+      "pollster": "ReconMR/Siena",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-029",
+      "state": "Texas",
+      "start": "2026-09-12",
+      "end": "2026-09-13",
+      "margin_dr": 5.0,
+      "pollster": "SoCal",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-030",
+      "state": "Texas",
+      "start": "2026-09-12",
+      "end": "2026-09-14",
+      "margin_dr": 1.0,
+      "pollster": "Emerson",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-031",
+      "state": "Texas",
+      "start": "2026-09-15",
+      "end": "2026-09-17",
+      "margin_dr": 1.0,
+      "pollster": "Trafalgar",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-032",
+      "state": "Texas",
+      "start": "2026-09-15",
+      "end": "2026-09-19",
+      "margin_dr": 1.0,
+      "pollster": "Barbara Jordan",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-033",
+      "state": "Texas",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "margin_dr": 6.0,
+      "pollster": "Marist",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-034",
+      "state": "Texas",
+      "start": "2026-09-18",
+      "end": "2026-09-28",
+      "margin_dr": 0.0,
+      "pollster": "UMass Lowell/YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-035",
+      "state": "Texas",
+      "start": "2026-09-19",
+      "end": "2026-09-22",
+      "margin_dr": 5.0,
+      "pollster": "Slingshot",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-036",
+      "state": "Texas",
+      "start": "2026-09-20",
+      "end": "2026-09-28",
+      "margin_dr": 3.0,
+      "pollster": "Guidant",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-037",
+      "state": "Texas",
+      "start": "2026-09-21",
+      "end": "2026-09-30",
+      "margin_dr": 6.0,
+      "pollster": "NYT/Siena",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-038",
+      "state": "Texas",
+      "start": "2026-09-22",
+      "end": "2026-09-24",
+      "margin_dr": 0.0,
+      "pollster": "Stratus",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-039",
+      "state": "Texas",
+      "start": "2026-09-24",
+      "end": "2026-09-26",
+      "margin_dr": 2.0,
+      "pollster": "Big Data",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-040",
+      "state": "Texas",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "margin_dr": -3.0,
+      "pollster": "Pulse Decision Science",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-041",
+      "state": "Texas",
+      "start": "2026-09-24",
+      "end": "2026-09-28",
+      "margin_dr": 2.0,
+      "pollster": "Beacon/Shaw",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-042",
+      "state": "Texas",
+      "start": "2026-09-28",
+      "end": "2026-10-05",
+      "margin_dr": 6.0,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "texas-043",
+      "state": "Texas",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "margin_dr": 3.0,
+      "pollster": "Trafalgar Group",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R"
+    },
+    {
+      "id": "minnesota-2026-10-05-2026-10-07-mason-dixon-polling-&-research,-inc.",
+      "state": "Minnesota",
+      "start": "2026-10-05",
+      "end": "2026-10-07",
+      "margin_dr": 4,
+      "pollster": "Mason-Dixon Polling & Research, Inc.",
+      "results": {
+        "D": 47,
+        "R": 43
+      },
+      "added": "2026-10-12"
+    },
+    {
+      "id": "north-carolina-2026-10-08-2026-10-10-trafalgar-group",
+      "state": "North Carolina",
+      "start": "2026-10-08",
+      "end": "2026-10-10",
+      "margin_dr": 8,
+      "pollster": "Trafalgar Group",
+      "results": {
+        "D": 49,
+        "R": 41
+      },
+      "added": "2026-10-12"
+    },
+    {
+      "id": "kansas-2026-10-09-2026-10-10-insideradvantage",
+      "state": "Kansas",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "margin_dr": 1,
+      "pollster": "InsiderAdvantage",
+      "results": {
+        "D": 48,
+        "R": 47
+      },
+      "added": "2026-10-12"
+    },
+    {
+      "id": "michigan-2026-10-09-2026-10-10-insideradvantage",
+      "state": "Michigan",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "margin_dr": 2,
+      "pollster": "InsiderAdvantage",
+      "results": {
+        "D": 48,
+        "R": 46
+      },
+      "added": "2026-10-12"
+    },
+    {
+      "id": "alaska-2026-10-09-2026-10-10-insideradvantage",
+      "state": "Alaska",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "margin_dr": 2,
+      "pollster": "InsiderAdvantage",
+      "results": {
+        "D": 50,
+        "R": 48
+      },
+      "added": "2026-10-12"
+    },
+    {
+      "id": "maine-2026-10-08-2026-10-11-suffolk-university",
+      "state": "Maine",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "margin_dr": 2,
+      "pollster": "Suffolk University",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R",
+      "results": {
+        "D": 49,
+        "R": 47
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "texas-2026-10-08-2026-10-11-marist-university",
+      "state": "Texas",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "margin_dr": 2,
+      "pollster": "Marist University",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 47,
+        "R": 45
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "rhode-island-2026-10-08-2026-10-11-emerson-college",
+      "state": "Rhode Island",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "margin_dr": 34,
+      "pollster": "Emerson College",
+      "series": "Jack Reed / Raymond McKay / Michael Bahry",
+      "kind": "D-R",
+      "results": {
+        "D": 59,
+        "R": 25,
+        "I": 7
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "florida-2026-10-01-2026-10-09-stetson-university-center-for-public-opinion-research",
+      "state": "Florida",
+      "start": "2026-10-01",
+      "end": "2026-10-09",
+      "margin_dr": -11,
+      "pollster": "Stetson University Center for Public Opinion Research",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R",
+      "results": {
+        "D": 41,
+        "R": 52
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "texas-2026-10-09-2026-10-11-quantus-insights",
+      "state": "Texas",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "margin_dr": 0,
+      "pollster": "Quantus Insights",
+      "series": "James Talarico / Ken Paxton / Ted Brown",
+      "kind": "D-R",
+      "results": {
+        "D": 47,
+        "R": 47,
+        "Lib": 2
+      },
+      "added": "2026-10-14",
+      "note": "Opgivet som Paxton +1, men de angivne stemmeandele 47-47 er uafgjort. Registreret som 0,0 pp; rapporteret føring bevaret som note."
+    },
+    {
+      "id": "north-carolina-2026-10-01-2026-10-07-change-research",
+      "state": "North Carolina",
+      "start": "2026-10-01",
+      "end": "2026-10-07",
+      "margin_dr": 10,
+      "pollster": "Change Research",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R",
+      "results": {
+        "D": 50,
+        "R": 40
+      },
+      "added": "2026-10-14",
+      "note": "Demokratisk sponsor"
+    },
+    {
+      "id": "texas-2026-10-05-2026-10-08-reconmr-siena-research-institute",
+      "state": "Texas",
+      "start": "2026-10-05",
+      "end": "2026-10-08",
+      "margin_dr": 4,
+      "pollster": "ReconMR/Siena Research Institute",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 44
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "north-carolina-2026-10-07-2026-10-11-surveyusa",
+      "state": "North Carolina",
+      "start": "2026-10-07",
+      "end": "2026-10-11",
+      "margin_dr": 14,
+      "pollster": "SurveyUSA",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R",
+      "results": {
+        "D": 54,
+        "R": 40
+      },
+      "added": "2026-10-14"
+    },
+    {
+      "id": "ohio-026",
+      "state": "Ohio",
+      "start": "2026-09-29",
+      "end": "2026-10-09",
+      "margin_dr": 6,
+      "pollster": "Bowling Green State University Democracy and Public Policy Research Network/YouGov",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 42
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "montana-010",
+      "state": "Montana",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "margin_dr": 2,
+      "pollster": "Concord Public Opinion Partners",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R",
+      "results": {
+        "I": 37,
+        "R": 35
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by Seth Bodnar (Ind.)"
+    },
+    {
+      "id": "arkansas-006",
+      "state": "Arkansas",
+      "start": "2026-10-08",
+      "end": "2026-10-13",
+      "margin_dr": -9,
+      "pollster": "Hendrix College",
+      "series": "Hallie Shoffner / Tom Cotton",
+      "kind": "D-R",
+      "results": {
+        "R": 50,
+        "D": 41,
+        "Lib": 5
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by Talk Business & Politics"
+    },
+    {
+      "id": "texas-044",
+      "state": "Texas",
+      "start": "2026-10-13",
+      "end": "2026-10-14",
+      "margin_dr": -1,
+      "pollster": "InsiderAdvantage",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "R": 49,
+        "D": 48
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "maine-022",
+      "state": "Maine",
+      "start": "2026-10-13",
+      "end": "2026-10-14",
+      "margin_dr": 2,
+      "pollster": "InsiderAdvantage",
+      "series": "Troy Jackson / Susan Collins",
+      "kind": "D-R",
+      "results": {
+        "D": 49,
+        "R": 47
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "kansas-013",
+      "state": "Kansas",
+      "start": "2026-10-13",
+      "end": "2026-10-14",
+      "margin_dr": -1,
+      "pollster": "InsiderAdvantage",
+      "series": "Adam Hamilton / Roger Marshall",
+      "kind": "D-R",
+      "results": {
+        "R": 48,
+        "D": 47
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "michigan-044",
+      "state": "Michigan",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "margin_dr": 1,
+      "pollster": "The Tyson Group",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R",
+      "results": {
+        "D": 44,
+        "R": 43
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by Alliance for a Better Future; affiliated with Mike Rogers (R)"
+    },
+    {
+      "id": "michigan-045",
+      "state": "Michigan",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "margin_dr": -2,
+      "pollster": "The Tyson Group",
+      "series": "Abdul El-Sayed / Mike Rogers",
+      "kind": "D-R",
+      "results": {
+        "R": 46,
+        "D": 44
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by Alliance for a Better Future; affiliated with Mike Rogers (R)"
+    },
+    {
+      "id": "texas-045",
+      "state": "Texas",
+      "start": "2026-09-30",
+      "end": "2026-10-14",
+      "margin_dr": 4,
+      "pollster": "ActiVote",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 52,
+        "R": 48
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "iowa-026",
+      "state": "Iowa",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "margin_dr": 3,
+      "pollster": "Marist University",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 45
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "mississippi-002",
+      "state": "Mississippi",
+      "start": "2026-10-12",
+      "end": "2026-10-14",
+      "margin_dr": -4,
+      "pollster": "Wedgewood Polls",
+      "series": "Scott Colom / Cindy Hyde-Smith",
+      "kind": "D-R",
+      "results": {
+        "R": 52,
+        "D": 48
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "minnesota-011",
+      "state": "Minnesota",
+      "start": "2026-10-09",
+      "end": "2026-10-12",
+      "margin_dr": 3,
+      "pollster": "SurveyUSA",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R",
+      "results": {
+        "D": 45,
+        "R": 42
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by KSTP-TV Minneapolis"
+    },
+    {
+      "id": "florida-015",
+      "state": "Florida",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "margin_dr": -6,
+      "pollster": "MDW Communications",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R",
+      "results": {
+        "R": 48,
+        "D": 42
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by EDGE Communications; supplied label Moody +5, percentages imply Moody +6"
+    },
+    {
+      "id": "iowa-027",
+      "state": "Iowa",
+      "start": "2026-10-06",
+      "end": "2026-10-12",
+      "margin_dr": 1,
+      "pollster": "YouGov",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R",
+      "results": {
+        "D": 47,
+        "R": 46
+      },
+      "added": "2026-10-16"
+    },
+    {
+      "id": "texas-046",
+      "state": "Texas",
+      "start": "2026-09-25",
+      "end": "2026-10-05",
+      "margin_dr": 3,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 50,
+        "R": 47,
+        "Lib": 1
+      },
+      "added": "2026-10-16",
+      "note": "Sponsored by University of Texas"
+    },
+    {
+      "id": "texas-047",
+      "state": "Texas",
+      "start": "2026-10-08",
+      "end": "2026-10-16",
+      "margin_dr": 2,
+      "pollster": "YouGov",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 51,
+        "R": 49
+      },
+      "added": "2026-10-18",
+      "note": "Sponsored by CBS News"
+    },
+    {
+      "id": "minnesota-012",
+      "state": "Minnesota",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "margin_dr": 3,
+      "pollster": "Trafalgar Group",
+      "series": "Peggy Flanagan / Michele Tafoya",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 45
+      },
+      "added": "2026-10-18",
+      "note": "Opgivet som Flanagan +4, men 48-45 giver +3; anvendt +3."
+    },
+    {
+      "id": "iowa-028",
+      "state": "Iowa",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "margin_dr": -2,
+      "pollster": "Trafalgar Group",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R",
+      "results": {
+        "R": 46,
+        "D": 44,
+        "Lib": 4
+      },
+      "added": "2026-10-18",
+      "note": "Republican pollster"
+    },
+    {
+      "id": "florida-016",
+      "state": "Florida",
+      "start": "2026-09-27",
+      "end": "2026-10-15",
+      "margin_dr": -6,
+      "pollster": "ActiVote",
+      "series": "Angie Nixon / Ashley Moody",
+      "kind": "D-R",
+      "results": {
+        "R": 53,
+        "D": 47
+      },
+      "added": "2026-10-18"
+    },
+    {
+      "id": "alaska-014",
+      "state": "Alaska",
+      "start": "2026-10-08",
+      "end": "2026-10-16",
+      "margin_dr": 2,
+      "pollster": "Data for Progress",
+      "series": "Mary Peltola / Dan Sullivan",
+      "kind": "D-R",
+      "results": {
+        "D": 51,
+        "R": 49
+      },
+      "added": "2026-10-20",
+      "round": "ranked-choice-final",
+      "note": "Ranked-choice final. Two round-1 presentations of the same survey excluded from model."
+    },
+    {
+      "id": "nebraska-011",
+      "state": "Nebraska",
+      "start": "2026-10-02",
+      "end": "2026-10-05",
+      "margin_dr": -3,
+      "pollster": "National Public Affairs",
+      "series": "Pete Ricketts / Dan Osborn",
+      "kind": "I-R",
+      "results": {
+        "R": 49,
+        "I": 46
+      },
+      "added": "2026-10-20",
+      "note": "Republican sponsor: God, Family, & Country PAC. Alternative 46–43 from same survey excluded."
+    },
+    {
+      "id": "new-hampshire-016",
+      "state": "New Hampshire",
+      "start": "2026-10-08",
+      "end": "2026-10-12",
+      "margin_dr": 7,
+      "pollster": "National Public Affairs",
+      "series": "Chris Pappas / John Sununu",
+      "kind": "D-R",
+      "results": {
+        "D": 50,
+        "R": 43,
+        "Oth": 4
+      },
+      "added": "2026-10-20",
+      "note": "Republican sponsor: God, Family, & Country PAC. Multi-candidate presentation selected; alternative 50–45 excluded."
+    },
+    {
+      "id": "iowa-029",
+      "state": "Iowa",
+      "start": "2026-10-08",
+      "end": "2026-10-12",
+      "margin_dr": -3,
+      "pollster": "National Public Affairs",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R",
+      "results": {
+        "R": 47,
+        "D": 44,
+        "Lib": 4
+      },
+      "added": "2026-10-20",
+      "note": "Republican sponsor: God, Family, & Country PAC. Multi-candidate presentation selected; alternative 48–47 excluded."
+    },
+    {
+      "id": "iowa-030",
+      "state": "Iowa",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "margin_dr": -3,
+      "pollster": "co/efficient",
+      "series": "Josh Turek / Ashley Hinson",
+      "kind": "D-R",
+      "results": {
+        "R": 48,
+        "D": 45,
+        "Lib": 2
+      },
+      "added": "2026-10-20"
+    },
+    {
+      "id": "montana-011",
+      "state": "Montana",
+      "start": "2026-10-15",
+      "end": "2026-10-18",
+      "margin_dr": -17,
+      "pollster": "Quantus Insights",
+      "series": "Kurt Alme / Seth Bodnar",
+      "kind": "I-R",
+      "results": {
+        "R": 46,
+        "I": 29
+      },
+      "added": "2026-10-20",
+      "note": "Headline R+16; stated 46–29 implies R+17. Calculated margin R+17 used."
+    },
+    {
+      "id": "south-dakota-007",
+      "state": "South Dakota",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "margin_dr": -17,
+      "pollster": "Public Opinion Strategies",
+      "series": "Mike Rounds / Brian Bengs",
+      "kind": "I-R",
+      "results": {
+        "R": 54,
+        "I": 37
+      },
+      "added": "2026-10-20",
+      "note": "Sponsored by Mike Rounds (R)."
+    },
+    {
+      "id": "north-carolina-032",
+      "state": "North Carolina",
+      "start": "2026-09-29",
+      "end": "2026-10-08",
+      "margin_dr": 11,
+      "pollster": "YouGov",
+      "series": "Roy Cooper / Michael Whatley",
+      "kind": "D-R",
+      "results": {
+        "D": 54,
+        "R": 43
+      },
+      "added": "2026-10-20",
+      "note": "Sponsored by Elon University."
+    },
+    {
+      "id": "alabama-003",
+      "state": "Alabama",
+      "start": "2026-10-15",
+      "end": "2026-10-16",
+      "margin_dr": -21,
+      "pollster": "The Alabama Poll",
+      "series": "Everett Wess / Barry Moore",
+      "kind": "D-R",
+      "results": {
+        "R": 56,
+        "D": 35
+      },
+      "added": "2026-10-20"
+    },
+    {
+      "id": "rhode-island-005",
+      "state": "Rhode Island",
+      "start": "2026-10-05",
+      "end": "2026-10-08",
+      "margin_dr": 23,
+      "pollster": "Embold Research",
+      "series": "Jack Reed / Raymond McKay",
+      "kind": "D-R",
+      "results": {
+        "D": 55,
+        "R": 32,
+        "I": 4
+      },
+      "added": "2026-10-20",
+      "note": "Sponsored by Salve Regina University Pell Center for International Relations and Public Policy."
+    },
+    {
+      "id": "massachusetts-010",
+      "state": "Massachusetts",
+      "start": "2026-10-14",
+      "end": "2026-10-18",
+      "margin_dr": 28,
+      "pollster": "Suffolk University",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R",
+      "results": {
+        "D": 60,
+        "R": 32
+      },
+      "added": "2026-10-20",
+      "note": "Sponsored by Boston Globe."
+    },
+    {
+      "id": "massachusetts-011",
+      "state": "Massachusetts",
+      "start": "2026-10-05",
+      "end": "2026-10-12",
+      "margin_dr": 27,
+      "pollster": "YouGov",
+      "series": "Ed Markey / John Deaton",
+      "kind": "D-R",
+      "results": {
+        "D": 56,
+        "R": 29
+      },
+      "added": "2026-10-20",
+      "note": "Sponsored by UMass Amherst and WCVB-TV."
+    },
+    {
+      "id": "ohio-027",
+      "state": "Ohio",
+      "start": "2026-10-15",
+      "end": "2026-10-18",
+      "margin_dr": 4,
+      "pollster": "Marist University",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 44
+      },
+      "added": "2026-10-20"
+    },
+    {
+      "id": "ohio-028",
+      "state": "Ohio",
+      "start": "2026-09-26",
+      "end": "2026-10-18",
+      "margin_dr": 0,
+      "pollster": "ActiVote",
+      "series": "Sherrod Brown / Jon Husted",
+      "kind": "D-R",
+      "results": {
+        "R": 50,
+        "D": 50
+      },
+      "added": "2026-10-20"
+    },
+    {
+      "id": "georgia-014",
+      "state": "Georgia",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "margin_dr": 8,
+      "pollster": "Quantus Insights",
+      "series": "Jon Ossoff / Mike Collins",
+      "kind": "D-R",
+      "results": {
+        "D": 53,
+        "R": 45
+      },
+      "added": "2026-10-20",
+      "note": "Headline D+7; stated 53–45 implies D+8. Calculated margin D+8 used."
+    },
+    {
+      "id": "texas-048",
+      "state": "Texas",
+      "start": "2026-10-10",
+      "end": "2026-10-14",
+      "margin_dr": 2,
+      "pollster": "University of Houston Hobby School of Public Affairs",
+      "series": "James Talarico / Ken Paxton",
+      "kind": "D-R",
+      "results": {
+        "D": 48,
+        "R": 46,
+        "Lib": 3
+      },
+      "added": "2026-10-20"
+    },
+    {
+      "id": "south-carolina-006",
+      "state": "South Carolina",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "margin_dr": -3,
+      "pollster": "Trafalgar Group",
+      "series": "Annie Andrews / Darline Graham",
+      "kind": "D-R",
+      "results": {
+        "R": 49,
+        "D": 46
+      },
+      "added": "2026-10-20",
+      "note": "Republican pollster. Source names candidate Darline Graham, consistent with existing series; candidate spelling not independently verified."
+    }
+  ],
+  "additional_poll_rounds": [
+    {
+      "state": "Alaska",
+      "x": "2026-10-09",
+      "end": "2026-10-10",
+      "poll": "InsiderAdvantage",
+      "round": "ranked-choice-round-1",
+      "reported_margin": 6,
+      "results": {
+        "D": 48,
+        "R": 43
+      },
+      "calculated_margin": 5,
+      "note": "Rapporteret D+6, men 48-43 giver D+5; uafklaret forskel. Ikke medtaget som selvstændig måling i regressionsmodellen."
+    },
+    {
+      "state": "Alaska",
+      "x": "2026-10-08",
+      "end": "2026-10-16",
+      "poll": "Data for Progress",
+      "round": "ranked-choice-round-1-reallocated",
+      "reported_margin": 3,
+      "results": {
+        "D": 49,
+        "R": 46
+      },
+      "calculated_margin": 3,
+      "note": "Same survey as ranked-choice final; not counted separately."
+    },
+    {
+      "state": "Alaska",
+      "x": "2026-10-08",
+      "end": "2026-10-16",
+      "poll": "Data for Progress",
+      "round": "ranked-choice-round-1-unreallocated",
+      "reported_margin": 3,
+      "results": {
+        "D": 47,
+        "R": 44
+      },
+      "calculated_margin": 3,
+      "note": "Same survey as ranked-choice final; not counted separately."
+    },
+    {
+      "state": "Nebraska",
+      "x": "2026-10-02",
+      "end": "2026-10-05",
+      "poll": "National Public Affairs",
+      "round": "alternative-question",
+      "reported_margin": -3,
+      "results": {
+        "R": 46,
+        "I": 43
+      },
+      "calculated_margin": -3,
+      "note": "Alternative 46–43 from same survey; not counted separately."
+    },
+    {
+      "state": "New Hampshire",
+      "x": "2026-10-08",
+      "end": "2026-10-12",
+      "poll": "National Public Affairs",
+      "round": "two-candidate-question",
+      "reported_margin": 5,
+      "results": {
+        "D": 50,
+        "R": 45
+      },
+      "calculated_margin": 5,
+      "note": "Alternative 50–45 from same survey; not counted separately."
+    },
+    {
+      "state": "Iowa",
+      "x": "2026-10-08",
+      "end": "2026-10-12",
+      "poll": "National Public Affairs",
+      "round": "two-candidate-question",
+      "reported_margin": -1,
+      "results": {
+        "R": 48,
+        "D": 47
+      },
+      "calculated_margin": -1,
+      "note": "Alternative 48–47 from same survey; not counted separately."
+    },
+    {
+      "state": "Florida",
+      "x": "2026-10-02",
+      "end": "2026-10-15",
+      "poll": "YouGov",
+      "round": "generic-party-ballot",
+      "reported_margin": -9,
+      "results": {
+        "R": 51,
+        "D": 42
+      },
+      "calculated_margin": -9,
+      "note": "Generic Republican vs Generic Democrat, not the named Moody/Nixon race. Excluded from candidate-margin model."
+    }
+  ]
+}

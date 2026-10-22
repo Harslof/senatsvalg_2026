@@ -1,0 +1,7 @@
+/* Opdateringsmodulets fælles lilla markeringer – begge valgsider. */
+.update-mark{display:inline-block;vertical-align:middle;width:8px;height:8px;border-radius:50%;background:#9254c8;margin-left:6px;box-shadow:0 0 0 2px #9254c81a;flex-shrink:0}
+.update-arrow{display:inline-block;vertical-align:middle;margin-left:5px;white-space:nowrap;color:#9254c8;font:900 19px/1 Arial,Helvetica,sans-serif;-webkit-text-stroke:.85px currentColor;text-shadow:0 0 .3px currentColor}
+.update-up,.update-down{font-variant-numeric:tabular-nums}
+.update-flash{animation:update-intro 1s ease-in-out 4}
+@keyframes update-intro{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(1.6)}}
+@media(prefers-reduced-motion:reduce){.update-flash{animation:none}}

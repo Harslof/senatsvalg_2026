@@ -1,0 +1,57 @@
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#faf9f6;color:#171717;font-family:Georgia,'Times New Roman',serif}.vf-wrap{max-width:1080px;margin:0 auto;padding:52px 24px 100px}.vf-kicker{font:700 11px Arial,sans-serif;letter-spacing:.16em;color:#777;text-transform:uppercase}.vf-wrap h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.045em;margin:14px 0}.vf-intro{max-width:730px;font-size:19px;line-height:1.6;color:#444}.vf-controls{margin:34px 0 36px;padding:20px 24px;border-top:2px solid #171717;border-bottom:1px solid #bdbdbd;display:flex;align-items:end;gap:24px;flex-wrap:wrap;background:white}.vf-controls label{display:block;font:700 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}.vf-controls select,.vf-controls input{font:14px Arial,sans-serif}.vf-controls select{padding:10px;min-width:160px;border:1px solid #bbb;background:white}.vf-controls input{accent-color:#2670b5}.vf-controls output{font:12px Arial,sans-serif;color:#666;margin-left:8px}.vf-race{padding:38px 0 52px;border-top:3px double #333;scroll-margin-top:24px}.vf-race-head{display:flex;justify-content:space-between;align-items:center;gap:18px}.vf-rank{font:700 11px Arial,sans-serif;letter-spacing:.12em;color:#888}.vf-race h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.035em;margin:7px 0}.vf-series{font:14px Arial,sans-serif;color:#777;margin:0}.vf-margin{font:700 20px Arial,sans-serif;white-space:nowrap}.vf-r{color:#ba413b}.vf-d{color:#2670b5}.vf-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px 22px;padding:24px 0;margin:25px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd}.vf-metrics small{font:11px Arial,sans-serif;color:#777;display:block;margin-bottom:7px}.vf-metrics strong{font:700 17px Arial,sans-serif}.vf-race h3{font-size:21px;margin:24px 0 12px}.vf-chart{display:block;width:100%;height:auto;background:#fff;border:1px solid #e5e5e5}.vf-legend{display:flex;flex-wrap:wrap;gap:18px;margin:12px 0 0;font:12px Arial,sans-serif;color:#555}.vf-legend span{display:flex;gap:7px;align-items:center}.vf-key{display:inline-block;width:19px;height:0;border-top:3px solid #2670b5}.vf-dot{border:0;background:#666;width:8px;height:8px;border-radius:50%}.vf-curve{border-color:#b84b43}.vf-empty{padding:60px 20px;background:#f0efec;text-align:center;color:#666;font:15px Arial,sans-serif}.vf-note{font:13px/1.6 Arial,sans-serif;color:#666}.vf-top{font:12px Arial,sans-serif;color:#2670b5;text-decoration:none}@media(max-width:700px){.vf-wrap{padding:32px 16px}.vf-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.vf-race-head{align-items:start;flex-direction:column}.vf-margin{font-size:17px}.vf-controls{gap:15px;padding:15px}}
+
+/* Kompakt delstatslayout */
+.vf-race{padding:20px 0 26px;scroll-margin-top:18px}
+.vf-race h2{font-size:clamp(26px,3vw,37px);margin:3px 0}
+.vf-race-head{gap:10px}
+.vf-series{font-size:12px}
+.vf-rank{font-size:10px}
+.vf-election{text-align:right;align-self:center}
+.vf-election small,.vf-chart-label{display:block;font:11px Arial,sans-serif;color:#777;margin-bottom:6px}
+.vf-margin{font-size:18px}
+.vf-metrics{gap:10px 15px;padding:13px 0;margin:13px 0 12px}
+.vf-metrics small{font-size:10px;margin-bottom:4px}
+.vf-metrics strong{font-size:15px}
+.vf-chart-label{margin:0 0 7px}
+.vf-legend{margin:6px 0 0;gap:13px}
+.vf-note{line-height:1.45}
+@media(max-width:700px){.vf-race{padding:18px 0 25px}.vf-race-head{flex-direction:row;align-items:center}.vf-election{min-width:90px}.vf-margin{font-size:15px}.vf-metrics{gap:12px 8px}}
+/* Samme svævende vægtningsmenu som på senatsvalgsiden */
+.sticky-weight[hidden],.sticky-half-row[hidden]{display:none!important}
+.sticky-weight{position:fixed;bottom:calc(14px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);z-index:1000;width:max-content;max-width:calc(100vw - 24px);filter:drop-shadow(0 5px 14px rgba(0,0,0,.15));font-family:Arial,sans-serif}
+.sticky-weight-pill{box-sizing:border-box;max-width:100%;background:#fff;border:1px solid #d5d5d5;border-radius:22px;padding:6px;display:grid;gap:5px;color:#222}
+.sticky-weight-options{display:grid;grid-template-columns:1fr 1fr;gap:3px;background:#f0f0f0;border-radius:17px;padding:3px}
+.sticky-weight-choice{appearance:none;border:0;background:transparent;color:#555;font:600 13px/1.2 Arial,sans-serif;padding:10px 12px;border-radius:14px;cursor:pointer;white-space:nowrap;min-height:40px}
+.sticky-weight-choice[aria-pressed="true"]{background:#fff;color:#171717;box-shadow:0 1px 5px rgba(0,0,0,.12)}
+.sticky-half-row{display:flex;align-items:center;gap:9px;padding:5px 10px 7px;font-size:12px}
+.sticky-half-row input{width:140px;accent-color:#2670b5}.sticky-half-row output{white-space:nowrap;color:#555}
+@keyframes stickyWeightPop{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.sticky-weight.sticky-weight-enter .sticky-weight-pill{animation:stickyWeightPop 360ms ease-out both}
+@media(prefers-reduced-motion:reduce){.sticky-weight.sticky-weight-enter .sticky-weight-pill{animation:none}}
+
+/* To kompakte valg pr. række på større skærme */
+.vf-wrap{max-width:1480px}
+#vf-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px;align-items:start;margin:20px 0 30px}
+.vf-race{min-width:0;padding:13px 0 17px;border-top:2px solid #303030}
+.vf-race h2{font-size:clamp(23px,2.4vw,32px);line-height:1.12}
+.vf-race-head{gap:8px}
+.vf-election{min-width:96px}
+.vf-metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px 10px;margin:10px 0;padding:10px 0}
+.vf-metrics small{font-size:10px;line-height:1.2}
+.vf-metrics strong{font-size:13px;line-height:1.3;display:block;overflow-wrap:anywhere}
+.vf-chart-label{margin-bottom:3px}
+.vf-legend{gap:7px 11px;font-size:10px}
+.vf-note{margin:10px 0}
+@media(max-width:850px){#vf-list{grid-template-columns:minmax(0,1fr);gap:6px}.vf-wrap{max-width:760px}.vf-race{padding:16px 0 22px}.vf-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:420px){.vf-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.vf-race h2{font-size:25px}.vf-election{min-width:80px}.vf-margin{font-size:13px}}
+
+/* Forecast area: stronger neutral background, with dashed projected curves. */
+.vf-forecast-zone{fill:#e4e7eb}
+.vf-key.vf-forecast{width:15px;height:11px;border:1px solid #a8afb8;background:#e4e7eb}
+
+/* Nye målinger i diagrammet og læsbare opdateringspile ved nøgletal. */
+.vf-dot-new{background:#9254c8}
+.vf-race h2 .update-mark{width:9px;height:9px;margin-left:10px;vertical-align:middle}
+.vf-metrics .update-arrow{font-size:18px;margin-left:4px}
+.vf-metrics .update-mark{margin-left:5px}
+.vf-zero-line{pointer-events:none}
