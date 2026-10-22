@@ -14,8 +14,8 @@
   --line-soft:#273540;
   --blue:#669bd3;
   --red:#d36b58;
-  --purple:#c2a0ed;
-  --gold:#dbb475;
+  --purple:#50d5a0;
+  --gold:#f1786b;
   --ink:var(--white);
 }
 *{box-sizing:border-box}
@@ -29,8 +29,8 @@ button,select,input{font:inherit}button{cursor:pointer}
 .site-links a{font-size:11px;font-weight:600;color:#d1d9e2;letter-spacing:.03em}
 .night-shell{max-width:1290px;margin:0 auto;padding:26px clamp(18px,4.5vw,68px) 60px}
 .topline{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:10px;font-weight:700;letter-spacing:.19em;color:#abb8c7}
-.private-pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #675d4b;padding:8px 11px;color:#e8d2a4;font-size:9px;letter-spacing:.13em;white-space:nowrap}
-.live-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px rgba(219,180,117,.5)}
+.private-pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #a9524e;padding:8px 11px;color:#ffb1a7;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px rgba(241,120,107,.5)}
 .hero{position:relative;overflow:hidden;display:flex;justify-content:space-between;align-items:flex-end;gap:20px;border-bottom:2px solid #e6e1d7;padding:46px 0 42px}
 .hero:after{content:"";position:absolute;right:16%;top:-25%;width:320px;height:220px;pointer-events:none;background:radial-gradient(ellipse,rgba(77,129,177,.17),transparent 75%)}
 .hero-copy{position:relative;z-index:1}
@@ -57,7 +57,7 @@ button,select,input{font:inherit}button{cursor:pointer}
 .timeline button:before{content:'';position:absolute;left:-5px;top:-6px;width:9px;height:9px;border-radius:50%;background:#0d1520;border:2px solid #8fa2b4}
 .timeline button.important:before{background:var(--gold);border-color:var(--gold)}
 .timeline button.active{background:#1c2a37}
-.timeline button.active:before{background:var(--white);border-color:var(--white);box-shadow:0 0 0 3px rgba(219,180,117,.2)}
+.timeline button.active:before{background:var(--white);border-color:var(--white);box-shadow:0 0 0 3px rgba(241,120,107,.2)}
 .timeline button:hover{background:#1a2633}
 .timeline .hour{font:700 19px Georgia,serif;display:block;letter-spacing:-.03em}
 .timeline .caption{font-size:10px;line-height:1.4;display:block;margin-top:9px;color:#a9b6c5}
@@ -106,7 +106,7 @@ button,select,input{font:inherit}button{cursor:pointer}
 select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9px 12px;border-radius:0}
 .symbol.original{width:11px;height:11px;border:2px solid var(--white);border-radius:50%}
 .symbol.exit{width:11px;height:11px;background:var(--purple);border-radius:50%}
-.symbol.combined{width:9px;height:9px;background:#f5dfb5;transform:rotate(45deg);margin-left:2px}
+.symbol.combined{width:9px;height:9px;background:#ffd4cb;transform:rotate(45deg);margin-left:2px}
 .symbol.missing{width:11px;height:3px;background:#94a3b2}
 .chart-scroll{overflow-x:auto;border:1px solid #4b5c6b;background:#111923;scrollbar-color:#5e6f80 #16212c}
 #margin-chart{min-width:980px}
@@ -134,3 +134,6 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 @media(max-width:800px){.section-head{display:block}.section-head p{margin-top:12px;max-width:none}.seat-item{grid-template-columns:1fr;gap:14px}.threshold-intro{display:block}.threshold-intro>span:last-child{display:block;text-align:left;margin-top:7px}.hero h1{font-size:clamp(50px,10vw,80px)}}
 @media(max-width:560px){.scroll-hint{display:block}.night-shell{padding-inline:16px}.hero{padding:37px 0 30px}.hero h1{font-size:clamp(48px,11vw,67px)}.hero p{font-size:11px}.date-mark{font-size:23px}.date-mark small{font-size:8px}.topline{font-size:9px}.private-pill{font-size:8px;letter-spacing:.07em;padding:6px 7px}.edition-meta{font-size:9px;gap:10px 18px}.edition-meta span:not(:last-child):after{padding-left:14px}.section{padding:33px 0 37px}.section-head h2{font-size:32px}.threshold-grid{gap:6px}.threshold-card{display:block;padding:9px 8px}.threshold-number{font-size:24px}.threshold-card strong{font-size:11px;margin-top:3px}.threshold-card span{font-size:9px}.mandate-thresholds{padding:16px 12px}.race-head{align-items:flex-start;flex-direction:column}.race-numbers{gap:5px}.race-numbers>div{padding:12px 8px}.race-numbers small{font-size:10px}.race-numbers strong{font-size:17px}.seat-item{padding:17px 14px}.footer{align-items:flex-start;line-height:1.6}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.timeline button{transition:none}}
+
+/* Valgnat: redaktionelle røde accenter og delstatsgraf */
+.next-event{border-left:3px solid var(--gold);background:#172737;padding:16px 20px;margin:18px 0 10px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.next-event strong{font:700 18px Georgia,serif}.next-event span{font-size:12px;color:#b9cbdc}.next-event .clock{font:700 23px Georgia,serif;color:#ffada3;font-variant-numeric:tabular-nums}.detail-kicker{font-size:11px;letter-spacing:.17em;color:var(--gold);font-weight:700;margin-bottom:14px}.race-numbers{grid-template-columns:repeat(5,minmax(0,1fr))}.detail-chart-head{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap;margin:24px 0 12px}.detail-chart-head h4{font:700 20px Georgia,serif;margin:0}.detail-chart-head span{font-size:11px;color:#b5c5d5}.detail-chart{background:#101c29;border:1px solid #35485b;overflow:hidden}.detail-chart svg{width:100%;height:auto;display:block}@media(max-width:700px){.race-numbers{grid-template-columns:repeat(2,minmax(0,1fr))}}
