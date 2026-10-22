@@ -8,7 +8,7 @@
 */
 window.VALGNAT_FEED = {
   updatedAt: null,
-  weight: 50,
+  weight: 80,
   snapshot: null,
   exits: {
     // Eksempel (ikke aktivt):
