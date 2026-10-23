@@ -151,3 +151,5 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .race-numbers .green{color:#73dda1}
 @media(max-width:800px){.race-numbers{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:560px){.race-numbers{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.demo-banner{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:13px 18px;background:#3a1618;border:2px solid #e4524b;color:#fff;font-size:12px;letter-spacing:.03em}.demo-banner[hidden]{display:none}.demo-banner strong{color:#fff}.demo-banner a{color:#9df2c1;font-weight:700}
