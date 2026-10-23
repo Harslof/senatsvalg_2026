@@ -5,7 +5,7 @@ const SOURCE=MODEL.states;
 // Read-only, file-driven election-night data. Editors update data/valgnat-feed.js
 // in the published files; no visitor inputs or browser-local overrides are used.
 const FEED=window.VALGNAT_FEED||{};
-const DEMO=new URLSearchParams(location.search).get('demo')==='1';
+const DEMO=Boolean(FEED.simulated);
 const CRITICAL=new Set(['Alaska','Iowa','Kansas','Maine','Michigan','Nebraska','Ohio','Texas']);
 const CODES={Alabama:'AL',Alaska:'AK',Arkansas:'AR',Colorado:'CO',Delaware:'DE',Florida:'FL',Georgia:'GA',Idaho:'ID',Illinois:'IL',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Montana:'MT',Nebraska:'NE','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','North Carolina':'NC',Ohio:'OH',Oklahoma:'OK',Oregon:'OR','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Virginia:'VA','West Virginia':'WV',Wyoming:'WY'};
 const TIMES=[
