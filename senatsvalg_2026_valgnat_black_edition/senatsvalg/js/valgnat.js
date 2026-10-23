@@ -35,7 +35,7 @@ const validExits=o=>o&&typeof o==='object'&&!Array.isArray(o)&&Object.keys(o).ev
 // rewrite the comparison point for the election-night graphics.
 const snapshot=validSnapshot(FEED.snapshot)?FEED.snapshot:currentBaseline();
 const exits=validExits(FEED.exits)?FEED.exits:{};
-const weight=typeof FEED.weight==='number'&&Number.isFinite(FEED.weight)&&FEED.weight>=0&&FEED.weight<=100?FEED.weight:50;
+const weight=typeof FEED.weight==='number'&&Number.isFinite(FEED.weight)&&FEED.weight>=0&&FEED.weight<=100?Math.max(70,FEED.weight):80;
 let selected='Ohio',activeTime=0;
 const getOriginal=name=>snapshot.find(r=>r.state===name);
 const combined=r=>{const e=exits[r.state];if(!e)return r.margin;if(r.margin==null)return e.margin;return r.margin*(1-weight/100)+e.margin*weight/100;};
@@ -69,13 +69,41 @@ function drawChart(){const rows=orderedStates(),W=1280,H=383,x0=68,x1=1256,y0=16
  svg.appendChild(svgEl('text',{x:58,y:359,'font-size':10,fill:'#aeb7c1'},'— = ingen målinger; siddende parti fastholdes'));
  rows.forEach((r,i)=>{const xx=x(i),g=svgEl('g',{class:`state-group${r.state===selected?' selected':''}`,tabindex:'0',role:'button','aria-label':r.state});const exit=exits[r.state],c=combined(r),show=$('show-exit').checked;
  if(r.state===selected)g.appendChild(svgEl('rect',{x:xx-15,y:23,width:30,height:290,rx:4,fill:'#eadbb7','fill-opacity':'.11'}));
- if(r.margin!=null){if(show&&exit){g.appendChild(svgEl('line',{x1:xx,y1:y(r.margin),x2:xx,y2:y(exit.margin),stroke:'#c1a0ec','stroke-width':2.6,'stroke-opacity':'.8'}));}g.appendChild(svgEl('circle',{cx:xx,cy:y(r.margin),r:4.3,fill:'#121923',stroke:'#f2e7d1','stroke-width':1.7}));}
+ if(r.margin!=null){if(show&&exit){g.appendChild(svgEl('line',{x1:xx,y1:y(r.margin),x2:xx,y2:y(exit.margin),stroke:'#4fce8a','stroke-width':2.6,'stroke-opacity':'.8'}));}g.appendChild(svgEl('circle',{cx:xx,cy:y(r.margin),r:4.3,fill:'#121923',stroke:'#f2e7d1','stroke-width':1.7}));}
  else{g.appendChild(svgEl('line',{x1:xx-4,x2:xx+4,y1:311,y2:311,stroke:'#8a98a8','stroke-width':2.5}));}
- if(show&&exit){g.appendChild(svgEl('circle',{cx:xx,cy:y(exit.margin),r:4.5,fill:'#c1a0ec'}));if(c!=null){g.appendChild(svgEl('path',{d:`M ${xx} ${y(c)-5.3} l 5.3 5.3 l -5.3 5.3 l -5.3 -5.3 Z`,fill:'#f5dfb5'}));}}
+ if(show&&exit){g.appendChild(svgEl('circle',{cx:xx,cy:y(exit.margin),r:4.5,fill:'#4fce8a'}));if(c!=null){g.appendChild(svgEl('path',{d:`M ${xx} ${y(c)-5.3} l 5.3 5.3 l -5.3 5.3 l -5.3 -5.3 Z`,fill:'#e4524b'}));}}
  const label=svgEl('text',{x:xx,y:344,'text-anchor':'middle',class:'state-label'},CODES[r.state]);g.appendChild(label);g.appendChild(svgEl('title',{},`${r.state}: Før ${fmt(r.margin)}; Exitpoll ${fmt(exit?.margin)}; Opdateret ${fmt(c)}`));g.addEventListener('click',()=>selectState(r.state));g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();selectState(r.state);}});svg.appendChild(g);
  });const target=$('margin-chart');target.replaceChildren(svg);}
 function selectState(name){selected=name;$('state-select').value=name;drawChart();drawDetail();}
-function drawDetail(){const r=getOriginal(selected),e=exits[selected],c=combined(r);$('selected-name').textContent=selected;const cell=(label,v,kind='')=>`<div><small>${label}</small><strong class="${kind||((v??0)>=0?'blue':'red')}">${fmt(v)}</strong></div>`;$('race-numbers').innerHTML=cell('Margin før valget',r.margin)+cell('Exitpoll',e?.margin,'purple')+cell('Opdateret margin',c);
+
+const WEEK=604800000;
+function solve(A,b){const n=b.length,m=A.map((r,i)=>[...r,b[i]]);for(let k=0;k<n;k++){let p=k;for(let i=k+1;i<n;i++)if(Math.abs(m[i][k])>Math.abs(m[p][k]))p=i;if(Math.abs(m[p][k])<1e-9)return null;[m[k],m[p]]=[m[p],m[k]];const d=m[k][k];for(let j=k;j<=n;j++)m[k][j]/=d;for(let i=0;i<n;i++)if(i!==k){const v=m[i][k];for(let j=k;j<=n;j++)m[i][j]-=v*m[k][j]}}return m.map(r=>r[n]);}
+function fitTrend(points,degree){if(points.length<degree+1)return null;const latest=Math.max(...points.map(p=>p.date)),t=points.map(p=>(p.date-latest)/WEEK);if(Math.max(...t)-Math.min(...t)<(degree===2?2:1))return null;const n=degree+1,A=Array.from({length:n},()=>Array(n).fill(0)),b=Array(n).fill(0);points.forEach((p,i)=>{const w=p.exit?12:Math.pow(2,t[i]/8),v=Array.from({length:n},(_,j)=>t[i]**j);for(let j=0;j<n;j++){b[j]+=w*v[j]*p.value;for(let k=0;k<n;k++)A[j][k]+=w*v[j]*v[k]}});const c=solve(A,b);return c?{c,latest}:null;}
+function drawTrendDetail(){
+ const r=SOURCE.find(s=>s.state===selected),e=exits[selected];
+ const points=(r.points||[]).map(p=>({date:Date.parse(p.end+'T12:00:00Z'),value:p.y,label:p.poll||'Måling',exit:false})).filter(p=>Number.isFinite(p.date)&&Number.isFinite(p.value));
+ if(e){const d=Date.parse(e.time+':00+01:00');if(Number.isFinite(d))points.push({date:d,value:e.margin,label:e.source,exit:true});}
+ const target=$('race-trend-chart');
+ if(!points.length){target.textContent='Ingen målinger eller exitpolls at vise endnu.';return {trend:null,accel:null};}
+ const linear=fitTrend(points,1),quad=fitTrend(points,2);
+ const election=Date.parse('2026-11-03T12:00:00Z'),earliest=Math.min(...points.map(p=>p.date)),latest=Math.max(...points.map(p=>p.date));
+ const start=earliest-WEEK,end=Math.max(election,latest+WEEK,start+4*WEEK);
+ const x=d=>56+730*(d-start)/(end-start);
+ const evalFit=(fit,d)=>fit?fit.c.reduce((s,c,i)=>s+c*((d-fit.latest)/WEEK)**i,0):null;
+ const values=points.map(p=>p.value);
+ for(let i=0;i<=80;i++){const d=start+(end-start)*i/80;for(const fit of [linear,quad]){const v=evalFit(fit,d);if(Number.isFinite(v))values.push(v);}}
+ let lo=Math.floor((Math.min(0,...values)-2)/5)*5,hi=Math.ceil((Math.max(0,...values)+2)/5)*5;if(lo===hi)hi+=5;
+ const y=v=>250-204*(v-lo)/(hi-lo),svg=svgEl('svg',{viewBox:'0 0 845 300',role:'presentation'});
+ if(latest<end)svg.appendChild(svgEl('rect',{x:x(latest),y:34,width:Math.max(0,x(end)-x(latest)),height:216,fill:'#ffffff','fill-opacity':'.035'}));
+ for(let i=0;i<=4;i++){const v=lo+(hi-lo)*i/4;svg.appendChild(svgEl('line',{x1:56,x2:786,y1:y(v),y2:y(v),stroke:v===0?'#a6b3c1':'#354758','stroke-dasharray':v===0?'5 4':'none'}));svg.appendChild(svgEl('text',{x:47,y:y(v)+4,'text-anchor':'end',fill:'#b7c6d4','font-size':12},v.toFixed(1)));}
+ const curve=(fit,color)=>{if(!fit)return;const from=earliest,to=Math.min(end,election);if(to<=from)return;const path=Array.from({length:101},(_,i)=>{const d=from+(to-from)*i/100;return (i?'L':'M')+x(d).toFixed(1)+' '+y(evalFit(fit,d)).toFixed(1);}).join(' ');svg.appendChild(svgEl('path',{d:path,fill:'none',stroke:color,'stroke-width':3}));};
+ curve(linear,'#669bd3');curve(quad,'#e4524b');
+ for(const p of points){const dot=svgEl('circle',{cx:x(p.date),cy:y(p.value),r:p.exit?7:4.5,fill:p.exit?'#4fce8a':'#aab5c0',stroke:'#101a24','stroke-width':2});dot.appendChild(svgEl('title',{},p.label+' · '+p.value.toFixed(1)+' pp'));svg.appendChild(dot);}
+ for(let i=0;i<=4;i++){const d=start+(end-start)*i/4;svg.appendChild(svgEl('text',{x:x(d),y:278,'text-anchor':'middle',fill:'#aebccc','font-size':11},new Date(d).toLocaleDateString('da-DK',{day:'numeric',month:'short'})));}
+ target.replaceChildren(svg);
+ return {trend:linear?.c[1]??null,accel:quad?2*quad.c[2]:null};
+}
+function drawDetail(){const r=getOriginal(selected),e=exits[selected],c=combined(r),metrics=drawTrendDetail();$('selected-name').textContent=selected;const cell=(label,v,kind='')=>`<div><small>${label}</small><strong class="${kind||((v??0)>=0?'blue':'red')}">${label.startsWith('Trend')||label.startsWith('Accel')?(v==null?'—':(v>0?'+':'')+v.toLocaleString('da-DK',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp'):fmt(v)}</strong></div>`;$('race-numbers').innerHTML=cell('Margin før valget',r.margin)+cell('Exitpoll',e?.margin,'green')+cell('Opdateret margin',c)+cell('Trend / uge',metrics.trend,'')+cell('Accel / uge²',metrics.accel,'');
  let note=r.margin==null?'Ingen meningsmålinger i det eksisterende grundlag. Mandatet fastholdes hos '+(r.inc==='D'?'D/I':'R')+' indtil nye data foreligger.':`${r.count} meningsmåling${r.count===1?'':'er'} i det gemte grundlag.`;
  if(e)note+=` Exitpoll: ${e.source}, offentliggjort ${e.time.replace('T',' kl. ')} dansk tid. Ændring fra oprindelig margin: ${r.margin==null?'ikke beregnelig':(e.margin-r.margin).toLocaleString('da-DK',{minimumFractionDigits:1,maximumFractionDigits:1})+' procentpoint mod D/I'}.`;
  else note+=' Der er endnu ikke indtastet exitpoll-data for denne delstat.';
