@@ -5,6 +5,7 @@ const SOURCE=MODEL.states;
 // Read-only, file-driven election-night data. Editors update data/valgnat-feed.js
 // in the published files; no visitor inputs or browser-local overrides are used.
 const FEED=window.VALGNAT_FEED||{};
+const DEMO=new URLSearchParams(location.search).get('demo')==='1';
 const CRITICAL=new Set(['Alaska','Iowa','Kansas','Maine','Michigan','Nebraska','Ohio','Texas']);
 const CODES={Alabama:'AL',Alaska:'AK',Arkansas:'AR',Colorado:'CO',Delaware:'DE',Florida:'FL',Georgia:'GA',Idaho:'ID',Illinois:'IL',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Montana:'MT',Nebraska:'NE','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','North Carolina':'NC',Ohio:'OH',Oklahoma:'OK',Oregon:'OR','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Virginia:'VA','West Virginia':'WV',Wyoming:'WY'};
 const TIMES=[
@@ -29,7 +30,7 @@ const esc=escapeHTML;
 const firstMargin=r=>{const p=r.points||[];return p.length?p.reduce((sum,x)=>sum+x.y,0)/p.length:null};
 const currentBaseline=()=>SOURCE.map(r=>({state:r.state,inc:group(r.inc),margin:firstMargin(r),count:(r.points||[]).length}));
 const validSnapshot=a=>Array.isArray(a)&&a.length===SOURCE.length&&new Set(a.map(r=>r.state)).size===SOURCE.length&&a.every(r=>r&&CODES[r.state]&&['D','R'].includes(r.inc)&&validMargin(r.margin)&&Number.isInteger(r.count)&&r.count>=0)&&SOURCE.every(r=>a.some(x=>x.state===r.state&&x.inc===group(r.inc)));
-const validExits=o=>o&&typeof o==='object'&&!Array.isArray(o)&&Object.keys(o).every(k=>CODES[k]&&o[k]&&typeof o[k]==='object'&&typeof o[k].margin==='number'&&Number.isFinite(o[k].margin)&&Math.abs(o[k].margin)<=100&&typeof o[k].source==='string'&&o[k].source.length>0&&o[k].source.length<=160&&typeof o[k].time==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(o[k].time));
+const validExits=o=>o&&typeof o==='object'&&!Array.isArray(o)&&Object.keys(o).every(k=>CODES[k]&&o[k]&&typeof o[k]==='object'&&typeof o[k].margin==='number'&&Number.isFinite(o[k].margin)&&Math.abs(o[k].margin)<=100&&typeof o[k].source==='string'&&o[k].source.length>0&&o[k].source.length<=160&&typeof o[k].time==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?(?:Z|[+-]\d{2}:\d{2})?$/.test(o[k].time));
 // Only a complete, validated baseline can override the current polls.js baseline.
 // Publish a fixed baseline in the feed at 23:00 if later poll updates must not
 // rewrite the comparison point for the election-night graphics.
@@ -82,7 +83,7 @@ function fitTrend(points,degree){if(points.length<degree+1)return null;const lat
 function drawTrendDetail(){
  const r=SOURCE.find(s=>s.state===selected),e=exits[selected];
  const points=(r.points||[]).map(p=>({date:Date.parse(p.end+'T12:00:00Z'),value:p.y,label:p.poll||'Måling',exit:false})).filter(p=>Number.isFinite(p.date)&&Number.isFinite(p.value));
- if(e){const d=Date.parse(e.time+':00+01:00');if(Number.isFinite(d))points.push({date:d,value:e.margin,label:e.source,exit:true});}
+ if(e){const d=Date.parse(/(?:Z|[+-]\d{2}:\d{2})$/.test(e.time)?e.time:(e.time+':00+01:00'));if(Number.isFinite(d))points.push({date:d,value:e.margin,label:e.source,exit:true});}
  const target=$('race-trend-chart');
  if(!points.length){target.textContent='Ingen målinger eller exitpolls at vise endnu.';return {trend:null,accel:null};}
  const linear=fitTrend(points,1),quad=fitTrend(points,2);
@@ -105,13 +106,13 @@ function drawTrendDetail(){
 }
 function drawDetail(){const r=getOriginal(selected),e=exits[selected],c=combined(r),metrics=drawTrendDetail();$('selected-name').textContent=selected;const cell=(label,v,kind='')=>`<div><small>${label}</small><strong class="${kind||((v??0)>=0?'blue':'red')}">${label.startsWith('Trend')||label.startsWith('Accel')?(v==null?'—':(v>0?'+':'')+v.toLocaleString('da-DK',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp'):fmt(v)}</strong></div>`;$('race-numbers').innerHTML=cell('Margin før valget',r.margin)+cell('Exitpoll',e?.margin,'green')+cell('Opdateret margin',c)+cell('Trend / uge',metrics.trend,'')+cell('Accel / uge²',metrics.accel,'');
  let note=r.margin==null?'Ingen meningsmålinger i det eksisterende grundlag. Mandatet fastholdes hos '+(r.inc==='D'?'D/I':'R')+' indtil nye data foreligger.':`${r.count} meningsmåling${r.count===1?'':'er'} i det gemte grundlag.`;
- if(e)note+=` Exitpoll: ${e.source}, offentliggjort ${e.time.replace('T',' kl. ')} dansk tid. Ændring fra oprindelig margin: ${r.margin==null?'ikke beregnelig':(e.margin-r.margin).toLocaleString('da-DK',{minimumFractionDigits:1,maximumFractionDigits:1})+' procentpoint mod D/I'}.`;
+ if(e)note+=` Exitpoll: ${e.source}, offentliggjort ${new Date(e.time).toLocaleString('da-DK',{timeZone:'Europe/Copenhagen',dateStyle:'short',timeStyle:'short'})} dansk tid. Ændring fra oprindelig margin: ${r.margin==null?'ikke beregnelig':(e.margin-r.margin).toLocaleString('da-DK',{minimumFractionDigits:1,maximumFractionDigits:1})+' procentpoint mod D/I'}.`;
  else note+=' Der er endnu ikke indtastet exitpoll-data for denne delstat.';
  $('race-comment').textContent=note;}
 function render(){
  drawSeats();drawChart();drawDetail();
  const polls=snapshot.reduce((n,r)=>n+r.count,0),n=Object.keys(exits).length;
- $('feed-status').textContent=`${polls} MÅLINGER · ${n} ${n===1?'DELSTAT':'DELSTATER'} MED EXITPOLL`;
+ $('feed-status').textContent=`${DEMO?'TESTDATA · ':''}${polls} MÅLINGER · ${n} ${n===1?'DELSTAT':'DELSTATER'} MED EXITPOLL`;
  const date=FEED.updatedAt;
  $('rendered-at').textContent=typeof date==='string'&&date.trim()?date:'Målinger fra Senatsvalg · endnu ingen publiceret valgnatsopdatering';
 }
