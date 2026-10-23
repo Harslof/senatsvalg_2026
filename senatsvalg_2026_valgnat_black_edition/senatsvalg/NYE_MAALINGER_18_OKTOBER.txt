@@ -1,8 +1,0 @@
-4 nye målinger indlæst 18. oktober 2026. Alle kontrolleret for dubletter mod data/polls.js.
-
-Texas: YouGov, 2026-10-08–2026-10-16, D-R-margin +2 pp; resultater {'D': 51, 'R': 49}. Sponsored by CBS News
-Minnesota: Trafalgar Group, 2026-10-13–2026-10-15, D-R-margin +3 pp; resultater {'D': 48, 'R': 45}. Opgivet som Flanagan +4, men 48-45 giver +3; anvendt +3.
-Iowa: Trafalgar Group, 2026-10-13–2026-10-15, D-R-margin -2 pp; resultater {'R': 46, 'D': 44, 'Lib': 4}. Republican pollster
-Florida: ActiVote, 2026-09-27–2026-10-15, D-R-margin -6 pp; resultater {'R': 53, 'D': 47}. 
-
-Minnesota: Angivelsen Flanagan +4 er ikke konsistent med 48 % mod 45 %. Margin +3 anvendes i modellen.
