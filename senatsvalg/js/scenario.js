@@ -9,7 +9,7 @@ const nationalBox=document.getElementById('scenarioNational');
 const progress=document.getElementById('scenarioProgress');
 const seatMath=document.getElementById('scenarioSeatMath');
 const backtestNote=document.getElementById('scenarioBacktest');
-const HOLD=.90, SHARED=3.0;
+const HOLD=.90;
 const chart=document.getElementById('seatDistributionChart');
 const detail=document.getElementById('seatDistributionDetail');
 const model=window.SenateProbabilityModel;
@@ -20,7 +20,7 @@ const fmt=n=>Number(n).toLocaleString('da-DK',{minimumFractionDigits:1,maximumFr
 let last=null;
 let baselineProbabilities=null;
 function calculate(){
-  const settings={...window.getSenateWeighting(),retain:HOLD,shared:SHARED};
+  const settings={...window.SenateForecastExperiment.settings(),...window.getSenateWeighting()};
   last=model.compute(MODEL.states,settings);
   baselineProbabilities=window.SenateUpdateUI?.active()?model.compute(BASELINE_STATES,settings):null;
   window.baselineSenateProbabilities=baselineProbabilities;
@@ -67,7 +67,7 @@ function calculate(){
   seatMath.innerHTML=`Der er ${fixed} D/I-sæder, som ikke er på valg. Der kræves mindst ${51-fixed} D/I-mandater blandt de 35 valg for at nå 51. Et fælles udsving på ${fmt(settings.shared)} pp er indregnet for delstater med målinger; de umålte delstaters sandsynligheder fastholdes som en særskilt antagelse. <a href="metode.html#sandsynligheder">Se beregningsmetoden.</a>`;
   renderChart();
   window.dispatchEvent(new CustomEvent('senate-probabilities-updated'));
-  backtestNote.textContent=`Grundlag for usikkerheden: ${last.calibration.linear} historiske fremadrettede sammenligninger for den lineære model og ${last.calibration.accelerated} for accelerationsmodellen (mod senere meningsmålinger). * Procent uden målinger er en indstillet antagelse. Resultaterne er scenarier, ikke validerede vinderchancer.`;
+  backtestNote.textContent=`Grundlag for usikkerheden: ${last.calibration.linear} historiske fremadrettede sammenligninger for den lineære model og ${last.calibration.accelerated} for accelerationsmodellen (mod senere meningsmålinger). * Procent uden målinger er en indstillet antagelse. ${settings.variant==='experimental'?'Forsøgsmodellen bruger endnu den oprindelige usikkerhedskalibrering. ':''}Resultaterne er scenarier, ikke validerede vinderchancer.`;
 }
 
 const chartColors={linearR:'#a72d36',acceleratedR:'#e8a4a8',linearD:'#155fa6',acceleratedD:'#9cc8f1'};
