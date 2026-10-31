@@ -5,7 +5,7 @@ const pill=document.getElementById('stickyWeight'),model=window.SenateForecastEx
 if(!pill||!model)return;
 const section=document.getElementById('weightingSection');
 const weights=[...document.querySelectorAll('input[name="weight"]')];
-const models=[...document.querySelectorAll('input[name="forecastmodel"]')];
+const models=[...document.querySelectorAll('input[name="forecastmodel"],input[name="methodforecastmodel"]')];
 const originalHalf=document.getElementById('half');
 const floatingHalf=document.getElementById('stickyHalf');
 const halfText=document.getElementById('stickyHalfText');
@@ -21,14 +21,14 @@ function sync(){
  pill.querySelectorAll('[data-model]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.model===variant)));
  halfRow.hidden=weight!=='time';floatingHalf.value=half;
  halfText.textContent=half+' '+(half===1?'uge':'uger');
- const message=variant==='experimental'?'Forsøgsmodel: huseffektkorrektion og historisk dæmpet acceleration. Under afprøvning.':'Oprindelig model: eksisterende målings- og sandsynlighedsmodel.';
+ const message=variant==='experimental'?'Forsøgsmodel: huseffektkorrektion og afdæmpet trend. Under afprøvning.':'Oprindelig model: eksisterende målings- og sandsynlighedsmodel.';
  note.textContent=message;
  if(methodNote)methodNote.textContent=message+' Indstillingerne deles med hovedhjemmesiden og præsentationen.';
 }
 function change(list,value,key,transform){
  const radio=list.find(r=>r.value===value);
  if(radio){if(!radio.checked){radio.checked=true;radio.dispatchEvent(new Event('change',{bubbles:true}));}}
- else model.set({[key]:transform(value)});
+ else {model.set({[key]:transform(value)});window.dispatchEvent(new CustomEvent('senate-model-settings-changed',{detail:model.settings()}));}
  sync();
 }
 pill.querySelectorAll('[data-weight]').forEach(b=>b.addEventListener('click',()=>change(weights,b.dataset.weight,'weighted',v=>v==='time')));
