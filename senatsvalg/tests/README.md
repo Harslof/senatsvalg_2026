@@ -20,6 +20,8 @@ Ved bevidste algoritmeændringer skal testen **først fejle**. Nye forventningsd
 ## 2. Historiske testresultater (1998–2022)
 
 - `data/historical-heldout-factors.csv`: De 90 rapporterede *leave-one-election-year-out*-kalibreringsfaktorer fra en tidligere historisk analyse.
+- `data/historical-forecast-summary.csv`: Alle 18 opsummerede model- og horisontresultater fra det tidligere arkiv, for lineær/accelereret fremskrivning, 7/14/28 dage og ekstra usikkerhed 0/2/3 procentpoint.
+- `data/historical-forecast-bootstrap.csv`: Alle 18 valgårsblok-bootstrapintervaller fra samme analyse.
 - `data/historical-heldout-predictions-FIRST-882-ROWS.csv`: **KUN ET UDDRAG** af historiske prognoseobservationer. 882 poster er bevaret fra den tidligere `heldout_predictions.csv`. Den originale CSV indeholder **1.938 poster** og er **ikke fuldt kopieret** ind i GitHub. Uddraget må ikke benyttes til at beregne den fulde analyses samlede nøgletal eller som repræsentativt testgrundlag.
 - `data/historical-horizon-calibration-report.md`: Den tidligere horisontkalibreringsrapport med metode og konklusioner.
 - `data/historical-election-error-notes.md`: Den tidligere analyse af national og lokal historisk valgfejl.
