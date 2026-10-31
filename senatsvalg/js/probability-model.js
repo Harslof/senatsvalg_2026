@@ -3,6 +3,8 @@
  * Rolling-origin cross-validation is against LATER POLLS, not election results.
  * The resulting percentages are conditional model scenarios, NOT validated
  * empirical probabilities of real election outcomes.
+ * The experimental variant reuses legacy uncertainty calibration pending
+ * a separate out-of-sample validation against actual election results.
  * No libraries, backend or random generation are required.
  */
 (()=>{
@@ -146,7 +148,9 @@ function national(races,fixedDem,shared){
   const percentile=part=>{let c=0;for(let i=0;i<combined.length;i++){c+=combined[i];if(c>=part)return fixedDem+i}return fixedDem+combined.length-1};
   return {majority,expectedSeats:expectation,range:[percentile(.05),percentile(.95)],distribution:combined};
 }
-function compute(rows,{weighted=false,half=8,retain=.90,shared=2.0}={}){
+function compute(rows,{weighted=false,half=4,retain=.90,shared=3.0,variant='classic'}={}){
+  variant=variant==='experimental'?'experimental':'classic';
+  const experimental=variant==='experimental'&&window.SenateForecastExperiment;
   const hold=clamp(retain,.5,.999);
   const common=clamp(shared,0,6);
   const calibration=backtest(rows,weighted,half);
@@ -159,11 +163,15 @@ function compute(rows,{weighted=false,half=8,retain=.90,shared=2.0}={}){
       if(!n){const p=(r.inc==='D'||r.inc==='I')?hold:1-hold;
         return {state:r.state,inc:r.inc,kind:r.kind,model,n:0,unpolled:true,p,margin:null,sigma:null,quality:'Antagelse uden målinger',localTests:0};
       }
-      const snap=modelSnapshot(r.points,weighted,half);
+      const source=experimental?window.SenateForecastExperiment.adjustedPoints(r,rows):r.points;
+      const snap=modelSnapshot(source,weighted,half);
       const start=snap.latest;
       const h=Math.max(0,(ELECTION-start)/WEEK);
       const sigma=estimateSigma(calibration,r.state,model,h,n);
-      const meanRaw=predict(snap,h,model);
+      // In the experiment the same saturating time horizon is used by
+      // the main site's forecast and this probability engine.
+      const effective=experimental?4*(1-Math.exp(-h/4)):h;
+      const meanRaw=predict(snap,effective,model);
       // Quadratic extrapolation can explode beyond any information in the polls.
       const margin=clamp(meanRaw,-35,35);
       // Common national error is an *extra* user-specified assumption, not identified
@@ -176,7 +184,7 @@ function compute(rows,{weighted=false,half=8,retain=.90,shared=2.0}={}){
     });
     results[model]={races,national:national(races,fixedDem,common),tests:calibration.errors[model].length};
   }
-  return {results,fixedDem,calibration:{linear:calibration.errors.linear.length,accelerated:calibration.errors.accelerated.length},settings:{weighted,half,retain:hold,shared:common}};
+  return {results,fixedDem,calibration:{linear:calibration.errors.linear.length,accelerated:calibration.errors.accelerated.length},settings:{weighted,half,retain:hold,shared:common,variant}};
 }
 window.SenateProbabilityModel=Object.freeze({compute,distribution,sumAtLeast,normalCDF,backtest,estimateSigma,national,modelSnapshot,predict});
 })();
