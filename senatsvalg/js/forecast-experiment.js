@@ -42,7 +42,7 @@ function houseEffects(rows){
  houseRows=rows;houseCache=result;return result;
 }
 function adjustedPoints(r,rows){
- const effects=houseEffects(rows||window.MODEL?.states||[]);
+ const effects=houseEffects(rows||(typeof MODEL!=='undefined'?MODEL.states:[]));
  return (r.points||[]).map(p=>{
   const effect=effects.get(normalizeInstitute(p.poll))?.effect||0;
   return {...p,y:Number.isFinite(p.y)?p.y-effect:p.y};
