@@ -1,0 +1,17 @@
+/* Shared floating model controls (loaded after each page's base styles). */
+.sticky-weight[hidden],.sticky-half-row[hidden]{display:none!important}
+.sticky-weight{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:1000;transform:translateX(-50%);width:min(540px,calc(100vw - 20px));filter:drop-shadow(0 5px 16px #0c192c38)}
+.sticky-weight-pill{display:grid;gap:6px;padding:7px;border-radius:18px;border:1px solid #cdd7e2;background:#fff;color:#243041;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;box-sizing:border-box}
+.sticky-weight-row{display:grid;grid-template-columns:82px minmax(0,1fr);align-items:center;gap:7px}
+.sticky-weight-label{font:700 11px/1.3 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:#536577;padding-left:8px}
+.sticky-weight-options{display:grid;grid-template-columns:1fr 1fr;gap:3px;padding:3px;background:#eef1f5;border-radius:12px}
+.sticky-weight-choice{appearance:none;border:0;background:transparent;color:#425568;font:650 12px/1.3 system-ui,-apple-system,Segoe UI,sans-serif;text-align:center;cursor:pointer;border-radius:9px;padding:8px 6px;min-height:33px}
+.sticky-weight-choice[aria-pressed="true"]{background:#fff;color:#173d6b;box-shadow:0 1px 4px #0c203322}
+.sticky-weight-choice:focus-visible{outline:2px solid #3478c8;outline-offset:1px}
+.sticky-half-row{display:flex;align-items:center;gap:10px;padding:3px 10px 5px 91px;min-width:0}
+.sticky-half-row label{font-size:11px;white-space:nowrap;color:#536577}
+.sticky-half-row input{flex:1;min-width:50px;accent-color:#173d6b;cursor:pointer}
+.sticky-half-row output{font-size:11px;white-space:nowrap;font-weight:650;min-width:42px;text-align:right}
+.sticky-model-note{font:11px/1.4 system-ui,sans-serif;color:#596b7d;margin:0 8px 1px 91px}
+@media(max-width:490px){.sticky-weight{width:calc(100vw - 14px);bottom:calc(7px + env(safe-area-inset-bottom,0px))}.sticky-weight-row{grid-template-columns:63px minmax(0,1fr);gap:4px}.sticky-weight-pill{gap:5px;padding:5px;border-radius:14px}.sticky-weight-label{font-size:10px;padding-left:3px}.sticky-weight-choice{font-size:11px;padding:7px 4px;min-height:34px}.sticky-half-row{padding-left:67px}.sticky-model-note{margin-left:67px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.sticky-weight.sticky-weight-enter{animation:none}}
