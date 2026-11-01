@@ -11,7 +11,7 @@ const mean=a=>a.length?a.reduce((s,x)=>s+x,0)/a.length:null;
 function run(races,{weighted=false,half=4,tau=4,publicationLag=2,strictPublication=false}={}){
  const records=[],excluded={invalid:0,noPolls:0,notEnoughHistory:0,notAllModels:0};
  for(const race of races||[]){
-  const election=date(race.electionDate),actual=Number(race.resultMargin);
+  const election=date(race.electionDate),actual=race.resultMargin==null||race.resultMargin===''?NaN:Number(race.resultMargin);
   if(!Number.isFinite(election)||!Number.isFinite(actual)){excluded.invalid++;continue;}
   const ps=(race.points||[]).filter(p=>Number.isFinite(p.y)&&Number.isFinite(date(p.x))&&Number.isFinite(date(p.end||p.x))&&date(p.x)<=date(p.end||p.x));
   if(!ps.length){excluded.noPolls++;continue;}
