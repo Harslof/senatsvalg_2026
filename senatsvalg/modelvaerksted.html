@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modelværksted – Senatsvalget 2026</title>
+<style>
+:root{--ink:#152b47;--blue:#3478c8;--red:#c74747;--paper:#f7f6f2;--line:#d9dee5}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:#192a3d;font:16px/1.55 Georgia,serif}
+header,main,footer{max-width:1120px;margin:auto;padding:24px}header{border-bottom:3px solid var(--ink)}
+nav{display:flex;gap:20px;flex-wrap:wrap;font:13px system-ui}a{color:var(--blue)}
+.kicker{font:700 12px system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+h1{font-size:clamp(32px,5vw,58px);line-height:1.08;margin:10px 0}h2{font-size:26px}
+.lead{font-size:19px;max-width:780px}.note{background:#fff3df;border-left:4px solid #b0782b;padding:13px 17px}
+.layout{display:grid;grid-template-columns:minmax(250px,330px) 1fr;gap:24px;margin-top:25px}
+.panel{background:#fff;border:1px solid var(--line);padding:20px;border-radius:5px;min-width:0}
+label{display:block;font:600 13px system-ui;margin:13px 0 5px}
+input,select,textarea,button{font:14px system-ui}input[type=number],select,textarea{width:100%;padding:9px;border:1px solid #aab8c7;border-radius:3px;background:#fff}
+input[type=range]{width:100%}textarea{min-height:155px;font-family:monospace;font-size:12px}
+button{padding:10px 14px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:3px;cursor:pointer}
+button.secondary{background:white;color:var(--ink)}.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.stat{background:#f0f4f8;padding:12px}
+.stat strong{display:block;font:700 25px system-ui}.stat small{font:12px system-ui;color:#53687e}
+svg{display:block;width:100%;height:auto}.legend{font:12px system-ui;color:#54657a}
+table{width:100%;border-collapse:collapse;font:13px system-ui}th,td{padding:9px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
+details{border-bottom:1px solid var(--line);padding:12px 0}summary{cursor:pointer;font-weight:bold}
+footer{font:12px system-ui;color:#607084}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}header,main,footer{padding:16px}}
+</style></head>
+<body><header><nav><a href="senatsvalg.html">Senatsvalget</a><a href="metode.html">Metodesiden</a><a href="../index.html">Projektforsiden</a></nav>
+<p class="kicker">Senatsvalget 2026 · Forsøgslaboratorium</p><h1>Fra målinger til valgdag</h1>
+<p class="lead">Et særskilt værksted til at afprøve den foreløbige fremskrivningsmodel. Sammenlign lineær trend, acceleration og aftagende trend – uden at ændre prognosen på hovedsiden.</p>
+<div class="note"><strong>Forsøgsmodel – ikke en valideret valgprognose.</strong> Siden starter med illustrative målinger. Historisk grundprognose, approval, incumbency og sandsynligheder er endnu ikke kalibreret. Intet her påvirker hjemmesidens aktive model.</div></header>
+<main><div class="layout"><section class="panel"><h2>Indstillinger</h2>
+<label for="scenario">Eksempel</label><select id="scenario"><option value="rising">Stigende demokratisk trend</option><option value="falling">Stigende republikansk trend</option><option value="flat">Stabile målinger</option></select>
+<label for="kind">Fremskrivning</label><select id="kind"><option value="damped">Aftagende trend (ny)</option><option value="linear">Lineær trend</option><option value="quadratic">Trend og acceleration</option></select>
+<label for="weighted">Vægtning</label><select id="weighted"><option value="false">Lige vægtning</option><option value="true">Tidsvægtning</option></select>
+<label for="half">Halveringstid: <output id="halfOut">4</output> uger</label><input id="half" type="range" min="1" max="12" value="4">
+<label for="tau">Trendens aftagning: <output id="tauOut">4</output> uger</label><input id="tau" type="range" min="1" max="12" value="4" step=".5">
+<label for="horizon">Fremskrivningshorisont: <output id="horizonOut">2</output> uger</label><input id="horizon" type="range" min="0" max="12" value="2" step=".5">
+<label for="points">Målinger: dato, D−R-margin (én pr. linje)</label><textarea id="points" spellcheck="false"></textarea>
+<div class="controls"><button id="apply">Beregn</button><button class="secondary" id="reset">Gendan eksempel</button></div>
+<p id="error" role="alert" style="color:#a52e2e;font:13px system-ui"></p>
+</section>
+<section class="panel"><h2>Modellernes resultater</h2><p class="legend">Alle tal er procentpoint. Positiv margin betyder demokratisk føring, negativ betyder republikansk.</p>
+<div class="stats"><div class="stat"><small>Aktuel margin</small><strong id="margin">—</strong></div><div class="stat"><small>Trend pr. uge</small><strong id="trend">—</strong></div><div class="stat"><small>Ny fremskrivning</small><strong id="forecast">—</strong></div></div>
+<h3>Udvikling og fremskrivning</h3><svg id="chart" viewBox="0 0 760 350" role="img" aria-label="Graf over illustrative målinger og tre fremskrivninger"></svg>
+<p class="legend">● Målinger · <span style="color:#3478c8">━━ Aftagende trend</span> · <span style="color:#c74747">━━ Lineær</span> · <span style="color:#9a7c31">━━ Acceleration</span></p>
+<table><thead><tr><th>Model</th><th>Forventet margin</th><th>Forskel fra aktuel</th></tr></thead><tbody id="comparison"></tbody></table>
+<p class="legend" id="coverage"></p></section></div>
+<section class="panel" style="margin-top:24px"><h2>Hvad undersøger vi videre?</h2>
+<details><summary>1. Trend og acceleration</summary><p>Vi tester, om en aftagende trend giver mere stabile fremskrivninger end lineær og kvadratisk ekstrapolation. Parameteren for aftagning er foreløbig et eksperiment, ikke en historisk estimeret størrelse.</p></details>
+<details><summary>2. Historiske valgresultater</summary><p>En historisk grundprognose skal på sigt kombineres med målingerne. Vægten skal bestemmes af historiske tests, især ved få eller ingen målinger.</p></details>
+<details><summary>3. Genopstilling og præsidentens approval</summary><p>Vi undersøger, om disse faktorer tilfører prognoseværdi efter målinger og historisk politisk udgangspunkt. Ingen automatiske tillæg anvendes endnu.</p></details>
+<details><summary>4. Huseffekter og målingskvalitet</summary><p>Den eksisterende forsøgsmodel har allerede relative huseffekter. Disse skal valideres særskilt, inden de indgår i den endelige model.</p></details>
+<details><summary>5. Sandsynlighedsmodel</summary><p>Den næste fase skal teste nationale, regionale og lokale fejl og deres betydning for delstatschancer og mandatfordeling. Denne side viser indtil videre kun forventede marginer.</p></details>
+</section></main><footer>Modelværksted · isoleret udviklingsbranch · ingen ændringer i aktive prognoser</footer>
+<script src="js/forecast-candidates.js"></script><script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id),api=window.SenateForecastCandidates;
+const scenarios={
+ rising:[-7,-6,-5,-4,-3,-1,0,1,2,3],
+ falling:[8,7,6,5,3,2,1,0,-1,-2],
+ flat:[2,1,3,2,1,2,3,1,2,2]
+};
+const date0=Date.parse('2026-08-20T12:00:00Z');
+function load(){const values=scenarios[$('scenario').value];$('points').value=values.map((v,i)=>new Date(date0+i*7*86400000).toISOString().slice(0,10)+','+v).join('\n');render()}
+function parse(){const lines=$('points').value.trim().split(/\n/).filter(Boolean);if(!lines.length)throw Error('Indtast mindst én måling');
+return lines.map((line,i)=>{const [date,val,...extra]=line.split(',').map(x=>x.trim());const y=Number(val);
+if(extra.length||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00Z'))||!Number.isFinite(y)||val==='')throw Error('Ugyldig linje '+(i+1)+': brug YYYY-MM-DD,margin');
+return {x:date,end:date,y}}).sort((a,b)=>a.x.localeCompare(b.x))}
+const fmt=x=>x==null||!Number.isFinite(x)?'—':(x>0?'+':'')+x.toFixed(2);
+function render(){
+ try{
+ const points=parse(),weighted=$('weighted').value==='true',half=+$('half').value,tau=+$('tau').value,h=+$('horizon').value;
+ $('halfOut').textContent=half;$('tauOut').textContent=tau;$('horizonOut').textContent=h;
+ const s=api.snapshot(points,{weighted,half}),kinds=['damped','linear','quadratic'],preds=kinds.map(kind=>api.project(s,h,{kind,tau}));
+ $('margin').textContent=fmt(s.margin);$('trend').textContent=s.hasTrend?fmt(s.trend):'Mangler';$('forecast').textContent=fmt(preds[kinds.indexOf($('kind').value)]);
+ $('comparison').innerHTML=kinds.map((k,i)=>'<tr><td>'+({damped:'Aftagende',linear:'Lineær',quadratic:'Acceleration'}[k])+'</td><td>'+fmt(preds[i])+'</td><td>'+fmt(preds[i]-s.margin)+'</td></tr>').join('');
+ $('coverage').textContent=s.n+' illustrative eller manuelt indtastede målinger. '+(!s.hasTrend?'Trend kræver mindst fire ugers dataspænd. ':'')+(!s.hasAcceleration?'Acceleration kan ikke estimeres med de aktuelle data.':'');
+ const minDate=Math.min(...points.map(api.midpoint)),maxDate=s.latest+12*604800000,span=maxDate-minDate||1;
+ const x=t=>52+(t-minDate)/span*670;
+ const projected=[];for(let i=0;i<=60;i++){const z=i/5;projected.push(kinds.map(k=>api.project(s,z,{kind:k,tau})))}
+ const allY=[...points.map(p=>p.y),...projected.flat(),s.margin],ymin=Math.min(...allY)-2,ymax=Math.max(...allY)+2;
+ const y=v=>310-(v-ymin)/(ymax-ymin||1)*275;
+ const el=(tag,attrs)=>{const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e};
+ const svg=$('chart');svg.replaceChildren();
+ for(let i=0;i<5;i++){const v=ymin+(ymax-ymin)*i/4;svg.appendChild(el('line',{x1:52,y1:y(v),x2:722,y2:y(v),stroke:'#e4e9ee'}));const t=el('text',{x:45,y:y(v)+4,'text-anchor':'end',fill:'#607080','font-size':12});t.textContent=v.toFixed(0);svg.appendChild(t)}
+ svg.appendChild(el('line',{x1:x(s.latest),y1:25,x2:x(s.latest),y2:310,stroke:'#a5afbc','stroke-dasharray':'4 4'}));
+ const palette=['#3478c8','#c74747','#9a7c31'];
+ kinds.forEach((k,j)=>{const d=projected.map((r,i)=>(i?'L':'M')+x(s.latest+i/5*604800000).toFixed(1)+' '+y(r[j]).toFixed(1)).join(' ');
+ svg.appendChild(el('path',{d,fill:'none',stroke:palette[j],'stroke-width':$('kind').value===k?3.5:2,'stroke-dasharray':$('kind').value===k?'':'6 4'}))});
+ points.forEach(p=>svg.appendChild(el('circle',{cx:x(api.midpoint(p)),cy:y(p.y),r:4.5,fill:'#152b47',stroke:'#fff','stroke-width':1.5})));
+ $('error').textContent='';
+ }catch(e){$('error').textContent=e.message}
+}
+$('scenario').addEventListener('change',load);$('reset').addEventListener('click',load);$('apply').addEventListener('click',render);
+['kind','weighted','half','tau','horizon'].forEach(id=>$(id).addEventListener('input',render));load();
+})();
+</script></body></html>
