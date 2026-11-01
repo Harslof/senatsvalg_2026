@@ -11,11 +11,11 @@ const mid=p=>(Date.parse(p.x+'T12:00:00Z')+Date.parse(p.end+'T12:00:00Z'))/2;
 function saved(){try{const x=JSON.parse(localStorage.getItem(KEY));return x&&typeof x==='object'?x:{}}catch{return {}}}
 function settings(extra={}){
  const s={...defaults,...saved(),...extra};
- return {variant:s.variant==='experimental'?'experimental':'classic',weighted:!!s.weighted,
+ return {variant:'classic',weighted:!!s.weighted,
  projection:s.projection==='linear'?'linear':'accelerated',
  half:clamp(Number(s.half)||4,1,12),shared:3,retain:.90};
 }
-function set(patch){const next=settings(patch);try{localStorage.setItem(KEY,JSON.stringify(next))}catch{};return next}
+function set(patch){const next=settings({...patch,variant:'classic'});try{localStorage.setItem(KEY,JSON.stringify(next))}catch{};return next}
 function normalizeInstitute(s){return String(s||'').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/g,' ').trim()}
 let houseCache=null,houseRows=null;
 function houseEffects(rows){
