@@ -3,6 +3,17 @@
 'use strict';
 const pill=document.getElementById('stickyWeight'),model=window.SenateForecastExperiment;
 if(!pill||!model)return;
+// Temporarily remove public forecast-model selection; keep weighting controls.
+pill.querySelectorAll('[data-model]').forEach(button=>{const row=button.closest('.sticky-weight-row');if(row)row.hidden=true;});
+const hiddenStyle=document.createElement('style');
+hiddenStyle.textContent='.sticky-weight-row[hidden]{display:none!important} input[name="forecastmodel"],input[name="methodforecastmodel"]{display:none!important}';
+document.head.appendChild(hiddenStyle);
+document.querySelectorAll('input[name="forecastmodel"],input[name="methodforecastmodel"]').forEach(input=>{
+ const label=input.closest('label');
+ if(label)label.hidden=true;
+ const fieldset=input.closest('fieldset');
+ if(fieldset&&fieldset.querySelectorAll('input[name="forecastmodel"],input[name="methodforecastmodel"]').length===fieldset.querySelectorAll('input').length)fieldset.hidden=true;
+});
 const section=document.getElementById('weightingSection');
 const weights=[...document.querySelectorAll('input[name="weight"]')];
 const models=[...document.querySelectorAll('input[name="forecastmodel"],input[name="methodforecastmodel"]')];
