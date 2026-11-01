@@ -25,11 +25,11 @@ footer{font:12px system-ui;color:#607084}
 @media(max-width:760px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}header,main,footer{padding:16px}}
 
 .journey{margin-top:28px}.step{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}.stepno{background:#152b47;color:white;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;font:700 16px system-ui}.step h3{margin:0 0 5px;font-size:21px}.step p{margin:7px 0}.tag{display:inline-block;font:700 11px system-ui;text-transform:uppercase;letter-spacing:.05em;color:#315d88;background:#e9f1fa;padding:3px 7px;border-radius:3px}.tag.todo{background:#f7edda;color:#88601e}.mini{font:13px system-ui;color:#566879}.formula{font:15px ui-monospace,monospace;background:#f2f5f8;padding:11px;overflow:auto}.diagram{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:20px 0}.diagram div{background:#eef2f7;border-top:4px solid #3478c8;padding:13px 9px;text-align:center;font:12px system-ui}.diagram strong{display:block;font:700 14px system-ui;color:#152b47;margin-bottom:5px}.diagram .pending{border-top-color:#c74747;background:#f9f0ed}.phase{display:grid;grid-template-columns:130px 1fr;gap:16px;border-top:1px solid var(--line);padding:18px 0}.phase strong{color:#152b47}.illustration{background:#f3f6f9;border:1px solid var(--line);padding:15px;margin:12px 0}.illustration svg{max-width:740px;margin:auto}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.two>div{background:#f2f5f8;padding:14px}.two h4{margin:0 0 7px}@media(max-width:760px){.diagram{grid-template-columns:1fr 1fr}.phase{grid-template-columns:1fr}.two{grid-template-columns:1fr}}
-</style></head>
+.test-toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end}.test-toolbar label{margin:0;min-width:120px}.test-toolbar select,.test-toolbar input{margin-top:5px}.test-toolbar button{padding:10px 18px;background:#152b47;color:white;border:0;border-radius:3px;cursor:pointer}.test-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}.test-kpis>div{padding:12px;background:#f2f5f8}.test-kpis strong{font:700 25px system-ui;display:block}.test-kpis small{font:12px system-ui;color:#53657b}.test-table{width:100%;border-collapse:collapse;font:13px system-ui}.test-table th,.test-table td{padding:9px 7px;text-align:right;border-bottom:1px solid #d9dee5}.test-table th:first-child,.test-table td:first-child{text-align:left}.test-table-wrap{overflow:auto}.test-chart{width:100%;height:auto}.test-legend{font:12px system-ui;display:flex;gap:15px;flex-wrap:wrap}.test-legend span:before{content:"";display:inline-block;width:12px;height:4px;background:var(--swatch);vertical-align:middle;margin-right:5px}.test-muted{font:13px system-ui;color:#53657b}@media(max-width:600px){.test-kpis{grid-template-columns:1fr 1fr}}</style></head>
 <body><header><nav><a href="senatsvalg.html">Senatsvalget</a><a href="metode.html">Metodesiden</a><a href="../index.html">Projektforsiden</a></nav>
 <p class="kicker">Senatsvalget 2026 · Forsøgslaboratorium</p><h1>Fra målinger til valgdag</h1>
 <p class="lead">Et særskilt værksted til at afprøve den foreløbige fremskrivningsmodel. Sammenlign lineær trend, acceleration og aftagende trend – uden at ændre prognosen på hovedsiden.</p>
-<div class="controls" style="margin:18px 0"><a href="#metode-trin" style="display:inline-block;background:#152b47;color:white;padding:11px 16px;border-radius:3px;font:700 14px system-ui;text-decoration:none">Se metodegennemgangen ↓</a><a href="#naeste-trin" style="display:inline-block;border:1px solid #152b47;color:#152b47;padding:10px 16px;border-radius:3px;font:700 14px system-ui;text-decoration:none">Se næste trin ↓</a></div>
+<div class="controls" style="margin:18px 0"><a href="#metode-trin" style="display:inline-block;background:#152b47;color:white;padding:11px 16px;border-radius:3px;font:700 14px system-ui;text-decoration:none">Se metodegennemgangen ↓</a><a href="#rolling-origin" style="display:inline-block;border:1px solid #152b47;color:#152b47;padding:10px 16px;border-radius:3px;font:700 14px system-ui;text-decoration:none">Se rolling-origin-test ↓</a><a href="#naeste-trin" style="display:inline-block;border:1px solid #152b47;color:#152b47;padding:10px 16px;border-radius:3px;font:700 14px system-ui;text-decoration:none">Se næste trin ↓</a></div>
 <div class="note"><strong>Forsøgsmodel – ikke en valideret valgprognose.</strong> Siden starter med illustrative målinger. Historisk grundprognose, approval, incumbency og sandsynligheder er endnu ikke kalibreret. Intet her påvirker hjemmesidens aktive model.</div></header>
 <main><div class="layout"><section class="panel"><h2>Indstillinger</h2>
 <label for="scenario">Eksempel</label><select id="scenario"><option value="rising">Stigende demokratisk trend</option><option value="falling">Stigende republikansk trend</option><option value="flat">Stabile målinger</option></select>
@@ -55,7 +55,20 @@ footer{font:12px system-ui;color:#607084}
 <details><summary>4. Huseffekter og målingskvalitet</summary><p>Den eksisterende forsøgsmodel har allerede relative huseffekter. Disse skal valideres særskilt, inden de indgår i den endelige model.</p></details>
 <details><summary>5. Sandsynlighedsmodel</summary><p>Den næste fase skal teste nationale, regionale og lokale fejl og deres betydning for delstatschancer og mandatfordeling. Denne side viser indtil videre kun forventede marginer.</p></details>
 </section>
-<section class="panel journey" id="metode-trin" style="scroll-margin-top:20px"><p class="kicker">Dokumentation · status november 2026</p><h2>Sådan er forsøgsmodellen blevet til</h2>
+<section class="panel journey" id="rolling-origin" style="scroll-margin-top:20px">
+<p class="kicker">Fase 3 · Første empiriske test</p><h2>Rolling-origin: Kan modellerne forudsige senere målinger?</h2>
+<p>Her testes de fire fremskrivninger på <strong>hjemmesidens registrerede målinger</strong>, ikke på opdigtede eksempler. Hver prognose bruger kun målinger, hvis feltperiode var afsluttet på prognosedatoen. Derefter sammenlignes den med gennemsnittet af målinger, der afsluttes på en senere dato. Målinger med samme slutdato behandles samlet.</p>
+<div class="test-toolbar"><label>Vægtning<select id="testWeighted"><option value="false">Lige</option><option value="true">Tidsvægtet</option></select></label><label>Halveringstid (uger)<input id="testHalf" type="number" min="1" max="24" value="4"></label><label>Trendens aftagning τ (uger)<input id="testTau" type="number" min="0.5" max="24" step="0.5" value="4"></label><button id="runRolling" type="button">Beregn test</button></div>
+<div class="test-kpis"><div><small>Delstater med test</small><strong id="testStates">—</strong></div><div><small>Prognose–målingspar</small><strong id="testPairs">—</strong></div><div><small>Bedste model på MAE</small><strong id="testBest">—</strong></div></div>
+<p id="testStatus" class="test-muted" role="status"></p>
+<h3>Samlet modelpræcision</h3><div class="test-table-wrap"><table class="test-table"><thead><tr><th>Model</th><th>Test (n)</th><th>MAE (pp)</th><th>Bias (pp)</th><th>RMSE (pp)</th></tr></thead><tbody id="testOverall"></tbody></table></div>
+<p class="test-muted">MAE er den gennemsnitlige absolutte fejl. Bias er observeret minus forudsagt margin (positiv = modellen undervurderer D). RMSE vægter store fejl ekstra højt. Antal tests kan variere mellem modellerne, fordi trend og acceleration kræver tilstrækkelig historik.</p>
+<h3>Fejl efter tidshorisont</h3><svg class="test-chart" id="testChart" viewBox="0 0 740 310" role="img" aria-label="MAE fordelt på prognosehorisont og model"></svg>
+<div class="test-legend"><span style="--swatch:#152b47">Uændret margin</span><span style="--swatch:#3478c8">Aftagende trend</span><span style="--swatch:#c74747">Lineær</span><span style="--swatch:#9a7c31">Acceleration</span></div>
+<div class="test-table-wrap"><table class="test-table"><thead><tr><th>Horisont</th><th>Uændret</th><th>Aftagende</th><th>Lineær</th><th>Acceleration</th></tr></thead><tbody id="testBins"></tbody></table></div>
+<h3>Resultater pr. delstat</h3><p class="test-muted">MAE i procentpoint. En tankestreg betyder, at der ikke er tilstrækkelige målinger til at beregne modellen.</p><div class="test-table-wrap"><table class="test-table"><thead><tr><th>Delstat</th><th>Målinger</th><th>Tests</th><th>Uændret</th><th>Aftagende</th><th>Lineær</th><th>Acceleration</th></tr></thead><tbody id="testByState"></tbody></table></div>
+<details><summary>Sådan læses testen og dens begrænsninger</summary><p>En prognose laves efter afslutningen af feltperioden for den seneste kendte måling. Testen bruger ikke målinger med en senere slutdato til at træne modellen. Den tager dog ikke højde for den faktiske offentliggørelsesdato: en måling kan være offentliggjort senere end feltperiodens afslutning. Testen er derfor ikke en fuldt lækagefri historisk simulering.</p><p>Alle mulige prognosedatoer og efterfølgende målinger inden for 12 uger tæller med. Det giver overlappende, indbyrdes afhængige fejl, og delstater med mange målinger vejer tungere i den samlede MAE. Det er en diagnostisk sammenligning, ikke et uafhængigt mål for valgprognosernes nøjagtighed. Modeller med forskellige n bør ikke rangordnes direkte; næste iteration bør teste dem på samme sammenlignelige observationer og indføre delstatsvægtning.</p><p>Data indeholder kun registrerede målinger i hjemmesidens database. Resultaterne er ikke testet mod faktiske valgresultater. En lav MAE her dokumenterer derfor ikke en bedre valgprognose.</p></details>
+</section><section class="panel journey" id="metode-trin" style="scroll-margin-top:20px"><p class="kicker">Dokumentation · status november 2026</p><h2>Sådan er forsøgsmodellen blevet til</h2>
 <p>Vi arbejder med to forskellige ting: <strong>en forventet margin</strong> (hvor meget D eller R forventes at føre) og <strong>usikkerhed</strong> (hvor sikkert er udfaldet?). Dette værksted demonstrerer først og fremmest den forventede margin. Den eksisterende hovedside har også en særskilt sandsynlighedsmodel, som endnu ikke er erstattet af forsøgsmodellen.</p>
 <div class="diagram" aria-label="Oversigt over modellens fem led"><div><strong>1 · Målinger</strong>Dato og D−R-margin</div><div><strong>2 · Niveau</strong>Gennemsnit og vægtning</div><div><strong>3 · Bevægelse</strong>Trend og acceleration</div><div><strong>4 · Valgdag</strong>Tre fremskrivninger</div><div class="pending"><strong>5 · Validering</strong>Historiske valgresultater</div></div>
 <div class="step"><div class="stepno">1</div><div><span class="tag">Implementeret</span><h3>Vi læser målingernes dato og margin</h3><p>Hver måling beskrives ved feltperioden og marginen mellem demokrater og republikanere. Vi anvender midten af feltperioden som målingens tidspunkt. Positive tal betyder demokratisk føring; negative betyder republikansk.</p><p class="formula">Margin = demokratisk andel − republikansk andel</p><p class="mini">Eksempel: D 48 %, R 45 % → D +3 procentpoint. I værkstedets tekstfelt kan du selv indtaste målinger.</p></div></div>
@@ -76,7 +89,7 @@ footer{font:12px system-ui;color:#607084}
 <div class="phase"><strong>Fase 6</strong><div><h3>10.000 sammenhængende valgsimuleringer</h3><p>Træk nationale, regionale og delstatsspecifikke fejl i hver simulering. Optæl mandater og beregn fordelingen af mulige udfald. Vis både sandsynligheder og en intuitiv prikgraf med sikre og usikre udfald. Sammenlign med den nuværende analytiske sandsynlighedsmodel.</p></div></div>
 <div class="phase"><strong>Fase 7</strong><div><h3>Samlet model og præsentation</h3><p>Når testresultaterne foreligger, kan vi vælge standardmodel, bevare en klassisk model som sammenligningsgrundlag og lade hovedside, metodeside og præsentation hente beregninger fra samme kode. Først derefter bør en ny prognose sættes i drift.</p></div></div>
 </section></main><footer>Modelværksted · særskilt forsøgsside · ingen ændringer i aktive prognoser</footer>
-<script src="js/forecast-candidates.js"></script><script>
+<script src="js/forecast-candidates.js"></script><script src="data/polls.js"></script><script src="js/rolling-origin.js"></script><script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id),api=window.SenateForecastCandidates;
 const scenarios={
@@ -117,5 +130,37 @@ function render(){
 }
 $('scenario').addEventListener('change',load);$('reset').addEventListener('click',load);$('apply').addEventListener('click',render);
 ['kind','weighted','half','tau','horizon'].forEach(id=>$(id).addEventListener('input',render));load();
+})();
+</script><script>
+(()=>{'use strict';
+const $=id=>document.getElementById(id),kinds=['baseline','damped','linear','quadratic'],palette=['#152b47','#3478c8','#c74747','#9a7c31'];
+const fmt=n=>Number.isFinite(n)?n.toFixed(2):'—';
+const ns='http://www.w3.org/2000/svg';
+function svgEl(tag,attrs,text){const el=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));if(text!=null)el.textContent=text;return el;}
+function draw(bins){
+ const svg=$('testChart');svg.replaceChildren();const vals=bins.flatMap(b=>kinds.map(k=>b.results[k].mae).filter(Number.isFinite));const max=Math.max(1,...vals)*1.18;
+ for(let i=0;i<=4;i++){const y=245-i*195/4;svg.appendChild(svgEl('line',{x1:48,y1:y,x2:720,y2:y,stroke:'#dfe5ed'}));svg.appendChild(svgEl('text',{x:41,y:y+4,'text-anchor':'end','font-size':11,fill:'#53657b'},(max*i/4).toFixed(1)));}
+ bins.forEach((b,i)=>{const cx=105+i*133;svg.appendChild(svgEl('text',{x:cx,y:275,'text-anchor':'middle','font-size':11,fill:'#53657b'},b.label));kinds.forEach((k,j)=>{const v=b.results[k].mae;if(!Number.isFinite(v))return;const x=cx-43+j*22,y=245-v/max*195;svg.appendChild(svgEl('rect',{x,y,width:18,height:245-y,fill:palette[j]}));});});
+ svg.appendChild(svgEl('text',{x:14,y:17,'font-size':12,fill:'#53657b'},'MAE (pp)'));
+}
+function run(){
+ try{
+ const rows=typeof MODEL!=='undefined'?MODEL.states:null;
+ if(!Array.isArray(rows))throw Error('Målingsdatabasen kunne ikke indlæses.');
+ const weighted=$('testWeighted').value==='true',half=Number($('testHalf').value),tau=Number($('testTau').value);
+ if(!Number.isFinite(half)||half<1||half>24||!Number.isFinite(tau)||tau<.5||tau>24)throw Error('Kontrollér halveringstid og τ.');
+ const result=window.SenateRollingOrigin.run(rows,{weighted,half,tau});
+ $('testStates').textContent=result.validStates+' / '+result.states;
+ $('testPairs').textContent=result.records.length.toLocaleString('da-DK');
+ const sorted=kinds.filter(k=>result.overall[k].n).sort((a,b)=>result.overall[a].mae-result.overall[b].mae);
+ $('testBest').textContent=sorted.length?result.names[sorted[0]]:'Ingen';
+ $('testOverall').innerHTML=kinds.map(k=>{const x=result.overall[k];return '<tr><td>'+result.names[k]+'</td><td>'+x.n+'</td><td>'+fmt(x.mae)+'</td><td>'+fmt(x.bias)+'</td><td>'+fmt(x.rmse)+'</td></tr>'}).join('');
+ $('testBins').innerHTML=result.bins.map(b=>'<tr><td>'+b.label+'</td>'+kinds.map(k=>'<td>'+fmt(b.results[k].mae)+' <small>(n='+b.results[k].n+')</small></td>').join('')+'</tr>').join('');
+ $('testByState').innerHTML=result.byState.filter(s=>s.tests).sort((a,b)=>a.state.localeCompare(b.state,'da')).map(s=>'<tr><td>'+s.state+'</td><td>'+s.polls+'</td><td>'+s.tests+'</td>'+kinds.map(k=>'<td>'+fmt(s.results[k].mae)+'</td>').join('')+'</tr>').join('');
+ $('testStatus').textContent='Beregnet på '+result.records.length+' prognose–målingspar. Rangeringen er foreløbig, fordi modellerne ikke altid testes på samme observationer.';
+ draw(result.bins);
+ }catch(e){$('testStatus').textContent='Testen kunne ikke gennemføres: '+e.message;}
+}
+$('runRolling').addEventListener('click',run);run();
 })();
 </script></body></html>
