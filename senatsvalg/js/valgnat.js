@@ -43,7 +43,7 @@ const combined=r=>{const e=exits[r.state];if(!e)return r.margin;if(r.margin==nul
 const leading=(m,inc)=>m==null||Math.abs(m)<1e-10?inc:m>0?'D':'R';
 const fixedDem=47-SOURCE.filter(r=>group(r.inc)==='D').length;
 const fixedRep=100-SOURCE.length-fixedDem;
-const CATEGORY_LABELS={called:'Kaldte stater',likely:'Meget sandsynlige',close:'Tætte valg',toss:'For tætte til at kalde'};
+const CATEGORY_LABELS={called:'Faste og kaldte stater',likely:'Meget sandsynlige',close:'Tætte valg',toss:'For tætte til at kalde'};
 const categoryEnabled={called:true,likely:true,close:true,toss:true};
 function categoryFor(r){
  const e=exits[r.state];
@@ -55,14 +55,15 @@ function categoryFor(r){
  return {category:Math.abs(margin)<=tossLimit?'toss':Math.abs(margin)<=5?'close':'likely',party:leading(margin,r.inc)};
 }
 function drawFixedMandates(){
- const counts={D:{called:0,likely:0,close:0,toss:0},R:{called:0,likely:0,close:0,toss:0}};
+ const counts={D:{called:fixedDem,likely:0,close:0,toss:0},R:{called:fixedRep,likely:0,close:0,toss:0}};
  for(const r of snapshot){const {category,party}=categoryFor(r);counts[party][category]++;}
- for(const [id,fixed,party,partyName] of [['ruler-fixed-dem',fixedDem,'D','D/I'],['ruler-fixed-rep',fixedRep,'R','R']]){
+ for(const [id,party,partyName] of [['ruler-fixed-dem','D','D/I'],['ruler-fixed-rep','R','R']]){
   const el=$(id);if(!el)continue;
-  el.style.width=fixed+'%';el.textContent=fixed+' faste';el.title=partyName+': '+fixed+' mandater, der ikke er på valg';
+  // Faste mandater og kaldte stater vises som én samlet, mørk blok.
+  el.style.display='none';
   const track=el.parentElement;
   track.querySelectorAll('.ruler-category').forEach(n=>n.remove());
-  let offset=fixed;
+  let offset=0;
   for(const key of ['called','likely','close','toss']){
    const n=counts[party][key];if(!n||!categoryEnabled[key])continue;
    const seg=document.createElement('span');
@@ -70,14 +71,15 @@ function drawFixedMandates(){
    seg.style.left=offset+'%';seg.style.width=n+'%';
    seg.title=partyName+' · '+CATEGORY_LABELS[key]+': '+n+' mandater';
    seg.setAttribute('aria-label',seg.title);
-   if(n>=5)seg.textContent=n;
+   const count=document.createElement('span');count.className='ruler-category-count';count.textContent=String(n);
+   seg.appendChild(count);
    track.appendChild(seg);offset+=n;
   }
  }
  const note=$('mandate-category-note');
  if(note){
   const withExits=snapshot.filter(r=>exits[r.state]).length;
-  note.textContent='For tætte til at kalde: '+(withExits?'±1 procentpoint for '+withExits+' valg med exitpoll; ±2 for øvrige valg.':'±2 procentpoint indtil der foreligger exitpolls.')+' Tætte valg: over grænsen til og med ±5. Meget sandsynlige: over ±5 eller uden målinger (fastholdt hos siddende parti). Skjulte kategorier optager ikke plads i barerne.';
+  note.textContent='Faste og kaldte stater er samlet. For tætte til at kalde: '+(withExits?'±1 procentpoint for '+withExits+' valg med exitpoll; ±2 for øvrige valg.':'±2 procentpoint indtil der foreligger exitpolls.')+' Tætte valg: over grænsen til og med ±5. Meget sandsynlige: over ±5 eller uden målinger (fastholdt hos siddende parti).';
  }
 }
 function initMandateCategories(){
