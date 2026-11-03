@@ -43,28 +43,62 @@ const combined=r=>{const e=exits[r.state];if(!e)return r.margin;if(r.margin==nul
 const leading=(m,inc)=>m==null||Math.abs(m)<1e-10?inc:m>0?'D':'R';
 const fixedDem=47-SOURCE.filter(r=>group(r.inc)==='D').length;
 const fixedRep=100-SOURCE.length-fixedDem;
+const CATEGORY_LABELS={called:'Kaldte stater',likely:'Meget sandsynlige',close:'Tætte valg',toss:'For tætte til at kalde',unknown:'Uden målinger'};
+const categoryEnabled={called:true,likely:true,close:true,toss:true,unknown:true};
+function categoryFor(r){
+ const e=exits[r.state];
+ // A verified call must be explicitly published in the feed, not inferred from a margin.
+ if(FEED.calls&&Object.prototype.hasOwnProperty.call(FEED.calls,r.state)&&['D','R'].includes(FEED.calls[r.state]))return {category:'called',party:FEED.calls[r.state]};
+ const margin=e?e.margin:r.margin;
+ if(margin==null)return {category:'unknown',party:r.inc};
+ const tossLimit=e?1:2; // Switch individually when real exitpoll data are published.
+ return {category:Math.abs(margin)<=tossLimit?'toss':Math.abs(margin)<=5?'close':'likely',party:leading(margin,r.inc)};
+}
 function drawFixedMandates(){
- for(const [id,count,party] of [['ruler-fixed-dem',fixedDem,'D/I'],['ruler-fixed-rep',fixedRep,'R']]){
+ const counts={D:{called:0,likely:0,close:0,toss:0,unknown:0},R:{called:0,likely:0,close:0,toss:0,unknown:0}};
+ for(const r of snapshot){const {category,party}=categoryFor(r);counts[party][category]++;}
+ for(const [id,fixed,party,partyName] of [['ruler-fixed-dem',fixedDem,'D','D/I'],['ruler-fixed-rep',fixedRep,'R','R']]){
   const el=$(id);if(!el)continue;
-  el.style.width=count+'%';
-  el.textContent=count+' faste mandater';
-  el.title=party+': '+count+' mandater, der ikke er på valg i 2026';
-  el.setAttribute('aria-label',el.title);
+  el.style.width=fixed+'%';el.textContent=fixed+' faste';el.title=partyName+': '+fixed+' mandater, der ikke er på valg';
+  const track=el.parentElement;
+  track.querySelectorAll('.ruler-category').forEach(n=>n.remove());
+  let offset=fixed;
+  for(const key of ['called','likely','close','toss','unknown']){
+   const n=counts[party][key];if(!n)continue;
+   const seg=document.createElement('span');
+   seg.className='ruler-category cat-'+key+(categoryEnabled[key]?'':' is-hidden');
+   seg.style.left=offset+'%';seg.style.width=n+'%';
+   seg.title=partyName+' · '+CATEGORY_LABELS[key]+': '+n+' mandater';
+   seg.setAttribute('aria-label',seg.title);
+   if(n>=5)seg.textContent=n;
+   track.appendChild(seg);offset+=n;
+  }
  }
+ const note=$('mandate-category-note');
+ if(note){
+  const withExits=snapshot.filter(r=>exits[r.state]).length;
+  note.textContent='For tætte til at kalde: ±'+(withExits?'1 procentpoint for '+withExits+' valg med exitpoll; ±2 procentpoint for øvrige valg.':'2 procentpoint indtil der foreligger exitpolls.')+' Tætte valg: over den grænse til og med ±5. Meget sandsynlige: over ±5. Kaldte stater kræver et verificeret valgkald.';
+ }
+}
+function initMandateCategories(){
+ const box=$('mandate-category-controls');if(!box)return;
+ box.innerHTML=Object.entries(CATEGORY_LABELS).map(([key,label])=>'<label class="mandate-filter"><input type="checkbox" data-category="'+key+'" checked><span class="mandate-filter-swatch cat-'+key+'"></span>'+label+'</label>').join('');
+ box.querySelectorAll('input').forEach(input=>input.addEventListener('change',()=>{categoryEnabled[input.dataset.category]=input.checked;drawFixedMandates();}));
 }
 
 function seatTotals(which){let d=fixedDem;for(const r of snapshot){const e=exits[r.state];const margin=which==='before'?r.margin:which==='exit'?(e?e.margin:r.margin):combined(r);if(leading(margin,r.inc)==='D')d++;}return {d,r:100-d};}
 function drawTimeline(){const el=$('timeline');el.innerHTML='';TIMES.forEach((item,i)=>{const b=document.createElement('button');b.type='button';b.className=(i===activeTime?'active ':'')+([0,3,4,6,9,10].includes(i)?'important':'');b.setAttribute('aria-pressed',String(i===activeTime));b.innerHTML=`<span class="hour">${item.t}</span><span class="caption">${item.label}</span>`;b.addEventListener('click',()=>{activeTime=i;drawTimeline();});el.appendChild(b);});const item=TIMES[activeTime];$('timeline-detail').innerHTML=`<strong>${item.t} · ${esc(item.label)}</strong><div>${esc(item.text)}</div>`;}
 function drawSeats(){
  const list=[
-  {label:'Opdateret margin',desc:`Tidligere margin og exitpoll vægtet sammen (${weight} % exitpoll).`,key:'updated'},
-  {label:'Exitpoll som signal',desc:'Exitpoll-margin, hvor den findes; ellers målingsgrundlaget.',key:'exit'}
+  {label:'Opdateret margin',desc:`Tidligere margin og exitpoll vægtet sammen (${weight} % exitpoll).`,key:'updated',help:'For hver delstat kombineres den tidligere meningsmålingsmargin med en eventuel exitpoll. Exitpolls vægter '+weight+' %, og målingerne '+(100-weight)+' %. Uden exitpoll anvendes kun målingsmarginen. Mandatet tildeles den side, der fører efter sammenvejningen.'},
+  {label:'Exitpoll som signal',desc:'Exitpoll-margin, hvor den findes; ellers målingsgrundlaget.',key:'exit',help:'Når der er en exitpoll for en delstat, bruges dens margin alene til at tildele mandatet. Hvis der endnu ikke er en exitpoll, bruges meningsmålingsmarginen. Det er et alternativt signal – ikke en uafhængig prognose.'}
  ];
  $('seat-bars').innerHTML=list.map((item,i)=>{
   const {d,r}=seatTotals(item.key);
   const guides=[33,40,49,51,60,67].map(n=>`<span class="seat-guide ${n===49||n===51?'major':''}" style="left:${n}%" title="${n} D/I / ${100-n} R"></span>`).join('');
-  return `<div class="seat-item ${i===0?'seat-featured':''}"><div class="seat-label"><strong>${item.label}</strong><small>${item.desc}</small></div><div><div class="seat-values"><span class="d">D/I <b>${d}</b></span><span class="r">R <b>${r}</b></span></div><div class="seat-track" aria-label="${item.label}: D/I ${d}, R ${r}"><div class="seat-part d" style="width:${d}%">${d>=8?'D/I':''}</div><div class="seat-part r" style="width:${r}%">${r>=8?'R':''}</div>${guides}</div></div></div>`;
+  return `<div class="seat-item ${i===0?'seat-featured':''}"><div class="seat-label"><strong>${item.label}</strong><button type="button" class="seat-info" aria-label="Forklaring af ${item.label}" aria-expanded="false" data-info="${item.key}">i</button><small>${item.desc}</small><p class="seat-info-detail" hidden>${esc(item.help)}</p></div><div><div class="seat-values"><span class="d">D/I <b>${d}</b></span><span class="r">R <b>${r}</b></span></div><div class="seat-track" aria-label="${item.label}: D/I ${d}, R ${r}"><div class="seat-part d" style="width:${d}%">${d>=8?'D/I':''}</div><div class="seat-part r" style="width:${r}%">${r>=8?'R':''}</div>${guides}</div></div></div>`;
  }).join('');
+ $('seat-bars').querySelectorAll('.seat-info').forEach(btn=>btn.addEventListener('click',()=>{const panel=btn.parentElement.querySelector('.seat-info-detail');panel.hidden=!panel.hidden;btn.setAttribute('aria-expanded',String(!panel.hidden));}));
 }
 const NS='http://www.w3.org/2000/svg';
 function svgEl(tag,attrs={},text){const el=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))el.setAttribute(k,String(v));if(text!==undefined)el.textContent=String(text);return el;}
@@ -129,6 +163,7 @@ function render(){
  $('rendered-at').textContent=typeof date==='string'&&date.trim()?date:'Målinger fra Senatsvalg · endnu ingen publiceret valgnatsopdatering';
 }
 function init(){
+ initMandateCategories();
  drawFixedMandates();
  drawTimeline();
  for(const r of SOURCE){const o=document.createElement('option');o.value=r.state;o.textContent=r.state;$('state-select').appendChild(o);}
