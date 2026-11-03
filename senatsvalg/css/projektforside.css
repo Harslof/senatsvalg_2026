@@ -42,3 +42,9 @@
   .project-button strong {font-size:11px}
   .cover h1 {font-size:34px}
 }
+
+/* Election-night call to action on project cover. */
+.election-night-button{background:linear-gradient(135deg,#c52c35,#e34d45);border:2px solid #ffaaa0;color:#fff;box-shadow:0 0 20px rgba(234,65,65,.52),0 8px 28px rgba(0,0,0,.32);animation:electionNightGlow 2.6s ease-in-out infinite alternate}
+.election-night-button:hover,.election-night-button:focus-visible{background:linear-gradient(135deg,#d9303a,#f05c51);box-shadow:0 0 32px rgba(255,86,76,.75)}
+@keyframes electionNightGlow{from{box-shadow:0 0 12px rgba(234,65,65,.3),0 8px 28px rgba(0,0,0,.32)}to{box-shadow:0 0 27px rgba(234,65,65,.72),0 8px 28px rgba(0,0,0,.32)}}
+@media(prefers-reduced-motion:reduce){.election-night-button{animation:none}}
