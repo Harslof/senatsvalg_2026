@@ -67,11 +67,11 @@ function drawFixedMandates(){
   for(const key of ['called','likely','close','toss']){
    const n=counts[party][key];if(!n||!categoryEnabled[key])continue;
    const seg=document.createElement('span');
-   seg.className='ruler-category cat-'+key+' party-'+party.toLowerCase();
+   seg.className='ruler-category cat-'+key+' party-'+party.toLowerCase()+(n<5?' ruler-category-narrow':'');
    seg.style.left=offset+'%';seg.style.width=n+'%';
    seg.title=partyName+' · '+CATEGORY_LABELS[key]+': '+n+' mandater';
    seg.setAttribute('aria-label',seg.title);
-   const count=document.createElement('span');count.className='ruler-category-count';count.textContent=String(n);
+   const count=document.createElement('span');count.className='ruler-category-count';count.textContent=String(n);count.setAttribute('aria-hidden','true');
    seg.appendChild(count);
    track.appendChild(seg);offset+=n;
   }
