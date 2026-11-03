@@ -43,19 +43,19 @@ const combined=r=>{const e=exits[r.state];if(!e)return r.margin;if(r.margin==nul
 const leading=(m,inc)=>m==null||Math.abs(m)<1e-10?inc:m>0?'D':'R';
 const fixedDem=47-SOURCE.filter(r=>group(r.inc)==='D').length;
 const fixedRep=100-SOURCE.length-fixedDem;
-const CATEGORY_LABELS={called:'Kaldte stater',likely:'Meget sandsynlige',close:'Tætte valg',toss:'For tætte til at kalde',unknown:'Uden målinger'};
-const categoryEnabled={called:true,likely:true,close:true,toss:true,unknown:true};
+const CATEGORY_LABELS={called:'Kaldte stater',likely:'Meget sandsynlige',close:'Tætte valg',toss:'For tætte til at kalde'};
+const categoryEnabled={called:true,likely:true,close:true,toss:true};
 function categoryFor(r){
  const e=exits[r.state];
  // A verified call must be explicitly published in the feed, not inferred from a margin.
  if(FEED.calls&&Object.prototype.hasOwnProperty.call(FEED.calls,r.state)&&['D','R'].includes(FEED.calls[r.state]))return {category:'called',party:FEED.calls[r.state]};
  const margin=e?e.margin:r.margin;
- if(margin==null)return {category:'unknown',party:r.inc};
+ if(margin==null)return {category:'likely',party:r.inc};
  const tossLimit=e?1:2; // Switch individually when real exitpoll data are published.
  return {category:Math.abs(margin)<=tossLimit?'toss':Math.abs(margin)<=5?'close':'likely',party:leading(margin,r.inc)};
 }
 function drawFixedMandates(){
- const counts={D:{called:0,likely:0,close:0,toss:0,unknown:0},R:{called:0,likely:0,close:0,toss:0,unknown:0}};
+ const counts={D:{called:0,likely:0,close:0,toss:0},R:{called:0,likely:0,close:0,toss:0}};
  for(const r of snapshot){const {category,party}=categoryFor(r);counts[party][category]++;}
  for(const [id,fixed,party,partyName] of [['ruler-fixed-dem',fixedDem,'D','D/I'],['ruler-fixed-rep',fixedRep,'R','R']]){
   const el=$(id);if(!el)continue;
@@ -63,10 +63,10 @@ function drawFixedMandates(){
   const track=el.parentElement;
   track.querySelectorAll('.ruler-category').forEach(n=>n.remove());
   let offset=fixed;
-  for(const key of ['called','likely','close','toss','unknown']){
-   const n=counts[party][key];if(!n)continue;
+  for(const key of ['called','likely','close','toss']){
+   const n=counts[party][key];if(!n||!categoryEnabled[key])continue;
    const seg=document.createElement('span');
-   seg.className='ruler-category cat-'+key+(categoryEnabled[key]?'':' is-hidden');
+   seg.className='ruler-category cat-'+key+' party-'+party.toLowerCase();
    seg.style.left=offset+'%';seg.style.width=n+'%';
    seg.title=partyName+' · '+CATEGORY_LABELS[key]+': '+n+' mandater';
    seg.setAttribute('aria-label',seg.title);
@@ -77,7 +77,7 @@ function drawFixedMandates(){
  const note=$('mandate-category-note');
  if(note){
   const withExits=snapshot.filter(r=>exits[r.state]).length;
-  note.textContent='For tætte til at kalde: ±'+(withExits?'1 procentpoint for '+withExits+' valg med exitpoll; ±2 procentpoint for øvrige valg.':'2 procentpoint indtil der foreligger exitpolls.')+' Tætte valg: over den grænse til og med ±5. Meget sandsynlige: over ±5. Kaldte stater kræver et verificeret valgkald.';
+  note.textContent='For tætte til at kalde: '+(withExits?'±1 procentpoint for '+withExits+' valg med exitpoll; ±2 for øvrige valg.':'±2 procentpoint indtil der foreligger exitpolls.')+' Tætte valg: over grænsen til og med ±5. Meget sandsynlige: over ±5 eller uden målinger (fastholdt hos siddende parti). Skjulte kategorier optager ikke plads i barerne.';
  }
 }
 function initMandateCategories(){
@@ -114,6 +114,27 @@ function drawChart(){const rows=orderedStates(),W=1280,H=383,x0=68,x1=1256,y0=16
  svg.appendChild(svgEl('text',{x:58,y:17,'font-size':12,'font-weight':700,fill:'#7ba9e0'},'DEMOKRATISK FØRING ↑'));
  svg.appendChild(svgEl('text',{x:58,y:327,'font-size':12,'font-weight':700,fill:'#e08b78'},'REPUBLIKANSK FØRING ↓'));
  svg.appendChild(svgEl('text',{x:58,y:359,'font-size':10,fill:'#aeb7c1'},'— = ingen målinger; siddende parti fastholdes'));
+ // Mandatgrænser for de 35 valg: medregn de 34 faste D/I- og 31 faste R-mandater.
+ // Linjerne er kun meningsfulde i margin-sortering, hvor hver delstat svarer til ét mandat.
+ if($('sort-states').value==='margin'){
+  const boundaries=[
+   {party:'D/I',n:51,after:51-fixedDem,color:'#9cc9ff'},
+   {party:'D/I',n:60,after:60-fixedDem,color:'#9cc9ff'},
+   {party:'D/I',n:67,after:67-fixedDem,color:'#9cc9ff'},
+   {party:'R',n:51,after:rows.length-(51-fixedRep),color:'#ffb5a6'},
+   {party:'R',n:60,after:rows.length-(60-fixedRep),color:'#ffb5a6'},
+   {party:'R',n:67,after:rows.length-(67-fixedRep),color:'#ffb5a6'}
+  ];
+  for(const mark of boundaries){
+   if(mark.after<1||mark.after>=rows.length)continue;
+   const xx=(x(mark.after-1)+x(mark.after))/2;
+   const line=svgEl('line',{x1:xx,x2:xx,y1:top,y2:bottom,stroke:mark.color,'stroke-width':1.8,'stroke-dasharray':'6 5','stroke-opacity':'.85'});
+   line.appendChild(svgEl('title',{},mark.party+' '+mark.n+' mandater ('+(mark.party==='D/I'?fixedDem:fixedRep)+' faste mandater medregnet)'));
+   svg.appendChild(line);
+   const txt=svgEl('text',{x:xx+3,y:mark.party==='D/I'?40:55,'font-size':10,'font-weight':700,fill:mark.color},mark.party+' '+mark.n);
+   svg.appendChild(txt);
+  }
+ }
  rows.forEach((r,i)=>{const xx=x(i),g=svgEl('g',{class:`state-group${r.state===selected?' selected':''}`,tabindex:'0',role:'button','aria-label':r.state});const exit=exits[r.state],c=combined(r),show=$('show-exit').checked;
  if(r.state===selected)g.appendChild(svgEl('rect',{x:xx-15,y:23,width:30,height:290,rx:4,fill:'#eadbb7','fill-opacity':'.11'}));
  if(r.margin!=null){if(show&&exit){g.appendChild(svgEl('line',{x1:xx,y1:y(r.margin),x2:xx,y2:y(exit.margin),stroke:exit.margin>r.margin?'#669bd3':exit.margin<r.margin?'#e4524b':'#ffffff','stroke-width':2.6,'stroke-opacity':'.95'}));}g.appendChild(svgEl('circle',{cx:xx,cy:y(r.margin),r:5,fill:'#ffffff',stroke:'#121923','stroke-width':1.2}));}
