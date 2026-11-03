@@ -197,3 +197,16 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .mandate-category-note{font-size:11px;color:#b3beca;line-height:1.6;margin:0 0 8px}
 .ruler-category{position:absolute;top:0;bottom:0;display:flex;align-items:center;justify-content:center;overflow:hidden;border-left:1px solid #111b25;font-size:10px;font-weight:700;color:#101820;transition:opacity .2s}
 .ruler-category.is-hidden{opacity:0;pointer-events:none}
+
+/* Category shades by party: progressively lighter with uncertainty; toss-ups yellow. */
+.ruler-category.party-d.cat-called{background:#1558a5;color:#fff}
+.ruler-category.party-d.cat-likely{background:#397dcb;color:#fff}
+.ruler-category.party-d.cat-close{background:#91bce8;color:#14283f}
+.ruler-category.party-r.cat-called{background:#a52328;color:#fff}
+.ruler-category.party-r.cat-likely{background:#cb4b4d;color:#fff}
+.ruler-category.party-r.cat-close{background:#e99b9d;color:#3b1819}
+.ruler-category.cat-toss{background:#f2d26b;color:#322800}
+.mandate-filter-swatch.cat-called{background:linear-gradient(90deg,#1558a5 50%,#a52328 50%)}
+.mandate-filter-swatch.cat-likely{background:linear-gradient(90deg,#397dcb 50%,#cb4b4d 50%)}
+.mandate-filter-swatch.cat-close{background:linear-gradient(90deg,#91bce8 50%,#e99b9d 50%)}
+.mandate-filter-swatch.cat-toss{background:#f2d26b}
