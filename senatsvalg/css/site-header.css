@@ -10,3 +10,9 @@
 /* Personlig signatur på alle projektsider. */
 .site-signature-footer{border-top:1px solid #d5d5d5;max-width:1200px;margin:0 auto;padding:18px 22px 28px;display:flex;justify-content:flex-end;color:#656565;background:transparent}
 .site-signature-footer span{font:700 13px Georgia,'Times New Roman',serif;letter-spacing:.06em}
+
+/* Senate election-night link, highlighted in top navigation. */
+.site-links a.nav-valgnat-live{display:inline-flex;align-items:center;justify-content:center;padding:10px 17px;border:1px solid #fba7a0;background:#c62e35;color:#fff;border-radius:4px;font-weight:800;letter-spacing:.045em;text-decoration:none;box-shadow:0 0 14px rgba(224,52,60,.5);animation:navValgnatGlow 2.5s ease-in-out infinite alternate}
+.site-links a.nav-valgnat-live:hover,.site-links a.nav-valgnat-live:focus-visible{background:#e04443;color:#fff;box-shadow:0 0 24px rgba(236,64,69,.8);text-decoration:none}
+@keyframes navValgnatGlow{from{box-shadow:0 0 8px rgba(224,52,60,.35)}to{box-shadow:0 0 22px rgba(224,52,60,.8)}}
+@media(prefers-reduced-motion:reduce){.site-links a.nav-valgnat-live{animation:none}}
