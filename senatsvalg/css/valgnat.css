@@ -182,3 +182,18 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .ruler-marker{z-index:2;top:-7px}
 .ruler-marker i{height:24px;background:#f3e6d7;box-shadow:0 0 0 1px #17212c}
 .ruler-marker b{color:#f4b4ac}
+
+/* Explanations beside election-night seat forecasts. */
+.seat-label .seat-info{display:inline-grid;place-items:center;width:19px;height:19px;padding:0;margin-left:8px;border:1px solid #bdc9d5;border-radius:50%;background:transparent;color:#f7f0e3;font:700 12px Georgia,serif;vertical-align:middle}
+.seat-label .seat-info:hover,.seat-label .seat-info[aria-expanded="true"]{background:#eae4d7;color:#121b25}
+.seat-info-detail{max-width:450px;margin:10px 0 0!important;padding:11px 13px;border-left:2px solid #669bd3;background:#1b2a37;color:#e6edf3!important;font-size:12px!important;line-height:1.6!important}
+.seat-info-detail[hidden]{display:none}
+/* Independently selectable categories; no category is mistaken for an official call. */
+.mandate-category-controls{display:flex;flex-wrap:wrap;gap:9px 17px;margin:18px 0 10px}
+.mandate-filter{display:inline-flex;align-items:center;gap:7px;font-size:11px;line-height:1.4;cursor:pointer;color:#eae4d7}
+.mandate-filter input{accent-color:#eae4d7;width:14px;height:14px}
+.mandate-filter-swatch{width:11px;height:11px;display:inline-block;flex:none}
+.cat-called{background:#57aa7b}.cat-likely{background:#789cc8}.cat-close{background:#c7a65b}.cat-toss{background:#9b86bc}.cat-unknown{background:#66717c}
+.mandate-category-note{font-size:11px;color:#b3beca;line-height:1.6;margin:0 0 8px}
+.ruler-category{position:absolute;top:0;bottom:0;display:flex;align-items:center;justify-content:center;overflow:hidden;border-left:1px solid #111b25;font-size:10px;font-weight:700;color:#101820;transition:opacity .2s}
+.ruler-category.is-hidden{opacity:0;pointer-events:none}
