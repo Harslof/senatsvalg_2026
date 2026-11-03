@@ -169,3 +169,16 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .exitpole-countdown-value{font-family:Georgia,'Times New Roman',serif;font-size:clamp(32px,5vw,57px);font-weight:700;line-height:1.12;letter-spacing:.04em;color:var(--white)}
 .exitpole-countdown.exitpole-live{border-left-color:var(--purple);background:linear-gradient(90deg,rgba(79,206,138,.14),transparent)}
 .exitpole-countdown.exitpole-live .exitpole-countdown-value{color:var(--purple)}
+
+/* Larger, clearly separated two-line election-night countdown. */
+.exitpole-countdown{display:flex;flex-direction:column;align-items:flex-start;gap:13px;padding:24px 28px;margin-top:21px;max-width:680px}
+.exitpole-countdown-label{display:block;width:100%;font-size:clamp(12px,1.45vw,16px);line-height:1.5;letter-spacing:.13em}
+.exitpole-countdown-value{display:block;width:100%;font-size:clamp(52px,8vw,100px);line-height:1.05;letter-spacing:.025em;white-space:nowrap}
+@media(max-width:520px){.exitpole-countdown{padding:19px 15px}.exitpole-countdown-value{font-size:clamp(43px,12vw,66px)}}
+/* Fixed seats in the two 100-seat mandate rulers. */
+.ruler-track{height:22px;margin:18px 17px 22px 0;background:#253442;border-radius:2px}
+.ruler-fixed{position:absolute;left:0;top:0;bottom:0;display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden;font-size:10px;font-weight:700;letter-spacing:.01em;color:#f8f5ef}
+.ruler-fixed.dem{background:#3478c8}.ruler-fixed.rep{background:#c74747}
+.ruler-marker{z-index:2;top:-7px}
+.ruler-marker i{height:24px;background:#f3e6d7;box-shadow:0 0 0 1px #17212c}
+.ruler-marker b{color:#f4b4ac}
