@@ -226,3 +226,15 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .ruler-category-count{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font:800 12px Arial,sans-serif;line-height:1;white-space:nowrap;z-index:3;text-shadow:0 0 3px currentColor}
 .ruler-category.party-d.cat-close .ruler-category-count,.ruler-category.party-r.cat-close .ruler-category-count,.ruler-category.cat-toss .ruler-category-count{text-shadow:none}
 .ruler-category[style*="width:1%"] .ruler-category-count,.ruler-category[style*="width:2%"] .ruler-category-count{top:-14px;transform:translateX(-50%);padding:2px 3px;background:#17222d;color:#fff;font-size:10px;text-shadow:none;border-radius:2px}
+
+/* Restore legible mandate counts: one number for every visible block. */
+.ruler-track{overflow:visible;margin-top:25px;margin-bottom:25px}
+.ruler-category{overflow:visible;z-index:3}
+.ruler-category-count{display:block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font:800 12px/1 Arial,sans-serif;white-space:nowrap;z-index:5;text-shadow:none}
+.ruler-category.party-d.cat-close .ruler-category-count,
+.ruler-category.party-r.cat-close .ruler-category-count,
+.ruler-category.cat-toss .ruler-category-count{color:#101010!important}
+.ruler-category.ruler-category-narrow .ruler-category-count{top:-18px;left:50%;transform:translateX(-50%);padding:2px 4px;background:#152234;color:#fff;font-size:11px;border-radius:2px}
+.ruler-category.ruler-category-narrow.party-d.cat-close .ruler-category-count,
+.ruler-category.ruler-category-narrow.party-r.cat-close .ruler-category-count,
+.ruler-category.ruler-category-narrow.cat-toss .ruler-category-count{background:#f5f1e8;color:#101010!important}
