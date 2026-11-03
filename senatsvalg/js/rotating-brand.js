@@ -1,6 +1,15 @@
 /* Fælles roterende projektnavn for alle sider. */
 (()=>{
   'use strict';
+  // Live link in the Senate overview's top navigation (no duplicate on other pages).
+  if(/\/senatsvalg\/senatsvalg\.html$/.test(location.pathname)){
+    const nav=document.querySelector('.site-masthead .site-links');
+    if(nav&&!nav.querySelector('a[href="valgnat.html"]')){
+      const link=document.createElement('a');
+      link.href='valgnat.html';link.textContent='Valgnat';link.className='nav-valgnat-live';
+      nav.appendChild(link);
+    }
+  }
   const names=['Kontur','Zeitbild','The Plot','Écart','Pejling','Tendens','Flux'];
   const interval=10500;
   const brand=document.querySelector('.rotating-brand');
