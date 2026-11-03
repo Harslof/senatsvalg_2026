@@ -162,3 +162,10 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .symbol.movement{display:inline-block;width:20px;height:0;border-top:3px solid}
 .symbol.movement.dem{border-color:#669bd3}
 .symbol.movement.rep{border-color:#e4524b}
+
+/* Two-stage election-night clock, placed directly below the timeline heading. */
+.exitpole-countdown{display:flex;flex-direction:column;align-items:flex-start;gap:7px;margin:17px 0 7px;padding:17px 21px;border-left:3px solid var(--red);background:linear-gradient(90deg,rgba(211,107,88,.12),rgba(211,107,88,0));font-variant-numeric:tabular-nums}
+.exitpole-countdown-label{font-size:11px;letter-spacing:.15em;font-weight:700;color:var(--muted)}
+.exitpole-countdown-value{font-family:Georgia,'Times New Roman',serif;font-size:clamp(32px,5vw,57px);font-weight:700;line-height:1.12;letter-spacing:.04em;color:var(--white)}
+.exitpole-countdown.exitpole-live{border-left-color:var(--purple);background:linear-gradient(90deg,rgba(79,206,138,.14),transparent)}
+.exitpole-countdown.exitpole-live .exitpole-countdown-value{color:var(--purple)}
