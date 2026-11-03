@@ -1,6 +1,6 @@
 /* Centraliseret visning af nye målinger og ændringer. Retning er numerisk, ikke partipolitisk. */
 (()=>{'use strict';
-const active=()=>Date.now()>=UPDATE_AT;
+const active=()=>Date.now()>=UPDATE_AT&&Date.now()<UPDATE_AT+UPDATE_WINDOW_MS;
 let flash=false;
 try{if(active()&&!localStorage.getItem(UPDATE_KEY)){flash=true;localStorage.setItem(UPDATE_KEY,'seen')}}catch(_){}
 const differs=(a,b)=>a==null||b==null?a!==b:Math.abs(a-b)>1e-8;
