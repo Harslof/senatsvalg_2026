@@ -9,17 +9,17 @@ const DEMO=Boolean(FEED.simulated);
 const CRITICAL=new Set(['Alaska','Iowa','Kansas','Maine','Michigan','Nebraska','Ohio','Texas']);
 const CODES={Alabama:'AL',Alaska:'AK',Arkansas:'AR',Colorado:'CO',Delaware:'DE',Florida:'FL',Georgia:'GA',Idaho:'ID',Illinois:'IL',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Montana:'MT',Nebraska:'NE','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','North Carolina':'NC',Ohio:'OH',Oklahoma:'OK',Oregon:'OR','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Virginia:'VA','West Virginia':'WV',Wyoming:'WY'};
 const TIMES=[
- {t:'23.00',label:'Første data',text:'Første nationale oplysninger fra vælgerundersøgelser kan blive offentliggjort. Kandidatmarginer fra delstaterne er endnu ikke tilgængelige.'},
- {t:'00.00',label:'Kentucky',text:'De første valgsteder i Kentucky lukker. Den øvrige delstat lukker senere.'},
+ {t:'23.00',label:'Første data',text:'Første nationale oplysninger fra vælgerundersøgelser kan blive offentliggjort. Delstatsspecifikke kandidatmarginer forventes senere.'},
+ {t:'00.00',label:'Kentucky',text:'De første valgsteder i Kentucky lukker. Resten af delstaten følger senere.'},
  {t:'01.00',label:'Østkysten',text:'Georgia, Kentucky, South Carolina og Virginia er færdige med at stemme. Kandidatdata kan begynde at blive offentliggjort.'},
- {t:'01.30',label:'Ohio',text:'Ohio, North Carolina og West Virginia lukker. Ohio er et af de otte udvalgte usikre senatsvalg.'},
+ {t:'01.30',label:'Ohio',text:'Ohio, North Carolina og West Virginia lukker. Ohio er blandt de særligt spændende senatsvalg.'},
  {t:'02.00',label:'Maine',text:'Maine samt Alabama, Delaware, Florida, Illinois, Massachusetts, Mississippi, New Hampshire, New Jersey, Oklahoma, Rhode Island og Tennessee lukker.'},
  {t:'02.30',label:'Arkansas',text:'Arkansas lukker.'},
  {t:'03.00',label:'5 usikre valg',text:'Iowa, Kansas, Michigan, Nebraska og Texas er nu helt lukket. Også Colorado, Louisiana, Minnesota, New Mexico, South Dakota og Wyoming lukker.'},
  {t:'04.00',label:'Montana',text:'Montana lukker.'},
  {t:'05.00',label:'Vestkysten',text:'Idaho og Oregon lukker.'},
  {t:'06.00',label:'Alaska',text:'Størstedelen af Alaska lukker. Vestlige områder følger senere.'},
- {t:'07.00',label:'Morgenstatus',text:'De vestligste valgsteder i Alaska er lukket. Tidspunktet passer til den planlagte morgenopdatering.'}
+ {t:'07.00',label:'Morgenstatus',text:'De vestligste valgsteder i Alaska er lukket. Forventeligt tidspunkt for morgenopdatering.'}
 ];
 const $=id=>document.getElementById(id);
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -76,7 +76,7 @@ function drawChart(){const rows=orderedStates(),W=1280,H=383,x0=68,x1=1256,y0=16
  const svg=svgEl('svg',{viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'presentation'});
  svg.appendChild(svgEl('rect',{x:55,y:top,width:1215,height:y0-top,fill:'#578ec7','fill-opacity':'.105'}));
  svg.appendChild(svgEl('rect',{x:55,y:y0,width:1215,height:bottom-y0,fill:'#d66d56','fill-opacity':'.095'}));
- for(const t of [max,max/2,0,-max/2,-max]){const yy=y(t);svg.appendChild(svgEl('line',{x1:55,x2:1270,y1:yy,y2:yy,stroke:'#c6c5bf','stroke-opacity':t===0?.7:.22,'stroke-width':t===0?1.8:1,'stroke-dasharray':t===0?'none':'4 5'}));svg.appendChild(svgEl('text',{x:45,y:yy+4,'text-anchor':'end','font-size':11,fill:'#aeb7c1'},Math.abs(t).toLocaleString('da-DK',{maximumFractionDigits:1})));}
+ for(const t of [max,max/2,0,-max/2,-max]){const yy=y(t);svg.appendChild(svgEl('line',{x1:55,x2:1270,y1:yy,y2:yy,stroke:'#ffffff','stroke-opacity':t===0?.95:.43,'stroke-width':t===0?1.8:1,'stroke-dasharray':t===0?'none':'4 5'}));svg.appendChild(svgEl('text',{x:45,y:yy+4,'text-anchor':'end','font-size':11,fill:'#aeb7c1'},Math.abs(t).toLocaleString('da-DK',{maximumFractionDigits:1})));}
  svg.appendChild(svgEl('text',{x:58,y:17,'font-size':12,'font-weight':700,fill:'#7ba9e0'},'DEMOKRATISK FØRING ↑'));
  svg.appendChild(svgEl('text',{x:58,y:327,'font-size':12,'font-weight':700,fill:'#e08b78'},'REPUBLIKANSK FØRING ↓'));
  svg.appendChild(svgEl('text',{x:58,y:359,'font-size':10,fill:'#aeb7c1'},'— = ingen målinger; siddende parti fastholdes'));
@@ -108,7 +108,7 @@ function drawTrendDetail(){
  let lo=Math.floor((Math.min(0,...values)-2)/5)*5,hi=Math.ceil((Math.max(0,...values)+2)/5)*5;if(lo===hi)hi+=5;
  const y=v=>250-204*(v-lo)/(hi-lo),svg=svgEl('svg',{viewBox:'0 0 845 300',role:'presentation'});
  if(latest<end)svg.appendChild(svgEl('rect',{x:x(latest),y:34,width:Math.max(0,x(end)-x(latest)),height:216,fill:'#ffffff','fill-opacity':'.035'}));
- for(let i=0;i<=4;i++){const v=lo+(hi-lo)*i/4;svg.appendChild(svgEl('line',{x1:56,x2:786,y1:y(v),y2:y(v),stroke:v===0?'#a6b3c1':'#354758','stroke-dasharray':v===0?'5 4':'none'}));svg.appendChild(svgEl('text',{x:47,y:y(v)+4,'text-anchor':'end',fill:'#b7c6d4','font-size':12},v.toFixed(1)));}
+ for(let i=0;i<=4;i++){const v=lo+(hi-lo)*i/4;svg.appendChild(svgEl('line',{x1:56,x2:786,y1:y(v),y2:y(v),stroke:'#ffffff','stroke-opacity':v===0?.9:.32,'stroke-dasharray':v===0?'5 4':'none'}));svg.appendChild(svgEl('text',{x:47,y:y(v)+4,'text-anchor':'end',fill:'#b7c6d4','font-size':12},v.toFixed(1)));}
  const curve=(fit,color)=>{if(!fit)return;const from=earliest,to=Math.min(end,election);if(to<=from)return;const path=Array.from({length:101},(_,i)=>{const d=from+(to-from)*i/100;return (i?'L':'M')+x(d).toFixed(1)+' '+y(evalFit(fit,d)).toFixed(1);}).join(' ');svg.appendChild(svgEl('path',{d:path,fill:'none',stroke:color,'stroke-width':3}));};
  curve(linear,'#669bd3');curve(quad,'#e4524b');
  for(const p of points){const dot=svgEl('path',{d:starPath(x(p.date),y(p.value),p.exit?8:6,p.exit?3.6:2.7),fill:p.exit?'#4fce8a':(p.value>=0?'#669bd3':'#e4524b'),stroke:'#101a24','stroke-width':1.2});dot.appendChild(svgEl('title',{},p.label+' · '+p.value.toFixed(1)+' pp'));svg.appendChild(dot);}
