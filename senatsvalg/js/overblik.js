@@ -21,8 +21,7 @@ function updatePollCount(){
  const n=original.reduce((sum,r)=>sum+(r.points?.length||0),0);
  const el=document.getElementById('pollCount');if(el){
   el.textContent=n.toLocaleString('da-DK');
-  const baselineCount=BASELINE_STATES.reduce((sum,r)=>sum+(r.points?.length||0),0);
-  const added=n-baselineCount;
+  const added=UPDATE_POLL_COUNT;
   if(isUpdateActive()&&added>0){
     el.insertAdjacentHTML('beforeend',`<span class="poll-count-update">${mark(true,'Nye målinger i beregningen')}<small>+${added.toLocaleString('da-DK')}</small></span>`);
   }
@@ -237,7 +236,7 @@ function drawUpdateAnalysis(){
   if(!r||!raw||!raw.points.length)return '';
   const pts=raw.points.map(p=>({...p,date:dt(p)})).sort((a,b)=>a.date-b.date);
   const oldKeys=new Set((old?.points||[]).map(p=>[p.x,p.end,p.y,p.poll].join('|')));
-  const newPts=pts.filter(p=>!oldKeys.has([p.x,p.end,p.y,p.poll].join('|')));
+  const newPts=pts.filter(p=>p.added===UPDATE_POLL_DATE);
   const historical=old?.points||[];
   const lin=wls(historical,1,half,weighted),quad=wls(historical,2,half,weighted);
   const fitLast=Math.max(...historical.map(dt));
@@ -252,7 +251,7 @@ function drawUpdateAnalysis(){
   const grid=ticks.map(v=>'<line x1="50" x2="470" y1="'+y(v)+'" y2="'+y(v)+'" stroke="#dedede"/><text x="42" y="'+(y(v)+4)+'" text-anchor="end" fill="#666" font-size="11">'+Math.round(v*10)/10+'</text>').join('');
   // Show the zero baseline only when the existing chart range already contains zero.
   const zeroLine=low<=0&&high>=0?'<line x1="50" x2="470" y1="'+y(0)+'" y2="'+y(0)+'" stroke="#444" stroke-width="1.8" stroke-dasharray="6 4" aria-label="Nulpunkt: lige mange procentpoint til D og R"/>':'';
-  const circles=pts.map(p=>{const isNew=!oldKeys.has([p.x,p.end,p.y,p.poll].join('|'));return '<circle cx="'+x(p.date)+'" cy="'+y(p.y)+'" r="'+(isNew?6:3.6)+'" fill="'+(isNew?'#9254c8':'#3478c8')+'" stroke="#fff" stroke-width="1.2"><title>'+esc(p.poll)+' · '+esc(p.end)+' · '+signed(p.y)+' pp'+(isNew?' · Ny måling':'')+'</title></circle>'}).join('');
+  const circles=pts.map(p=>{const isNew=p.added===UPDATE_POLL_DATE;return '<circle cx="'+x(p.date)+'" cy="'+y(p.y)+'" r="'+(isNew?6:3.6)+'" fill="'+(isNew?'#9254c8':'#3478c8')+'" stroke="#fff" stroke-width="1.2"><title>'+esc(p.poll)+' · '+esc(p.end)+' · '+signed(p.y)+' pp'+(isNew?' · Ny måling':'')+'</title></circle>'}).join('');
   const change=Number.isFinite(b?.margin)?r.margin-b.margin:null,trendChange=Number.isFinite(b?.trend)&&Number.isFinite(r.trend)?r.trend-b.trend:null;
   const newest=newPts.map(p=>esc(p.poll)+' ('+shortDate(p.date)+', '+signed(p.y)+' pp)').join('; ');
   const comparison=newPts.map(p=>{const t=(p.date-fitLast)/week;const linearExpected=lin?lin[0]+lin[1]*t:null;const accelExpected=quad?quad[0]+quad[1]*t+quad[2]*t*t:null;return 'Den nye måling ligger '+(linearExpected==null?'uden en beregnet lineær reference':signed(p.y-linearExpected)+' pp '+(p.y>=linearExpected?'over':'under')+' den hidtidige lineære trend')+(accelExpected==null?'':' og '+signed(p.y-accelExpected)+' pp '+(p.y>=accelExpected?'over':'under')+' accelerationskurven')+'.'}).join(' ');
@@ -261,7 +260,7 @@ function drawUpdateAnalysis(){
  }).join('');
 }
 
-function showUpdateNotice(){const el=$('updateNotice');if(!el)return;el.hidden=!isUpdateActive();if(isUpdateActive())el.innerHTML=mark(true,'Nye målinger')+' <strong>Nye målinger:</strong> '+[...UPDATE_STATES].join(', ')+'. Lilla pile viser stigning eller fald i beregnede tal; en lilla prik markerer en ny måling eller en ændring uden naturlig retning. Sammenligningen viser ændringerne siden seneste målingsbatch 31. oktober og forbliver tilgængelig.'}
+function showUpdateNotice(){const el=$('updateNotice');if(!el)return;el.hidden=!isUpdateActive();if(isUpdateActive())el.innerHTML=mark(true,'Nye målinger')+' <strong>Nye målinger:</strong> '+[...UPDATE_STATES].join(', ')+'. Lilla pile viser stigning eller fald i beregnede tal; en lilla prik markerer en ny måling eller en ændring uden naturlig retning. Sammenligningen gælder de '+UPDATE_POLL_COUNT+' målinger tilføjet 2. november og vises i 48 timer fra tilføjelsestidspunktet.'}
 showUpdateNotice();
 document.querySelectorAll('.info').forEach(b=>b.onclick=()=>$('info-'+b.dataset.info).classList.toggle('open'));document.querySelectorAll('input[name="weight"]').forEach(x=>x.onchange=recompute);document.querySelectorAll('input[name="forecastmodel"]').forEach(x=>x.onchange=()=>{window.SenateForecastExperiment?.set({variant:x.value});recompute()});window.addEventListener('senate-model-settings-changed',()=>recompute());window.addEventListener('storage',e=>{if(e.key==='senat-model-settings-v1'){const p=window.SenateForecastExperiment?.settings();if(!p)return;document.querySelectorAll('input[name="forecastmodel"]').forEach(x=>x.checked=x.value===p.variant);document.querySelectorAll('input[name="projection"]').forEach(x=>x.checked=x.value===(p.projection==='linear'?'linear':'quadratic'));document.querySelectorAll('input[name="weight"]').forEach(x=>x.checked=x.value===(p.weighted?'time':'equal'));$('half').value=p.half;recompute()}});$('half').oninput=recompute;document.querySelectorAll('input[name="unknown"],input[name="raceview"],input[name="racesort"]').forEach(x=>x.onchange=draw);document.querySelectorAll('input[name="projection"]').forEach(x=>x.onchange=()=>{window.SenateForecastExperiment?.set({projection:x.value==='linear'?'linear':'accelerated'});draw()});$('search').oninput=drawTable;$('filter').onchange=drawTable;$('sort').onchange=drawTable;$('reverse').onclick=()=>{reverse=!reverse;drawTable()};$('extra').onclick=()=>{expanded=!expanded;$('extra').textContent=expanded?'Skjul ekstra':'Vis ekstra';drawTable()};recompute();
 
