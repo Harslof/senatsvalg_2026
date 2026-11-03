@@ -42,6 +42,17 @@ const getOriginal=name=>snapshot.find(r=>r.state===name);
 const combined=r=>{const e=exits[r.state];if(!e)return r.margin;if(r.margin==null)return e.margin;return r.margin*(1-weight/100)+e.margin*weight/100;};
 const leading=(m,inc)=>m==null||Math.abs(m)<1e-10?inc:m>0?'D':'R';
 const fixedDem=47-SOURCE.filter(r=>group(r.inc)==='D').length;
+const fixedRep=100-SOURCE.length-fixedDem;
+function drawFixedMandates(){
+ for(const [id,count,party] of [['ruler-fixed-dem',fixedDem,'D/I'],['ruler-fixed-rep',fixedRep,'R']]){
+  const el=$(id);if(!el)continue;
+  el.style.width=count+'%';
+  el.textContent=count+' faste mandater';
+  el.title=party+': '+count+' mandater, der ikke er på valg i 2026';
+  el.setAttribute('aria-label',el.title);
+ }
+}
+
 function seatTotals(which){let d=fixedDem;for(const r of snapshot){const e=exits[r.state];const margin=which==='before'?r.margin:which==='exit'?(e?e.margin:r.margin):combined(r);if(leading(margin,r.inc)==='D')d++;}return {d,r:100-d};}
 function drawTimeline(){const el=$('timeline');el.innerHTML='';TIMES.forEach((item,i)=>{const b=document.createElement('button');b.type='button';b.className=(i===activeTime?'active ':'')+([0,3,4,6,9,10].includes(i)?'important':'');b.setAttribute('aria-pressed',String(i===activeTime));b.innerHTML=`<span class="hour">${item.t}</span><span class="caption">${item.label}</span>`;b.addEventListener('click',()=>{activeTime=i;drawTimeline();});el.appendChild(b);});const item=TIMES[activeTime];$('timeline-detail').innerHTML=`<strong>${item.t} · ${esc(item.label)}</strong><div>${esc(item.text)}</div>`;}
 function drawSeats(){
@@ -118,6 +129,7 @@ function render(){
  $('rendered-at').textContent=typeof date==='string'&&date.trim()?date:'Målinger fra Senatsvalg · endnu ingen publiceret valgnatsopdatering';
 }
 function init(){
+ drawFixedMandates();
  drawTimeline();
  for(const r of SOURCE){const o=document.createElement('option');o.value=r.state;o.textContent=r.state;$('state-select').appendChild(o);}
  $('state-select').value=selected;
