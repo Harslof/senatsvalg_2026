@@ -238,3 +238,6 @@ select{border:1px solid #657586;background:#1c2a36;color:var(--white);padding:9p
 .ruler-category.ruler-category-narrow.party-d.cat-close .ruler-category-count,
 .ruler-category.ruler-category-narrow.party-r.cat-close .ruler-category-count,
 .ruler-category.ruler-category-narrow.cat-toss .ruler-category-count{background:#f5f1e8;color:#101010!important}
+
+/* Election results, separate from forecasts and exit polls */
+.results-summary{font-weight:700;color:var(--paper);margin-bottom:18px}.results-scroll{overflow-x:auto}.results-table{border-collapse:collapse;width:100%;min-width:480px;font-size:14px}.results-table th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);padding:12px;border-bottom:2px solid var(--line)}.results-table td{padding:12px;border-bottom:1px solid var(--line-soft)}.results-table td:last-child{font-size:12px}.result-dem{color:#8fc1f6;font-weight:700}.result-rep{color:#f28c7b;font-weight:700}
