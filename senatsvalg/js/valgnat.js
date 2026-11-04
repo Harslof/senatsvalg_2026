@@ -173,7 +173,13 @@ function drawChart(){const rows=orderedStates(),W=1280,H=383,x0=68,x1=1256,y0=16
  if(r.state===selected)g.appendChild(svgEl('rect',{x:xx-15,y:23,width:30,height:290,rx:4,fill:'#eadbb7','fill-opacity':'.11'}));
  if(r.margin!=null){if(show&&exit){g.appendChild(svgEl('line',{x1:xx,y1:y(r.margin),x2:xx,y2:y(exit.margin),stroke:exit.margin>r.margin?'#669bd3':exit.margin<r.margin?'#e4524b':'#ffffff','stroke-width':2.6,'stroke-opacity':'.95'}));}g.appendChild(svgEl('circle',{cx:xx,cy:y(r.margin),r:5,fill:'#ffffff',stroke:'#121923','stroke-width':1.2}));}
  else{g.appendChild(svgEl('line',{x1:xx-4,x2:xx+4,y1:311,y2:311,stroke:'#8a98a8','stroke-width':2.5}));}
- if(show&&exit){g.appendChild(svgEl('path',{d:starPath(xx,y(exit.margin),7,3),fill:exit.margin>=0?'#669bd3':'#e4524b',stroke:'#111923','stroke-width':1}));if(c!=null){g.appendChild(svgEl('path',{d:`M ${xx} ${y(c)-5.3} l 5.3 5.3 l -5.3 5.3 l -5.3 -5.3 Z`,fill:'#e4524b'}));}}
+ if(show&&exit){
+  // Exitpolls and results are five-pointed stars, coloured by the party in the lead.
+  const exitColor=exit.margin>=0?'#669bd3':'#e4524b';
+  if(c!=null){g.appendChild(svgEl('path',{d:`M ${xx} ${y(c)-5.3} l 5.3 5.3 l -5.3 5.3 l -5.3 -5.3 Z`,fill:c>=0?'#669bd3':'#e4524b',stroke:'#111923','stroke-width':.8}));}
+  // Draw the star last so it remains visible when the updated margin overlaps.
+  g.appendChild(svgEl('path',{d:starPath(xx,y(exit.margin),8,3.5),fill:exitColor,stroke:'#111923','stroke-width':1.2}));
+ }
  const label=svgEl('text',{x:xx,y:344,'text-anchor':'middle',class:'state-label'},CODES[r.state]);g.appendChild(label);g.appendChild(svgEl('title',{},`${r.state}: Før ${fmt(r.margin)}; Exitpoll ${fmt(exit?.margin)}; Opdateret ${fmt(c)}`));g.addEventListener('click',()=>selectState(r.state));g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();selectState(r.state);}});svg.appendChild(g);
  });const target=$('margin-chart');target.replaceChildren(svg);}
 function selectState(name){selected=name;$('state-select').value=name;drawChart();drawDetail();}
