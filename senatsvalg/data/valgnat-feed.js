@@ -31,7 +31,7 @@ window.VALGNAT_FEED = {
     "North Carolina": { margin: 20, dem: 59, rep: 39, other: 1, percentIn: "99", called: true },
     "Florida": { margin: -3, dem: 48, rep: 51, other: 1, percentIn: "99", called: true, special: true },
     "Louisiana": { margin: -2, dem: 49, rep: 51, other: null, percentIn: "99", called: true },
-    "Mississippi": { margin: null, dem: 48.9, rep: 48.9, other: 2, percentIn: "97", called: false, marginLabel: "D 48,9 % · R 48,9 %" },
+    "Mississippi": { margin: 0.0029618, dem: 48.9, rep: 48.9, other: 2.1, demVotes: 462779, repVotes: 462751, otherVotes: 19934, percentIn: "97", called: false, marginLabel: "D +0,0030", source: "AP, 4. november 2026 kl. 07.45" },
     "Colorado": { margin: 26, dem: 61, rep: 35, other: 3, percentIn: "74", called: true },
     "Delaware": { margin: 28, dem: 64, rep: 36, other: null, percentIn: "99", called: true },
     "Illinois": { margin: 24, dem: 61, rep: 37, other: 2, percentIn: "87", called: true },
