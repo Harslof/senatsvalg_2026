@@ -178,8 +178,17 @@ function drawDetail(){const r=getOriginal(selected),e=exits[selected],c=combined
  if(e)note+=` Exitpoll: ${e.source}, offentliggjort ${new Date(e.time).toLocaleString('da-DK',{timeZone:'Europe/Copenhagen',dateStyle:'short',timeStyle:'short'})} dansk tid. Ændring fra oprindelig margin: ${r.margin==null?'ikke beregnelig':(e.margin-r.margin).toLocaleString('da-DK',{minimumFractionDigits:1,maximumFractionDigits:1})+' procentpoint mod D/I'}.`;
  else note+=' Der er endnu ikke indtastet exitpoll-data for denne delstat.';
  $('race-comment').textContent=note;}
+function drawResults(){
+ const data=FEED.results||{};
+ const entries=Object.entries(data).filter(([state,r])=>CODES[state]&&r&&typeof r==='object'&&(r.margin===null||validMargin(r.margin)));
+ entries.sort((a,b)=>a[0].localeCompare(b[0],'da'));
+ const called=entries.filter(([,r])=>r.called);
+ $('results-summary').textContent=entries.length+' valg med resultater · '+called.length+' afgjorte · '+(entries.length-called.length)+' endnu ikke afgjorte';
+ $('results-body').innerHTML=entries.map(([state,r])=>{const party=r.margin===null?r.leader:(r.margin>=0?'D':'R');const label=r.marginLabel||(party+' +'+Math.abs(r.margin).toLocaleString('da-DK',{maximumFractionDigits:2}));return '<tr><td>'+esc(state)+(r.special?' †':'')+'</td><td class="'+(party==='D'?'result-dem':'result-rep')+'">'+esc(party)+'</td><td class="'+(party==='D'?'result-dem':'result-rep')+'">'+esc(label)+'</td><td>'+esc(r.percentIn)+' %</td><td>'+(r.called?'✓ Afgjort':'Ikke afgjort')+'</td></tr>';}).join('');
+ $('results-source').textContent='Kilde: manuelt afskrevet fra indsendt valgoversigt · status '+(FEED.resultsUpdatedAt?new Date(FEED.resultsUpdatedAt).toLocaleString('da-DK',{timeZone:'Europe/Copenhagen',dateStyle:'medium',timeStyle:'short'}):'ukendt')+' dansk tid. † Suppleringsvalg. Resultaterne er adskilt fra exitpolls og meningsmålinger.';
+}
 function render(){
- drawSeats();drawChart();drawDetail();
+ drawResults();drawSeats();drawChart();drawDetail();
  const polls=snapshot.reduce((n,r)=>n+r.count,0),n=Object.keys(exits).length;
  $('feed-status').textContent=`${DEMO?'TESTDATA · ':''}${polls} MÅLINGER · ${n} ${n===1?'DELSTAT':'DELSTATER'} MED EXITPOLL`;
  const date=FEED.updatedAt;
