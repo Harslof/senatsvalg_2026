@@ -61,9 +61,31 @@ function categoryFor(r){
  const tossLimit=e?1:2; // Switch individually when real exitpoll data are published.
  return {category:Math.abs(margin)<=tossLimit?'toss':Math.abs(margin)<=5?'close':'likely',party:leading(margin,r.inc)};
 }
+function closeMandatePopup(){
+ const popup=$('mandate-block-popup');if(popup){popup.hidden=true;popup.replaceChildren();}
+ document.querySelectorAll('.ruler-category[aria-expanded="true"]').forEach(el=>el.setAttribute('aria-expanded','false'));
+}
+function openMandatePopup(button,party,key,states){
+ const popup=$('mandate-block-popup');if(!popup)return;
+ const wasOpen=!popup.hidden&&button.getAttribute('aria-expanded')==='true';
+ closeMandatePopup();if(wasOpen)return;
+ const fixed=key==='called'?(party==='D'?fixedDem:fixedRep):0;
+ const heading=document.createElement('strong');heading.className='mandate-popup-heading';heading.textContent=(party==='D'?'D/I':'R')+' · '+CATEGORY_LABELS[key];
+ const close=document.createElement('button');close.type='button';close.className='mandate-popup-close';close.setAttribute('aria-label','Luk oversigt');close.textContent='×';close.addEventListener('click',closeMandatePopup);
+ const head=document.createElement('div');head.className='mandate-popup-head';head.append(heading,close);popup.append(head);
+ if(fixed){const info=document.createElement('p');info.textContent=fixed+' faste mandater (ikke på valg i 2026)';popup.append(info);}
+ if(states.length){
+  const label=document.createElement('p');label.textContent=states.length+' '+(states.length===1?'delstat':'delstater')+' med valg:';popup.append(label);
+  const list=document.createElement('ul');list.className='mandate-popup-states';
+  states.sort((a,b)=>a.localeCompare(b,'da')).forEach(name=>{const li=document.createElement('li');li.textContent=name;list.append(li);});popup.append(list);
+ }else if(!fixed){const empty=document.createElement('p');empty.textContent='Ingen delstater i denne kategori.';popup.append(empty);}
+ popup.hidden=false;button.setAttribute('aria-expanded','true');
+}
 function drawFixedMandates(){
  const counts={D:{called:fixedDem,likely:0,close:0,toss:0},R:{called:fixedRep,likely:0,close:0,toss:0}};
- for(const r of snapshot){const {category,party}=categoryFor(r);counts[party][category]++;}
+ const states={D:{called:[],likely:[],close:[],toss:[]},R:{called:[],likely:[],close:[],toss:[]}};
+ for(const r of snapshot){const {category,party}=categoryFor(r);counts[party][category]++;states[party][category].push(r.state);}
+ closeMandatePopup();
  for(const [id,party,partyName] of [['ruler-fixed-dem','D','D/I'],['ruler-fixed-rep','R','R']]){
   const el=$(id);if(!el)continue;
   // Faste mandater og kaldte stater vises som én samlet, mørk blok.
@@ -73,11 +95,14 @@ function drawFixedMandates(){
   let offset=0;
   for(const key of ['called','likely','close','toss']){
    const n=counts[party][key];if(!n||!categoryEnabled[key])continue;
-   const seg=document.createElement('span');
+   const seg=document.createElement('button');seg.type='button';
    seg.className='ruler-category cat-'+key+' party-'+party.toLowerCase()+(n<5?' ruler-category-narrow':'');
    seg.style.left=offset+'%';seg.style.width=n+'%';
    seg.title=partyName+' · '+CATEGORY_LABELS[key]+': '+n+' mandater';
-   seg.setAttribute('aria-label',seg.title);
+   seg.setAttribute('aria-label',seg.title+'. Vis delstater');
+   seg.setAttribute('aria-expanded','false');
+   seg.setAttribute('aria-controls','mandate-block-popup');
+   seg.addEventListener('click',()=>openMandatePopup(seg,party,key,states[party][key]));
    const count=document.createElement('span');count.className='ruler-category-count';count.textContent=String(n);count.setAttribute('aria-hidden','true');
    seg.appendChild(count);
    track.appendChild(seg);offset+=n;
@@ -202,6 +227,8 @@ function render(){
  $('rendered-at').textContent=typeof date==='string'&&date.trim()?date:'Målinger fra Senatsvalg · endnu ingen publiceret valgnatsopdatering';
 }
 function init(){
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMandatePopup();});
+ document.addEventListener('click',e=>{const popup=$('mandate-block-popup');if(popup&&!popup.hidden&&!e.target.closest('.ruler-category, #mandate-block-popup'))closeMandatePopup();});
  initMandateCategories();
  drawFixedMandates();
  drawTimeline();
