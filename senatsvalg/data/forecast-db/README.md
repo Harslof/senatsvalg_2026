@@ -59,3 +59,13 @@ Brugeren har fremsendt `forecasts.csv`, `summary(1).csv`, `bootstrap.csv`, `run.
 - De fremsendte filer kan bruges til validering af historiske *modeloutputs*, men de dokumenterer ikke alle de underliggende råmålinger, stemmetal, kandidatidentiteter eller kilde-/publiceringsdatoer. **Undlad at behandle dem som en råmålingdatabase.**
 
 **Næste nødvendige input:** råfilen `raw_polls.csv` (eller den oprindelige kilde med dokumenterede felter). Derudover valgresultater fra MIT Election Lab eller statslige valgmyndigheder til uafhængig verifikation.
+
+## Fase 2 – rådata gennemgået, importscript tilføjet (7. november 2026)
+Brugeren har også leveret `raw_polls (1).csv` (FiveThirtyEight, 2024-schema) og `1976-2024-senate-state.csv` (MIT Election Data and Science Lab). En lokal, reproducerbar staging-kørsel gav:
+- 4.923 DEM/REP Sen-G målingsrækker, 403 unikke målte valg, efter deduplikering på race/poll_id/question_id (15 valgår 1998–2022, inklusive særvalg).
+- 2.455 kandidatresultatrækker fra MIT-data efter filtrering på general election, total mode og år >=1998.
+- 444 valg med præcis én D- og én R-kandidatrække og konsistent total; 40 valghændelser sat i undtagelseslisten.
+- 369 identiske valg-ID'er i både målings- og valgresultat-staging; resterende kræver race-ID-/specialvalg-kontrol.
+- Filerne `historical_polls_538.csv`, `historical_candidate_results.csv`, `historical_elections_staging.csv`, `historical_exceptions.csv` er genereret som lokale staging-artifakter, **ikke** automatisk tilføjet til GitHub.
+- `import_historical.py` er lagt på GitHub og kan reproducere staging fra de to kildefiler. Råfilerne er ikke uploadet til repoet. De eksisterende `elections.csv` og `candidates.csv` er ikke ændret.
+- Vigtigt: FiveThirtyEight `polldate` er median-feltdato, ikke dokumenteret offentliggørelsesdato. MIT-aggregater er ikke uafhængigt verificeret mod officielle statskilder. Kvalitetskontrol og matchning af særvalg er næste trin.
