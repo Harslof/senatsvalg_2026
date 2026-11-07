@@ -1,0 +1,13 @@
+days,model,n,mae,bias,rmse
+84,mean,0,,,
+84,time_weighted,0,,,
+84,linear_trend,0,,,
+56,mean,0,,,
+56,time_weighted,0,,,
+56,linear_trend,0,,,
+28,mean,0,,,
+28,time_weighted,0,,,
+28,linear_trend,0,,,
+14,mean,0,,,
+14,time_weighted,0,,,
+14,linear_trend,0,,,
