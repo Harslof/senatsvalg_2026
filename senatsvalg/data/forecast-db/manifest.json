@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "created": "2026-11-07",
+  "purpose": "Historical Senate election forecasting feature store; no production model changes",
+  "keys": {
+    "election_id": "YYYY-STATE-election_type",
+    "candidate_id": "source-qualified stable identifier",
+    "snapshot_date": "date when feature value was publicly knowable"
+  },
+  "tables": [
+    {
+      "name": "elections.csv",
+      "grain": "one election per state/year/type",
+      "columns": [
+        "election_id",
+        "year",
+        "state",
+        "election_type",
+        "election_date",
+        "dem_candidate_id",
+        "rep_candidate_id",
+        "dem_votes",
+        "rep_votes",
+        "other_votes",
+        "total_votes",
+        "dem_margin_pp",
+        "called",
+        "certified",
+        "source_url",
+        "source_asof",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "candidates.csv",
+      "grain": "one candidate per election",
+      "columns": [
+        "election_id",
+        "candidate_id",
+        "candidate_name",
+        "party",
+        "incumbent",
+        "incumbent_party",
+        "years_in_office",
+        "prior_elected_office",
+        "source_url",
+        "source_asof",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "fundraising.csv",
+      "grain": "one candidate per reporting cutoff",
+      "columns": [
+        "election_id",
+        "candidate_id",
+        "report_end",
+        "filing_date",
+        "receipts_usd",
+        "disbursements_usd",
+        "cash_on_hand_usd",
+        "debts_usd",
+        "independent_expenditure_support_usd",
+        "independent_expenditure_oppose_usd",
+        "source_url",
+        "source_asof",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "approval.csv",
+      "grain": "one geography/subject/date/survey",
+      "columns": [
+        "subject",
+        "geography",
+        "pollster",
+        "field_start",
+        "field_end",
+        "publication_date",
+        "approve_pct",
+        "disapprove_pct",
+        "sample_size",
+        "population",
+        "source_url",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "economy.csv",
+      "grain": "one geography/indicator/reference period/vintage",
+      "columns": [
+        "geography",
+        "indicator",
+        "reference_period",
+        "release_date",
+        "vintage_date",
+        "value",
+        "unit",
+        "source_url",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "historical_baselines.csv",
+      "grain": "one election per state/reference date",
+      "columns": [
+        "election_id",
+        "snapshot_date",
+        "prior_presidential_margin_pp",
+        "prior_senate_margin_pp",
+        "state_partisan_lean_pp",
+        "national_environment_pp",
+        "incumbency_adjustment_pp",
+        "source_url",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "polls.csv",
+      "grain": "one poll question/candidate pair/election",
+      "columns": [
+        "election_id",
+        "poll_id",
+        "pollster",
+        "field_start",
+        "field_end",
+        "publication_date",
+        "sample_size",
+        "population",
+        "dem_pct",
+        "rep_pct",
+        "dem_margin_pp",
+        "source_url",
+        "verified_at"
+      ]
+    },
+    {
+      "name": "feature_snapshots.csv",
+      "grain": "one election and forecast date",
+      "columns": [
+        "election_id",
+        "snapshot_date",
+        "prior_margin_pp",
+        "incumbent_party",
+        "president_approval_net",
+        "national_generic_ballot_margin_pp",
+        "unemployment_rate",
+        "inflation_yoy_pct",
+        "dem_spending_usd",
+        "rep_spending_usd",
+        "funding_log_ratio",
+        "poll_margin_pp",
+        "poll_count",
+        "poll_latest_date",
+        "feature_completeness",
+        "source_manifest"
+      ]
+    }
+  ],
+  "rules": [
+    "Never backfill an as-of snapshot with data released after snapshot_date.",
+    "Keep raw source data immutable and traceable; missing values stay blank, not zero.",
+    "2026 vote counts are provisional until independently certified.",
+    "Independent, non-major-party, special and ranked-choice elections require explicit coding.",
+    "Historical training/test splits must hold out complete election years.",
+    "FEC expenditures and fundraising must use filed reporting periods and publication lag.",
+    "Never confuse historical backtest predictions with observed historical polling data."
+  ]
+}
