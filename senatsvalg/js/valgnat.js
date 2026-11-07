@@ -223,7 +223,7 @@ function drawResults(){
  const called=entries.filter(([,r])=>r.called);
  $('results-summary').textContent=entries.length+' valg med resultater · '+called.length+' afgjorte · '+(entries.length-called.length)+' endnu ikke afgjorte';
  $('results-body').innerHTML=entries.map(([state,r])=>{const party=r.margin===null?r.leader:(r.margin>=0?'D':'R');const label=r.marginLabel||(party+' +'+Math.abs(r.margin).toLocaleString('da-DK',{maximumFractionDigits:2}));return '<tr><td>'+esc(state)+(r.special?' †':'')+'</td><td class="'+(party==='D'?'result-dem':'result-rep')+'">'+esc(party)+'</td><td class="'+(party==='D'?'result-dem':'result-rep')+'">'+esc(label)+'</td><td>'+esc(r.percentIn)+' %</td><td>'+(r.called?'✓ Afgjort':'Ikke afgjort')+'</td></tr>';}).join('');
- $('results-source').textContent='Kilde: manuelt afskrevet fra indsendt valgoversigt · status '+(FEED.resultsUpdatedAt?new Date(FEED.resultsUpdatedAt).toLocaleString('da-DK',{timeZone:'Europe/Copenhagen',dateStyle:'medium',timeStyle:'short'}):'ukendt')+' dansk tid. † Suppleringsvalg. Resultaterne er adskilt fra exitpolls og meningsmålinger.';
+ $('results-source').textContent='Kilde: Fox News, Senate Election Results · status '+(FEED.resultsUpdatedAt?new Date(FEED.resultsUpdatedAt).toLocaleString('da-DK',{timeZone:'Europe/Copenhagen',dateStyle:'medium',timeStyle:'short'}):'ukendt')+' dansk tid. † Suppleringsvalg. Resultaterne er adskilt fra exitpolls og meningsmålinger.';
 }
 function render(){
  drawResults();drawSeats();drawChart();drawDetail();
