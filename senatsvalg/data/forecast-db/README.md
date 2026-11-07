@@ -69,3 +69,14 @@ Brugeren har også leveret `raw_polls (1).csv` (FiveThirtyEight, 2024-schema) og
 - Filerne `historical_polls_538.csv`, `historical_candidate_results.csv`, `historical_elections_staging.csv`, `historical_exceptions.csv` er genereret som lokale staging-artifakter, **ikke** automatisk tilføjet til GitHub.
 - `import_historical.py` er lagt på GitHub og kan reproducere staging fra de to kildefiler. Råfilerne er ikke uploadet til repoet. De eksisterende `elections.csv` og `candidates.csv` er ikke ændret.
 - Vigtigt: FiveThirtyEight `polldate` er median-feltdato, ikke dokumenteret offentliggørelsesdato. MIT-aggregater er ikke uafhængigt verificeret mod officielle statskilder. Kvalitetskontrol og matchning af særvalg er næste trin.
+
+## Fase 2 – første match mellem historiske målinger og valgresultater
+Sammenkædning på `election_id` af 403 unikke målingsvalg og 444 entydige MIT-resultater i staging:
+- 348 matcher med absolut forskel i D−R-margin <=0,02 procentpoint.
+- 7 har forskel >0,02 og <=0,25 pp.
+- 14 har forskel >0,25 pp.
+- 34 har ikke et entydigt `election_id`-match.
+- 75 af de 444 MIT-valg har ingen direkte målingsrække med samme ID.
+- 8 af de 40 undtagelsesvalg har målinger og kræver særskilt behandling.
+
+**OBS:** Et marginmatch er en intern krydskontrol af to datasæt, ikke uafhængig officiel verifikation. Første match er på tekst-ID, så specialvalg (`Sen-GS`), omvalg/runoffs (`Sen-R`, `Sen-SR`) og valgårsvariationer kræver race-mapping før de kan betegnes som manglende. Undersøg særligt 2006 NJ (+6,99 pp) og 2008 GA (+11,96 pp); mulige race-/valgdefinitionsproblemer. Der er ikke foretaget ændringer af produktionsmodellen.
