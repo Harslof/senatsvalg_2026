@@ -247,3 +247,22 @@ function init(){
 }
 init();
 })();
+
+
+/* Artwork at the bottom of the election-night page.
+   Image is intentionally hidden until the matching JPEG has been uploaded. */
+document.addEventListener('DOMContentLoaded',()=>{
+  if(document.getElementById('valgnat-bottom-artwork'))return;
+  const figure=document.createElement('figure');
+  figure.id='valgnat-bottom-artwork';
+  figure.style.cssText='max-width:1200px;margin:52px auto 0;padding:0 16px 24px';
+  const img=document.createElement('img');
+  img.src='images/valgnat-reflecting-pool.jpg';
+  img.alt='Impressionistisk maleri af regn over Reflecting Pool ved Lincoln Memorial, amerikanske flag og stjerner på nattehimlen';
+  img.loading='lazy';
+  img.style.cssText='display:block;width:100%;height:auto;border-radius:2px';
+  img.onerror=()=>figure.remove();
+  figure.appendChild(img);
+  const footer=document.querySelector('footer');
+  if(footer)footer.before(figure);else document.body.appendChild(figure);
+});
