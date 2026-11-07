@@ -1,0 +1,1000 @@
+poll_id,president,pollster,sponsor,sponsor_flags,start_date,end_date,approve_pct,disapprove_pct,net_approval_pp,reported_net_pp,net_difference_pp,source,raw_period,raw_result,source_block
+e786585670fed5fd,Donald Trump,Ipsos,Reuters,,2026-10-29,2026-11-02,32.0,64.0,-32.0,-32.0,0.0,user_supplied_NYT_approval_list,Oct. 29 to Nov. 2,Reuters	Disapprove +32	32%	64%,1
+5da983276fd2e9e8,Donald Trump,John Zogby Strategies,,,2026-11-01,2026-11-02,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Nov. 1 to 2,Disapprove +12	43%	55%,2
+7d18e6d60fd2d98b,Donald Trump,AtlasIntel,,,2026-10-28,2026-11-01,40.0,59.0,-19.0,-18.0,-1.0,user_supplied_NYT_approval_list,Oct. 28 to Nov. 1,Disapprove +18	40%	59%,3
+7a2f4cb620205477,Donald Trump,Focaldata,Financial Times,,2026-10-30,2026-11-01,33.0,61.0,-28.0,-29.0,1.0,user_supplied_NYT_approval_list,Oct. 30 to Nov. 1,Financial Times	Disapprove +29	33%	61%,4
+f1e759d42a67733f,Donald Trump,Morning Consult,,,2026-10-30,2026-11-01,41.0,57.0,-16.0,-15.0,-1.0,user_supplied_NYT_approval_list,Oct. 30 to Nov. 1,Disapprove +15	41%	57%,5
+c735863d825dda06,Donald Trump,ActiVote,,,2026-10-01,2026-10-31,36.0,58.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Oct. 1 to 31,Disapprove +22	36%	58%,6
+6926c751d88772f7,Donald Trump,YouGov,,,2026-10-27,2026-10-30,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Oct. 27 to 30,Disapprove +22	38%	60%,7
+fbf53041aad510f0,Donald Trump,TIPP Insights,Issues & Insights,,2026-10-27,2026-10-30,41.0,51.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Oct. 27 to 30,Issues & Insights	Disapprove +10	41%	51%,8
+2202db4cd308c16c,Donald Trump,Big Data Poll,Public Polling Project,,2026-10-27,2026-10-30,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Oct. 27 to 30,Public Polling Project	Disapprove +20	39%	59%,9
+f539986b1d317247,Donald Trump,Hart Research Associates/Public Opinion Strategies,NBC News,,2026-10-28,2026-10-30,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Oct. 28 to 30,NBC News	Disapprove +20	40%	60%,10
+aeb6b0b0db7e2a52,Donald Trump,The Honest Poll,,,2026-10-28,2026-10-29,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 28 to 29,Disapprove +25	37%	62%,11
+e5bde99f7461a2a8,Donald Trump,RMG Research,,,2026-10-19,2026-10-27,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Oct. 19 to 27,Disapprove +12	43%	55%,12
+e87bfe9c2f0a94e4,Donald Trump,Tufts,,,2026-10-23,2026-10-27,36.0,61.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 23 to 27,Disapprove +25	36%	61%,13
+29fdfa8957805441,Donald Trump,Ipsos,Reuters,,2026-10-22,2026-10-26,32.0,66.0,-34.0,-34.0,0.0,user_supplied_NYT_approval_list,Oct. 22 to 26,Reuters	Disapprove +34	32%	66%,14
+490b22e2eb53eb8d,Donald Trump,YouGov,Economist,,2026-10-23,2026-10-26,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Oct. 23 to 26,Economist	Disapprove +19	39%	58%,15
+a1536713fbcff9d4,Donald Trump,Emerson College,,,2026-10-24,2026-10-26,37.0,57.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Oct. 24 to 26,Disapprove +20	37%	57%,16
+fde2b5288217a64b,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-10-24,2026-10-26,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Oct. 24 to 26,Harvard CAPS	Disapprove +20	39%	59%,17
+c9d4f05f69f24879,Donald Trump,Leger,,,2026-10-23,2026-10-25,33.0,58.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 23 to 25,Disapprove +25	33%	58%,18
+8241899a947f1362,Donald Trump,Morning Consult,,,2026-10-23,2026-10-25,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Oct. 23 to 25,Disapprove +17	40%	57%,19
+f566272dfecab070,Donald Trump,Echelon Insights,NetChoice,,2026-10-16,2026-10-23,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Oct. 16 to 23,NetChoice	Disapprove +19	40%	59%,20
+81b0a4792b9c377d,Donald Trump,The Argument/Verasight,,,2026-10-21,2026-10-23,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Oct. 21 to 23,Disapprove +24	37%	61%,21
+f52a6a519cc15988,Donald Trump,YouGov,CBS News,,2026-10-21,2026-10-23,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Oct. 21 to 23,CBS News	Disapprove +22	39%	61%,22
+4d0b0f7c4895e34b,Donald Trump,Impact Research/National Research Inc.,Wall Street Journal,,2026-10-14,2026-10-22,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Oct. 14 to 22,Wall Street Journal	Disapprove +19	40%	59%,23
+79d5db3233f6c0e8,Donald Trump,Targoz Market Research,,,2026-10-20,2026-10-22,36.0,61.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 20 to 22,Disapprove +25	36%	61%,24
+157b98bea4ce3caa,Donald Trump,Prolific,,,2026-10-21,2026-10-22,36.0,63.0,-27.0,-28.0,1.0,user_supplied_NYT_approval_list,Oct. 21 to 22,Disapprove +28	36%	63%,25
+974f76d16f9127a4,Donald Trump,Clarity Campaign Labs,,,2026-10-15,2026-10-21,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Oct. 15 to 21,Disapprove +14	42%	56%,26
+75bc4272aaa48b87,Donald Trump,RMG Research,Napolitan News Service,,2026-10-12,2026-10-20,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Oct. 12 to 20,Napolitan News Service	Disapprove +15	42%	57%,27
+c57e8de35816a51c,Donald Trump,Morning Consult,Deseret News,,2026-10-13,2026-10-20,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Oct. 13 to 20,Deseret News	Disapprove +15	41%	56%,28
+b9e135ba10d8d92f,Donald Trump,Bedrock Polling,Rainey Center,,2026-10-14,2026-10-20,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Oct. 14 to 20,Rainey Center	Disapprove +16	42%	58%,29
+b2c1877ffa861190,Donald Trump,YouGov,Grinnell College,,2026-10-15,2026-10-20,35.0,65.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,Oct. 15 to 20,Grinnell College	Disapprove +30	35%	65%,30
+8361ac54805b0f0d,Donald Trump,Focaldata,Financial Times,,2026-10-16,2026-10-20,34.0,59.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 16 to 20,Financial Times	Disapprove +25	34%	59%,31
+2970489cd65bb1ac,Donald Trump,American Research Group,,,2026-10-16,2026-10-20,29.0,67.0,-38.0,-38.0,0.0,user_supplied_NYT_approval_list,Oct. 16 to 20,Disapprove +38	29%	67%,32
+41ba64b9d2f1f6c6,Donald Trump,Marist University,"NPR, PBS News",,2026-10-19,2026-10-20,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,Oct. 19 to 20,"NPR, PBS News	Disapprove +23	38%	61%",33
+41c97eca88af1cc1,Donald Trump,YouGov,Economist,,2026-10-19,2026-10-20,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Oct. 19 to 20,Economist	Disapprove +19	40%	59%,34
+7517c148231d60fa,Donald Trump,The New York Times/Siena University,,,2026-10-12,2026-10-19,34.0,60.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Oct. 12 to 19,Disapprove +26	34%	60%,35
+18f8ee723c1c43ad,Donald Trump,Verasight,Strength In Numbers,,2026-10-13,2026-10-19,34.0,62.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,Oct. 13 to 19,Strength In Numbers	Disapprove +28	34%	62%,36
+7643f145be798949,Donald Trump,Echelon Insights,,,2026-10-15,2026-10-19,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Oct. 15 to 19,Disapprove +21	39%	60%,37
+a02d88067b8e1075,Donald Trump,Ipsos,Reuters,,2026-10-16,2026-10-19,31.0,66.0,-35.0,-35.0,0.0,user_supplied_NYT_approval_list,Oct. 16 to 19,Reuters	Disapprove +35	31%	66%,38
+feaf51d2711d68d5,Donald Trump,Change Research,,,2026-10-12,2026-10-18,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 12 to 18,Disapprove +25	37%	62%,39
+03f02769059c164c,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2026-10-14,2026-10-18,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Oct. 14 to 18,CNBC	Disapprove +19	40%	59%,40
+8a3dfcb7904dc482,Donald Trump,CNN/SSRS,,,2026-10-15,2026-10-18,32.0,67.0,-35.0,-35.0,0.0,user_supplied_NYT_approval_list,Oct. 15 to 18,Disapprove +35	32%	67%,41
+b57026128b047258,Donald Trump,Morning Consult,,,2026-10-16,2026-10-18,42.0,56.0,-14.0,-15.0,1.0,user_supplied_NYT_approval_list,Oct. 16 to 18,Disapprove +15	42%	56%,42
+c8a5c98c3da6747a,Donald Trump,RMG Research,Napolitan News Service,,2026-10-05,2026-10-13,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Oct. 5 to 13,Napolitan News Service	Disapprove +17	41%	58%,43
+0e38b9ea7559cb33,Donald Trump,Ipsos,"ABC News, The Washington Post",,2026-10-09,2026-10-13,33.0,66.0,-33.0,-33.0,0.0,user_supplied_NYT_approval_list,Oct. 9 to 13,"ABC News, The Washington Post	Disapprove +33	33%	66%",44
+b0168ec24c8e88fa,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2026-09-28,2026-10-12,34.0,66.0,-32.0,-32.0,0.0,user_supplied_NYT_approval_list,Sept. 28 to Oct. 12,NBC News Decision Desk	Disapprove +32	34%	66%,45
+7ad343026b5fa419,Donald Trump,AP-NORC,,,2026-10-08,2026-10-12,35.0,64.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,Oct. 8 to 12,Disapprove +29	35%	64%,46
+d55e6f4df2f6be3b,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-10-09,2026-10-12,36.0,64.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,Oct. 9 to 12,Fox News	Disapprove +28	36%	64%,47
+41ce959c682efb9f,Donald Trump,YouGov,Economist,,2026-10-10,2026-10-12,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,Oct. 10 to 12,Economist	Disapprove +23	38%	61%,48
+d3f7a315092c387f,Donald Trump,Morning Consult,,,2026-10-09,2026-10-11,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Oct. 9 to 11,Disapprove +14	42%	56%,49
+74c2400416cf55a2,Donald Trump,Noble Predictive Insights,Center Square,,2026-10-05,2026-10-07,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Oct. 5 to 7,Center Square	Disapprove +12	43%	55%,50
+207eff67aaf86a94,Donald Trump,RMG Research,Napolitan News Service,,2026-09-28,2026-10-06,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Sept. 28 to Oct. 6,Napolitan News Service	Disapprove +13	43%	56%,51
+d9fa70a76e55a386,Donald Trump,The Bullfinch Group,"Independent Center, Independent Leadership Council",Partisan sponsor,2026-10-01,2026-10-06,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Oct. 1 to 6,Disapprove +17	40%	57%,52
+ca115eef65b6da4c,Donald Trump,The Honest Poll,,,2026-10-04,2026-10-06,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Oct. 4 to 6,Disapprove +17	40%	57%,53
+9ec02bf060abe250,Donald Trump,Ipsos,Reuters,,2026-09-30,2026-10-05,32.0,65.0,-33.0,-33.0,0.0,user_supplied_NYT_approval_list,Sept. 30 to Oct. 5,Reuters	Disapprove +33	32%	65%,54
+c6a66cfe4e93e574,Donald Trump,Navigator Research,,,2026-10-01,2026-10-05,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Oct. 1 to 5,Disapprove +26	36%	62%,55
+fa2726c345eaeb02,Donald Trump,Focaldata,Financial Times,,2026-10-02,2026-10-05,33.0,58.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Oct. 2 to 5,Financial Times	Disapprove +25	33%	58%,56
+08709371118e3c09,Donald Trump,YouGov,Economist,,2026-10-02,2026-10-05,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Oct. 2 to 5,Economist	Disapprove +22	38%	60%,57
+1959782722a68e73,Donald Trump,Morning Consult,,,2026-10-04,2026-10-05,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Oct. 4 to 5,Disapprove +16	41%	57%,58
+c266cd97636ef882,Donald Trump,Pew Research Center,,,2026-09-28,2026-10-04,30.0,68.0,-38.0,-38.0,0.0,user_supplied_NYT_approval_list,Sept. 28 to Oct. 4,Disapprove +38	30%	68%,59
+82587b53baa7201e,Donald Trump,University of Massachusetts Lowell Center for Public Opinion/YouGov,,,2026-10-02,2026-10-04,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Oct. 2 to 4,Disapprove +22	39%	61%,60
+b012aedd14d5f82e,Donald Trump,YouGov,CBS News,,2026-09-30,2026-10-02,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Sept. 30 to Oct. 2,CBS News	Disapprove +22	39%	61%,61
+f5d4777915b8ddb4,Donald Trump,Centerline Research & Strategy,,,2026-09-26,2026-10-01,31.0,64.0,-33.0,-33.0,0.0,user_supplied_NYT_approval_list,Sept. 26 to Oct. 1,Disapprove +33	31%	64%,62
+05912ea9006faa4b,Donald Trump,TIPP Insights,Issues & Insights,,2026-09-29,2026-10-01,39.0,52.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Sept. 29 to Oct. 1,Issues & Insights	Disapprove +13	39%	52%,63
+e9a991640151d03a,Donald Trump,ActiVote,,,2026-09-01,2026-09-30,38.0,55.0,-17.0,-18.0,1.0,user_supplied_NYT_approval_list,Sept. 1 to 30,Disapprove +18	38%	55%,64
+f758df3a661da5fc,Donald Trump,RMG Research,Napolitan News Service,,2026-09-21,2026-09-29,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Sept. 21 to 29,Napolitan News Service	Disapprove +17	41%	58%,65
+8e49aad080ed7ae7,Donald Trump,AP-NORC,,,2026-09-24,2026-09-28,31.0,69.0,-38.0,-38.0,0.0,user_supplied_NYT_approval_list,Sept. 24 to 28,Disapprove +38	31%	69%,66
+75cd4644471d80dd,Donald Trump,AlphaROC,Independent Center,,2026-09-25,2026-09-28,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Sept. 25 to 28,Independent Center	Disapprove +26	35%	61%,67
+4048b1b3c3f22068,Donald Trump,YouGov,Economist,,2026-09-25,2026-09-28,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Sept. 25 to 28,Economist	Disapprove +26	36%	62%,68
+24267183d12d4cdd,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-09-26,2026-09-28,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Sept. 26 to 28,Harvard CAPS	Disapprove +13	42%	55%,69
+5cd627944b1330a6,Donald Trump,Quinnipiac University,,,2026-09-24,2026-09-27,33.0,60.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Sept. 24 to 27,Disapprove +27	33%	60%,70
+3f1fdd2fb42f16dc,Donald Trump,Morning Consult,,,2026-09-25,2026-09-27,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Sept. 25 to 27,Disapprove +14	42%	56%,71
+9d762ecc9d1bd8d9,Donald Trump,SSRS,National Center for Suburban Studies at Hofstra University,,2026-09-18,2026-09-25,33.0,67.0,-34.0,-34.0,0.0,user_supplied_NYT_approval_list,Sept. 18 to 25,National Center for Suburban Studies at Hofstra University	Disapprove +34	33%	67%,72
+9958e0a8fa6a8255,Donald Trump,Angus Reid Global,,,2026-09-19,2026-09-25,34.0,61.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Sept. 19 to 25,Disapprove +27	34%	61%,73
+c34d0e1cf6a3c34c,Donald Trump,Change Research,,,2026-09-15,2026-09-24,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Sept. 15 to 24,Disapprove +25	37%	62%,74
+3d71e4590d673fb2,Donald Trump,GBAO,Third Way,Democratic sponsor,2026-09-17,2026-09-24,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Sept. 17 to 24,Disapprove +25	37%	62%,75
+066d6772b8385175,Donald Trump,RMG Research,Napolitan News Service,,2026-09-14,2026-09-22,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Sept. 14 to 22,Napolitan News Service	Disapprove +13	43%	56%,76
+39563241f40174a6,Donald Trump,The Argument/Verasight,,,2026-09-16,2026-09-22,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,Sept. 16 to 22,Disapprove +25	37%	62%,77
+2f99825fb1d578a4,Donald Trump,Emerson College,,,2026-09-21,2026-09-22,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Sept. 21 to 22,Disapprove +19	39%	58%,78
+7a79a85c05494298,Donald Trump,Impact Research/National Research Inc.,Wall Street Journal,,2026-09-16,2026-09-21,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Sept. 16 to 21,Wall Street Journal	Disapprove +24	37%	61%,79
+9c9697690aeee89c,Donald Trump,Verasight,Strength In Numbers,,2026-09-16,2026-09-21,33.0,63.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,Sept. 16 to 21,Strength In Numbers	Disapprove +30	33%	63%,80
+8bc69906e37c1c17,Donald Trump,Echelon Insights,,,2026-09-17,2026-09-21,36.0,64.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,Sept. 17 to 21,Disapprove +28	36%	64%,81
+bee0aace0292f5d6,Donald Trump,YouGov,Economist,,2026-09-18,2026-09-21,35.0,62.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Sept. 18 to 21,Economist	Disapprove +27	35%	62%,82
+cdc0b9c097cd1ecc,Donald Trump,American Research Group,,,2026-09-16,2026-09-20,29.0,68.0,-39.0,-39.0,0.0,user_supplied_NYT_approval_list,Sept. 16 to 20,Disapprove +39	29%	68%,83
+54ea5a2da14daaf3,Donald Trump,Ipsos,Reuters,,2026-09-17,2026-09-20,32.0,66.0,-34.0,-34.0,0.0,user_supplied_NYT_approval_list,Sept. 17 to 20,Reuters	Disapprove +34	32%	66%,84
+8ff00752b0ee66c5,Donald Trump,Morning Consult,,,2026-09-18,2026-09-20,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Sept. 18 to 20,Disapprove +15	41%	56%,85
+ecd1b8f59496ce83,Donald Trump,Quantus Insights,,,2026-09-15,2026-09-18,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Sept. 15 to 18,Disapprove +19	40%	59%,86
+dc3e55cfaa4eea71,Donald Trump,John Zogby Strategies,,,2026-09-15,2026-09-17,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Sept. 15 to 17,Disapprove +14	42%	56%,87
+5b5a5c48943363ff,Donald Trump,CNN/SSRS,,,2026-09-16,2026-09-17,33.0,67.0,-34.0,-34.0,0.0,user_supplied_NYT_approval_list,Sept. 16 to 17,Disapprove +34	33%	67%,88
+5e6b328894c06eea,Donald Trump,Clarity Campaign Labs,,,2026-09-11,2026-09-16,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 16,Disapprove +17	41%	58%,89
+20a47453e6ccbf94,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2026-09-12,2026-09-16,36.0,60.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Sept. 12 to 16,Disapprove +24	36%	60%,90
+764a81cb7c9eee67,Donald Trump,Tavern Research,,,2026-09-15,2026-09-16,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Sept. 15 to 16,Disapprove +24	37%	61%,91
+13fe1aded4e69005,Donald Trump,RMG Research,Napolitan News Service,,2026-09-08,2026-09-15,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Sept. 8 to 15,Napolitan News Service	Disapprove +10	44%	54%,92
+772fc9aea9fae413,Donald Trump,Hart Research Associates/Public Opinion Strategies,NBC News,,2026-09-11,2026-09-15,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 15,NBC News	Disapprove +15	41%	56%,93
+f9ef120a8af3a7ab,Donald Trump,Emerson College,"RealClear Opinion Research, Unite America",,2026-09-12,2026-09-15,34.0,54.0,-20.0,-21.0,1.0,user_supplied_NYT_approval_list,Sept. 12 to 15,"RealClear Opinion Research, Unite America	Disapprove +21	34%	54%",94
+2b67dadcfdbdeabe,Donald Trump,Big Data Poll,Public Polling Project,,2026-09-13,2026-09-15,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Sept. 13 to 15,Public Polling Project	Disapprove +20	39%	59%,95
+6e8e59b5572610c8,Donald Trump,Marist University,"NPR, PBS News",,2026-09-14,2026-09-15,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Sept. 14 to 15,"NPR, PBS News	Disapprove +20	39%	59%",96
+b6d24c77f5a731a0,Donald Trump,Navigator Research,,,2026-09-10,2026-09-14,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,Sept. 10 to 14,Disapprove +23	38%	61%,97
+baae148d31e5f2ef,Donald Trump,Bedrock Polling,Rainey Center,,2026-09-10,2026-09-14,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Sept. 10 to 14,Rainey Center	Disapprove +18	41%	59%,98
+6588886cc293a78f,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-09-11,2026-09-14,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 14,Fox News	Disapprove +22	39%	61%,99
+0cff2c6d72b758aa,Donald Trump,YouGov,Economist,,2026-09-11,2026-09-14,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 14,Economist	Disapprove +18	40%	58%,100
+0258e26b12ea31e8,Donald Trump,Ipsos,Reuters,,2026-09-11,2026-09-14,35.0,62.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 14,Reuters	Disapprove +27	35%	62%,101
+85837449d577a597,Donald Trump,The Honest Poll,Veteran Action,,2026-09-07,2026-09-13,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Sept. 7 to 13,Veteran Action	Disapprove +13	43%	56%,102
+f41225b7f0a328ff,Donald Trump,The New York Times/Siena University,,,2026-09-08,2026-09-13,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Sept. 8 to 13,Disapprove +22	37%	59%,103
+6e7e7490a728d185,Donald Trump,Morning Consult,,,2026-09-11,2026-09-13,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Sept. 11 to 13,Disapprove +14	42%	56%,104
+a281befd38d75f13,Donald Trump,YouGov,CBS News,,2026-09-08,2026-09-11,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Sept. 8 to 11,CBS News	Disapprove +22	39%	61%,105
+881f3a35c391fb04,Donald Trump,RMG Research,Napolitan News Service,,2026-08-31,2026-09-09,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Aug. 31 to Sept. 9,Napolitan News Service	Disapprove +10	44%	54%,106
+bdd37d4df42c8a3a,Donald Trump,Marquette University Law School,,,2026-09-02,2026-09-09,37.0,63.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Sept. 2 to 9,Disapprove +26	37%	63%,107
+1b3b6add79a1cbe4,Donald Trump,YouGov,Economist,,2026-09-04,2026-09-08,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Sept. 4 to 8,Economist	Disapprove +24	37%	61%,108
+ead36fe5f4278a27,Donald Trump,PRRI,,,2026-08-20,2026-09-07,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Aug. 20 to Sept. 7,Disapprove +26	35%	61%,109
+38ec99944b8d166b,Donald Trump,Quinnipiac University,,,2026-09-03,2026-09-06,33.0,59.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Sept. 3 to 6,Disapprove +26	33%	59%,110
+0ed760aff3a888cd,Donald Trump,Morning Consult,,,2026-09-04,2026-09-06,42.0,55.0,-13.0,-14.0,1.0,user_supplied_NYT_approval_list,Sept. 4 to 6,Disapprove +14	42%	55%,111
+3b5d2db9c6b7dd4b,Donald Trump,Focaldata,Financial Times,,2026-08-28,2026-09-02,32.0,59.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Aug. 28 to Sept. 2,Financial Times	Disapprove +27	32%	59%,112
+ed56f1c1656fe809,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2026-08-20,2026-09-01,36.0,64.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,Aug. 20 to Sept. 1,NBC News Decision Desk	Disapprove +28	36%	64%,113
+e9c9f006e5bf0f83,Donald Trump,RMG Research,Napolitan News Service,,2026-08-24,2026-09-01,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,Aug. 24 to Sept. 1,Napolitan News Service	Disapprove +6	46%	52%,114
+917798a0bdc45676,Donald Trump,Bowling Green State University Democracy and Public Policy Research Network/YouGov,,,2026-08-25,2026-09-01,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Aug. 25 to Sept. 1,Disapprove +20	40%	60%,115
+a753cb342c538af5,Donald Trump,The Honest Poll,,,2026-08-29,2026-09-01,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Aug. 29 to Sept. 1,Disapprove +14	42%	56%,116
+732a95729806b331,Donald Trump,ActiVote,,,2026-08-01,2026-08-31,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Aug. 1 to 31,Disapprove +18	38%	56%,117
+d943cf9c0ff488ed,Donald Trump,YouGov,Economist,,2026-08-28,2026-08-31,36.0,60.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Aug. 28 to 31,Economist	Disapprove +24	36%	60%,118
+f7afe9812153bf06,Donald Trump,Ipsos,Reuters,,2026-08-28,2026-08-31,33.0,63.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,Aug. 28 to 31,Reuters	Disapprove +30	33%	63%,119
+36ede93803d5d224,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-08-28,2026-08-30,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Aug. 28 to 30,Harvard CAPS	Disapprove +8	44%	52%,120
+91d30663ca972f3a,Donald Trump,Morning Consult,,,2026-08-28,2026-08-30,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Aug. 28 to 30,Disapprove +14	41%	55%,121
+40fa1b39ca7f84ad,Donald Trump,TIPP Insights,Issues & Insights,,2026-08-25,2026-08-28,38.0,52.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Aug. 25 to 28,Issues & Insights	Disapprove +14	38%	52%,122
+c22e44c9f8e6b5e7,Donald Trump,Quantus Insights,,,2026-08-26,2026-08-28,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Aug. 26 to 28,Disapprove +15	42%	57%,123
+03d7c1544f773542,Donald Trump,YouGov,UMass Amherst,,2026-08-21,2026-08-26,32.0,64.0,-32.0,-32.0,0.0,user_supplied_NYT_approval_list,Aug. 21 to 26,UMass Amherst	Disapprove +32	32%	64%,124
+18a94a7f9c8675b0,Donald Trump,RMG Research,Napolitan News Service,,2026-08-17,2026-08-25,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,Aug. 17 to 25,Napolitan News Service	Disapprove +7	45%	52%,125
+03d9472aace63142,Donald Trump,Navigator Research,,,2026-08-21,2026-08-24,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Aug. 21 to 24,Disapprove +21	39%	60%,126
+80f360649bd75f62,Donald Trump,Morning Consult,,,2026-08-21,2026-08-24,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Aug. 21 to 24,Disapprove +11	43%	54%,127
+d52115a54a65cc26,Donald Trump,YouGov,Economist,,2026-08-21,2026-08-24,36.0,57.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Aug. 21 to 24,Economist	Disapprove +21	36%	57%,128
+e3979442500d89dd,Donald Trump,Ipsos,Reuters,,2026-08-21,2026-08-24,33.0,65.0,-32.0,-32.0,0.0,user_supplied_NYT_approval_list,Aug. 21 to 24,Reuters	Disapprove +32	33%	65%,129
+c400111940d1cdf8,Donald Trump,Verasight,Strength In Numbers,,2026-08-14,2026-08-19,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,Aug. 14 to 19,Strength In Numbers	Disapprove +23	37%	60%,130
+9fc7548c7876ff93,Donald Trump,American Research Group,,,2026-08-15,2026-08-19,30.0,66.0,-36.0,-36.0,0.0,user_supplied_NYT_approval_list,Aug. 15 to 19,Disapprove +36	30%	66%,131
+7397e91d4fd1ca4d,Donald Trump,Public Policy Polling,"314 Action, Protect Our Care",Democratic sponsor,2026-08-17,2026-08-18,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Aug. 17 to 18,Disapprove +17	39%	56%,132
+1020f218e8c1dd6d,Donald Trump,RMG Research,Napolitan News Service,,2026-08-10,2026-08-17,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Aug. 10 to 17,Napolitan News Service	Disapprove +13	42%	55%,133
+0ce7f9715256cd3c,Donald Trump,Echelon Insights,,,2026-08-13,2026-08-17,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,Aug. 13 to 17,Disapprove +23	38%	61%,134
+0a6d62d063ab5e8e,Donald Trump,Morning Consult,,,2026-08-14,2026-08-17,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Aug. 14 to 17,Disapprove +11	43%	54%,135
+84dde6bc3c954735,Donald Trump,The Bullfinch Group,,,2026-08-14,2026-08-17,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Aug. 14 to 17,Disapprove +16	40%	56%,136
+90e276669747cecd,Donald Trump,YouGov,Economist,,2026-08-14,2026-08-17,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Aug. 14 to 17,Economist	Disapprove +26	35%	61%,137
+200feaac80c780e9,Donald Trump,Ipsos,Reuters,,2026-08-14,2026-08-17,33.0,64.0,-31.0,-31.0,0.0,user_supplied_NYT_approval_list,Aug. 14 to 17,Reuters	Disapprove +31	33%	64%,138
+a93b6440d1df2a22,Donald Trump,Leger,,,2026-08-15,2026-08-17,37.0,54.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Aug. 15 to 17,Disapprove +17	37%	54%,139
+61f5f2e4ac246876,Donald Trump,Emerson College,,,2026-08-16,2026-08-17,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Aug. 16 to 17,Disapprove +16	40%	56%,140
+38feca1a1e051aaa,Donald Trump,Noble Predictive Insights,Center Square,,2026-08-12,2026-08-16,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Aug. 12 to 16,Center Square	Disapprove +14	42%	56%,141
+a6dce453a3bed181,Donald Trump,Morning Consult,CATO Institute,,2026-08-13,2026-08-16,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Aug. 13 to 16,CATO Institute	Disapprove +12	42%	54%,142
+7a96211ccfa98a60,Donald Trump,Change Research,,,2026-08-08,2026-08-13,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Aug. 8 to 13,Disapprove +19	39%	58%,143
+85168fed8a8820c9,Donald Trump,RMG Research,Napolitan News Service,,2026-08-03,2026-08-11,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Aug. 3 to 11,Napolitan News Service	Disapprove +13	42%	55%,144
+383af45230a6c5c5,Donald Trump,Angus Reid Global,,,2026-08-06,2026-08-11,34.0,58.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Aug. 6 to 11,Disapprove +24	34%	58%,145
+1ca900a3411c577f,Donald Trump,Morning Consult,,,2026-08-07,2026-08-10,43.0,55.0,-12.0,-13.0,1.0,user_supplied_NYT_approval_list,Aug. 7 to 10,Disapprove +13	43%	55%,146
+ab04715fb9a97446,Donald Trump,Focaldata,Financial Times,,2026-08-07,2026-08-10,35.0,55.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Aug. 7 to 10,Financial Times	Disapprove +20	35%	55%,147
+68bbd13aeea41f3b,Donald Trump,YouGov,Economist,,2026-08-07,2026-08-10,33.0,62.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,Aug. 7 to 10,Economist	Disapprove +29	33%	62%,148
+2157c75d475edbed,Donald Trump,AlphaROC,Independent Center,,2026-08-08,2026-08-10,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Aug. 8 to 10,Independent Center	Disapprove +16	40%	56%,149
+8dd464595471e9b6,Donald Trump,John Zogby Strategies,,,2026-08-04,2026-08-05,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Aug. 4 to 5,Disapprove +21	38%	59%,150
+d347b7828e255119,Donald Trump,RMG Research,Napolitan News Service,,2026-07-27,2026-08-04,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,July 27 to Aug. 4,Napolitan News Service	Disapprove +12	43%	55%,151
+871073a6a21175ce,Donald Trump,Quantus Insights,,,2026-08-03,2026-08-04,42.0,57.0,-15.0,-16.0,1.0,user_supplied_NYT_approval_list,Aug. 3 to 4,Disapprove +16	42%	57%,152
+ebc5ed2f1606c2d4,Donald Trump,Ipsos,Reuters,,2026-07-29,2026-08-03,35.0,63.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,July 29 to Aug. 3,Reuters	Disapprove +28	35%	63%,153
+c7e9121925fd9ec7,Donald Trump,YouGov,Economist,,2026-07-31,2026-08-03,36.0,60.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,July 31 to Aug. 3,Economist	Disapprove +24	36%	60%,154
+ec2b485365fe0ef0,Donald Trump,Morning Consult,,,2026-07-31,2026-08-02,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,July 31 to Aug. 2,Disapprove +11	43%	54%,155
+54697c3c06ce006a,Donald Trump,TIPP Insights,Issues & Insights,,2026-07-28,2026-08-01,38.0,52.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,July 28 to Aug. 1,Issues & Insights	Disapprove +14	38%	52%,156
+34fda40f6433d398,Donald Trump,ActiVote,,,2026-07-01,2026-07-31,38.0,55.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,July 1 to 31,Disapprove +17	38%	55%,157
+8219ebebcebe8781,Donald Trump,Marquette University Law School,,,2026-07-22,2026-07-29,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,July 22 to 29,Disapprove +20	40%	60%,158
+d4e08745d8d62846,Donald Trump,RMG Research,Napolitan News Service,,2026-07-27,2026-07-29,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,July 27 to 29,Napolitan News Service	Disapprove +12	43%	55%,159
+eaabf17f02d8d911,Donald Trump,Big Data Poll,Public Polling Project,,2026-07-27,2026-07-29,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,July 27 to 29,Public Polling Project	Disapprove +20	39%	59%,160
+6e28233921ce51d1,Donald Trump,AP-NORC,,,2026-07-23,2026-07-27,33.0,66.0,-33.0,-33.0,0.0,user_supplied_NYT_approval_list,July 23 to 27,Disapprove +33	33%	66%,161
+e59a3bf7e72d39f2,Donald Trump,Quinnipiac University,,,2026-07-23,2026-07-27,32.0,58.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,July 23 to 27,Disapprove +26	32%	58%,162
+b8e2398391f17e18,Donald Trump,Navigator Research,,,2026-07-23,2026-07-27,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,July 23 to 27,Disapprove +25	37%	62%,163
+5d9bc215353fc8da,Donald Trump,CNN/SSRS,,,2026-07-23,2026-07-27,34.0,66.0,-32.0,-32.0,0.0,user_supplied_NYT_approval_list,July 23 to 27,Disapprove +32	34%	66%,164
+5b7c34e173a05a9b,Donald Trump,Morning Consult,,,2026-07-24,2026-07-27,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,July 24 to 27,Disapprove +7	45%	52%,165
+371f50ce7fe1a9a8,Donald Trump,YouGov,Economist,,2026-07-25,2026-07-27,34.0,62.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,July 25 to 27,Economist	Disapprove +28	34%	62%,166
+025df606c2e895e8,Donald Trump,The Argument/Verasight,,,2026-07-20,2026-07-26,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,July 20 to 26,Disapprove +20	39%	59%,167
+529d0c92f38f728a,Donald Trump,Ipsos,Reuters,,2026-07-24,2026-07-26,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,July 24 to 26,Reuters	Disapprove +23	37%	60%,168
+eaa440c4e6f82f9d,Donald Trump,YouGov,CBS News,,2026-07-22,2026-07-24,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,July 22 to 24,CBS News	Disapprove +22	39%	61%,169
+083d3be11f568029,Donald Trump,Clarity Campaign Labs,,,2026-07-17,2026-07-22,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,July 17 to 22,Disapprove +16	42%	58%,170
+99f6d2617687a4ee,Donald Trump,RMG Research,Napolitan News Service,,2026-07-13,2026-07-21,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,July 13 to 21,Napolitan News Service	Disapprove +6	46%	52%,171
+ec7c26f91f182b76,Donald Trump,American Research Group,,,2026-07-16,2026-07-20,30.0,67.0,-37.0,-37.0,0.0,user_supplied_NYT_approval_list,July 16 to 20,Disapprove +37	30%	67%,172
+9762e30a8352c13f,Donald Trump,J.L. Partners,DailyMail.com,,2026-07-17,2026-07-20,40.0,51.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,July 17 to 20,DailyMail.com	Disapprove +11	40%	51%,173
+d290c777d7133489,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-07-17,2026-07-20,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,July 17 to 20,Fox News	Disapprove +22	39%	61%,174
+239e204dc5f3b5ee,Donald Trump,YouGov,Economist,,2026-07-17,2026-07-20,36.0,60.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,July 17 to 20,Economist	Disapprove +24	36%	60%,175
+5e27e768735c2dff,Donald Trump,Emerson College,,,2026-07-19,2026-07-20,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,July 19 to 20,Disapprove +18	39%	57%,176
+110995b05a0ebfd1,Donald Trump,Morning Consult,,,2026-07-17,2026-07-19,44.0,53.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,July 17 to 19,Disapprove +10	44%	53%,177
+4f9a298eca339e23,Donald Trump,Change Research,,,2026-07-13,2026-07-17,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,July 13 to 17,Disapprove +18	40%	58%,178
+5f1c018dd9534ffc,Donald Trump,Survey 160,,,2026-07-14,2026-07-17,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,July 14 to 17,Disapprove +25	37%	62%,179
+e6608ddbfde24536,Donald Trump,Verasight,Strength In Numbers,,2026-07-14,2026-07-17,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,July 14 to 17,Strength In Numbers	Disapprove +21	38%	59%,180
+b562b229a61e05a0,Donald Trump,RMG Research,Napolitan News Service,,2026-07-06,2026-07-14,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,July 6 to 14,Napolitan News Service	Disapprove +9	44%	53%,181
+95de2c75d475c186,Donald Trump,AlphaROC,Independent Center,,2026-07-13,2026-07-14,39.0,57.0,-18.0,-19.0,1.0,user_supplied_NYT_approval_list,July 13 to 14,Independent Center	Disapprove +19	39%	57%,182
+243ee7ffcd75b48a,Donald Trump,Ipsos,The Washington Post,,2026-07-08,2026-07-13,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,July 8 to 13,The Washington Post	Disapprove +24	37%	61%,183
+d44e03484de9f1ce,Donald Trump,Echelon Insights,,,2026-07-09,2026-07-13,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,July 9 to 13,Disapprove +23	38%	61%,184
+27b7e58d2886b0f4,Donald Trump,YouGov,Economist,,2026-07-10,2026-07-13,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,July 10 to 13,Economist	Disapprove +22	37%	59%,185
+7d10d087b23649ec,Donald Trump,Morning Consult,,,2026-07-10,2026-07-13,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,July 10 to 13,Disapprove +7	45%	52%,186
+2bddf434d9136631,Donald Trump,Pew Research Center,,,2026-07-06,2026-07-12,34.0,64.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,July 6 to 12,Disapprove +30	34%	64%,187
+992aa89375e92edd,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2026-07-08,2026-07-12,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,July 8 to 12,CNBC	Disapprove +19	40%	59%,188
+728ae1acdfba09e7,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-07-11,2026-07-12,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,July 11 to 12,Harvard CAPS	Disapprove +12	42%	54%,189
+62e065aa5b6c0f71,Donald Trump,HarrisX,2Way,,2026-07-09,2026-07-10,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,July 9 to 10,2Way	Disapprove +14	42%	56%,190
+a7ea58573675a21c,Donald Trump,Quantus Insights,,,2026-07-03,2026-07-07,43.0,55.0,-12.0,-11.0,-1.0,user_supplied_NYT_approval_list,July 3 to 7,Disapprove +11	43%	55%,191
+a6c55359b6d2fbed,Donald Trump,HarrisX,2Way,,2026-07-06,2026-07-07,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,July 6 to 7,2Way	Disapprove +11	43%	54%,192
+4ddb06b2e2bec57f,Donald Trump,Manhattan Institute,,,2026-07-01,2026-07-06,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,July 1 to 6,Disapprove +10	44%	54%,193
+de0fea881ab20469,Donald Trump,Morning Consult,,,2026-07-03,2026-07-06,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,July 3 to 6,Disapprove +8	45%	53%,194
+6c7270313fae603f,Donald Trump,YouGov,Economist,,2026-07-03,2026-07-06,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,July 3 to 6,Economist	Disapprove +26	35%	61%,195
+dabd0c43a3d6140e,Donald Trump,Zogby Analytics,,,2026-07-01,2026-07-04,42.0,57.0,-15.0,-16.0,1.0,user_supplied_NYT_approval_list,July 1 to 4,Disapprove +16	42%	57%,196
+d7183956778b1fee,Donald Trump,Talker Research,Scripps News,,2026-06-25,2026-07-02,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,June 25 to July 2,Scripps News	Disapprove +1	45%	46%,197
+c23a5d1cd8c2746d,Donald Trump,TIPP Insights,Issues & Insights,,2026-06-29,2026-07-02,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,June 29 to July 2,Issues & Insights	Disapprove +16	38%	54%,198
+daf6d3ff60c7aa4f,Donald Trump,ActiVote,,,2026-06-01,2026-06-30,41.0,55.0,-14.0,-15.0,1.0,user_supplied_NYT_approval_list,June 1 to 30,Disapprove +15	41%	55%,199
+dfdf85954a86eea7,Donald Trump,Navigator Research,,,2026-06-25,2026-06-30,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,June 25 to 30,Disapprove +21	39%	60%,200
+2b9f81edf9bf8848,Donald Trump,Focaldata,Financial Times,,2026-06-26,2026-06-30,34.0,57.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,June 26 to 30,Financial Times	Disapprove +23	34%	57%,201
+0b96c701b44f77f3,Donald Trump,YouGov,Economist,,2026-06-26,2026-06-29,38.0,58.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,June 26 to 29,Economist	Disapprove +20	38%	58%,202
+5ab745b19675f551,Donald Trump,Big Data Poll,Public Polling Project,,2026-06-26,2026-06-28,43.0,53.0,-10.0,-11.0,1.0,user_supplied_NYT_approval_list,June 26 to 28,Public Polling Project	Disapprove +11	43%	53%,203
+3e8c4ca7faf5be0b,Donald Trump,Morning Consult,,,2026-06-26,2026-06-28,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,June 26 to 28,Disapprove +12	43%	55%,204
+cf32f38dced7d50f,Donald Trump,AlphaROC,Independent Center,,2026-06-27,2026-06-28,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,June 27 to 28,Independent Center	Disapprove +16	40%	56%,205
+46d864b42e6a07f8,Donald Trump,Tavern Research,"Searchlight, Zeteo",,2026-06-24,2026-06-26,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,June 24 to 26,"Searchlight, Zeteo	Disapprove +17	40%	57%",206
+692a3f62d8c14a60,Donald Trump,Morning Consult,CATO Institute,,2026-06-25,2026-06-26,41.0,47.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,June 25 to 26,CATO Institute	Disapprove +6	41%	47%,207
+a40cbc028530fc2d,Donald Trump,RMG Research,Napolitan News Service,,2026-06-15,2026-06-23,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,June 15 to 23,Napolitan News Service	Disapprove +12	43%	55%,208
+36d0630168644d88,Donald Trump,YouGov,Winthrop University,,2026-06-18,2026-06-23,34.0,59.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,June 18 to 23,Winthrop University	Disapprove +25	34%	59%,209
+e0fccf02c81aa7a0,Donald Trump,Verasight,Strength In Numbers,,2026-06-17,2026-06-22,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,June 17 to 22,Strength In Numbers	Disapprove +23	37%	60%,210
+bad8b3ae81f26b96,Donald Trump,Quinnipiac University,,,2026-06-18,2026-06-22,38.0,55.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,June 18 to 22,Disapprove +17	38%	55%,211
+ddd2f46d461bd944,Donald Trump,Echelon Insights,,,2026-06-18,2026-06-22,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,June 18 to 22,Disapprove +17	41%	58%,212
+80713ead755c3051,Donald Trump,Ipsos,Reuters,,2026-06-18,2026-06-22,34.0,64.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,June 18 to 22,Reuters	Disapprove +30	34%	64%,213
+4d82f4a32a23ef9b,Donald Trump,Morning Consult,,,2026-06-19,2026-06-22,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,June 19 to 22,Disapprove +11	43%	54%,214
+62fe149d32c73f65,Donald Trump,YouGov,Economist,,2026-06-19,2026-06-22,36.0,58.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,June 19 to 22,Economist	Disapprove +22	36%	58%,215
+5354d7c578f6e011,Donald Trump,Data for Progress,,,2026-05-15,2026-06-21,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,May 15 to June 21,Disapprove +13	43%	56%,216
+a5deb899388c3722,Donald Trump,J.L. Partners,DailyMail.com,,2026-06-19,2026-06-21,44.0,50.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,June 19 to 21,DailyMail.com	Disapprove +6	44%	50%,217
+40e38ffc26af1457,Donald Trump,American Research Group,,,2026-06-16,2026-06-20,30.0,66.0,-36.0,-36.0,0.0,user_supplied_NYT_approval_list,June 16 to 20,Disapprove +36	30%	66%,218
+1627aaedce349ec8,Donald Trump,YouGov,CBS News,,2026-06-17,2026-06-19,38.0,62.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,June 17 to 19,CBS News	Disapprove +24	38%	62%,219
+d80482f3fa97e796,Donald Trump,RMG Research,Napolitan News Service,,2026-06-10,2026-06-18,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,June 10 to 18,Napolitan News Service	Disapprove +12	43%	55%,220
+e0e5b6969aee4d81,Donald Trump,Change Research,,,2026-06-10,2026-06-17,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,June 10 to 17,Disapprove +21	39%	60%,221
+2f141e6bc6931982,Donald Trump,AP-NORC,,,2026-06-11,2026-06-17,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,June 11 to 17,Disapprove +25	37%	62%,222
+d806a14dee9325d3,Donald Trump,Quantus Insights,,,2026-06-16,2026-06-17,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,June 16 to 17,Disapprove +13	43%	56%,223
+5f0b3a855953679f,Donald Trump,The Bullfinch Group,Independent Center,,2026-06-12,2026-06-16,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,June 12 to 16,Independent Center	Disapprove +16	40%	56%,224
+b21ab738968df27a,Donald Trump,Marquette University Law School,,,2026-06-09,2026-06-15,38.0,62.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,June 9 to 15,Disapprove +24	38%	62%,225
+37163f727e2ccdfb,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-06-12,2026-06-15,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,June 12 to 15,Fox News	Disapprove +21	39%	60%,226
+4b326d6e9a377547,Donald Trump,Morning Consult,,,2026-06-12,2026-06-15,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,June 12 to 15,Disapprove +10	43%	53%,227
+f4ddd9d8ea531958,Donald Trump,Ipsos,Reuters,,2026-06-12,2026-06-15,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,June 12 to 15,Reuters	Disapprove +26	36%	62%,228
+3009026c6dc5eae8,Donald Trump,YouGov,Economist,,2026-06-13,2026-06-15,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,June 13 to 15,Economist	Disapprove +17	39%	56%,229
+67a2bad625497828,Donald Trump,Echelon Insights,,,2026-06-11,2026-06-14,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,June 11 to 14,Disapprove +19	40%	59%,230
+62552acc4ce22dc8,Donald Trump,RMG Research,Napolitan News Service,,2026-06-03,2026-06-11,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,June 3 to 11,Napolitan News Service	Disapprove +14	42%	56%,231
+df52184030c1f306,Donald Trump,Marist University,"NPR, PBS News",,2026-06-08,2026-06-11,36.0,59.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,June 8 to 11,"NPR, PBS News	Disapprove +23	36%	59%",232
+b2a2df82d4ab525c,Donald Trump,Tavern Research,The AI Policy Institute,,2026-06-10,2026-06-11,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,June 10 to 11,The AI Policy Institute	Disapprove +17	40%	57%,233
+c8bab522f91df24b,Donald Trump,Morning Consult,,,2026-06-08,2026-06-10,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,June 8 to 10,Disapprove +12	43%	55%,234
+53264dfc48fd15a1,Donald Trump,Ipsos,Reuters,,2026-06-03,2026-06-08,35.0,63.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,June 3 to 8,Reuters	Disapprove +28	35%	63%,235
+2cf239b5d40b34b5,Donald Trump,Navigator Research,,,2026-06-04,2026-06-08,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,June 4 to 8,Disapprove +18	40%	58%,236
+73f85d9e605329e6,Donald Trump,Morning Consult,,,2026-06-05,2026-06-08,44.0,53.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,June 5 to 8,Disapprove +10	44%	53%,237
+2ebd14519d9a7dc8,Donald Trump,YouGov,Economist,,2026-06-05,2026-06-08,35.0,60.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,June 5 to 8,Economist	Disapprove +25	35%	60%,238
+b6b374d11bee8c9d,Donald Trump,Emerson College,,,2026-06-07,2026-06-08,39.0,55.0,-16.0,-15.0,-1.0,user_supplied_NYT_approval_list,June 7 to 8,Disapprove +15	39%	55%,239
+556f9282c588bfe5,Donald Trump,HarrisX,Forbes,,2026-05-20,2026-06-07,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,May 20 to June 7,Forbes	Disapprove +14	41%	55%,240
+bfcedc28a70c68d9,Donald Trump,Hart Research Associates/Public Opinion Strategies,"More Perfect, NBC News",,2026-05-29,2026-06-07,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,May 29 to June 7,"More Perfect, NBC News	Disapprove +19	39%	58%",241
+5800f6c2ad2c6dd0,Donald Trump,Research Co.,,,2026-06-04,2026-06-06,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,June 4 to 6,Disapprove +19	38%	57%,242
+6ffdad961aae3cbe,Donald Trump,Clarity Campaign Labs,,,2026-05-28,2026-06-05,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,May 28 to June 5,Disapprove +18	40%	58%,243
+b7b88bb2c648498e,Donald Trump,RMG Research,Napolitan News Service,,2026-05-26,2026-06-04,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,May 26 to June 4,Napolitan News Service	Disapprove +11	44%	55%,244
+e4e3a61fe8f0c5a0,Donald Trump,Noble Predictive Insights,Center Square,,2026-06-01,2026-06-04,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,June 1 to 4,Center Square	Disapprove +18	40%	58%,245
+94370517d35eeb3f,Donald Trump,The Argument/Verasight,,,2026-05-29,2026-06-03,38.0,61.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,May 29 to June 3,Disapprove +23	38%	61%,246
+a93b1d4c83df6f1c,Donald Trump,The Bullfinch Group,,,2026-05-29,2026-06-02,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,May 29 to June 2,Disapprove +14	41%	55%,247
+d8fe1fa305ab0e2d,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2026-05-30,2026-06-02,37.0,58.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,May 30 to June 2,Disapprove +21	37%	58%,248
+6b6395d9b168a4db,Donald Trump,Quantus Insights,,,2026-06-01,2026-06-02,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,June 1 to 2,Disapprove +14	42%	56%,249
+615e6747720dbf9e,Donald Trump,Focaldata,Financial Times,,2026-05-29,2026-06-01,37.0,56.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,May 29 to June 1,Financial Times	Disapprove +19	37%	56%,250
+b6f079ac3e13bf61,Donald Trump,YouGov,Economist,,2026-05-29,2026-06-01,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,May 29 to June 1,Economist	Disapprove +26	35%	61%,251
+cae74cfa7789b290,Donald Trump,ActiVote,,,2026-05-01,2026-05-31,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,May 1 to 31,Disapprove +15	40%	55%,252
+5c2a487f5e646312,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-05-29,2026-05-31,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,May 29 to 31,Harvard CAPS	Disapprove +10	43%	53%,253
+b6fd65cdac4ed5f2,Donald Trump,Morning Consult,,,2026-05-29,2026-05-31,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,May 29 to 31,Disapprove +12	43%	55%,254
+f841e9d66d42dcbd,Donald Trump,Tavern Research,Searchlight,,2026-05-28,2026-05-29,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,May 28 to 29,Searchlight	Disapprove +19	39%	58%,255
+3c0c16ee17b8b1e8,Donald Trump,TIPP Insights,Issues & Insights,,2026-05-26,2026-05-28,37.0,54.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,May 26 to 28,Issues & Insights	Disapprove +17	37%	54%,256
+56dd8a1f3506b582,Donald Trump,Big Data Poll,Public Polling Project,,2026-05-24,2026-05-27,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,May 24 to 27,Public Polling Project	Disapprove +18	39%	57%,257
+65ef3943c6c913f1,Donald Trump,RMG Research,Napolitan News Service,,2026-05-18,2026-05-26,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,May 18 to 26,Napolitan News Service	Disapprove +12	43%	55%,258
+96a5da4f7bedb0e3,Donald Trump,Marquette University Law School,,,2026-05-20,2026-05-26,38.0,62.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,May 20 to 26,Disapprove +24	38%	62%,259
+5c74ee4b0cbf6c22,Donald Trump,YouGov,Economist,,2026-05-22,2026-05-26,34.0,59.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,May 22 to 26,Economist	Disapprove +25	34%	59%,260
+0156cd57466520b1,Donald Trump,Emerson College,,,2026-05-24,2026-05-25,39.0,55.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,May 24 to 25,Disapprove +16	39%	55%,261
+1bc6265f77216dad,Donald Trump,Bedrock Polling,Third Way,Democratic sponsor,2026-05-20,2026-05-24,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,May 20 to 24,Disapprove +15	40%	55%,262
+64b43829e7ddc3bd,Donald Trump,Morning Consult,,,2026-05-22,2026-05-24,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,May 22 to 24,Disapprove +11	43%	54%,263
+0b594a820dbf1d07,Donald Trump,John Zogby Strategies,,,2026-05-21,2026-05-22,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,May 21 to 22,Disapprove +10	44%	54%,264
+208385bbd3b9a554,Donald Trump,RMG Research,Napolitan News Service,,2026-05-13,2026-05-21,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,May 13 to 21,Napolitan News Service	Disapprove +15	42%	57%,265
+44ca9708b1a98e8b,Donald Trump,Overton Insights,,,2026-05-16,2026-05-20,32.0,58.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,May 16 to 20,Disapprove +26	32%	58%,266
+8525a9f5383c3f6f,Donald Trump,American Research Group,,,2026-05-16,2026-05-20,31.0,64.0,-33.0,-33.0,0.0,user_supplied_NYT_approval_list,May 16 to 20,Disapprove +33	31%	64%,267
+ecfacc524dcdd13a,Donald Trump,Verasight,Strength In Numbers,,2026-05-18,2026-05-19,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,May 18 to 19,Strength In Numbers	Disapprove +23	37%	60%,268
+9d550c279e7a27ba,Donald Trump,Impact Research/National Research Inc.,Wall Street Journal,,2026-05-07,2026-05-18,34.0,63.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,May 7 to 18,Wall Street Journal	Disapprove +29	34%	63%,269
+f8f5fd8bcbcb6aef,Donald Trump,Navigator Research,,,2026-05-13,2026-05-18,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,May 13 to 18,Disapprove +20	39%	59%,270
+d8bf7efd13b82345,Donald Trump,Quinnipiac University,,,2026-05-14,2026-05-18,34.0,58.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,May 14 to 18,Disapprove +24	34%	58%,271
+0aa8f6be7c0526e9,Donald Trump,AP-NORC,,,2026-05-14,2026-05-18,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,May 14 to 18,Disapprove +25	37%	62%,272
+059f310d97281dda,Donald Trump,Echelon Insights,,,2026-05-14,2026-05-18,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,May 14 to 18,Disapprove +19	40%	59%,273
+97e941c3d1ba361f,Donald Trump,Data for Progress,,,2026-05-15,2026-05-18,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,May 15 to 18,Disapprove +13	43%	56%,274
+c175799d66d15dbc,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-05-15,2026-05-18,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,May 15 to 18,Fox News	Disapprove +22	39%	61%,275
+fca34f357c7617f2,Donald Trump,J.L. Partners,DailyMail.com,,2026-05-15,2026-05-18,39.0,52.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,May 15 to 18,DailyMail.com	Disapprove +13	39%	52%,276
+f795424b83d8c9bc,Donald Trump,Ipsos,Reuters,,2026-05-15,2026-05-18,35.0,63.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,May 15 to 18,Reuters	Disapprove +28	35%	63%,277
+6c741aca9a37fb32,Donald Trump,YouGov,Economist,,2026-05-15,2026-05-18,37.0,57.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,May 15 to 18,Economist	Disapprove +20	37%	57%,278
+1a681b0fd3beafd6,Donald Trump,Morning Consult,,,2026-05-15,2026-05-17,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,May 15 to 17,Disapprove +13	42%	55%,279
+3dc288ced11c0f60,Donald Trump,The New York Times/Siena University,,,2026-05-11,2026-05-15,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,May 11 to 15,Disapprove +22	37%	59%,280
+653bc73e21478a2a,Donald Trump,YouGov,CBS News,,2026-05-13,2026-05-15,37.0,63.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,May 13 to 15,CBS News	Disapprove +26	37%	63%,281
+b325ac673a2f7ed5,Donald Trump,RMG Research,Napolitan News Service,,2026-05-05,2026-05-14,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,May 5 to 14,Napolitan News Service	Disapprove +15	42%	57%,282
+21ca45176d8743ed,Donald Trump,Ipsos,Reuters,,2026-05-08,2026-05-11,36.0,63.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,May 8 to 11,Reuters	Disapprove +27	36%	63%,283
+f0fea1e7325d7bdc,Donald Trump,YouGov,Economist,,2026-05-09,2026-05-11,36.0,58.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,May 9 to 11,Economist	Disapprove +22	36%	58%,284
+397cbd7757cffb0e,Donald Trump,Change Research,,,2026-05-05,2026-05-10,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,May 5 to 10,Disapprove +13	43%	56%,285
+c4c974bc9f29d925,Donald Trump,Morning Consult,,,2026-05-08,2026-05-10,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,May 8 to 10,Disapprove +12	43%	55%,286
+c45e3821af05a26f,Donald Trump,AtlasIntel,,,2026-05-04,2026-05-07,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,May 4 to 7,Disapprove +20	40%	60%,287
+be45775053feb473,Donald Trump,RMG Research,Napolitan News Service,,2026-04-29,2026-05-06,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,April 29 to May 6,Napolitan News Service	Disapprove +17	41%	58%,288
+1e11280ae26a1f25,Donald Trump,HarrisX,Forbes,,2026-04-29,2026-05-05,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,April 29 to May 5,Forbes	Disapprove +15	41%	56%,289
+4fe3c9f25c297c60,Donald Trump,CNN/SSRS,,,2026-04-30,2026-05-04,35.0,65.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,April 30 to May 4,Disapprove +30	35%	65%,290
+f37451904453fc2c,Donald Trump,YouGov,Economist,,2026-05-01,2026-05-04,36.0,58.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,May 1 to 4,Economist	Disapprove +22	36%	58%,291
+09e01280fa8eae4e,Donald Trump,Morning Consult,,,2026-04-30,2026-05-03,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,April 30 to May 3,Disapprove +9	44%	53%,292
+844750e77f7153da,Donald Trump,TIPP Insights,Issues & Insights,,2026-04-28,2026-05-01,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 28 to May 1,Issues & Insights	Disapprove +16	38%	54%,293
+934a2f0a4fa9c5cf,Donald Trump,ActiVote,,,2026-04-01,2026-04-30,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 1 to 30,Disapprove +16	40%	56%,294
+62edc7ec408e280c,Donald Trump,RMG Research,Napolitan News Service,,2026-04-22,2026-04-30,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,April 22 to 30,Napolitan News Service	Disapprove +15	42%	57%,295
+24f12c4ae6ab565e,Donald Trump,Marist University,"NPR, PBS News",,2026-04-27,2026-04-30,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,April 27 to 30,"NPR, PBS News	Disapprove +22	37%	59%",296
+f740ed78ab5bb51d,Donald Trump,Ipsos,"ABC News, The Washington Post",,2026-04-24,2026-04-28,37.0,62.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,April 24 to 28,"ABC News, The Washington Post	Disapprove +25	37%	62%",297
+6cb6a61f59370c33,Donald Trump,Big Data Poll,Public Polling Project,,2026-04-25,2026-04-28,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,April 25 to 28,Public Polling Project	Disapprove +17	40%	57%,298
+b561b0df13bef813,Donald Trump,Public Opinion Strategies,CoinDesk,,2026-04-21,2026-04-27,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,April 21 to 27,CoinDesk	Disapprove +20	40%	60%,299
+26c1fd4fdb446557,Donald Trump,Navigator Research,,,2026-04-23,2026-04-27,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,April 23 to 27,Disapprove +18	40%	58%,300
+7380f552df28da93,Donald Trump,Ipsos,Reuters,,2026-04-24,2026-04-27,34.0,64.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,April 24 to 27,Reuters	Disapprove +30	34%	64%,301
+96a62809cf8e143c,Donald Trump,YouGov,Economist,,2026-04-24,2026-04-27,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,April 24 to 27,Economist	Disapprove +22	37%	59%,302
+c5ba4907cdbf7fc8,Donald Trump,Morning Consult,,,2026-04-24,2026-04-27,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,April 24 to 27,Disapprove +8	45%	53%,303
+3584b7e5234e4a00,Donald Trump,InsiderAdvantage,,,2026-04-26,2026-04-27,44.0,49.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,April 26 to 27,Disapprove +5	44%	49%,304
+bca5005c239e7331,Donald Trump,Tavern Research,,,2026-04-27,2026-04-27,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,April 27,Disapprove +23	37%	60%,305
+36025f999c6e0ca6,Donald Trump,Pew Research Center,,,2026-04-20,2026-04-26,34.0,64.0,-30.0,-30.0,0.0,user_supplied_NYT_approval_list,April 20 to 26,Disapprove +30	34%	64%,306
+011b1b74c3dcde75,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-04-23,2026-04-26,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,April 23 to 26,Harvard CAPS	Disapprove +11	42%	53%,307
+bb1d5cbe35781150,Donald Trump,Emerson College,,,2026-04-24,2026-04-26,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 24 to 26,Disapprove +16	40%	56%,308
+127e8f8f5c71da09,Donald Trump,Clarity Campaign Labs,,,2026-04-15,2026-04-24,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,April 15 to 24,Disapprove +12	43%	55%,309
+d072d6a7e6abab5c,Donald Trump,RMG Research,Napolitan News Service,,2026-04-14,2026-04-23,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,April 14 to 23,Napolitan News Service	Disapprove +13	42%	55%,310
+c853f134e5df1aa0,Donald Trump,The Argument/Verasight,,,2026-04-20,2026-04-23,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,April 20 to 23,Disapprove +21	39%	60%,311
+cc933785b3de9b02,Donald Trump,Quantus Insights,,,2026-04-21,2026-04-23,43.0,56.0,-13.0,-14.0,1.0,user_supplied_NYT_approval_list,April 21 to 23,Disapprove +14	43%	56%,312
+e4542cbd993ec9d9,Donald Trump,Morning Consult,"Deseret News, Hinckley Institute of Politics",,2026-04-15,2026-04-20,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,April 15 to 20,"Deseret News, Hinckley Institute of Politics	Disapprove +12	42%	54%",313
+a65e659b1fed523e,Donald Trump,Angus Reid Global,,,2026-04-15,2026-04-20,35.0,59.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,April 15 to 20,Disapprove +24	35%	59%,314
+f1d0292c39ae2fe0,Donald Trump,Ipsos,Reuters,,2026-04-15,2026-04-20,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,April 15 to 20,Reuters	Disapprove +26	36%	62%,315
+b06fb06694b849ed,Donald Trump,AP-NORC,,,2026-04-16,2026-04-20,33.0,67.0,-34.0,-34.0,0.0,user_supplied_NYT_approval_list,April 16 to 20,Disapprove +34	33%	67%,316
+69263c25a759847e,Donald Trump,American Research Group,,,2026-04-16,2026-04-20,32.0,63.0,-31.0,-31.0,0.0,user_supplied_NYT_approval_list,April 16 to 20,Disapprove +31	32%	63%,317
+a78e3472d6a52143,Donald Trump,Leger,,,2026-04-17,2026-04-20,36.0,53.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,April 17 to 20,Disapprove +17	36%	53%,318
+37bb56b431a263e9,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-04-17,2026-04-20,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 17 to 20,Fox News	Disapprove +16	42%	58%,319
+5ddeeeb90c61b477,Donald Trump,Echelon Insights,,,2026-04-17,2026-04-20,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 17 to 20,Disapprove +16	41%	57%,320
+24578633f32f0108,Donald Trump,YouGov,Economist,,2026-04-17,2026-04-20,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,April 17 to 20,Economist	Disapprove +16	38%	54%,321
+d50bdf90839fff15,Donald Trump,Morning Consult,,,2026-04-17,2026-04-20,44.0,53.0,-9.0,-8.0,-1.0,user_supplied_NYT_approval_list,April 17 to 20,Disapprove +8	44%	53%,322
+661e5578469b4800,Donald Trump,YouGov,,,2026-04-14,2026-04-19,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,April 14 to 19,Disapprove +19	38%	57%,323
+6c385dc6a0e3783b,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2026-04-15,2026-04-19,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,April 15 to 19,CNBC	Disapprove +18	40%	58%,324
+c5a5cef8814226ac,Donald Trump,John Zogby Strategies,,,2026-04-17,2026-04-18,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,April 17 to 18,Disapprove +12	43%	55%,325
+c2e53f229e6d58e7,Donald Trump,Marquette University Law School,,,2026-04-08,2026-04-16,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,April 8 to 16,Disapprove +21	39%	60%,326
+533a180249849ccb,Donald Trump,GBAO,,,2026-04-08,2026-04-15,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,April 8 to 15,Disapprove +21	39%	60%,327
+624676873054fb2c,Donald Trump,RMG Research,Napolitan News Service,,2026-04-08,2026-04-15,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,April 8 to 15,Napolitan News Service	Disapprove +8	45%	53%,328
+c1e6764bef0bb7c0,Donald Trump,Verasight,Strength In Numbers,,2026-04-10,2026-04-14,35.0,61.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,April 10 to 14,Strength In Numbers	Disapprove +26	35%	61%,329
+19105cafb2d2eb7e,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2026-03-30,2026-04-13,37.0,63.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,March 30 to April 13,NBC News Decision Desk	Disapprove +26	37%	63%,330
+25dc04b873c94aba,Donald Trump,Survey 160,,,2026-04-08,2026-04-13,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,April 8 to 13,Disapprove +23	37%	60%,331
+565dcae9b2d297e1,Donald Trump,Quinnipiac University,,,2026-04-09,2026-04-13,38.0,55.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,April 9 to 13,Disapprove +17	38%	55%,332
+705251cac1a77747,Donald Trump,YouGov,Economist,,2026-04-10,2026-04-13,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,April 10 to 13,Economist	Disapprove +18	38%	56%,333
+a96fa39d3ad22aee,Donald Trump,Morning Consult,,,2026-04-10,2026-04-12,44.0,53.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,April 10 to 12,Disapprove +10	44%	53%,334
+c353af1848036b0b,Donald Trump,YouGov,CBS News,,2026-04-08,2026-04-10,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,April 8 to 10,CBS News	Disapprove +22	39%	61%,335
+e4eba840b7568c71,Donald Trump,RMG Research,Napolitan News Service,,2026-04-01,2026-04-09,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,April 1 to 9,Napolitan News Service	Disapprove +9	45%	54%,336
+3ed6a39aae74b1cb,Donald Trump,Echelon Insights,NetChoice,,2026-04-03,2026-04-09,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,April 3 to 9,NetChoice	Disapprove +13	43%	56%,337
+9173093400735b82,Donald Trump,J.L. Partners,DailyMail.com,,2026-04-08,2026-04-08,39.0,52.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,April 8,DailyMail.com	Disapprove +13	39%	52%,338
+f4d21317b52d081f,Donald Trump,Morning Consult,,,2026-04-01,2026-04-07,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,April 1 to 7,Disapprove +19	38%	57%,339
+2f576eb0048c3df3,Donald Trump,Change Research,,,2026-04-03,2026-04-07,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,April 3 to 7,Disapprove +14	42%	56%,340
+31db21fea99f42f8,Donald Trump,Navigator Research,,,2026-04-02,2026-04-06,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,April 2 to 6,Disapprove +18	40%	58%,341
+8a0bd9ccb669c515,Donald Trump,Morning Consult,,,2026-04-03,2026-04-06,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,April 3 to 6,Disapprove +7	45%	52%,342
+ab43b1b72ae09896,Donald Trump,YouGov,Economist,,2026-04-03,2026-04-06,38.0,55.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,April 3 to 6,Economist	Disapprove +17	38%	55%,343
+1484273f07c56e30,Donald Trump,High Point University,,,2026-03-29,2026-04-03,39.0,53.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,March 29 to April 3,Disapprove +14	39%	53%,344
+78a4ea4f510c359e,Donald Trump,RMG Research,Napolitan News Service,,2026-03-25,2026-04-02,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 25 to April 2,Napolitan News Service	Disapprove +18	40%	58%,345
+afe5ab4a25c3497e,Donald Trump,TIPP Insights,Issues & Insights,,2026-03-31,2026-04-02,39.0,53.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,March 31 to April 2,Issues & Insights	Disapprove +14	39%	53%,346
+06e6a23ed3057e37,Donald Trump,ActiVote,,,2026-03-01,2026-03-31,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,March 1 to 31,Disapprove +13	42%	55%,347
+619d3cd87e5d9a26,Donald Trump,University of Massachusetts Lowell Center for Public Opinion/YouGov,,,2026-03-26,2026-03-30,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,March 26 to 30,Disapprove +22	39%	61%,348
+5e014ba79c16fea3,Donald Trump,Lake Research Partners,Free Speech For People,,2026-03-26,2026-03-30,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,March 26 to 30,Free Speech For People	Disapprove +19	38%	57%,349
+88afc414ec20911d,Donald Trump,CNN/SSRS,,,2026-03-26,2026-03-30,35.0,64.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,March 26 to 30,Disapprove +29	35%	64%,350
+7d4694ddea2d6681,Donald Trump,YouGov,Economist,,2026-03-27,2026-03-30,35.0,58.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,March 27 to 30,Economist	Disapprove +23	35%	58%,351
+f3f866e7fd156786,Donald Trump,Morning Consult,,,2026-03-27,2026-03-29,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,March 27 to 29,Disapprove +11	43%	54%,352
+0fbb4bd7c392ad87,Donald Trump,Morning Consult,Public Affairs Council,,2026-03-26,2026-03-28,40.0,53.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,March 26 to 28,Public Affairs Council	Disapprove +13	40%	53%,353
+b9eb38112e5f1c17,Donald Trump,RMG Research,Napolitan News Service,,2026-03-18,2026-03-26,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,March 18 to 26,Napolitan News Service	Disapprove +9	45%	54%,354
+842eef9c8b98c389,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-03-25,2026-03-26,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,March 25 to 26,Harvard CAPS	Disapprove +10	43%	53%,355
+4ab9aa2ab8574839,Donald Trump,Quantus Insights,,,2026-03-25,2026-03-26,42.0,57.0,-15.0,-14.0,-1.0,user_supplied_NYT_approval_list,March 25 to 26,Disapprove +14	42%	57%,356
+6db8eedb6d25cc2d,Donald Trump,YouGov,UMass Amherst,,2026-03-20,2026-03-25,33.0,62.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,March 20 to 25,UMass Amherst	Disapprove +29	33%	62%,357
+6f3ce7afe02c53e0,Donald Trump,Big Data Poll,Public Polling Project,,2026-03-22,2026-03-24,42.0,56.0,-14.0,-13.0,-1.0,user_supplied_NYT_approval_list,March 22 to 24,Public Polling Project	Disapprove +13	42%	56%,358
+8831cb039f883371,Donald Trump,J.L. Partners,DailyMail.com,,2026-03-23,2026-03-24,41.0,49.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,March 23 to 24,DailyMail.com	Disapprove +8	41%	49%,359
+6cb85d81fee134e1,Donald Trump,Yale University Institution for Social and Policy Studies,,,2026-03-09,2026-03-23,42.0,56.0,-14.0,-15.0,1.0,user_supplied_NYT_approval_list,March 9 to 23,Disapprove +15	42%	56%,360
+d15489e1851b6257,Donald Trump,Quinnipiac University,,,2026-03-19,2026-03-23,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 19 to 23,Disapprove +18	38%	56%,361
+95879640fc1d7317,Donald Trump,AP-NORC,,,2026-03-19,2026-03-23,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,March 19 to 23,Disapprove +22	38%	60%,362
+4ca9d9d941f44eae,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-03-20,2026-03-23,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 20 to 23,Fox News	Disapprove +18	41%	59%,363
+09a3707dccd438aa,Donald Trump,Ipsos,Reuters,,2026-03-20,2026-03-23,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,March 20 to 23,Reuters	Disapprove +26	36%	62%,364
+0a65fcc3f4df24ab,Donald Trump,YouGov,The Economist,,2026-03-20,2026-03-23,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 20 to 23,The Economist	Disapprove +18	38%	56%,365
+d5bc848ee8d9ed14,Donald Trump,Morning Consult,,,2026-03-20,2026-03-22,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,March 20 to 22,Disapprove +11	43%	54%,366
+5711839a5f3afe5c,Donald Trump,American Research Group,,,2026-03-16,2026-03-20,34.0,63.0,-29.0,-29.0,0.0,user_supplied_NYT_approval_list,March 16 to 20,Disapprove +29	34%	63%,367
+2317eee229228b76,Donald Trump,YouGov,CBS News,,2026-03-17,2026-03-20,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,March 17 to 20,CBS News	Disapprove +20	40%	60%,368
+1cd58daee6744292,Donald Trump,J.L. Partners,DailyMail.com,,2026-03-18,2026-03-20,39.0,54.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,March 18 to 20,DailyMail.com	Disapprove +15	39%	54%,369
+afc4ce6dc825332b,Donald Trump,RMG Research,Napolitan News Service,,2026-03-11,2026-03-19,46.0,53.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,March 11 to 19,Napolitan News Service	Disapprove +7	46%	53%,370
+2e2b330c7134d8c7,Donald Trump,Ipsos,Reuters,,2026-03-17,2026-03-19,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 17 to 19,Reuters	Disapprove +18	40%	58%,371
+22fa3d53caaada17,Donald Trump,Verasight,Strength In Numbers,,2026-03-16,2026-03-18,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,March 16 to 18,Strength In Numbers	Disapprove +23	37%	60%,372
+75349c21f24b4d6a,Donald Trump,Tavern Research,Searchlight,,2026-03-16,2026-03-18,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,March 16 to 18,Searchlight	Disapprove +14	41%	55%,373
+034b68ec1222cabd,Donald Trump,Quantus Insights,,,2026-03-17,2026-03-18,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,March 17 to 18,Disapprove +11	44%	55%,374
+0f3e66d981433339,Donald Trump,John Zogby Strategies,,,2026-03-17,2026-03-18,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,March 17 to 18,Disapprove +10	44%	54%,375
+87d392191ee88b3d,Donald Trump,The Argument/Verasight,,,2026-03-12,2026-03-17,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,March 12 to 17,Disapprove +18	40%	58%,376
+5cc6d5ad9a1220ed,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2026-03-15,2026-03-17,37.0,58.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,March 15 to 17,Disapprove +21	37%	58%,377
+26b2583a5269f2e0,Donald Trump,Emerson College,,,2026-03-16,2026-03-17,42.0,51.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,March 16 to 17,Disapprove +10	42%	51%,378
+27282ac2dc32fc53,Donald Trump,YouGov,Yahoo News,,2026-03-12,2026-03-16,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,March 12 to 16,Yahoo News	Disapprove +21	38%	59%,379
+f123058b58c2d28c,Donald Trump,Navigator Research,,,2026-03-12,2026-03-16,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,March 12 to 16,Disapprove +19	40%	59%,380
+b6168bfb43d4184d,Donald Trump,Echelon Insights,,,2026-03-12,2026-03-16,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,March 12 to 16,Disapprove +16	41%	57%,381
+527c82042914d68d,Donald Trump,Leger,,,2026-03-13,2026-03-16,35.0,55.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,March 13 to 16,Disapprove +20	35%	55%,382
+5e2238dc882fc8ee,Donald Trump,YouGov,Economist,,2026-03-13,2026-03-16,37.0,56.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,March 13 to 16,Economist	Disapprove +19	37%	56%,383
+0d8428309f59dbbf,Donald Trump,Morning Consult,,,2026-03-13,2026-03-16,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,March 13 to 16,Disapprove +11	43%	54%,384
+3660f1af6629bbed,Donald Trump,Survey 160,,,2026-03-09,2026-03-15,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,March 9 to 15,Disapprove +21	38%	59%,385
+40241f5641483a66,Donald Trump,RMG Research,Napolitan News Service,,2026-03-04,2026-03-12,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,March 4 to 12,Napolitan News Service	Disapprove +8	45%	53%,386
+9a93197d0059051e,Donald Trump,Change Research,,,2026-03-08,2026-03-12,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,March 8 to 12,Disapprove +13	43%	56%,387
+3c3c0144d5593bed,Donald Trump,Focaldata,,,2026-03-06,2026-03-10,37.0,51.0,-14.0,-13.0,-1.0,user_supplied_NYT_approval_list,March 6 to 10,Disapprove +13	37%	51%,388
+19ea7c8534908fe2,Donald Trump,YouGov,Economist,,2026-03-06,2026-03-09,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,March 6 to 9,Economist	Disapprove +15	40%	55%,389
+cfeab8f3ee44cf7a,Donald Trump,Morning Consult,,,2026-03-02,2026-03-08,39.0,55.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,March 2 to 8,Disapprove +16	39%	55%,390
+119b037663622048,Donald Trump,Morning Consult,,,2026-03-06,2026-03-08,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,March 6 to 8,Disapprove +9	44%	53%,391
+5e07d180d1f949c6,Donald Trump,Quinnipiac University,,,2026-03-06,2026-03-08,37.0,57.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,March 6 to 8,Disapprove +20	37%	57%,392
+97cca9ce9daf1818,Donald Trump,Clarity Campaign Labs,,,2026-02-26,2026-03-07,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Feb. 26 to March 7,Disapprove +10	43%	53%,393
+a67d506ad1cf3144,Donald Trump,Noble Predictive Insights,Center Square,,2026-03-02,2026-03-05,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,March 2 to 5,Center Square	Disapprove +5	46%	51%,394
+7127103241a8e42c,Donald Trump,Schoen Cooperman Research,Israel on Campus Coalition,,2026-03-02,2026-03-05,39.0,54.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,March 2 to 5,Israel on Campus Coalition	Disapprove +15	39%	54%,395
+1846e83d6c8d03d7,Donald Trump,Angus Reid Global,,,2026-03-02,2026-03-05,36.0,56.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,March 2 to 5,Disapprove +20	36%	56%,396
+464af3c9dd74393d,Donald Trump,RMG Research,Napolitan News Service,,2026-02-28,2026-03-04,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,Feb. 28 to March 4,Napolitan News Service	Disapprove +6	46%	52%,397
+e08c33200b8723e0,Donald Trump,Marist University,"NPR, PBS News",,2026-03-02,2026-03-04,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,March 2 to 4,"NPR, PBS News	Disapprove +19	38%	57%",398
+e85123de4358d673,Donald Trump,Angus Reid Global,,,2026-03-02,2026-03-04,35.0,58.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,March 2 to 4,Disapprove +23	35%	58%,399
+15424a55295c43e1,Donald Trump,Hart Research Associates/Public Opinion Strategies,NBC News,,2026-02-27,2026-03-03,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Feb. 27 to March 3,NBC News	Disapprove +10	44%	54%,400
+1629920740229fc8,Donald Trump,Trafalgar Group,March 1-3,,2026-03-01,2026-03-03,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,March 1 to 3,Approve +2	50%	48%,401
+17f3a2d69d9af7f6,Donald Trump,J.L. Partners,DailyMail.com,,2026-03-02,2026-03-03,40.0,50.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,March 2 to 3,DailyMail.com	Disapprove +10	40%	50%,402
+6262924e66b98263,Donald Trump,Quantus Insights,,,2026-03-02,2026-03-03,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,March 2 to 3,Disapprove +9	45%	54%,403
+0303e7163a688ef8,Donald Trump,YouGov,Economist,,2026-02-27,2026-03-02,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Feb. 27 to March 2,Economist	Disapprove +21	38%	59%,404
+616b88985a44b54b,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-02-28,2026-03-02,43.0,57.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Feb. 28 to March 2,Fox News	Disapprove +14	43%	57%,405
+cda2b1a26ef54a6c,Donald Trump,Ipsos,Reuters,,2026-02-28,2026-03-01,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Feb. 28 to March 1,Reuters	Disapprove +21	39%	60%,406
+c04ed93c4386a861,Donald Trump,RMG Research,Napolitan News Service,,2026-02-28,2026-03-01,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Feb. 28 to March 1,Napolitan News Service	Disapprove +9	45%	54%,407
+cf68373ff2e9ca98,Donald Trump,ActiVote,,,2026-02-01,2026-02-28,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Feb. 1 to 28,Disapprove +12	42%	54%,408
+fd41de21cc64a4ad,Donald Trump,The Public Sentiment Institute,,,2026-02-28,2026-02-28,36.0,63.0,-27.0,-28.0,1.0,user_supplied_NYT_approval_list,Feb. 28,Disapprove +28	36%	63%,409
+a78a1fcbf135364c,Donald Trump,Morning Consult,,,2026-02-28,2026-02-28,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Feb. 28,Disapprove +9	44%	53%,410
+eab121e238dd7579,Donald Trump,TIPP Insights,Issues & Insights,,2026-02-24,2026-02-27,40.0,51.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Feb. 24 to 27,Issues & Insights	Disapprove +11	40%	51%,411
+4b7f1a0eb07857fa,Donald Trump,J.L. Partners,DailyMail.com,,2026-02-25,2026-02-27,44.0,48.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,Feb. 25 to 27,DailyMail.com	Disapprove +4	44%	48%,412
+ef7fc1db92afc3a4,Donald Trump,YouGov,CBS News,,2026-02-25,2026-02-27,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Feb. 25 to 27,CBS News	Disapprove +18	41%	59%,413
+555d9ddfad60c2c7,Donald Trump,RMG Research,Napolitan News Service,,2026-02-18,2026-02-26,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Feb. 18 to 26,Napolitan News Service	Disapprove +9	45%	54%,414
+d1ad4d175422451f,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-02-25,2026-02-26,46.0,49.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,Feb. 25 to 26,Harvard CAPS	Disapprove +3	46%	49%,415
+0ec4aba2dc72253c,Donald Trump,John Zogby Strategies,,,2026-02-25,2026-02-26,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,Feb. 25 to 26,Disapprove +3	47%	50%,416
+73991a5b3b91851d,Donald Trump,Trafalgar Group,Feb. 24-25,,2026-02-24,2026-02-25,51.0,48.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,Feb. 24 to 25,Approve +3	51%	48%,417
+fa982396879cae7b,Donald Trump,Ipsos,Reuters,,2026-02-18,2026-02-23,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Feb. 18 to 23,Reuters	Disapprove +18	40%	58%,418
+4c38c876d9e594e0,Donald Trump,Navigator Research,,,2026-02-19,2026-02-23,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Feb. 19 to 23,Disapprove +17	41%	58%,419
+fc187b27fcba9553,Donald Trump,Echelon Insights,,,2026-02-19,2026-02-23,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Feb. 19 to 23,Disapprove +11	44%	55%,420
+216a79186edf5cd6,Donald Trump,YouGov,CBS News,,2026-02-20,2026-02-23,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Feb. 20 to 23,CBS News	Disapprove +20	40%	60%,421
+a92ffee3dd2fe5b4,Donald Trump,YouGov,Economist,,2026-02-20,2026-02-23,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Feb. 20 to 23,Economist	Disapprove +18	39%	57%,422
+59758555e215e7c9,Donald Trump,Morning Consult,,,2026-02-20,2026-02-22,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Feb. 20 to 22,Disapprove +9	44%	53%,423
+d3d48ae93021a92e,Donald Trump,Emerson College,,,2026-02-21,2026-02-22,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Feb. 21 to 22,Disapprove +12	43%	55%,424
+f12022910b7fdd5d,Donald Trump,American Research Group,,,2026-02-16,2026-02-20,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Feb. 16 to 20,Disapprove +26	36%	62%,425
+23efebe660b8610b,Donald Trump,CNN/SSRS,,,2026-02-17,2026-02-20,36.0,63.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,Feb. 17 to 20,Disapprove +27	36%	63%,426
+94aa63b71db1ef80,Donald Trump,Verasight,Strength In Numbers,,2026-02-18,2026-02-20,37.0,59.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Feb. 18 to 20,Strength In Numbers	Disapprove +22	37%	59%,427
+3e0fd419e1691c07,Donald Trump,RMG Research,Napolitan News Service,,2026-02-11,2026-02-19,47.0,52.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,Feb. 11 to 19,Napolitan News Service	Disapprove +5	47%	52%,428
+e309c0bd6f2873c6,Donald Trump,Talker Research,Scripps News,,2026-02-13,2026-02-19,44.0,47.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 19,Scripps News	Disapprove +3	44%	47%,429
+54d555cdd5328021,Donald Trump,Tavern Research,Searchlight,,2026-02-18,2026-02-19,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Feb. 18 to 19,Searchlight	Disapprove +15	41%	56%,430
+809718e5fc1a85d4,Donald Trump,Change Research,,,2026-02-05,2026-02-18,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Feb. 5 to 18,Disapprove +12	43%	55%,431
+5261fda753f4805e,Donald Trump,Bowling Green State University Democracy and Public Policy Research Network/YouGov,,,2026-02-13,2026-02-18,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 18,Disapprove +17	41%	58%,432
+ec8399c864321eb5,Donald Trump,Big Data Poll,"1776 Law Center, Public Polling Project",,2026-02-16,2026-02-18,42.0,55.0,-13.0,-12.0,-1.0,user_supplied_NYT_approval_list,Feb. 16 to 18,"1776 Law Center, Public Polling Project	Disapprove +12	42%	55%",433
+32f6dd4c653d18f1,Donald Trump,InsiderAdvantage,,,2026-02-17,2026-02-18,50.0,46.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,Feb. 17 to 18,Approve +4	50%	46%,434
+c479e5e081e3c573,Donald Trump,Ipsos,"ABC News, The Washington Post",,2026-02-12,2026-02-17,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Feb. 12 to 17,"ABC News, The Washington Post	Disapprove +21	39%	60%",435
+cf8029dfaf0fad6e,Donald Trump,Morning Consult,,,2026-02-13,2026-02-16,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 16,Disapprove +12	43%	55%,436
+b5e4ef6700f77c7b,Donald Trump,Ipsos,Reuters,,2026-02-13,2026-02-16,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 16,Reuters	Disapprove +22	38%	60%,437
+8721bf686000ef09,Donald Trump,The Bullfinch Group,,,2026-02-13,2026-02-16,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 16,Disapprove +19	38%	57%,438
+72375697a26aba1a,Donald Trump,YouGov,Economist,,2026-02-13,2026-02-16,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Feb. 13 to 16,Economist	Disapprove +17	39%	56%,439
+5cc396bd8d492c8f,Donald Trump,Morning Consult,"Deseret News, Hinckley Institute of Politics",,2026-02-10,2026-02-13,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Feb. 10 to 13,"Deseret News, Hinckley Institute of Politics	Disapprove +13	42%	55%",440
+f09fe337f7ef8e24,Donald Trump,RMG Research,Napolitan News Service,,2026-02-04,2026-02-12,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,Feb. 4 to 12,Napolitan News Service	Disapprove +4	47%	51%,441
+d200095b6794111b,Donald Trump,YouGov,Yahoo News,,2026-02-09,2026-02-12,38.0,58.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Feb. 9 to 12,Yahoo News	Disapprove +20	38%	58%,442
+f3d2c11357d117ec,Donald Trump,Quantus Insights,,,2026-02-12,2026-02-12,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Feb. 12,Disapprove +13	43%	56%,443
+b4adae2b236d1eff,Donald Trump,The Argument/Verasight,,,2026-02-04,2026-02-10,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Feb. 4 to 10,Disapprove +15	42%	57%,444
+f57933ed8decbb34,Donald Trump,Focaldata,,,2026-02-10,2026-02-10,34.0,53.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Feb. 10,Disapprove +19	34%	53%,445
+ac77d2fbf6015689,Donald Trump,Morning Consult,,,2026-02-06,2026-02-09,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Feb. 6 to 9,Disapprove +9	44%	53%,446
+50a78ce9d8fd0c56,Donald Trump,GBAO,"Care in Action, Community Change Action, FWD.us",Democratic sponsor,2026-02-06,2026-02-09,43.0,57.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Feb. 6 to 9,Disapprove +14	43%	57%,447
+56453eaa878d60d9,Donald Trump,YouGov,Economist,,2026-02-06,2026-02-09,37.0,56.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Feb. 6 to 9,Economist	Disapprove +19	37%	56%,448
+3b8174bfb27b81da,Donald Trump,Morning Consult,,,2026-02-02,2026-02-08,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Feb. 2 to 8,Disapprove +14	40%	54%,449
+204071c22681cbfa,Donald Trump,AP-NORC,,,2026-02-05,2026-02-08,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,Feb. 5 to 8,Disapprove +26	36%	62%,450
+0f39141b0a1819b0,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2026-01-27,2026-02-06,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Jan. 27 to Feb. 6,NBC News Decision Desk	Disapprove +22	39%	61%,451
+c3f77fbe15f01e54,Donald Trump,John Zogby Strategies,,,2026-02-04,2026-02-05,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Feb. 4 to 5,Disapprove +10	44%	54%,452
+95b68b3070d2b1ad,Donald Trump,RMG Research,Napolitan News Service,,2026-01-28,2026-02-04,46.0,53.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,Jan. 28 to Feb. 4,Napolitan News Service	Disapprove +7	46%	53%,453
+17d506cad3c3c854,Donald Trump,Quinnipiac University,,,2026-01-29,2026-02-02,37.0,56.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Jan. 29 to Feb. 2,Disapprove +19	37%	56%,454
+453d6099a9e894fb,Donald Trump,YouGov,Economist,,2026-01-30,2026-02-02,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 30 to Feb. 2,Economist	Disapprove +14	40%	54%,455
+550aefa7a1d18257,Donald Trump,Navigator Research,,,2026-01-29,2026-02-01,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Jan. 29 to Feb. 1,Disapprove +15	41%	56%,456
+3af4d1b1d1580430,Donald Trump,Morning Consult,,,2026-01-30,2026-02-01,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 30 to Feb. 1,Disapprove +8	45%	53%,457
+a16cfb791cda6ba5,Donald Trump,InsiderAdvantage,,,2026-01-31,2026-02-01,50.0,49.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,Jan. 31 to Feb. 1,Approve +1	50%	49%,458
+c56827f20d81338e,Donald Trump,ActiVote,,,2026-01-01,2026-01-31,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Jan. 1 to 31,Disapprove +9	44%	53%,459
+35bc867422cadb05,Donald Trump,Marist University,"NPR, PBS News",,2026-01-27,2026-01-30,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Jan. 27 to 30,"NPR, PBS News	Disapprove +17	39%	56%",460
+476aca3136c9fd91,Donald Trump,Public Policy Polling,,,2026-01-29,2026-01-30,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Jan. 29 to 30,Disapprove +17	39%	56%,461
+d3b842edcb9691e6,Donald Trump,TIPP Insights,Issues & Insights,,2026-01-27,2026-01-29,40.0,51.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Jan. 27 to 29,Issues & Insights	Disapprove +11	40%	51%,462
+7ddb17470aeb3ce1,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2026-01-28,2026-01-29,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,Jan. 28 to 29,Harvard CAPS	Disapprove +6	45%	51%,463
+68b0eccd7a34ad61,Donald Trump,Marquette University Law School,,,2026-01-21,2026-01-28,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Jan. 21 to 28,Disapprove +16	42%	58%,464
+92a47b2de28572ed,Donald Trump,RMG Research,Napolitan News Service,,2026-01-21,2026-01-28,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,Jan. 21 to 28,Napolitan News Service	Disapprove +3	48%	51%,465
+2ef6ef9754f8cb52,Donald Trump,The Argument/Verasight,,,2026-01-26,2026-01-27,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,Jan. 26 to 27,Disapprove +15	42%	57%,466
+6865012b57c83c85,Donald Trump,Pew Research Center,,,2026-01-20,2026-01-26,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,Jan. 20 to 26,Disapprove +24	37%	61%,467
+2291e2269d5ad704,Donald Trump,Echelon Insights,,,2026-01-22,2026-01-26,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Jan. 22 to 26,Disapprove +16	41%	57%,468
+d2727cbf3de5d7b3,Donald Trump,Focaldata,,,2026-01-23,2026-01-26,37.0,51.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 26,Disapprove +14	37%	51%,469
+1b2561f7be50445f,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2026-01-23,2026-01-26,44.0,56.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 26,Fox News	Disapprove +12	44%	56%,470
+3681de6df87ebccb,Donald Trump,Tavern Research,Searchlight,,2026-01-23,2026-01-26,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 26,Searchlight	Disapprove +14	42%	56%,471
+3fda921ef14fc525,Donald Trump,YouGov,Economist,,2026-01-23,2026-01-26,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 26,Economist	Disapprove +18	39%	57%,472
+a6edab56779e4505,Donald Trump,J.L. Partners,DailyMail.com,,2026-01-26,2026-01-26,41.0,51.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,Jan. 26,DailyMail.com	Disapprove +10	41%	51%,473
+c79adb797dc921bc,Donald Trump,Morning Consult,,,2026-01-23,2026-01-25,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 25,Disapprove +7	45%	52%,474
+360e136fa8813d3b,Donald Trump,Ipsos,Reuters,,2026-01-23,2026-01-25,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,Jan. 23 to 25,Reuters	Disapprove +21	38%	59%,475
+eef944325379f51e,Donald Trump,Tavern Research,,,2026-01-25,2026-01-25,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 25,Disapprove +14	42%	56%,476
+b353070ece0642c0,Donald Trump,Big Data Poll,Public Polling Project,,2026-01-22,2026-01-24,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,Jan. 22 to 24,Public Polling Project	Disapprove +7	45%	52%,477
+67f9dd3b99cf9ac0,Donald Trump,Clarity Campaign Labs,,,2026-01-15,2026-01-22,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,Jan. 15 to 22,Disapprove +13	43%	56%,478
+b0e10da493ac10f8,Donald Trump,YouGov,,,2026-01-16,2026-01-22,38.0,58.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 22,Disapprove +20	38%	58%,479
+17c7f550894914cf,Donald Trump,Quantus Insights,,,2026-01-20,2026-01-22,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 20 to 22,Disapprove +8	44%	52%,480
+ad5d11352fa3cc73,Donald Trump,RMG Research,Napolitan News Service,,2026-01-14,2026-01-21,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,Jan. 14 to 21,Napolitan News Service	Disapprove +4	47%	51%,481
+e36f51d13080cfa8,Donald Trump,Tavern Research,Searchlight,,2026-01-17,2026-01-21,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Jan. 17 to 21,Searchlight	Disapprove +9	44%	53%,482
+43313f5b06f15c5d,Donald Trump,Verasight,Strength In Numbers,,2026-01-14,2026-01-20,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 14 to 20,Strength In Numbers	Disapprove +18	40%	58%,483
+a4eded849ec99bd4,Donald Trump,Angus Reid Global,,,2026-01-16,2026-01-20,37.0,56.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 20,Disapprove +19	37%	56%,484
+854f7693eb3c306c,Donald Trump,American Research Group,,,2026-01-16,2026-01-20,35.0,63.0,-28.0,-28.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 20,Disapprove +28	35%	63%,485
+51923124d0e213f5,Donald Trump,Change Research,,,2026-01-13,2026-01-19,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 13 to 19,Disapprove +8	45%	53%,486
+6211845da02cbe0e,Donald Trump,YouGov,Economist,,2026-01-16,2026-01-19,37.0,57.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 19,Economist	Disapprove +20	37%	57%,487
+6e772f15f6a96388,Donald Trump,Emerson College,,,2026-01-17,2026-01-19,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 17 to 19,Disapprove +8	43%	51%,488
+c1898dbd40b6878c,Donald Trump,YouGov,,,2026-01-16,2026-01-18,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 18,Disapprove +18	39%	57%,489
+93c03622ba9a017d,Donald Trump,Morning Consult,,,2026-01-16,2026-01-18,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,Jan. 16 to 18,Disapprove +5	46%	51%,490
+125fbfe3099777cb,Donald Trump,The New York Times/Siena University,,,2026-01-12,2026-01-17,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Jan. 12 to 17,Disapprove +16	40%	56%,491
+a33646c7417ba05e,Donald Trump,YouGov,CBS News,,2026-01-14,2026-01-16,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 14 to 16,CBS News	Disapprove +18	41%	59%,492
+4ff2fcda3258d811,Donald Trump,Research Co.,,,2026-01-13,2026-01-15,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Jan. 13 to 15,Disapprove +11	42%	53%,493
+9904ccaa7999d90f,Donald Trump,RMG Research,Napolitan News Service,,2026-01-07,2026-01-14,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,Jan. 7 to 14,Napolitan News Service	Disapprove +3	48%	51%,494
+a73a99bdc6d6f120,Donald Trump,Public Policy Polling,Progress Action Fund (hybrid PAC),Democratic sponsor,2026-01-13,2026-01-14,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 13 to 14,Disapprove +8	44%	52%,495
+3c4ad43d8ea3d098,Donald Trump,Impact Research/National Research Inc.,Wall Street Journal,,2026-01-08,2026-01-13,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 13,Wall Street Journal	Disapprove +9	45%	54%,496
+ea71be1a18e7df16,Donald Trump,Marist University,,,2026-01-12,2026-01-13,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 12 to 13,Disapprove +18	38%	56%,497
+76c34f1602d40bab,Donald Trump,Ipsos,Reuters,,2026-01-12,2026-01-13,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Jan. 12 to 13,Reuters	Disapprove +17	41%	58%,498
+e718b5450177d8e0,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2026-01-08,2026-01-12,40.0,52.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 12,Disapprove +12	40%	52%,499
+9b70075e4856e76c,Donald Trump,Navigator Research,,,2026-01-08,2026-01-12,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 12,Disapprove +14	42%	56%,500
+d39f2aef08ca206e,Donald Trump,Quinnipiac University,,,2026-01-08,2026-01-12,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 12,Disapprove +14	40%	54%,501
+7c486ba551e63601,Donald Trump,YouGov,Yahoo News,,2026-01-08,2026-01-12,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 12,Yahoo News	Disapprove +16	40%	56%,502
+202cdc71ab79ea33,Donald Trump,CNN/SSRS,,,2026-01-09,2026-01-12,39.0,61.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,Jan. 9 to 12,Disapprove +22	39%	61%,503
+6859dd1c9839be95,Donald Trump,YouGov,Economist,,2026-01-09,2026-01-12,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 9 to 12,Economist	Disapprove +14	40%	54%,504
+ee14016d1f5fbe91,Donald Trump,Morning Consult,,,2026-01-09,2026-01-12,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,Jan. 9 to 12,Disapprove +8	45%	53%,505
+1515837c8e83e375,Donald Trump,AP-NORC,,,2026-01-08,2026-01-11,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,Jan. 8 to 11,Disapprove +19	40%	59%,506
+90646e705ca02a0e,Donald Trump,RealClear Opinion Research,Unite America,,2026-01-09,2026-01-11,40.0,50.0,-10.0,-11.0,1.0,user_supplied_NYT_approval_list,Jan. 9 to 11,Unite America	Disapprove +11	40%	50%,507
+bdce5731863b6e39,Donald Trump,TIPP Insights,Issues & Insights,,2026-01-06,2026-01-09,40.0,51.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,Jan. 6 to 9,Issues & Insights	Disapprove +11	40%	51%,508
+68fef5163a8fdfb4,Donald Trump,RMG Research,Napolitan News Service,,2026-01-05,2026-01-08,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,Jan. 5 to 8,Napolitan News Service	Disapprove +4	47%	51%,509
+1f574555b0fddaf5,Donald Trump,Zogby Analytics,,,2026-01-02,2026-01-07,44.0,55.0,-11.0,-12.0,1.0,user_supplied_NYT_approval_list,Jan. 2 to 7,Disapprove +12	44%	55%,510
+d5ed3825dc7bcb5d,Donald Trump,YouGov,CBS News,,2026-01-05,2026-01-07,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,Jan. 5 to 7,CBS News	Disapprove +18	41%	59%,511
+a3130f012932a024,Donald Trump,YouGov,Economist,,2026-01-02,2026-01-05,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,Jan. 2 to 5,Economist	Disapprove +17	39%	56%,512
+4b3552b4da5f8ada,Donald Trump,Ipsos,Reuters,,2026-01-04,2026-01-05,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,Jan. 4 to 5,Reuters	Disapprove +14	42%	56%,513
+3aa7417a6807bb48,Donald Trump,Morning Consult,,,2025-12-29,2026-01-04,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Dec. 29, 2025 to Jan. 4, 2026",Disapprove +8	43%	51%,514
+61516e111ceb8f07,Donald Trump,Morning Consult,,,2026-01-02,2026-01-04,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,Jan. 2 to 4,Disapprove +5	46%	51%,515
+65830314f3c83c79,Donald Trump,The Bullfinch Group,Independent Center,,2025-12-30,2026-01-01,38.0,58.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,"Dec. 30, 2025 to Jan. 1, 2026",Independent Center	Disapprove +20	38%	58%,516
+2e64114aee3f008b,Donald Trump,YouGov,Economist,,2025-12-26,2025-12-29,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Dec. 26 to 29, 2025",Economist	Disapprove +17	39%	56%,517
+5afbb83ddf26b9b1,Donald Trump,Morning Consult,,,2025-12-26,2025-12-28,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Dec. 26 to 28, 2025",Disapprove +2	48%	50%,518
+3d3da6d34c21510b,Donald Trump,Big Data Poll,Public Polling Project,,2025-12-26,2025-12-28,47.0,50.0,-3.0,-2.0,-1.0,user_supplied_NYT_approval_list,"Dec. 26 to 28, 2025",Public Polling Project	Disapprove +2	47%	50%,519
+49376c3f0af8ce5b,Donald Trump,Trafalgar Group,"Dec. 26-27, 2025",,2025-12-26,2025-12-27,50.0,45.0,5.0,6.0,-1.0,user_supplied_NYT_approval_list,"Dec. 26 to 27, 2025",Approve +6	50%	45%,520
+e26aeb3a72bf3060,Donald Trump,YouGov,Economist,,2025-12-20,2025-12-22,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Dec. 20 to 22, 2025",Economist	Disapprove +18	39%	57%,521
+00b441fd9ab8d761,Donald Trump,Morning Consult,,,2025-12-19,2025-12-21,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Dec. 19 to 21, 2025",Disapprove +7	45%	52%,522
+6e77b5ab875f39cd,Donald Trump,J.L. Partners,DailyMail.com,,2025-12-20,2025-12-21,43.0,47.0,-4.0,-3.0,-1.0,user_supplied_NYT_approval_list,"Dec. 20 to 21, 2025",DailyMail.com	Disapprove +3	43%	47%,523
+f3f23fb9d3d0b4ee,Donald Trump,American Research Group,,,2025-12-17,2025-12-20,35.0,62.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,"Dec. 17 to 20, 2025",Disapprove +27	35%	62%,524
+94a5162c907f31aa,Donald Trump,InsiderAdvantage,,,2025-12-19,2025-12-20,50.0,41.0,9.0,8.0,1.0,user_supplied_NYT_approval_list,"Dec. 19 to 20, 2025",Approve +8	50%	41%,525
+1fccbaa85d949512,Donald Trump,AtlasIntel,,,2025-12-15,2025-12-19,39.0,60.0,-21.0,-20.0,-1.0,user_supplied_NYT_approval_list,"Dec. 15 to 19, 2025",Disapprove +20	39%	60%,526
+9275dae914011f3b,Donald Trump,YouGov,CBS News,,2025-12-17,2025-12-19,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Dec. 17 to 19, 2025",CBS News	Disapprove +18	41%	59%,527
+4c28c5b619fa9173,Donald Trump,RMG Research,Napolitan News Service,,2025-12-10,2025-12-18,50.0,49.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"Dec. 10 to 18, 2025",Napolitan News Service	Approve +1	50%	49%,528
+0afb960f78d6627d,Donald Trump,"Susquehanna Polling & Research, Inc.",,,2025-12-09,2025-12-17,38.0,56.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Dec. 9 to 17, 2025",Disapprove +18	38%	56%,529
+e4ec85ee53dff372,Donald Trump,Echelon Insights/GBAO,AARP,,2025-12-09,2025-12-16,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Dec. 9 to 16, 2025",AARP	Disapprove +11	44%	55%,530
+f2eaed15f657497d,Donald Trump,Quantus Insights,,,2025-12-15,2025-12-16,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"Dec. 15 to 16, 2025",Disapprove +9	44%	53%,531
+629645b182fb5687,Donald Trump,Gallup,,,2025-12-01,2025-12-15,36.0,59.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,"Dec. 1 to 15, 2025",Disapprove +23	36%	59%,532
+7e5d47136d48f801,Donald Trump,Quinnipiac University,,,2025-12-11,2025-12-15,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Dec. 11 to 15, 2025",Disapprove +14	40%	54%,533
+5ec2314385bf5c36,Donald Trump,Echelon Insights,,,2025-12-11,2025-12-15,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Dec. 11 to 15, 2025",Disapprove +10	45%	55%,534
+f01f5a5cc5bbc3d8,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-12-12,2025-12-15,44.0,56.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Dec. 12 to 15, 2025",Fox News	Disapprove +12	44%	56%,535
+97db70ddeca39929,Donald Trump,Ipsos,Reuters,,2025-12-12,2025-12-15,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,"Dec. 12 to 15, 2025",Reuters	Disapprove +20	39%	59%,536
+88b34671868203e4,Donald Trump,YouGov,Economist,,2025-12-12,2025-12-15,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Dec. 12 to 15, 2025",Economist	Disapprove +12	42%	54%,537
+40efd146cd4f1c85,Donald Trump,Morning Consult,,,2025-12-12,2025-12-15,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Dec. 12 to 15, 2025",Disapprove +6	46%	52%,538
+a908492a2ca76671,Donald Trump,Emerson College,,,2025-12-14,2025-12-15,41.0,50.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,"Dec. 14 to 15, 2025",Disapprove +10	41%	50%,539
+352f103f05f09345,Donald Trump,Morning Consult,,,2025-12-08,2025-12-14,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Dec. 8 to 14, 2025",Disapprove +8	43%	51%,540
+3320635e94b7e419,Donald Trump,Tavern Research,Rainey Center,,2025-12-13,2025-12-13,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Dec. 13, 2025",Rainey Center	Disapprove +11	43%	54%,541
+7fe04c03ab9c4780,Donald Trump,Big Data Poll,Public Polling Project,,2025-12-10,2025-12-12,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Dec. 10 to 12, 2025",Public Polling Project	Disapprove +3	47%	50%,542
+75f71a57dec69549,Donald Trump,RMG Research,Napolitan News Service,,2025-12-03,2025-12-11,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Dec. 3 to 11, 2025",Napolitan News Service	Disapprove +4	47%	51%,543
+d19242a415ebee11,Donald Trump,Clarity Campaign Labs,,,2025-12-04,2025-12-11,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Dec. 4 to 11, 2025",Disapprove +11	44%	55%,544
+97050972e7b7ccab,Donald Trump,The Argument/Verasight,,,2025-12-05,2025-12-11,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 11, 2025",Disapprove +12	43%	55%,545
+439df83dda2fef1c,Donald Trump,Marist University,"NPR, PBS News",,2025-12-08,2025-12-11,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Dec. 8 to 11, 2025","NPR, PBS News	Disapprove +16	38%	54%",546
+96d945f509233d57,Donald Trump,Change Research,,,2025-12-05,2025-12-10,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 10, 2025",Disapprove +8	45%	53%,547
+67c23137cb92f449,Donald Trump,Tavern Research,Searchlight,,2025-12-09,2025-12-10,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Dec. 9 to 10, 2025",Searchlight	Disapprove +8	45%	53%,548
+0e23ee92eccfb939,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2025-11-20,2025-12-08,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Nov. 20 to Dec. 8, 2025",NBC News Decision Desk	Disapprove +16	42%	58%,549
+b0f12eb3039d6647,Donald Trump,Ipsos,Reuters,,2025-12-03,2025-12-08,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Dec. 3 to 8, 2025",Reuters	Disapprove +16	41%	57%,550
+30d643f194353643,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2025-12-04,2025-12-08,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Dec. 4 to 8, 2025",CNBC	Disapprove +7	45%	52%,551
+1911f17f510de9cd,Donald Trump,Navigator Research,,,2025-12-04,2025-12-08,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Dec. 4 to 8, 2025",Disapprove +14	42%	56%,552
+e7e5d3f15f73e780,Donald Trump,AP-NORC,,,2025-12-04,2025-12-08,36.0,61.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,"Dec. 4 to 8, 2025",Disapprove +25	36%	61%,553
+b9e6f3693e425a62,Donald Trump,Tavern Research,Searchlight,,2025-12-05,2025-12-08,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 8, 2025",Searchlight	Disapprove +8	45%	53%,554
+b7162e86ad91d9ad,Donald Trump,YouGov,Economist,,2025-12-05,2025-12-08,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 8, 2025",Economist	Disapprove +14	41%	55%,555
+92719e3161173cb1,Donald Trump,John Zogby Strategies,,,2025-12-05,2025-12-07,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 7, 2025",Disapprove +6	46%	52%,556
+bcf38b5015f9c851,Donald Trump,Morning Consult,,,2025-12-05,2025-12-07,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Dec. 5 to 7, 2025",Disapprove +7	45%	52%,557
+33cf071096d5941e,Donald Trump,J.L. Partners,DailyMail.com,,2025-12-03,2025-12-05,43.0,49.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Dec. 3 to 5, 2025",DailyMail.com	Disapprove +6	43%	49%,558
+bde79efc19c8f525,Donald Trump,Quantus Insights,,,2025-12-04,2025-12-05,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Dec. 4 to 5, 2025",Disapprove +10	43%	53%,559
+b040c53cd8ea0ceb,Donald Trump,RMG Research,Napolitan News Service,,2025-11-19,2025-12-04,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Nov. 19 to Dec. 4, 2025",Napolitan News Service	Disapprove +8	45%	53%,560
+20b7f5f0fb160d5d,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-12-02,2025-12-04,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Dec. 2 to 4, 2025",Harvard CAPS	Disapprove +2	47%	49%,561
+c919ec476fe35857,Donald Trump,Trafalgar Group/InsiderAdvantage,,,2025-12-03,2025-12-04,44.0,49.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Dec. 3 to 4, 2025",Disapprove +5	44%	49%,562
+447b98ee744dd757,Donald Trump,Big Data Poll,Public Polling Project,,2025-11-28,2025-12-01,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Nov. 28 to Dec. 1, 2025",Public Polling Project	Disapprove +6	45%	51%,563
+5143634e9505510c,Donald Trump,YouGov,Economist,,2025-11-28,2025-12-01,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,"Nov. 28 to Dec. 1, 2025",Economist	Disapprove +19	39%	58%,564
+8e097e7338c6f7d9,Donald Trump,ActiVote,,,2025-11-01,2025-11-30,41.0,55.0,-14.0,-13.0,-1.0,user_supplied_NYT_approval_list,"Nov. 1 to 30, 2025",Disapprove +13	41%	55%,565
+493c22a253f0035f,Donald Trump,Morning Consult,,,2025-11-26,2025-11-30,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Nov. 26 to 30, 2025",Disapprove +7	45%	52%,566
+6f67761849d6fe90,Donald Trump,TIPP Insights,Issues & Insights,,2025-11-25,2025-11-29,43.0,47.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Nov. 25 to 29, 2025",Issues & Insights	Disapprove +4	43%	47%,567
+015d3cc83df50855,Donald Trump,GBAO,Third Way,Democratic sponsor,2025-11-19,2025-11-26,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Nov. 19 to 26, 2025",Disapprove +13	43%	56%,568
+da3c024d1a1c216e,Donald Trump,Gallup,,,2025-11-03,2025-11-25,36.0,60.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,"Nov. 3 to 25, 2025",Disapprove +24	36%	60%,569
+bee8d82ed5b9a2fc,Donald Trump,The Bullfinch Group,,,2025-11-21,2025-11-25,39.0,54.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Nov. 21 to 25, 2025",Disapprove +15	39%	54%,570
+678ec8924be861e6,Donald Trump,YouGov,Yahoo News,,2025-11-21,2025-11-24,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Nov. 21 to 24, 2025",Yahoo News	Disapprove +16	40%	56%,571
+ca3884f32eeae5d6,Donald Trump,YouGov,Economist,,2025-11-21,2025-11-24,38.0,57.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,"Nov. 21 to 24, 2025",Economist	Disapprove +19	38%	57%,572
+a2eb06f57615fb73,Donald Trump,Morning Consult,,,2025-11-21,2025-11-23,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Nov. 21 to 23, 2025",Disapprove +7	45%	52%,573
+996736544c16f418,Donald Trump,Emerson College,Consensus Strategies,,2025-11-18,2025-11-21,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Nov. 18 to 21, 2025",Consensus Strategies	Disapprove +10	45%	55%,574
+00a10b8263472f75,Donald Trump,YouGov,CBS News,,2025-11-19,2025-11-21,40.0,60.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,"Nov. 19 to 21, 2025",CBS News	Disapprove +20	40%	60%,575
+97d93ab5b1ac4f1c,Donald Trump,InsiderAdvantage,,,2025-11-20,2025-11-21,44.0,49.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Nov. 20 to 21, 2025",Disapprove +5	44%	49%,576
+4d79b3b25ce6159a,Donald Trump,Big Data Poll,Public Polling Project,,2025-11-20,2025-11-21,45.0,50.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Nov. 20 to 21, 2025",Public Polling Project	Disapprove +5	45%	50%,577
+2ed52be7a29bf53d,Donald Trump,RMG Research,Napolitan News Service,,2025-11-12,2025-11-20,46.0,53.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Nov. 12 to 20, 2025",Napolitan News Service	Disapprove +7	46%	53%,578
+d75f0b096f58cc34,Donald Trump,American Research Group,,,2025-11-17,2025-11-20,35.0,62.0,-27.0,-27.0,0.0,user_supplied_NYT_approval_list,"Nov. 17 to 20, 2025",Disapprove +27	35%	62%,579
+a17e525bece5344c,Donald Trump,J.L. Partners,DailyMail.com,,2025-11-19,2025-11-20,41.0,49.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Nov. 19 to 20, 2025",DailyMail.com	Disapprove +8	41%	49%,580
+445bb971b5559c55,Donald Trump,The Argument/Verasight,,,2025-11-10,2025-11-17,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Nov. 10 to 17, 2025",Disapprove +14	42%	56%,581
+d1e1e353cf8200c8,Donald Trump,Echelon Insights,,,2025-11-13,2025-11-17,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Nov. 13 to 17, 2025",Disapprove +15	42%	57%,582
+f4a146adf7086e71,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-11-14,2025-11-17,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Nov. 14 to 17, 2025",Fox News	Disapprove +17	41%	58%,583
+5a5c96204ef51af4,Donald Trump,Ipsos,Reuters,,2025-11-14,2025-11-17,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,"Nov. 14 to 17, 2025",Reuters	Disapprove +22	38%	60%,584
+839a102784ac83ad,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2025-11-15,2025-11-17,36.0,57.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"Nov. 15 to 17, 2025",Disapprove +21	36%	57%,585
+65df9c0189e4331e,Donald Trump,YouGov,Economist,,2025-11-15,2025-11-17,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Nov. 15 to 17, 2025",Economist	Disapprove +16	40%	56%,586
+d2be3da423282b13,Donald Trump,Morning Consult,,,2025-11-14,2025-11-16,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Nov. 14 to 16, 2025",Disapprove +6	46%	52%,587
+97d85d3722d86149,Donald Trump,High Point University,,,2025-11-10,2025-11-14,35.0,56.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"Nov. 10 to 14, 2025",Disapprove +21	35%	56%,588
+4cc8fcf0722e0384,Donald Trump,Verasight,Strength In Numbers,,2025-11-12,2025-11-14,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Nov. 12 to 14, 2025",Strength In Numbers	Disapprove +16	41%	57%,589
+99acc61f052446ff,Donald Trump,RMG Research,Napolitan News Service,,2025-11-05,2025-11-13,49.0,50.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"Nov. 5 to 13, 2025",Napolitan News Service	Disapprove +1	49%	50%,590
+887bd8e296b28266,Donald Trump,Morning Consult,"Deseret News, Hinckley Institute of Politics",,2025-11-07,2025-11-13,43.0,52.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"Nov. 7 to 13, 2025","Deseret News, Hinckley Institute of Politics	Disapprove +9	43%	52%",591
+5e74f0e1407faf1d,Donald Trump,Marist University,"NPR, PBS News",,2025-11-10,2025-11-13,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Nov. 10 to 13, 2025","NPR, PBS News	Disapprove +17	39%	56%",592
+d41116aeee35631f,Donald Trump,Marquette University Law School,,,2025-11-05,2025-11-12,43.0,57.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Nov. 5 to 12, 2025",Disapprove +14	43%	57%,593
+6d37989a84e90eb4,Donald Trump,Morning Consult,,,2025-11-06,2025-11-12,41.0,52.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Nov. 6 to 12, 2025",Disapprove +11	41%	52%,594
+027f4a9c1222341e,Donald Trump,Ipsos,Reuters,,2025-11-07,2025-11-12,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Nov. 7 to 12, 2025",Reuters	Disapprove +18	40%	58%,595
+e6d498ee71fb2f2c,Donald Trump,Quantus Insights,,,2025-11-11,2025-11-12,43.0,55.0,-12.0,-11.0,-1.0,user_supplied_NYT_approval_list,"Nov. 11 to 12, 2025",Disapprove +11	43%	55%,596
+8db43c7d820c5feb,Donald Trump,Yale University Institution for Social and Policy Studies,,,2025-10-29,2025-11-11,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Oct. 29 to Nov. 11, 2025",Disapprove +12	43%	55%,597
+c1522fcdca06f07f,Donald Trump,Survey 160,,,2025-11-06,2025-11-10,36.0,61.0,-25.0,-25.0,0.0,user_supplied_NYT_approval_list,"Nov. 6 to 10, 2025",Disapprove +25	36%	61%,598
+3b5319a0e0a99f5a,Donald Trump,AP-NORC,,,2025-11-06,2025-11-10,36.0,62.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,"Nov. 6 to 10, 2025",Disapprove +26	36%	62%,599
+e64b117ccaa04717,Donald Trump,Change Research,,,2025-11-06,2025-11-10,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"Nov. 6 to 10, 2025",Disapprove +9	45%	54%,600
+be39252d40b1cd97,Donald Trump,YouGov,Economist,,2025-11-07,2025-11-10,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Nov. 7 to 10, 2025",Economist	Disapprove +17	39%	56%,601
+cde07b90e0fc6c54,Donald Trump,Navigator Research,,,2025-11-06,2025-11-09,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Nov. 6 to 9, 2025",Disapprove +18	40%	58%,602
+4fda2922f43543ba,Donald Trump,Morning Consult,,,2025-11-07,2025-11-09,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Nov. 7 to 9, 2025",Disapprove +10	44%	54%,603
+303758576b6e479b,Donald Trump,GrayHouse,America One Policies,Republican sponsor,2025-11-07,2025-11-09,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Nov. 7 to 9, 2025",Disapprove +8	45%	53%,604
+079a8c871580ec67,Donald Trump,RMG Research,Napolitan News Service,,2025-10-29,2025-11-06,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Oct. 29 to Nov. 6, 2025",Napolitan News Service	Disapprove +5	46%	51%,605
+33c53d2ed676ac1f,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-11-04,2025-11-06,44.0,51.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Nov. 4 to 6, 2025",Harvard CAPS	Disapprove +7	44%	51%,606
+c8aa62c8c6de9465,Donald Trump,Emerson College,,,2025-11-03,2025-11-04,41.0,49.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Nov. 3 to 4, 2025",Disapprove +8	41%	49%,607
+f4c94c5f2134dc13,Donald Trump,YouGov,Economist,,2025-10-31,2025-11-03,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Oct. 31 to Nov. 3, 2025",Economist	Disapprove +18	39%	57%,608
+0ce12c7ba0e888bb,Donald Trump,Navigator Research,,,2025-11-01,2025-11-03,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Nov. 1 to 3, 2025",Disapprove +15	41%	56%,609
+77cb76140f73e2ec,Donald Trump,Morning Consult,,,2025-10-31,2025-11-02,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Oct. 31 to Nov. 2, 2025",Disapprove +7	45%	52%,610
+880e52619d0055a4,Donald Trump,Lord Ashcroft Polls,,,2025-10-06,2025-11-01,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Oct. 6 to Nov. 1, 2025",Disapprove +13	42%	55%,611
+457ac2b3258044a1,Donald Trump,ActiVote,,,2025-10-01,2025-10-31,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 31, 2025",Disapprove +5	46%	51%,612
+ce9f004e0e197bc5,Donald Trump,Talker Research,Scripps News,,2025-10-28,2025-10-31,44.0,46.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Oct. 28 to 31, 2025",Scripps News	Disapprove +2	44%	46%,613
+87bf5f7089509608,Donald Trump,TIPP Insights,Issues & Insights,,2025-10-28,2025-10-31,40.0,51.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Oct. 28 to 31, 2025",Issues & Insights	Disapprove +11	40%	51%,614
+9b914e0af76eafcc,Donald Trump,YouGov,CBS News,,2025-10-29,2025-10-31,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Oct. 29 to 31, 2025",CBS News	Disapprove +18	41%	59%,615
+1037292825bc8258,Donald Trump,RMG Research,Napolitan News Service,,2025-10-22,2025-10-30,48.0,49.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"Oct. 22 to 30, 2025",Napolitan News Service	Disapprove +1	48%	49%,616
+fa653d2c0df81f75,Donald Trump,CNN/SSRS,,,2025-10-27,2025-10-30,37.0,63.0,-26.0,-26.0,0.0,user_supplied_NYT_approval_list,"Oct. 27 to 30, 2025",Disapprove +26	37%	63%,617
+cdaea8357e2010f1,Donald Trump,Verasight,Strength In Numbers,,2025-10-24,2025-10-29,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 29, 2025",Strength In Numbers	Disapprove +15	41%	56%,618
+40372af34040fef9,Donald Trump,Targoz Market Research,Overton Insights,,2025-10-27,2025-10-29,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Oct. 27 to 29, 2025",Overton Insights	Disapprove +12	43%	55%,619
+3887e995dce30b3d,Donald Trump,TrueDot,"Decision Desk HQ, NewsNation",,2025-10-27,2025-10-29,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Oct. 27 to 29, 2025","Decision Desk HQ, NewsNation	Disapprove +16	41%	57%",620
+ff1ce2d84eaaee09,Donald Trump,Hart Research Associates/Public Opinion Strategies,NBC News,,2025-10-24,2025-10-28,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 28, 2025",NBC News	Disapprove +12	43%	55%,621
+8247fcfd84d603b6,Donald Trump,Ipsos,"ABC News, The Washington Post",,2025-10-24,2025-10-28,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 28, 2025","ABC News, The Washington Post	Disapprove +18	41%	59%",622
+c5fc745b19233b79,Donald Trump,Big Data Poll,Public Polling Project,,2025-10-26,2025-10-28,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Oct. 26 to 28, 2025",Public Polling Project	Disapprove +6	45%	51%,623
+bdaf734937c1f780,Donald Trump,Navigator Research,,,2025-10-23,2025-10-27,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Oct. 23 to 27, 2025",Disapprove +16	41%	57%,624
+28250a10fc9f909a,Donald Trump,YouGov,Yahoo News,,2025-10-23,2025-10-27,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Oct. 23 to 27, 2025",Yahoo News	Disapprove +16	40%	56%,625
+db1c1548054d70ee,Donald Trump,YouGov,Economist,,2025-10-24,2025-10-27,39.0,58.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 27, 2025",Economist	Disapprove +19	39%	58%,626
+7b489a1c97596f7d,Donald Trump,Leger,,,2025-10-24,2025-10-26,39.0,52.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 26, 2025",Disapprove +13	39%	52%,627
+efdbb419bed09ecd,Donald Trump,Ipsos,Reuters,,2025-10-24,2025-10-26,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 26, 2025",Reuters	Disapprove +17	40%	57%,628
+56acfc5c2c03c5aa,Donald Trump,Morning Consult,,,2025-10-24,2025-10-26,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Oct. 24 to 26, 2025",Disapprove +5	46%	51%,629
+dd53fb10f3c11c79,Donald Trump,Clarity Campaign Labs,,,2025-10-16,2025-10-23,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Oct. 16 to 23, 2025",Disapprove +6	46%	52%,630
+c639739e18423d8c,Donald Trump,RMG Research,Napolitan News Service,,2025-10-15,2025-10-22,51.0,47.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"Oct. 15 to 22, 2025",Napolitan News Service	Approve +4	51%	47%,631
+62b6cd3510936aa0,Donald Trump,Schoen Cooperman Research,Israel on Campus Coalition,,2025-10-15,2025-10-20,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Oct. 15 to 20, 2025",Israel on Campus Coalition	Disapprove +6	45%	51%,632
+d1e588e371c80343,Donald Trump,Ipsos,Reuters,,2025-10-15,2025-10-20,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Oct. 15 to 20, 2025",Reuters	Disapprove +14	42%	56%,633
+517444be9fafd54f,Donald Trump,University of Massachusetts Lowell Center for Public Opinion/YouGov,,,2025-10-16,2025-10-20,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Oct. 16 to 20, 2025",Disapprove +16	42%	58%,634
+c51efa8a8a97ad26,Donald Trump,Quinnipiac University,,,2025-10-16,2025-10-20,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Oct. 16 to 20, 2025",Disapprove +14	40%	54%,635
+0f0adc4e39a35671,Donald Trump,Navigator Research,,,2025-10-16,2025-10-20,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Oct. 16 to 20, 2025",Disapprove +12	43%	55%,636
+980cf5635f515708,Donald Trump,Echelon Insights,,,2025-10-16,2025-10-20,46.0,53.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Oct. 16 to 20, 2025",Disapprove +7	46%	53%,637
+30c84837c3bfcd95,Donald Trump,YouGov,Economist,,2025-10-17,2025-10-20,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Oct. 17 to 20, 2025",Economist	Disapprove +17	39%	56%,638
+80c8ab909c1dc8ae,Donald Trump,American Research Group,,,2025-10-17,2025-10-20,37.0,60.0,-23.0,-23.0,0.0,user_supplied_NYT_approval_list,"Oct. 17 to 20, 2025",Disapprove +23	37%	60%,639
+cd7a400e6abe266c,Donald Trump,Hart Research Associates,Senate Majority PAC,Democratic sponsor,2025-10-17,2025-10-19,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Oct. 17 to 19, 2025",Disapprove +10	45%	55%,640
+7d884504289a2921,Donald Trump,Morning Consult,,,2025-10-17,2025-10-19,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Oct. 17 to 19, 2025",Disapprove +5	46%	51%,641
+e39c346003008319,Donald Trump,Gallup,,,2025-10-01,2025-10-16,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 16, 2025",Disapprove +13	41%	54%,642
+a70cf1ea01907fa8,Donald Trump,RMG Research,Napolitan News Service,,2025-10-08,2025-10-16,52.0,47.0,5.0,5.0,0.0,user_supplied_NYT_approval_list,"Oct. 8 to 16, 2025",Napolitan News Service	Approve +5	52%	47%,643
+68ee431dd322c5dc,Donald Trump,The Bullfinch Group,Independent Center,,2025-10-10,2025-10-16,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Oct. 10 to 16, 2025",Independent Center	Disapprove +10	42%	52%,644
+4ebca41af7780d9b,Donald Trump,The Argument/Verasight,,,2025-10-10,2025-10-16,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Oct. 10 to 16, 2025",Disapprove +11	43%	54%,645
+29db7090e2c5ba42,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2025-10-15,2025-10-16,38.0,55.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Oct. 15 to 16, 2025",Disapprove +17	38%	55%,646
+eb624e5ce13e6477,Donald Trump,J.L. Partners,DailyMail.com,,2025-10-14,2025-10-15,46.0,44.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"Oct. 14 to 15, 2025",DailyMail.com	Approve +2	46%	44%,647
+276db1651372b0e1,Donald Trump,Emerson College,,,2025-10-13,2025-10-14,45.0,48.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Oct. 13 to 14, 2025",Disapprove +3	45%	48%,648
+755241eda1a4f376,Donald Trump,AP-NORC,,,2025-10-09,2025-10-13,37.0,61.0,-24.0,-24.0,0.0,user_supplied_NYT_approval_list,"Oct. 9 to 13, 2025",Disapprove +24	37%	61%,649
+bd40db62a50f25d8,Donald Trump,Navigator Research,,,2025-10-09,2025-10-13,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Oct. 9 to 13, 2025",Disapprove +10	44%	54%,650
+6d3180e24fc4889c,Donald Trump,YouGov,Economist,,2025-10-10,2025-10-13,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Oct. 10 to 13, 2025",Economist	Disapprove +15	40%	55%,651
+ba2c71a63bdbec53,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2025-10-08,2025-10-12,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Oct. 8 to 12, 2025",CNBC	Disapprove +8	44%	52%,652
+47e2ba784cacbccc,Donald Trump,John Zogby Strategies,,,2025-10-10,2025-10-12,44.0,51.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Oct. 10 to 12, 2025",Disapprove +7	44%	51%,653
+bc8d04a80b29312f,Donald Trump,Morning Consult,,,2025-10-10,2025-10-12,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Oct. 10 to 12, 2025",Disapprove +8	45%	53%,654
+5c022deae1f884bc,Donald Trump,RMG Research,Napolitan News Service,,2025-10-01,2025-10-09,51.0,48.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 9, 2025",Napolitan News Service	Approve +3	51%	48%,655
+0b092a77d16cb754,Donald Trump,Tavern Research,Searchlight,,2025-10-09,2025-10-09,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Oct. 9, 2025",Searchlight	Disapprove +11	43%	54%,656
+3f89920d7f292821,Donald Trump,Quantus Insights,,,2025-10-06,2025-10-08,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Oct. 6 to 8, 2025",Disapprove +4	47%	51%,657
+42aee62d26625e54,Donald Trump,Morning Consult,,,2025-10-01,2025-10-07,43.0,50.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 7, 2025",Disapprove +7	43%	50%,658
+98d98f8de1f0ffca,Donald Trump,Ipsos,Reuters,,2025-10-03,2025-10-07,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Oct. 3 to 7, 2025",Reuters	Disapprove +18	40%	58%,659
+4cb4bf60610d7cb7,Donald Trump,Change Research,,,2025-09-28,2025-10-06,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Sept. 28 to Oct. 6, 2025",Disapprove +11	44%	55%,660
+94ee4a753c99d148,Donald Trump,Noble Predictive Insights,Center Square,,2025-10-02,2025-10-06,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Oct. 2 to 6, 2025",Center Square	Disapprove +2	48%	50%,661
+1361d9f9f9b9c2f4,Donald Trump,YouGov,Economist,,2025-10-04,2025-10-06,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Oct. 4 to 6, 2025",Economist	Disapprove +17	39%	56%,662
+ec3f93af9c4857a0,Donald Trump,Navigator Research,,,2025-10-02,2025-10-05,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Oct. 2 to 5, 2025",Disapprove +10	44%	54%,663
+781b562baf223cd4,Donald Trump,Morning Consult,,,2025-10-03,2025-10-05,46.0,52.0,-6.0,-5.0,-1.0,user_supplied_NYT_approval_list,"Oct. 3 to 5, 2025",Disapprove +5	46%	52%,664
+b678a1893d82af9d,Donald Trump,YouGov,CBS News,,2025-10-01,2025-10-03,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 3, 2025",CBS News	Disapprove +16	42%	58%,665
+9364f732f1054921,Donald Trump,TIPP Insights,Issues & Insights,,2025-09-30,2025-10-02,42.0,46.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Sept. 30 to Oct. 2, 2025",Issues & Insights	Disapprove +4	42%	46%,666
+2a202df9f17e6b81,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-10-01,2025-10-02,46.0,50.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Oct. 1 to 2, 2025",Harvard CAPS	Disapprove +4	46%	50%,667
+9fd084c8136fecc8,Donald Trump,RMG Research,Napolitan News Service,,2025-09-23,2025-10-01,51.0,48.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,"Sept. 23 to Oct. 1, 2025",Napolitan News Service	Approve +3	51%	48%,668
+70b11dbec81fe4f0,Donald Trump,ActiVote,,,2025-09-01,2025-09-30,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Sept. 1 to 30, 2025",Disapprove +8	44%	52%,669
+666e588f4dc2fb66,Donald Trump,InsiderAdvantage,,,2025-09-29,2025-09-30,52.0,46.0,6.0,6.0,0.0,user_supplied_NYT_approval_list,"Sept. 29 to 30, 2025",Approve +6	52%	46%,670
+55fb29a984ed8230,Donald Trump,YouGov,Yahoo News,,2025-09-25,2025-09-29,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 25 to 29, 2025",Yahoo News	Disapprove +14	41%	55%,671
+3ba59f16936a0c49,Donald Trump,Leger,,,2025-09-26,2025-09-29,38.0,50.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Sept. 26 to 29, 2025",Disapprove +12	38%	50%,672
+18d176483b500146,Donald Trump,YouGov,Economist,,2025-09-26,2025-09-29,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 26 to 29, 2025",Economist	Disapprove +14	40%	54%,673
+4b701a006bf57334,Donald Trump,Pew Research Center,,,2025-09-22,2025-09-28,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Sept. 22 to 28, 2025",Disapprove +18	40%	58%,674
+cd620b90cf1ef699,Donald Trump,Morning Consult,,,2025-09-26,2025-09-28,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Sept. 26 to 28, 2025",Disapprove +6	46%	52%,675
+df7e890c375cb033,Donald Trump,The New York Times/Siena University,,,2025-09-22,2025-09-27,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Sept. 22 to 27, 2025",Disapprove +11	43%	54%,676
+55bffcb9249f77f3,Donald Trump,Marist University,,,2025-09-22,2025-09-26,41.0,53.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Sept. 22 to 26, 2025",Disapprove +12	41%	53%,677
+e58d7b8072a57cb7,Donald Trump,Marquette University Law School,,,2025-09-15,2025-09-24,43.0,57.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 15 to 24, 2025",Disapprove +14	43%	57%,678
+ebfd7c6ac1e4c55f,Donald Trump,RMG Research,Napolitan News Service,,2025-09-16,2025-09-24,50.0,49.0,1.0,2.0,-1.0,user_supplied_NYT_approval_list,"Sept. 16 to 24, 2025",Napolitan News Service	Approve +2	50%	49%,679
+53ade6a798ed86f1,Donald Trump,Echelon Insights,,,2025-09-18,2025-09-22,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Sept. 18 to 22, 2025",Disapprove +8	45%	53%,680
+951d159a13a77779,Donald Trump,YouGov,Economist,,2025-09-19,2025-09-22,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Sept. 19 to 22, 2025",Economist	Disapprove +17	39%	56%,681
+d683e4a03b7a78ce,Donald Trump,Quinnipiac University,,,2025-09-18,2025-09-21,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Sept. 18 to 21, 2025",Disapprove +16	38%	54%,682
+dfd28c0f2b66da82,Donald Trump,Ipsos,Reuters,,2025-09-19,2025-09-21,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"Sept. 19 to 21, 2025",Reuters	Disapprove +17	41%	58%,683
+97cca73388660318,Donald Trump,Morning Consult,,,2025-09-19,2025-09-21,46.0,52.0,-6.0,-5.0,-1.0,user_supplied_NYT_approval_list,"Sept. 19 to 21, 2025",Disapprove +5	46%	52%,684
+0ced64b74a849d4e,Donald Trump,Quantus Insights,,,2025-09-19,2025-09-21,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Sept. 19 to 21, 2025",Disapprove +2	48%	50%,685
+47862ad3ede2779f,Donald Trump,American Research Group,,,2025-09-17,2025-09-20,37.0,58.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"Sept. 17 to 20, 2025",Disapprove +21	37%	58%,686
+06013c4dedb7058d,Donald Trump,Verasight,Strength In Numbers,,2025-09-15,2025-09-19,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Sept. 15 to 19, 2025",Strength In Numbers	Disapprove +13	42%	55%,687
+ad8640f8fcb17091,Donald Trump,The Argument/Verasight,,,2025-09-15,2025-09-18,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 15 to 18, 2025",Disapprove +14	42%	56%,688
+ade2fc94630282e8,Donald Trump,RMG Research,Napolitan News Service,,2025-09-10,2025-09-17,51.0,47.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"Sept. 10 to 17, 2025",Napolitan News Service	Approve +4	51%	47%,689
+34b509a68ff091b1,Donald Trump,Gallup,,,2025-09-02,2025-09-16,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Sept. 2 to 16, 2025",Disapprove +16	40%	56%,690
+227b4f4aab6bad1f,Donald Trump,"Normington, Petts & Associates",Third Way,Democratic sponsor,2025-09-11,2025-09-16,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"Sept. 11 to 16, 2025",Disapprove +9	45%	54%,691
+5d3933847166b438,Donald Trump,AtlasIntel,,,2025-09-12,2025-09-16,47.0,52.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Sept. 12 to 16, 2025",Disapprove +5	47%	52%,692
+fd67928e088be9a7,Donald Trump,TIPP Insights,League of American Workers,Republican sponsor,2025-09-15,2025-09-16,45.0,49.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Sept. 15 to 16, 2025",Disapprove +4	45%	49%,693
+7ecc391dfe317760,Donald Trump,SurveyMonkey,The 19th,,2025-09-08,2025-09-15,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Sept. 8 to 15, 2025",The 19th	Disapprove +12	43%	55%,694
+42f8b738858d5268,Donald Trump,AP-NORC,,,2025-09-11,2025-09-15,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"Sept. 11 to 15, 2025",Disapprove +21	39%	60%,695
+cf9deb1fa4b447bd,Donald Trump,Ipsos,The Washington Post,,2025-09-11,2025-09-15,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Sept. 11 to 15, 2025",The Washington Post	Disapprove +13	43%	56%,696
+f3f82a03f9f92462,Donald Trump,YouGov,,,2025-09-12,2025-09-15,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 12 to 15, 2025",Disapprove +14	41%	55%,697
+a8a10481b839cbbb,Donald Trump,YouGov,Economist,,2025-09-12,2025-09-15,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Sept. 12 to 15, 2025",Economist	Disapprove +18	39%	57%,698
+77bd1fae936cb5b8,Donald Trump,Morning Consult,,,2025-09-12,2025-09-14,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Sept. 12 to 14, 2025",Disapprove +6	46%	52%,699
+b58e9fed15c05f56,Donald Trump,RMG Research,Napolitan News Service,,2025-09-03,2025-09-11,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"Sept. 3 to 11, 2025",Napolitan News Service	Approve +2	50%	48%,700
+c7af7e75072b626f,Donald Trump,Clarity Campaign Labs,,,2025-09-04,2025-09-11,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Sept. 4 to 11, 2025",Disapprove +6	46%	52%,701
+aae1f2f521e86786,Donald Trump,The Bullfinch Group,Independent Center,,2025-09-06,2025-09-11,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Sept. 6 to 11, 2025",Independent Center	Disapprove +6	45%	51%,702
+89414dd068b60e4f,Donald Trump,YouGov,Taxpayers Protection Alliance,Republican sponsor,2025-09-05,2025-09-09,42.0,55.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Sept. 5 to 9, 2025",Disapprove +13	42%	55%,703
+9762755453bf1ab4,Donald Trump,Ipsos,Reuters,,2025-09-05,2025-09-09,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Sept. 5 to 9, 2025",Reuters	Disapprove +14	42%	56%,704
+d940fa0ec2dfaef4,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-09-06,2025-09-09,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Sept. 6 to 9, 2025",Fox News	Disapprove +8	46%	54%,705
+0d96c93b78e1005f,Donald Trump,PRRI,"Brookings Institute, Carnegie Corporation of New York, Ford Foundation, Unitarian Universalist Veatch Program at Shelter Rock",,2025-08-15,2025-09-08,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 15 to Sept. 8, 2025","Brookings Institute, Carnegie Corporation of New York, Ford Foundation, Unitarian Universalist Veatch Program at Shelter Rock	Disapprove +14	42%	56%",706
+ee34b67dc76ef63c,Donald Trump,Morning Consult,,,2025-09-02,2025-09-08,44.0,49.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Sept. 2 to 8, 2025",Disapprove +5	44%	49%,707
+3757982153569aca,Donald Trump,Navigator Research,,,2025-09-04,2025-09-08,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"Sept. 4 to 8, 2025",Disapprove +10	43%	53%,708
+f38b829f81c2c698,Donald Trump,YouGov,Economist,,2025-09-05,2025-09-08,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"Sept. 5 to 8, 2025",Economist	Disapprove +13	41%	54%,709
+99582a34ea9b2e5a,Donald Trump,Morning Consult,,,2025-09-06,2025-09-08,45.0,52.0,-7.0,-6.0,-1.0,user_supplied_NYT_approval_list,"Sept. 6 to 8, 2025",Disapprove +6	45%	52%,710
+2f5fe7705dd9dcc6,Donald Trump,YouGov,CBS News,,2025-09-03,2025-09-05,44.0,56.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Sept. 3 to 5, 2025",CBS News	Disapprove +12	44%	56%,711
+156a0a1dd7ff5945,Donald Trump,RMG Research,Napolitan News Service,,2025-08-27,2025-09-03,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"Aug. 27 to Sept. 3, 2025",Napolitan News Service	Approve +2	50%	48%,712
+c11308b14feb121e,Donald Trump,YouGov,Yahoo News,,2025-08-29,2025-09-02,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to Sept. 2, 2025",Yahoo News	Disapprove +15	40%	55%,713
+07bfe6aa6a5f272f,Donald Trump,YouGov,Economist,,2025-08-29,2025-09-02,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to Sept. 2, 2025",Economist	Disapprove +14	41%	55%,714
+aab92746b184fb65,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2025-08-13,2025-09-01,43.0,57.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 13 to Sept. 1, 2025",NBC News Decision Desk	Disapprove +14	43%	57%,715
+a4aecc9a64f7d480,Donald Trump,J.L. Partners,DailyMail.com,,2025-08-21,2025-09-01,49.0,41.0,8.0,8.0,0.0,user_supplied_NYT_approval_list,"Aug. 21 to Sept. 1, 2025",DailyMail.com	Approve +8	49%	41%,716
+11b56c2ef67b56d5,Donald Trump,Survey 160,,,2025-08-26,2025-09-01,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Aug. 26 to Sept. 1, 2025",Disapprove +11	43%	54%,717
+b0d74ec83d178c6f,Donald Trump,J.L. Partners,DailyMail.com,,2025-08-29,2025-09-01,49.0,41.0,8.0,8.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to Sept. 1, 2025",DailyMail.com	Approve +8	49%	41%,718
+74e36b421c858e99,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2025-08-30,2025-09-01,41.0,52.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Aug. 30 to Sept. 1, 2025",Disapprove +11	41%	52%,719
+2ae3f7133cac36aa,Donald Trump,ActiVote,,,2025-08-01,2025-08-31,44.0,50.0,-6.0,-7.0,1.0,user_supplied_NYT_approval_list,"Aug. 1 to 31, 2025",Disapprove +7	44%	50%,720
+c98f39631554b244,Donald Trump,Leger,,,2025-08-29,2025-08-31,39.0,50.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to 31, 2025",Disapprove +11	39%	50%,721
+a250a018eddf7a40,Donald Trump,John Zogby Strategies,,,2025-08-29,2025-08-31,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to 31, 2025",Disapprove +6	46%	52%,722
+17f5b3bfb0bd7289,Donald Trump,Morning Consult,,,2025-08-29,2025-08-31,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Aug. 29 to 31, 2025",Disapprove +5	46%	51%,723
+9308e846b86ed47a,Donald Trump,TIPP Insights,Issues & Insights,,2025-08-27,2025-08-29,43.0,47.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Aug. 27 to 29, 2025",Issues & Insights	Disapprove +4	43%	47%,724
+910741456b9ff121,Donald Trump,RMG Research,Napolitan News Service,,2025-08-21,2025-08-28,50.0,49.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"Aug. 21 to 28, 2025",Napolitan News Service	Approve +1	50%	49%,725
+6ccbc527553ff15b,Donald Trump,Talker Research,Scripps News,,2025-08-21,2025-08-26,43.0,46.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Aug. 21 to 26, 2025",Scripps News	Disapprove +3	43%	46%,726
+6319a1b1900ea635,Donald Trump,Emerson College,,,2025-08-25,2025-08-26,45.0,47.0,-2.0,-3.0,1.0,user_supplied_NYT_approval_list,"Aug. 25 to 26, 2025",Disapprove +3	45%	47%,727
+917ed3631ac3daf5,Donald Trump,Quantus Insights,,,2025-08-25,2025-08-26,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Aug. 25 to 26, 2025",Disapprove +3	48%	51%,728
+b5ae65c3146d465c,Donald Trump,Quinnipiac University,,,2025-08-21,2025-08-25,37.0,55.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"Aug. 21 to 25, 2025",Disapprove +18	37%	55%,729
+2e1acc2fc4a76e85,Donald Trump,AP-NORC,,,2025-08-21,2025-08-25,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Aug. 21 to 25, 2025",Disapprove +8	45%	53%,730
+1c2395919e68bbbb,Donald Trump,YouGov,Economist,,2025-08-22,2025-08-25,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Aug. 22 to 25, 2025",Economist	Disapprove +15	41%	56%,731
+6b7e2d2012700fef,Donald Trump,Ipsos,Reuters,,2025-08-22,2025-08-24,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 22 to 24, 2025",Reuters	Disapprove +14	40%	54%,732
+bc847abac8ceb745,Donald Trump,Morning Consult,,,2025-08-22,2025-08-24,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Aug. 22 to 24, 2025",Disapprove +3	47%	50%,733
+f61fac26bf860dc4,Donald Trump,RMG Research,Napolitan News Service,,2025-08-13,2025-08-21,49.0,48.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"Aug. 13 to 21, 2025",Napolitan News Service	Approve +1	49%	48%,734
+874c39e691ea5e0f,Donald Trump,Verasight,Strength In Numbers,,2025-08-18,2025-08-21,41.0,56.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"Aug. 18 to 21, 2025",Strength In Numbers	Disapprove +15	41%	56%,735
+dc0a4cfb57924b4f,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-08-20,2025-08-21,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"Aug. 20 to 21, 2025",Harvard CAPS	Disapprove +2	47%	49%,736
+1b5a2c2b2fbf43b6,Donald Trump,Gallup,,,2025-08-01,2025-08-20,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Aug. 1 to 20, 2025",Disapprove +16	40%	56%,737
+e541b7f71fe74b20,Donald Trump,American Research Group,,,2025-08-17,2025-08-20,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"Aug. 17 to 20, 2025",Disapprove +21	38%	59%,738
+7be1af36633a2fe6,Donald Trump,Ipsos,Reuters,,2025-08-13,2025-08-18,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 13 to 18, 2025",Reuters	Disapprove +14	40%	54%,739
+2ea5c6e79f7824c0,Donald Trump,Echelon Insights,,,2025-08-14,2025-08-18,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Aug. 14 to 18, 2025",Disapprove +4	47%	51%,740
+eb73972214e04509,Donald Trump,YouGov,Economist,,2025-08-15,2025-08-18,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"Aug. 15 to 18, 2025",Economist	Disapprove +16	40%	56%,741
+84cac1ee9198fcd8,Donald Trump,Morning Consult,,,2025-08-15,2025-08-18,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Aug. 15 to 18, 2025",Disapprove +4	47%	51%,742
+9c24e4908cf8a53c,Donald Trump,The Argument/Verasight,,,2025-08-08,2025-08-17,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Aug. 8 to 17, 2025",Disapprove +12	43%	55%,743
+a27904e406a835da,Donald Trump,InsiderAdvantage,,,2025-08-15,2025-08-17,54.0,44.0,10.0,10.0,0.0,user_supplied_NYT_approval_list,"Aug. 15 to 17, 2025",Approve +10	54%	44%,744
+23247010e7bf9919,Donald Trump,RMG Research,,,2025-08-06,2025-08-14,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"Aug. 6 to 14, 2025",Disapprove +3	48%	51%,745
+54fd2f39a32d9d47,Donald Trump,Quantus Insights,,,2025-08-11,2025-08-13,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Aug. 11 to 13, 2025",Disapprove +4	47%	51%,746
+f6c2e3010398e6dd,Donald Trump,Merlin Strategy,Azoria Capital,,2025-08-11,2025-08-12,42.0,50.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"Aug. 11 to 12, 2025",Azoria Capital	Disapprove +8	42%	50%,747
+62775364d849b711,Donald Trump,Navigator Research,,,2025-08-07,2025-08-11,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Aug. 7 to 11, 2025",Disapprove +12	43%	55%,748
+df38c74f4c4647de,Donald Trump,YouGov,Economist,,2025-08-09,2025-08-11,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"Aug. 9 to 11, 2025",Economist	Disapprove +12	42%	54%,749
+488e1ede78965165,Donald Trump,Pew Research Center,,,2025-08-04,2025-08-10,38.0,60.0,-22.0,-22.0,0.0,user_supplied_NYT_approval_list,"Aug. 4 to 10, 2025",Disapprove +22	38%	60%,750
+dff0b5c178032d74,Donald Trump,Morning Consult,,,2025-08-08,2025-08-10,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"Aug. 8 to 10, 2025",Disapprove +5	46%	51%,751
+a55c5d3d3f76a37e,Donald Trump,Morning Consult,,,2025-08-03,2025-08-09,45.0,49.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"Aug. 3 to 9, 2025",Disapprove +4	45%	49%,752
+5354a16c19771a6b,Donald Trump,RMG Research,Napolitan News Service,,2025-07-30,2025-08-07,50.0,49.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"July 30 to Aug. 7, 2025",Napolitan News Service	Approve +1	50%	49%,753
+a7ed786602d03c37,Donald Trump,YouGov,Economist,,2025-08-01,2025-08-04,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"Aug. 1 to 4, 2025",Economist	Disapprove +14	41%	55%,754
+30750682d0905334,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2025-07-29,2025-08-03,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"July 29 to Aug. 3, 2025",CNBC	Disapprove +5	46%	51%,755
+89951322c3f2f5db,Donald Trump,Morning Consult,,,2025-08-01,2025-08-03,45.0,52.0,-7.0,-8.0,1.0,user_supplied_NYT_approval_list,"Aug. 1 to 3, 2025",Disapprove +8	45%	52%,756
+2533ab1eef87105f,Donald Trump,TIPP Insights,Issues & Insights,,2025-07-30,2025-08-01,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"July 30 to Aug. 1, 2025",Issues & Insights	Disapprove +1	45%	46%,757
+efbd3bc6feced7e5,Donald Trump,ActiVote,,,2025-07-01,2025-07-31,45.0,52.0,-7.0,-8.0,1.0,user_supplied_NYT_approval_list,"July 1 to 31, 2025",Disapprove +8	45%	52%,758
+4015602b10f9ff30,Donald Trump,RMG Research,Napolitan News Service,,2025-07-23,2025-07-31,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"July 23 to 31, 2025",Napolitan News Service	Approve +2	50%	48%,759
+e5c6b7838e048671,Donald Trump,Clarity Campaign Labs,,,2025-07-24,2025-07-31,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"July 24 to 31, 2025",Disapprove +5	46%	51%,760
+174b18b7effffdd5,Donald Trump,YouGov,UMass Amherst,,2025-07-25,2025-07-30,38.0,58.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,"July 25 to 30, 2025",UMass Amherst	Disapprove +20	38%	58%,761
+4e0841569c50726b,Donald Trump,GrayHouse,America One Policies,Republican sponsor,2025-07-27,2025-07-29,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"July 27 to 29, 2025",Disapprove +5	46%	51%,762
+d5dfa44adbedd932,Donald Trump,John Zogby Strategies,,,2025-07-28,2025-07-29,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"July 28 to 29, 2025",Disapprove +11	43%	54%,763
+027df7cb5dedcbd8,Donald Trump,YouGov,Yahoo News,,2025-07-24,2025-07-28,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"July 24 to 28, 2025",Yahoo News	Disapprove +17	39%	56%,764
+1028719d6f140a51,Donald Trump,YouGov,Economist,,2025-07-25,2025-07-28,40.0,55.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"July 25 to 28, 2025",Economist	Disapprove +15	40%	55%,765
+edcfe2fbb0ca1563,Donald Trump,Leger,"338, Maintenant Media",,2025-07-25,2025-07-27,37.0,51.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"July 25 to 27, 2025","338, Maintenant Media	Disapprove +14	37%	51%",766
+1176134abf85989d,Donald Trump,Ipsos,Reuters,,2025-07-25,2025-07-27,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"July 25 to 27, 2025",Reuters	Disapprove +16	40%	56%,767
+8ddb19d41e615646,Donald Trump,Morning Consult,,,2025-07-25,2025-07-27,47.0,50.0,-3.0,-2.0,-1.0,user_supplied_NYT_approval_list,"July 25 to 27, 2025",Disapprove +2	47%	50%,768
+023da7a367b08d9e,Donald Trump,RMG Research,Napolitan News Service,,2025-07-16,2025-07-24,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"July 16 to 24, 2025",Napolitan News Service	Approve +2	50%	48%,769
+a505d7baa56f880d,Donald Trump,McLaughlin & Associates,"America's New Majority Project, Gingrich 360",Republican sponsor,2025-07-21,2025-07-24,47.0,54.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"July 21 to 24, 2025",Disapprove +7	47%	54%,770
+b0871534f7604d43,Donald Trump,Quantus Insights,,,2025-07-21,2025-07-23,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"July 21 to 23, 2025",Disapprove +3	47%	50%,771
+9b264be6d4f17f91,Donald Trump,Trafalgar Group/InsiderAdvantage,,,2025-07-22,2025-07-23,50.0,48.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"July 22 to 23, 2025",Approve +2	50%	48%,772
+2628b3c34a4e2209,Donald Trump,The Bullfinch Group,,,2025-07-18,2025-07-22,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"July 18 to 22, 2025",Disapprove +14	41%	55%,773
+f600398e059f75a1,Donald Trump,Emerson College,,,2025-07-21,2025-07-22,46.0,47.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"July 21 to 22, 2025",Disapprove +1	46%	47%,774
+89f97af519192fdc,Donald Trump,J.L. Partners,DailyMail.com,,2025-07-21,2025-07-22,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"July 21 to 22, 2025",DailyMail.com	Disapprove +1	45%	46%,775
+0d5a65ab8d34b3b9,Donald Trump,Gallup,,,2025-07-07,2025-07-21,37.0,58.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"July 7 to 21, 2025",Disapprove +21	37%	58%,776
+5e4364487f8d397c,Donald Trump,GBAO,Third Way,Democratic sponsor,2025-07-14,2025-07-21,45.0,54.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"July 14 to 21, 2025",Disapprove +9	45%	54%,777
+5f74f24442acfb95,Donald Trump,Navigator Research,,,2025-07-16,2025-07-21,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"July 16 to 21, 2025",Disapprove +12	42%	54%,778
+ca2acd4ee88a85e5,Donald Trump,High Point University,,,2025-07-18,2025-07-21,39.0,51.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"July 18 to 21, 2025",Disapprove +12	39%	51%,779
+358d13332a57538d,Donald Trump,YouGov,The Times of London,,2025-07-18,2025-07-21,39.0,57.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"July 18 to 21, 2025",The Times of London	Disapprove +18	39%	57%,780
+5f157867131b2780,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-07-18,2025-07-21,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"July 18 to 21, 2025",Fox News	Disapprove +8	46%	54%,781
+4e8757820b3042c3,Donald Trump,YouGov,Economist,,2025-07-18,2025-07-21,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"July 18 to 21, 2025",Economist	Disapprove +14	41%	55%,782
+c309e6979f5e9c5d,Donald Trump,"Fabrizio, Lee & Associates/Impact Research",Wall Street Journal,,2025-07-16,2025-07-20,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"July 16 to 20, 2025",Wall Street Journal	Disapprove +6	46%	52%,783
+d6a82b05623dd0f3,Donald Trump,American Research Group,,,2025-07-17,2025-07-20,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"July 17 to 20, 2025",Disapprove +21	38%	59%,784
+429262c3e77aeeb5,Donald Trump,Morning Consult,,,2025-07-18,2025-07-20,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"July 18 to 20, 2025",Disapprove +7	45%	52%,785
+365b856f8cdf70c3,Donald Trump,AtlasIntel,,,2025-07-13,2025-07-18,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"July 13 to 18, 2025",Disapprove +11	44%	55%,786
+b4c227bad5e7b481,Donald Trump,YouGov,CBS News,,2025-07-16,2025-07-18,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"July 16 to 18, 2025",CBS News	Disapprove +16	42%	58%,787
+c2aa693f82ad1b68,Donald Trump,Marquette University Law School,,,2025-07-07,2025-07-16,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"July 7 to 16, 2025",Disapprove +10	45%	55%,788
+30d7d901e94c9df5,Donald Trump,RMG Research,Napolitan News Service,,2025-07-09,2025-07-16,52.0,48.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"July 9 to 16, 2025",Napolitan News Service	Approve +4	52%	48%,789
+02278f49160073a6,Donald Trump,Verasight,Strength In Numbers,,2025-07-14,2025-07-16,42.0,57.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"July 14 to 16, 2025",Strength In Numbers	Disapprove +15	42%	57%,790
+9545f710cd631ad5,Donald Trump,Quantus Insights,,,2025-07-14,2025-07-16,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"July 14 to 16, 2025",Disapprove +2	48%	50%,791
+bd41063502981f44,Donald Trump,Ipsos,Reuters,,2025-07-15,2025-07-16,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"July 15 to 16, 2025",Reuters	Disapprove +13	41%	54%,792
+40f5568fbdf8ba30,Donald Trump,Quinnipiac University,,,2025-07-10,2025-07-14,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"July 10 to 14, 2025",Disapprove +14	40%	54%,793
+c2c11ab6f540c0aa,Donald Trump,AP-NORC,,,2025-07-10,2025-07-14,40.0,58.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"July 10 to 14, 2025",Disapprove +18	40%	58%,794
+583da586f4cd54b5,Donald Trump,Echelon Insights,,,2025-07-10,2025-07-14,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"July 10 to 14, 2025",Disapprove +8	45%	53%,795
+165a214a97ca647f,Donald Trump,YouGov,Economist,,2025-07-11,2025-07-14,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"July 11 to 14, 2025",Economist	Disapprove +14	41%	55%,796
+e6f9bfe8548bd45e,Donald Trump,Big Data Poll,Public Polling Project,,2025-07-12,2025-07-14,48.0,49.0,-1.0,0,-1.0,user_supplied_NYT_approval_list,"July 12 to 14, 2025",Public Polling Project	Even	48%	49%,797
+eef11b95a57c13bd,Donald Trump,YouGov,,,2025-07-09,2025-07-13,39.0,56.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"July 9 to 13, 2025",Disapprove +17	39%	56%,798
+92c77deffd3d11eb,Donald Trump,CNN/SSRS,,,2025-07-10,2025-07-13,42.0,58.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"July 10 to 13, 2025",Disapprove +16	42%	58%,799
+5cdf6384c976760d,Donald Trump,Morning Consult,,,2025-07-11,2025-07-13,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"July 11 to 13, 2025",Disapprove +3	47%	50%,800
+293f8d01e1338ed8,Donald Trump,RMG Research,Napolitan News Service,,2025-06-30,2025-07-10,50.0,47.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,"June 30 to July 10, 2025",Napolitan News Service	Approve +3	50%	47%,801
+c48397cfcb795999,Donald Trump,Morning Consult,,,2025-07-04,2025-07-10,44.0,50.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"July 4 to 10, 2025",Disapprove +6	44%	50%,802
+d99244d3b599b9b7,Donald Trump,A2 Insights,,,2025-07-07,2025-07-10,47.0,53.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"July 7 to 10, 2025",Disapprove +6	47%	53%,803
+5c7e0ff211dcc899,Donald Trump,J.L. Partners,DailyMail.com,,2025-07-09,2025-07-10,44.0,48.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"July 9 to 10, 2025",DailyMail.com	Disapprove +4	44%	48%,804
+f032de56a436d1ee,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-07-06,2025-07-08,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"July 6 to 8, 2025",Harvard CAPS	Disapprove +2	47%	49%,805
+a6589d5a3bfae846,Donald Trump,YouGov,Economist,,2025-07-04,2025-07-07,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"July 4 to 7, 2025",Economist	Disapprove +11	42%	53%,806
+8ecec5227f3c2d29,Donald Trump,Morning Consult,,,2025-07-03,2025-07-06,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"July 3 to 6, 2025",Disapprove +7	45%	52%,807
+face307432ba4c0c,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-06-30,2025-07-02,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"June 30 to July 2, 2025",Disapprove +2	47%	49%,808
+a94ca519d82c1abb,Donald Trump,ActiVote,,,2025-06-01,2025-06-30,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"June 1 to 30, 2025",Disapprove +7	45%	52%,809
+8986cca16e96a5e5,Donald Trump,YouGov,Yahoo News,,2025-06-26,2025-06-30,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"June 26 to 30, 2025",Yahoo News	Disapprove +16	40%	56%,810
+709356eb5b87d4a2,Donald Trump,Navigator Research,,,2025-06-26,2025-06-30,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"June 26 to 30, 2025",Disapprove +8	45%	53%,811
+effa546923c33d32,Donald Trump,Schoen Cooperman Research,Israel on Campus Coalition,,2025-06-27,2025-06-30,47.0,48.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"June 27 to 30, 2025",Israel on Campus Coalition	Disapprove +1	47%	48%,812
+8feb39b6153cf286,Donald Trump,YouGov,Economist,,2025-06-27,2025-06-30,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"June 27 to 30, 2025",Economist	Disapprove +11	42%	53%,813
+630bdef85e334b4f,Donald Trump,Morning Consult,,,2025-06-27,2025-06-29,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"June 27 to 29, 2025",Disapprove +3	47%	50%,814
+19465b4ccc089778,Donald Trump,TIPP Insights,Issues & Insights,,2025-06-25,2025-06-27,44.0,45.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"June 25 to 27, 2025",Issues & Insights	Disapprove +1	44%	45%,815
+dd9320d9db9a1cf8,Donald Trump,RMG Research,Napolitan News Service,,2025-06-18,2025-06-26,51.0,47.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"June 18 to 26, 2025",Napolitan News Service	Approve +4	51%	47%,816
+42614f145759bbc5,Donald Trump,Targoz Market Research,Overton Insights,,2025-06-23,2025-06-26,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"June 23 to 26, 2025",Overton Insights	Disapprove +11	43%	54%,817
+cee0f7b65b8a4997,Donald Trump,The Tyson Group,,,2025-06-25,2025-06-26,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"June 25 to 26, 2025",Disapprove +6	45%	51%,818
+bcf9d0f6dfb2e463,Donald Trump,Marist University,"NPR, PBS News",,2025-06-23,2025-06-25,43.0,52.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"June 23 to 25, 2025","NPR, PBS News	Disapprove +9	43%	52%",819
+2fdd67b6c74eaa59,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-06-23,2025-06-25,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"June 23 to 25, 2025",Disapprove +3	47%	50%,820
+7843f8725dfd4aff,Donald Trump,American Pulse Research & Polling,,,2025-06-23,2025-06-25,50.0,49.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"June 23 to 25, 2025",Approve +1	50%	49%,821
+043f8332befd5fe2,Donald Trump,John Zogby Strategies,,,2025-06-24,2025-06-25,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"June 24 to 25, 2025",Disapprove +8	45%	53%,822
+493e387281c0cb59,Donald Trump,Emerson College,,,2025-06-24,2025-06-25,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"June 24 to 25, 2025",Disapprove +1	45%	46%,823
+73e149a7b0145e09,Donald Trump,Quinnipiac University,,,2025-06-22,2025-06-24,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"June 22 to 24, 2025",Disapprove +13	41%	54%,824
+2c95a074d2b4449c,Donald Trump,Ipsos,Reuters,,2025-06-20,2025-06-23,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"June 20 to 23, 2025",Reuters	Disapprove +13	41%	54%,825
+cc766c9ede39b915,Donald Trump,YouGov,Economist,,2025-06-20,2025-06-23,40.0,54.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"June 20 to 23, 2025",Economist	Disapprove +14	40%	54%,826
+914fcfdab6f41a9d,Donald Trump,Ipsos,Reuters,,2025-06-21,2025-06-23,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"June 21 to 23, 2025",Reuters	Disapprove +16	41%	57%,827
+db6f5af52278d88d,Donald Trump,Morning Consult,,,2025-06-20,2025-06-22,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"June 20 to 22, 2025",Disapprove +8	45%	53%,828
+9214209e8e8ca7a4,Donald Trump,The Bullfinch Group,Exiled Policy,,2025-06-17,2025-06-20,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"June 17 to 20, 2025",Exiled Policy	Disapprove +13	41%	54%,829
+73613184b08385d0,Donald Trump,American Research Group,,,2025-06-17,2025-06-20,38.0,59.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"June 17 to 20, 2025",Disapprove +21	38%	59%,830
+f2055f508586b82d,Donald Trump,Trafalgar Group,"June 18-20, 2025",,2025-06-18,2025-06-20,54.0,45.0,9.0,10.0,-1.0,user_supplied_NYT_approval_list,"June 18 to 20, 2025",Approve +10	54%	45%,831
+a7f12ada43338437,Donald Trump,Gallup,,,2025-06-02,2025-06-19,40.0,57.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"June 2 to 19, 2025",Disapprove +17	40%	57%,832
+f1dc96aaf49ee017,Donald Trump,RMG Research,Napolitan News Service,,2025-06-11,2025-06-19,53.0,46.0,7.0,7.0,0.0,user_supplied_NYT_approval_list,"June 11 to 19, 2025",Napolitan News Service	Approve +7	53%	46%,833
+3b6d3ef966fcf29d,Donald Trump,Echelon Insights,,,2025-06-17,2025-06-18,48.0,52.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"June 17 to 18, 2025",Disapprove +4	48%	52%,834
+267091594902682b,Donald Trump,Echelon Insights,,,2025-06-12,2025-06-17,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"June 12 to 17, 2025",Disapprove +8	45%	53%,835
+f7c3d96188a62518,Donald Trump,J.L. Partners,,,2025-06-16,2025-06-17,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"June 16 to 17, 2025",Disapprove +5	46%	51%,836
+08920bf0a1b563e8,Donald Trump,Ipsos,Reuters,,2025-06-11,2025-06-16,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"June 11 to 16, 2025",Reuters	Disapprove +12	42%	54%,837
+e7982a04adbfe33b,Donald Trump,Schoen Cooperman Research,Israel on Campus Coalition,,2025-06-13,2025-06-16,45.0,50.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"June 13 to 16, 2025",Israel on Campus Coalition	Disapprove +5	45%	50%,838
+8fedd789ed6bf83d,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-06-13,2025-06-16,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"June 13 to 16, 2025",Fox News	Disapprove +8	46%	54%,839
+f5cdeb467859f783,Donald Trump,YouGov,Economist,,2025-06-13,2025-06-16,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"June 13 to 16, 2025",Economist	Disapprove +13	41%	54%,840
+ac41099173a06646,Donald Trump,InsiderAdvantage,,,2025-06-15,2025-06-16,54.0,44.0,10.0,10.0,0.0,user_supplied_NYT_approval_list,"June 15 to 16, 2025",Approve +10	54%	44%,841
+9da53877b4c5d44a,Donald Trump,McLaughlin & Associates,America's New Majority Project,Republican sponsor,2025-06-12,2025-06-15,47.0,53.0,-6.0,-7.0,1.0,user_supplied_NYT_approval_list,"June 12 to 15, 2025",Disapprove +7	47%	53%,842
+2d2d50def6c8ce22,Donald Trump,Morning Consult,,,2025-06-13,2025-06-15,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"June 13 to 15, 2025",Disapprove +6	46%	52%,843
+57e06ce4352d23b9,Donald Trump,GrayHouse,America One Policies,Republican sponsor,2025-06-14,2025-06-15,47.0,52.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"June 14 to 15, 2025",Disapprove +5	47%	52%,844
+b0e6ba5f813b8e4e,Donald Trump,Clarity Campaign Labs,,,2025-06-05,2025-06-14,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"June 5 to 14, 2025",Disapprove +3	47%	50%,845
+62b3a293da626280,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2025-06-12,2025-06-14,41.0,52.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"June 12 to 14, 2025",Disapprove +11	41%	52%,846
+067c030bd019f893,Donald Trump,RMG Research,Napolitan News Service,,2025-06-02,2025-06-12,52.0,46.0,6.0,6.0,0.0,user_supplied_NYT_approval_list,"June 2 to 12, 2025",Napolitan News Service	Approve +6	52%	46%,847
+9d72e9267f953df1,Donald Trump,Verasight,Strength In Numbers,,2025-06-06,2025-06-12,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"June 6 to 12, 2025",Strength In Numbers	Disapprove +14	42%	56%,848
+0b55430b4511ad8c,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-06-11,2025-06-12,46.0,50.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"June 11 to 12, 2025",Harvard CAPS	Disapprove +4	46%	50%,849
+4eeefe2431c35176,Donald Trump,TIPP Insights,League of American Workers,Republican sponsor,2025-06-09,2025-06-11,43.0,50.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"June 9 to 11, 2025",Disapprove +7	43%	50%,850
+a6579ce9df0b7900,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-06-09,2025-06-11,48.0,49.0,-1.0,-2.0,1.0,user_supplied_NYT_approval_list,"June 9 to 11, 2025",Disapprove +2	48%	49%,851
+b1d6da7d8e3421e5,Donald Trump,J.L. Partners,Newsmax,,2025-06-10,2025-06-11,42.0,46.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"June 10 to 11, 2025",Newsmax	Disapprove +4	42%	46%,852
+73b73948de3929d9,Donald Trump,PureSpectrum,CHIP50,,2025-04-10,2025-06-10,37.0,48.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 10 to June 10, 2025",CHIP50	Disapprove +11	37%	48%,853
+1371f499c85250a6,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2025-05-30,2025-06-10,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"May 30 to June 10, 2025",NBC News Decision Desk	Disapprove +10	45%	55%,854
+337f22cfc26de920,Donald Trump,Morning Consult,,,2025-06-03,2025-06-09,50.0,44.0,6.0,6.0,0.0,user_supplied_NYT_approval_list,"June 3 to 9, 2025",Approve +6	50%	44%,855
+fdcbb9d75d947ff8,Donald Trump,Navigator Research,,,2025-06-05,2025-06-09,43.0,55.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"June 5 to 9, 2025",Disapprove +12	43%	55%,856
+2d39e78245dc7e8c,Donald Trump,AP-NORC,,,2025-06-05,2025-06-09,39.0,60.0,-21.0,-21.0,0.0,user_supplied_NYT_approval_list,"June 5 to 9, 2025",Disapprove +21	39%	60%,857
+c9ba0b308c8dd570,Donald Trump,Quinnipiac University,,,2025-06-05,2025-06-09,38.0,54.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"June 5 to 9, 2025",Disapprove +16	38%	54%,858
+192a551846b33b11,Donald Trump,YouGov,Economist,,2025-06-06,2025-06-09,43.0,52.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"June 6 to 9, 2025",Economist	Disapprove +9	43%	52%,859
+b1361e74173051de,Donald Trump,Pew Research Center,,,2025-06-02,2025-06-08,41.0,58.0,-17.0,-17.0,0.0,user_supplied_NYT_approval_list,"June 2 to 8, 2025",Disapprove +17	41%	58%,860
+ba45207e626600f1,Donald Trump,Morning Consult,,,2025-06-06,2025-06-08,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"June 6 to 8, 2025",Disapprove +4	47%	51%,861
+6c05268d5722a2cc,Donald Trump,YouGov,CBS News,,2025-06-04,2025-06-06,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"June 4 to 6, 2025",CBS News	Disapprove +10	45%	55%,862
+dc093756ecf36a57,Donald Trump,J.L. Partners,DailyMail.com,,2025-06-06,2025-06-06,43.0,49.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"June 6, 2025",DailyMail.com	Disapprove +6	43%	49%,863
+1af8451082008055,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-06-01,2025-06-04,49.0,48.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"June 1 to 4, 2025",Approve +1	49%	48%,864
+b6f5fdc5fe73683f,Donald Trump,RMG Research,Napolitan News Service,,2025-05-27,2025-06-03,51.0,46.0,5.0,5.0,0.0,user_supplied_NYT_approval_list,"May 27 to June 3, 2025",Napolitan News Service	Approve +5	51%	46%,865
+d00c31086de1778f,Donald Trump,GrayHouse,America One Policies,Republican sponsor,2025-05-29,2025-06-02,48.0,49.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"May 29 to June 2, 2025",Disapprove +1	48%	49%,866
+35a9b67951311fb7,Donald Trump,YouGov,Economist,,2025-05-30,2025-06-02,45.0,49.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"May 30 to June 2, 2025",Economist	Disapprove +4	45%	49%,867
+a8151680d1b29ae6,Donald Trump,Morning Consult,,,2025-05-30,2025-06-02,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"May 30 to June 2, 2025",Disapprove +5	46%	51%,868
+0863a92a0678e2e0,Donald Trump,Trafalgar Group,"May 30 - June 1, 2025",,2025-05-30,2025-06-01,54.0,46.0,8.0,8.0,0.0,user_supplied_NYT_approval_list,"May 30 to June 1, 2025",Approve +8	54%	46%,869
+3b25cad74627252e,Donald Trump,ActiVote,,,2025-05-01,2025-05-31,46.0,50.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"May 1 to 31, 2025",Disapprove +4	46%	50%,870
+28dba98f9a3ca850,Donald Trump,TIPP Insights,Issues & Insights,,2025-05-28,2025-05-30,43.0,45.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 28 to 30, 2025",Issues & Insights	Disapprove +2	43%	45%,871
+263f71241267bd89,Donald Trump,RMG Research,Napolitan News Service,,2025-05-20,2025-05-29,49.0,50.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"May 20 to 29, 2025",Napolitan News Service	Disapprove +1	49%	50%,872
+754e8a6d50fbca19,Donald Trump,John Zogby Strategies,,,2025-05-28,2025-05-29,48.0,49.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"May 28 to 29, 2025",Disapprove +1	48%	49%,873
+a752dce926db13a7,Donald Trump,Wick,2Way,,2025-05-26,2025-05-28,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 26 to 28, 2025",2Way	Disapprove +2	47%	49%,874
+14cb6232f683a92e,Donald Trump,AtlasIntel,,,2025-05-21,2025-05-27,45.0,54.0,-9.0,-10.0,1.0,user_supplied_NYT_approval_list,"May 21 to 27, 2025",Disapprove +10	45%	54%,875
+0034ba833ae5af82,Donald Trump,YouGov,Yahoo News,,2025-05-22,2025-05-27,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"May 22 to 27, 2025",Yahoo News	Disapprove +13	41%	54%,876
+e793bc2408c12392,Donald Trump,YouGov,Economist,,2025-05-23,2025-05-26,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"May 23 to 26, 2025",Economist	Disapprove +8	44%	52%,877
+fd8e670cd8974b76,Donald Trump,Morning Consult,,,2025-05-23,2025-05-25,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"May 23 to 25, 2025",Disapprove +3	48%	51%,878
+c0b130cdfafae062,Donald Trump,RMG Research,Napolitan News Service,,2025-05-14,2025-05-21,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 14 to 21, 2025",Napolitan News Service	Disapprove +2	48%	50%,879
+b179466c599f6615,Donald Trump,Civiqs,Daily Kos,Democratic sponsor,2025-05-17,2025-05-20,47.0,52.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"May 17 to 20, 2025",Disapprove +5	47%	52%,880
+0f72df2ffdabbe83,Donald Trump,American Research Group,,,2025-05-17,2025-05-20,41.0,55.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"May 17 to 20, 2025",Disapprove +14	41%	55%,881
+b52d18777b0e77cf,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-05-18,2025-05-20,48.0,48.0,0.0,1.0,-1.0,user_supplied_NYT_approval_list,"May 18 to 20, 2025",Approve +1	48%	48%,882
+6936ec9ba57c0601,Donald Trump,Fabrizio Ward,Pinpoint Policy Institute,,2025-05-15,2025-05-19,46.0,49.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"May 15 to 19, 2025",Pinpoint Policy Institute	Disapprove +3	46%	49%,883
+fc8bfec3d61b6df8,Donald Trump,YouGov,Economist,,2025-05-16,2025-05-19,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"May 16 to 19, 2025",Economist	Disapprove +8	43%	51%,884
+0aec50cd09e8e51e,Donald Trump,Morning Consult,,,2025-05-16,2025-05-19,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 16 to 19, 2025",Disapprove +2	48%	50%,885
+5ba8c8dc726f5e49,Donald Trump,InsiderAdvantage,,,2025-05-17,2025-05-19,55.0,44.0,11.0,10.0,1.0,user_supplied_NYT_approval_list,"May 17 to 19, 2025",Approve +10	55%	44%,886
+a1237561cd0acf73,Donald Trump,Gallup,,,2025-05-01,2025-05-18,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"May 1 to 18, 2025",Disapprove +10	43%	53%,887
+43d8a89e19163eaf,Donald Trump,Navigator Research,,,2025-05-15,2025-05-18,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"May 15 to 18, 2025",Disapprove +10	44%	54%,888
+332b37b02d723205,Donald Trump,Ipsos,Reuters,,2025-05-16,2025-05-18,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"May 16 to 18, 2025",Reuters	Disapprove +10	42%	52%,889
+d818c4c54f4dd97b,Donald Trump,YouGov,,,2025-05-14,2025-05-16,44.0,48.0,-4.0,-5.0,1.0,user_supplied_NYT_approval_list,"May 14 to 16, 2025",Disapprove +5	44%	48%,890
+876cda1f049f03c3,Donald Trump,Marquette University Law School,,,2025-05-05,2025-05-15,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"May 5 to 15, 2025",Disapprove +8	46%	54%,891
+8797b50ece542ee0,Donald Trump,RMG Research,Napolitan News Service,,2025-05-07,2025-05-15,52.0,48.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"May 7 to 15, 2025",Napolitan News Service	Approve +4	52%	48%,892
+04720caf41b90b13,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-05-14,2025-05-15,47.0,48.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"May 14 to 15, 2025",Harvard CAPS	Disapprove +1	47%	48%,893
+9d7b4cf62d865d58,Donald Trump,J.L. Partners,DailyMail.com,,2025-05-13,2025-05-14,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"May 13 to 14, 2025",DailyMail.com	Disapprove +1	45%	46%,894
+cf29672d1ebbdb82,Donald Trump,The Bullfinch Group,,,2025-05-09,2025-05-13,45.0,50.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"May 9 to 13, 2025",Disapprove +5	45%	50%,895
+18c642f6c18d3530,Donald Trump,Ipsos,Reuters,,2025-05-12,2025-05-13,44.0,52.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"May 12 to 13, 2025",Reuters	Disapprove +8	44%	52%,896
+4033624b3435d868,Donald Trump,Echelon Insights,,,2025-05-08,2025-05-12,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"May 8 to 12, 2025",Disapprove +6	46%	52%,897
+427afcae7d103907,Donald Trump,YouGov,Economist,,2025-05-09,2025-05-12,43.0,52.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"May 9 to 12, 2025",Economist	Disapprove +9	43%	52%,898
+72378bd22f6c0441,Donald Trump,Morning Consult,,,2025-05-09,2025-05-11,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"May 9 to 11, 2025",Disapprove +7	45%	52%,899
+3a00a081442ca434,Donald Trump,co/efficient,,,2025-05-07,2025-05-09,49.0,51.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 7 to 9, 2025",Disapprove +2	49%	51%,900
+e3d38fd1bd4fab5c,Donald Trump,Wick,2Way,,2025-05-08,2025-05-09,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 8 to 9, 2025",2Way	Disapprove +2	47%	49%,901
+9deba022a54f2e73,Donald Trump,RMG Research,Napolitan News Service,,2025-04-30,2025-05-08,49.0,49.0,0.0,0,0.0,user_supplied_NYT_approval_list,"April 30 to May 8, 2025",Napolitan News Service	Even	49%	49%,902
+3b5c95e902fad3ca,Donald Trump,Morning Consult,,,2025-05-02,2025-05-08,46.0,48.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"May 2 to 8, 2025",Disapprove +2	46%	48%,903
+c08e405f6bc456df,Donald Trump,YouGov,,,2025-05-06,2025-05-08,42.0,50.0,-8.0,-9.0,1.0,user_supplied_NYT_approval_list,"May 6 to 8, 2025",Disapprove +9	42%	50%,904
+eaca3585747a2f35,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-05-05,2025-05-07,48.0,48.0,0.0,0,0.0,user_supplied_NYT_approval_list,"May 5 to 7, 2025",Even	48%	48%,905
+9aae90cb0e060309,Donald Trump,Verasight,Strength In Numbers,,2025-05-01,2025-05-06,40.0,56.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"May 1 to 6, 2025",Strength In Numbers	Disapprove +16	40%	56%,906
+237bb1273eb32038,Donald Trump,AP-NORC,,,2025-05-01,2025-05-05,41.0,57.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"May 1 to 5, 2025",Disapprove +16	41%	57%,907
+fb5ddf32d1f7c8de,Donald Trump,YouGov,Economist,,2025-05-02,2025-05-05,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"May 2 to 5, 2025",Economist	Disapprove +10	42%	52%,908
+455c2ce0693fab77,Donald Trump,Big Data Poll,Public Polling Project,,2025-05-03,2025-05-05,48.0,47.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"May 3 to 5, 2025",Public Polling Project	Approve +1	48%	47%,909
+848511e7ea309772,Donald Trump,Morning Consult,,,2025-05-02,2025-05-04,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"May 2 to 4, 2025",Disapprove +6	46%	52%,910
+b87dbb3a814674d8,Donald Trump,High Point University,,,2025-04-28,2025-05-03,41.0,50.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"April 28 to May 3, 2025",Disapprove +9	41%	50%,911
+1a3b6bdee8cf2e07,Donald Trump,YouGov,,,2025-04-25,2025-05-02,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 25 to May 2, 2025",Disapprove +10	42%	52%,912
+a6ac46a1298b7f7f,Donald Trump,TIPP Insights,Issues & Insights,,2025-04-30,2025-05-02,42.0,47.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"April 30 to May 2, 2025",Issues & Insights	Disapprove +5	42%	47%,913
+e8ee59615bb2f66b,Donald Trump,RMG Research,Napolitan News Service,,2025-04-23,2025-05-01,49.0,48.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"April 23 to May 1, 2025",Napolitan News Service	Approve +1	49%	48%,914
+81d65f62d3d2f617,Donald Trump,Trafalgar Group/InsiderAdvantage,,,2025-04-30,2025-05-01,46.0,44.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"April 30 to May 1, 2025",Approve +2	46%	44%,915
+c12826d0014640a0,Donald Trump,ActiVote,,,2025-04-01,2025-04-30,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 1 to 30, 2025",Disapprove +6	45%	51%,916
+31bd2145c853f529,Donald Trump,Lord Ashcroft Polls,,,2025-04-09,2025-04-30,45.0,53.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"April 9 to 30, 2025",Disapprove +8	45%	53%,917
+7cb8b8f748c3645e,Donald Trump,Wick,2Way,,2025-04-29,2025-04-30,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"April 29 to 30, 2025",2Way	Disapprove +8	43%	51%,918
+cc79b3d872acf7b3,Donald Trump,J.L. Partners,DailyMail.com,,2025-04-23,2025-04-28,41.0,50.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"April 23 to 28, 2025",DailyMail.com	Disapprove +9	41%	50%,919
+bbb7c37353f2d24e,Donald Trump,Navigator Research,,,2025-04-24,2025-04-28,44.0,54.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 24 to 28, 2025",Disapprove +10	44%	54%,920
+b3b0a7a7ded503d3,Donald Trump,Emerson College,,,2025-04-25,2025-04-28,45.0,45.0,0.0,-1.0,1.0,user_supplied_NYT_approval_list,"April 25 to 28, 2025",Disapprove +1	45%	45%,921
+5530c760d00b24e7,Donald Trump,YouGov,Yahoo News,,2025-04-25,2025-04-28,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 25 to 28, 2025",Yahoo News	Disapprove +11	42%	53%,922
+db370f0ddb801c6a,Donald Trump,YouGov,Economist,,2025-04-25,2025-04-28,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 25 to 28, 2025",Economist	Disapprove +10	42%	52%,923
+da21fdbea9a1f6fe,Donald Trump,TrueDot,"Decision Desk HQ, NewsNation",,2025-04-23,2025-04-27,43.0,56.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"April 23 to 27, 2025","Decision Desk HQ, NewsNation	Disapprove +13	43%	56%",924
+c8007e777b7ccd67,Donald Trump,Ipsos,Reuters,,2025-04-25,2025-04-27,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 25 to 27, 2025",Reuters	Disapprove +11	42%	53%,925
+36e6fdd11ec6f3dc,Donald Trump,Morning Consult,,,2025-04-25,2025-04-27,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"April 25 to 27, 2025",Disapprove +8	46%	54%,926
+ec9efbec88e73537,Donald Trump,YouGov,CBS News,,2025-04-23,2025-04-25,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 23 to 25, 2025",CBS News	Disapprove +10	45%	55%,927
+d6d05880cf3ee7bc,Donald Trump,RMG Research,Napolitan News Service,,2025-04-16,2025-04-24,49.0,48.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"April 16 to 24, 2025",Napolitan News Service	Approve +1	49%	48%,928
+26ca3bef380082e6,Donald Trump,CNN/SSRS,,,2025-04-17,2025-04-24,41.0,59.0,-18.0,-18.0,0.0,user_supplied_NYT_approval_list,"April 17 to 24, 2025",Disapprove +18	41%	59%,929
+6b4fdef630d1b4e1,Donald Trump,The Bullfinch Group,,,2025-04-18,2025-04-24,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"April 18 to 24, 2025",Disapprove +5	46%	51%,930
+70b98e99e74d7074,Donald Trump,The New York Times/Siena University,,,2025-04-21,2025-04-24,42.0,54.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"April 21 to 24, 2025",Disapprove +12	42%	54%,931
+98ec6c9b568b67dc,Donald Trump,Marist University,"NPR, PBS NewsHour",,2025-04-21,2025-04-23,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 21 to 23, 2025","NPR, PBS NewsHour	Disapprove +11	42%	53%",932
+11a2a3bde3f63564,Donald Trump,YouGov,The Times of London,,2025-04-21,2025-04-23,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 21 to 23, 2025",The Times of London	Disapprove +11	42%	53%,933
+79389d20cfeeb62a,Donald Trump,Quantus Insights,,,2025-04-21,2025-04-23,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"April 21 to 23, 2025",Disapprove +2	48%	50%,934
+1d3f56c4f20ddba7,Donald Trump,John Zogby Strategies,,,2025-04-22,2025-04-23,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"April 22 to 23, 2025",Disapprove +2	48%	50%,935
+aba52ee1ba8932de,Donald Trump,Ipsos,"ABC News, The Washington Post",,2025-04-18,2025-04-22,39.0,55.0,-16.0,-16.0,0.0,user_supplied_NYT_approval_list,"April 18 to 22, 2025","ABC News, The Washington Post	Disapprove +16	39%	55%",936
+073cd7d9dc53c569,Donald Trump,YouGov,Economist,,2025-04-19,2025-04-22,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"April 19 to 22, 2025",Economist	Disapprove +13	41%	54%,937
+9232a42dcedaadcb,Donald Trump,Ipsos,Reuters,,2025-04-16,2025-04-21,42.0,53.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 16 to 21, 2025",Reuters	Disapprove +11	42%	53%,938
+c005343b4bbc0324,Donald Trump,AP-NORC,,,2025-04-17,2025-04-21,39.0,59.0,-20.0,-20.0,0.0,user_supplied_NYT_approval_list,"April 17 to 21, 2025",Disapprove +20	39%	59%,939
+d7469bda025f0cd6,Donald Trump,Beacon Research/Shaw & Company Research,Fox News,,2025-04-18,2025-04-21,44.0,55.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"April 18 to 21, 2025",Fox News	Disapprove +11	44%	55%,940
+946fd570f8581819,Donald Trump,SurveyMonkey,NBC News Decision Desk,,2025-04-11,2025-04-20,45.0,55.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 11 to 20, 2025",NBC News Decision Desk	Disapprove +10	45%	55%,941
+7224d8db1ca34ba1,Donald Trump,American Research Group,,,2025-04-17,2025-04-20,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 17 to 20, 2025",Disapprove +10	43%	53%,942
+425f31535a9f1725,Donald Trump,Morning Consult,,,2025-04-18,2025-04-20,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"April 18 to 20, 2025",Disapprove +5	46%	51%,943
+8ee84eab1f1d07e5,Donald Trump,McLaughlin & Associates,America's New Majority Project,Republican sponsor,2025-04-16,2025-04-19,48.0,52.0,-4.0,-5.0,1.0,user_supplied_NYT_approval_list,"April 16 to 19, 2025",Disapprove +5	48%	52%,944
+4a43a2cc7da5a1d4,Donald Trump,Noble Predictive Insights,Center Square,,2025-04-15,2025-04-18,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"April 15 to 18, 2025",Center Square	Disapprove +9	44%	53%,945
+0c1937de41889914,Donald Trump,YouGov,Elon University,,2025-04-10,2025-04-17,41.0,47.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 10 to 17, 2025",Elon University	Disapprove +6	41%	47%,946
+d6493617a3160500,Donald Trump,RMG Research,Napolitan News Service,,2025-04-09,2025-04-16,48.0,51.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"April 9 to 16, 2025",Napolitan News Service	Disapprove +3	48%	51%,947
+c05f454f62974a02,Donald Trump,Civiqs,Daily Kos,Democratic sponsor,2025-04-12,2025-04-15,46.0,53.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"April 12 to 15, 2025",Disapprove +7	46%	53%,948
+a0c19ccd1ba1ba53,Donald Trump,YouGov,Economist,,2025-04-13,2025-04-15,42.0,52.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"April 13 to 15, 2025",Economist	Disapprove +10	42%	52%,949
+ace59fc57cc97bcf,Donald Trump,Gallup,,,2025-04-01,2025-04-14,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"April 1 to 14, 2025",Disapprove +9	44%	53%,950
+167ef97c5bd1f863,Donald Trump,Clarity Campaign Labs,,,2025-04-09,2025-04-14,46.0,49.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"April 9 to 14, 2025",Disapprove +3	46%	49%,951
+537bc71f00227b11,Donald Trump,AtlasIntel,,,2025-04-10,2025-04-14,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 10 to 14, 2025",Disapprove +6	46%	52%,952
+27ea907f358b0783,Donald Trump,J.L. Partners,DailyMail.com,,2025-04-10,2025-04-14,48.0,42.0,6.0,6.0,0.0,user_supplied_NYT_approval_list,"April 10 to 14, 2025",DailyMail.com	Approve +6	48%	42%,953
+c5aa5b52b0af8c69,Donald Trump,Echelon Insights,,,2025-04-10,2025-04-14,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"April 10 to 14, 2025",Disapprove +4	47%	51%,954
+a42911b46a02e40e,Donald Trump,Pew Research Center,,,2025-04-07,2025-04-13,40.0,59.0,-19.0,-19.0,0.0,user_supplied_NYT_approval_list,"April 7 to 13, 2025",Disapprove +19	40%	59%,955
+bf94ffa95db37e21,Donald Trump,Hart Research Associates/Public Opinion Strategies,CNBC,,2025-04-09,2025-04-13,44.0,51.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"April 9 to 13, 2025",CNBC	Disapprove +7	44%	51%,956
+7355269baf086f23,Donald Trump,GrayHouse,America One Policies,Republican sponsor,2025-04-10,2025-04-13,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 10 to 13, 2025",Disapprove +6	46%	52%,957
+024a1fe1a1f2b512,Donald Trump,Morning Consult,,,2025-04-11,2025-04-13,45.0,52.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"April 11 to 13, 2025",Disapprove +7	45%	52%,958
+ad33a6cdfd209df3,Donald Trump,RealClear Opinion Research,,,2025-04-10,2025-04-12,44.0,44.0,0.0,1.0,-1.0,user_supplied_NYT_approval_list,"April 10 to 12, 2025",Approve +1	44%	44%,959
+b2bcac2bd089b63a,Donald Trump,YouGov,CBS News,,2025-04-08,2025-04-11,47.0,53.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 8 to 11, 2025",CBS News	Disapprove +6	47%	53%,960
+9fc445e1061e5526,Donald Trump,RMG Research,Napolitan News Service,,2025-04-02,2025-04-10,49.0,48.0,1.0,1.0,0.0,user_supplied_NYT_approval_list,"April 2 to 10, 2025",Napolitan News Service	Approve +1	49%	48%,961
+e5f64bb05d385dd8,Donald Trump,YouGov,,,2025-04-07,2025-04-10,41.0,54.0,-13.0,-13.0,0.0,user_supplied_NYT_approval_list,"April 7 to 10, 2025",Disapprove +13	41%	54%,962
+810f20ec89c99be3,Donald Trump,The Winston Group,Winning the Issues,Republican sponsor,2025-04-08,2025-04-10,39.0,54.0,-15.0,-15.0,0.0,user_supplied_NYT_approval_list,"April 8 to 10, 2025",Disapprove +15	39%	54%,963
+e1f6a134876e2a15,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-04-09,2025-04-10,48.0,46.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"April 9 to 10, 2025",Harvard CAPS	Approve +2	48%	46%,964
+acc8503672fa95ca,Donald Trump,YouGov,UMass Amherst,,2025-04-04,2025-04-09,44.0,51.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"April 4 to 9, 2025",UMass Amherst	Disapprove +7	44%	51%,965
+01aa39db89ca20af,Donald Trump,TIPP Insights,League of American Workers,Republican sponsor,2025-04-07,2025-04-09,43.0,50.0,-7.0,-7.0,0.0,user_supplied_NYT_approval_list,"April 7 to 9, 2025",Disapprove +7	43%	50%,966
+2c95dd9541e16156,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-04-07,2025-04-09,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"April 7 to 9, 2025",Disapprove +3	47%	50%,967
+fe24ce1898077d95,Donald Trump,YouGov,Economist,,2025-04-05,2025-04-08,43.0,51.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"April 5 to 8, 2025",Economist	Disapprove +8	43%	51%,968
+7dd1a8852a807698,Donald Trump,Morning Consult,,,2025-04-01,2025-04-07,48.0,46.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"April 1 to 7, 2025",Approve +2	48%	46%,969
+123308b6e5092a26,Donald Trump,Quinnipiac University,,,2025-04-03,2025-04-07,41.0,53.0,-12.0,-12.0,0.0,user_supplied_NYT_approval_list,"April 3 to 7, 2025",Disapprove +12	41%	53%,970
+4897fbd4db54ec26,Donald Trump,Navigator Research,,,2025-04-03,2025-04-07,44.0,53.0,-9.0,-9.0,0.0,user_supplied_NYT_approval_list,"April 3 to 7, 2025",Disapprove +9	44%	53%,971
+ae790a4f5beb9966,Donald Trump,HarrisX,,,2025-04-04,2025-04-07,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"April 4 to 7, 2025",Disapprove +2	47%	49%,972
+5710b934a270921a,Donald Trump,Morning Consult,,,2025-04-04,2025-04-06,46.0,52.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"April 4 to 6, 2025",Disapprove +6	46%	52%,973
+e08db617b94e237e,Donald Trump,RMG Research,Napolitan News Service,,2025-03-26,2025-04-03,51.0,47.0,4.0,4.0,0.0,user_supplied_NYT_approval_list,"March 26 to April 3, 2025",Napolitan News Service	Approve +4	51%	47%,974
+7b6c844c08d4d995,Donald Trump,Cygnal Political,,,2025-04-01,2025-04-03,47.0,51.0,-4.0,-4.0,0.0,user_supplied_NYT_approval_list,"April 1 to 3, 2025",Disapprove +4	47%	51%,975
+47f8ec9557c1b47b,Donald Trump,J.L. Partners,DailyMail.com,,2025-04-01,2025-04-03,47.0,42.0,5.0,5.0,0.0,user_supplied_NYT_approval_list,"April 1 to 3, 2025",DailyMail.com	Approve +5	47%	42%,976
+67ff010549a14369,Donald Trump,Ipsos,Reuters,,2025-03-31,2025-04-02,43.0,53.0,-10.0,-10.0,0.0,user_supplied_NYT_approval_list,"March 31 to April 2, 2025",Reuters	Disapprove +10	43%	53%,977
+1a13a5c94efb41c2,Donald Trump,"Fabrizio, Lee & Associates/Impact Research",Wall Street Journal,,2025-03-27,2025-04-01,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"March 27 to April 1, 2025",Wall Street Journal	Disapprove +5	46%	51%,978
+b0c28231f1215045,Donald Trump,YouGov,Economist,,2025-03-30,2025-04-01,46.0,49.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"March 30 to April 1, 2025",Economist	Disapprove +3	46%	49%,979
+7de64e00178cb580,Donald Trump,ActiVote,,,2025-03-01,2025-03-31,48.0,49.0,-1.0,-2.0,1.0,user_supplied_NYT_approval_list,"March 1 to 31, 2025",Disapprove +2	48%	49%,980
+b467977db855b4e9,Donald Trump,John Zogby Strategies,,,2025-03-30,2025-03-31,48.0,48.0,0.0,0,0.0,user_supplied_NYT_approval_list,"March 30 to 31, 2025",Even	48%	48%,981
+db8a2971a2a45652,Donald Trump,Morning Consult,,,2025-03-28,2025-03-30,47.0,49.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"March 28 to 30, 2025",Disapprove +2	47%	49%,982
+aaa899ea804b5341,Donald Trump,Targoz Market Research,Overton Insights,,2025-03-24,2025-03-28,46.0,51.0,-5.0,-5.0,0.0,user_supplied_NYT_approval_list,"March 24 to 28, 2025",Overton Insights	Disapprove +5	46%	51%,983
+c52a9034ac69efe3,Donald Trump,TIPP Insights,,,2025-03-26,2025-03-28,44.0,45.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"March 26 to 28, 2025",Disapprove +1	44%	45%,984
+41297446f48b1339,Donald Trump,YouGov,CBS News,,2025-03-27,2025-03-28,50.0,50.0,0.0,0,0.0,user_supplied_NYT_approval_list,"March 27 to 28, 2025",CBS News	Even	50%	50%,985
+d1769a1e930af8d4,Donald Trump,Marquette University Law School,,,2025-03-17,2025-03-27,46.0,54.0,-8.0,-8.0,0.0,user_supplied_NYT_approval_list,"March 17 to 27, 2025",Disapprove +8	46%	54%,986
+0434a0fd5db4e6f6,Donald Trump,RMG Research,Napolitan News Service,,2025-03-18,2025-03-27,52.0,45.0,7.0,7.0,0.0,user_supplied_NYT_approval_list,"March 18 to 27, 2025",Napolitan News Service	Approve +7	52%	45%,987
+956e8ae010a4c1a2,Donald Trump,J.L. Partners,DailyMail.com,,2025-03-25,2025-03-27,45.0,46.0,-1.0,-1.0,0.0,user_supplied_NYT_approval_list,"March 25 to 27, 2025",DailyMail.com	Disapprove +1	45%	46%,988
+8889740de169402f,Donald Trump,Quantus Insights,TrendingPolitics,Republican sponsor,2025-03-25,2025-03-27,49.0,46.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,"March 25 to 27, 2025",Approve +3	49%	46%,989
+d6cf500fa5e142f2,Donald Trump,HarrisX/Harris Poll,Harvard CAPS,,2025-03-26,2025-03-27,49.0,46.0,3.0,3.0,0.0,user_supplied_NYT_approval_list,"March 26 to 27, 2025",Harvard CAPS	Approve +3	49%	46%,990
+66d72d136d89e242,Donald Trump,YouGov,Economist,,2025-03-22,2025-03-25,48.0,46.0,2.0,2.0,0.0,user_supplied_NYT_approval_list,"March 22 to 25, 2025",Economist	Approve +2	48%	46%,991
+f1f4aff47c8c1323,Donald Trump,AP-NORC,,,2025-03-20,2025-03-24,42.0,56.0,-14.0,-14.0,0.0,user_supplied_NYT_approval_list,"March 20 to 24, 2025",Disapprove +14	42%	56%,992
+8c4529eea3f17834,Donald Trump,YouGov,Yahoo News,,2025-03-20,2025-03-24,44.0,50.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"March 20 to 24, 2025",Yahoo News	Disapprove +6	44%	50%,993
+5b8867292cb84255,Donald Trump,Schoen Cooperman Research,Israel on Campus Coalition,,2025-03-21,2025-03-24,46.0,48.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"March 21 to 24, 2025",Israel on Campus Coalition	Disapprove +2	46%	48%,994
+c075cf743989b797,Donald Trump,GBAO,Third Way,Democratic sponsor,2025-03-17,2025-03-23,48.0,50.0,-2.0,-2.0,0.0,user_supplied_NYT_approval_list,"March 17 to 23, 2025",Disapprove +2	48%	50%,995
+60b0a0124f6ef125,Donald Trump,Ipsos,Reuters,,2025-03-21,2025-03-23,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"March 21 to 23, 2025",Reuters	Disapprove +6	45%	51%,996
+acb52c8ebc13815a,Donald Trump,Morning Consult,,,2025-03-21,2025-03-23,47.0,50.0,-3.0,-3.0,0.0,user_supplied_NYT_approval_list,"March 21 to 23, 2025",Disapprove +3	47%	50%,997
+57acb23ec9a51b2d,Donald Trump,PRRI,,,2025-02-28,2025-03-20,43.0,54.0,-11.0,-11.0,0.0,user_supplied_NYT_approval_list,"Feb. 28 to March 20, 2025",Disapprove +11	43%	54%,998
+2db66ea939068ad0,Donald Trump,American Research Group,,,2025-03-17,2025-03-20,45.0,51.0,-6.0,-6.0,0.0,user_supplied_NYT_approval_list,"March 17 to 20, 2025",Disapprove +6	45%	51%,999
