@@ -28,7 +28,7 @@ def main():
     record = {}
     payload = json.loads(get(SOURCES['538']))
     data = base64.b64decode(payload['content'])
-    sha = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\\0' + data).hexdigest()
+    sha = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
     if sha != BLOB:
         raise ValueError('538 Git blob SHA mismatch; refusing to write')
     paths = [('raw_polls.csv', data, SOURCES['538'])]
@@ -40,7 +40,7 @@ def main():
         (OUT/name).write_bytes(blob)
         record[name] = {'source_url':url,'sha256':hashlib.sha256(blob).hexdigest(),
                         'bytes':len(blob)}
-    (OUT/'sources.lock.json').write_text(json.dumps(record,indent=2)+'\\n')
+    (OUT/'sources.lock.json').write_text(json.dumps(record,indent=2)+'\n')
     print('Wrote source snapshots and hash manifest to', OUT)
     print('Note: MIT download schema differs from the older import_historical.py input.')
 
