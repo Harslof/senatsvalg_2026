@@ -1,5 +1,6 @@
 (()=>{'use strict';
 const WEEK=604800000, rows=MODEL.states;
+const actualFor=state=>{const x=window.VALGNAT_FEED?.results?.[state];return x&&Number.isFinite(x.margin)?x:null;};
 const updateUI=window.SenateUpdateUI;
 const updateActive=()=>Boolean(updateUI?.active());
 const baselineByState=new Map(BASELINE_STATES.map(r=>[r.state,r]));
@@ -31,7 +32,10 @@ function chart(r){
     const t=(d-r.latestDate)/WEEK;
     return coeff.reduce((sum,c,i)=>sum+c*t**i,0);
   };
+  const actual=actualFor(r.state);
   const values=pts.map(p=>p.y);
+  // Election result is only a visual marker: never an input to regression, margins or probability models.
+  if(actual)values.push(actual.margin);
   // Include the entire projected horizon in the vertical axis so the lines
   // can actually reach election day without being clipped.
   for(let i=0;i<=120;i++){
@@ -73,12 +77,13 @@ function chart(r){
     const cx=x(mid(p)),cy=y(p.y);
     return `${isNew?`<circle class="vf-new-poll-halo" cx="${cx}" cy="${cy}" r="7.4" fill="#9254c8" fill-opacity=".20"/>`:''}<circle class="${isNew?'vf-new-poll':''}" cx="${cx}" cy="${cy}" r="${isNew?'5.3':'4.4'}" fill="${isNew?'#9254c8':'#666'}" stroke="white" stroke-width="1"><title>${escape(p.poll||'Måling')} · ${escape(p.x)}–${escape(p.end)} · ${format(p.y,1)} pp${isNew?' · NY MÅLING':''}</title></circle>`;
   }).join('');
+  const resultStar=actual?(()=>{const cx=x(electionDay),cy=y(actual.margin),outer=9,inner=4.1;const points=Array.from({length:10},(_,i)=>{const angle=-Math.PI/2+i*Math.PI/5,rad=i%2?inner:outer;return (cx+Math.cos(angle)*rad).toFixed(2)+','+(cy+Math.sin(angle)*rad).toFixed(2)}).join(' ');return `<polygon class="vf-result-star" points="${points}" fill="${actual.margin>=0?'#3478c8':'#c74747'}" stroke="#fff" stroke-width="1.6"><title>Valgresultat · ${format(actual.margin)} pp · ${actual.called?'afgjort':'foreløbigt'}</title></polygon>`;})():'';
   // Four historical date labels and a fixed final tick at election day.
   const dates=Array.from({length:4},(_,i)=>start+(end-start)*i/4).map(d=>`<text x="${x(d)}" y="279" font-size="12" fill="#777" text-anchor="middle">${new Date(d).toLocaleDateString('da-DK',{month:'short',year:'2-digit'})}</text>`).join('');
   const electionLabel=`<line x1="814" y1="33" x2="814" y2="248" stroke="#666" stroke-width="1"/><text x="811" y="279" text-anchor="end" font-size="12" font-weight="bold" fill="#444">3. nov.</text>`;
   const boundary=forecast?`<line class="vf-forecast-boundary" x1="${projectionX}" y1="33" x2="${projectionX}" y2="248" stroke="#9298a0" stroke-width="1.5" stroke-dasharray="3 4"><title>Seneste måling sluttede ${new Date(lastPollEnd).toLocaleDateString('da-DK')}</title></line>`:'';
   const zoneLabel=forecast&&projectedWidth>=115?`<text x="${projectionX+projectedWidth/2}" y="46" font-size="10" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" letter-spacing=".7" fill="#60666e">FREMSKRIVNING</text>`:'';
-  return `<svg class="vf-chart" viewBox="0 0 845 290" role="img" aria-label="Målinger og udviklingskurver i ${escape(r.state)} frem til valgdagen 3. november 2026. Mørkere baggrund og stiplede kurver viser fremskrivning fra seneste måling.">${shade}${grid}${zeroLine}${boundary}${zoneLabel}${lines}${dots}${dates}${electionLabel}</svg><div class="vf-legend"><span><i class="vf-key vf-dot"></i>Målinger</span>${hasUpdate(r.state)?'<span><i class="vf-key vf-dot vf-dot-new"></i>Ny måling</span>':''}<span><i class="vf-key vf-line"></i>Lineær trend</span><span><i class="vf-key vf-curve"></i>Trend + acceleration</span><span><i class="vf-key vf-forecast"></i>Fremskrivning til 3. nov.</span></div>`;
+  return `<svg class="vf-chart" viewBox="0 0 845 290" role="img" aria-label="Målinger og udviklingskurver i ${escape(r.state)} frem til valgdagen 3. november 2026. Mørkere baggrund og stiplede kurver viser fremskrivning fra seneste måling.">${shade}${grid}${zeroLine}${boundary}${zoneLabel}${lines}${dots}${resultStar}${dates}${electionLabel}</svg><div class="vf-legend"><span><i class="vf-key vf-dot"></i>Målinger</span>${hasUpdate(r.state)?'<span><i class="vf-key vf-dot vf-dot-new"></i>Ny måling</span>':''}<span><i class="vf-key vf-line"></i>Lineær trend</span><span><i class="vf-key vf-curve"></i>Trend + acceleration</span><span><i class="vf-key vf-forecast"></i>Fremskrivning til 3. nov.</span>${actual?'<span><i class="vf-key vf-result-key"></i>Valgresultat (stjerne)</span>':''}</div>`;
 }
 const party=p=>p==='D'?'Demokraterne':p==='R'?'Republikanerne':p==='I'?'Uafhængig':'—';const partyClass=p=>p==='R'?'vf-r':p==='D'||p==='I'?'vf-d':'';
 function render(){
@@ -104,12 +109,13 @@ function render(){
   list.innerHTML=models.map((r,i)=>{
     const pr=[lm.get(r.state),am.get(r.state)].filter(Number.isFinite).sort((a,b)=>a-b);
     const prob=pr.length?pr.map(p=>(p*100).toLocaleString('da-DK',{maximumFractionDigits:1,minimumFractionDigits:1})+' %').join(' – '):'—';
+    const actual=actualFor(r.state);
     const changed=hasUpdate(r.state);
     const old=changed?baselineModels.get(r.state):null;
     const arrows=(metric,label)=>changed?change(r[metric],old?.[metric],label):'';
     const newCount=changed?Math.max(0,(r.points?.length||0)-(old?.points?.length||0)):0;
     const leadMark=changed&&old?.lead!==r.lead?mark(true,'Ændret førende parti efter nye målinger'):'';
-    return `<article class="vf-race" id="valg-${i+1}"><div class="vf-race-head"><div><div class="vf-rank">VALG ${String(i+1).padStart(2,'0')} AF ${models.length}</div><h2>${escape(r.state)}${changed?mark(true,'Ny måling i '+r.state):''}</h2><p class="vf-series">${escape(r.series||'Senatsvalg 2026')}</p></div><div class="vf-election"><small>Valgdag</small><div class="vf-margin ${partyClass(r.lead)}">${r.margin==null?'Uden målinger':(r.lead==='R'?'R':'D/I')+' '+Math.abs(r.margin).toLocaleString('da-DK',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp'}</div></div></div><div class="vf-metrics"><div><small>Nuværende mandat</small><strong class="${partyClass(r.inc)}">${party(r.inc)}</strong></div><div><small>Fører i målingerne</small><strong class="${partyClass(r.lead)}">${party(r.lead)}${leadMark}</strong></div><div><small>Margin (D/I – R)</small><strong>${format(r.margin)} pp${arrows('margin','Ændring i D/I-margin')}</strong></div><div><small>Trend pr. uge</small><strong>${format(r.trend)} pp${arrows('trend','Ændring i trend')}</strong></div><div><small>Acceleration pr. uge</small><strong>${format(r.accel)} pp${arrows('accel','Ændring i acceleration')}</strong></div><div><small>Sandsynlighed for D/I</small><strong>${prob}</strong></div><div><small>Målinger</small><strong>${r.points.length}${newCount?mark(true,newCount+' nye målinger'):''}</strong></div></div><div class="vf-chart-label">Hvilken vej går udviklingen?</div>${chart(r)}</article>`;
+    return `<article class="vf-race" id="valg-${i+1}"><div class="vf-race-head"><div><div class="vf-rank">VALG ${String(i+1).padStart(2,'0')} AF ${models.length}</div><h2>${escape(r.state)}${changed?mark(true,'Ny måling i '+r.state):''}</h2><p class="vf-series">${escape(r.series||'Senatsvalg 2026')}</p></div><div class="vf-election"><small>Valgdag</small><div class="vf-margin ${partyClass(r.lead)}">${r.margin==null?'Uden målinger':(r.lead==='R'?'R':'D/I')+' '+Math.abs(r.margin).toLocaleString('da-DK',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp'}</div></div></div><div class="vf-metrics">${actual?`<div><small>Valgresultat${actual.called?'':' · foreløbigt'}</small><strong class="${actual.margin>=0?'vf-d':'vf-r'}">${format(actual.margin)} pp</strong></div>`:'' }<div><small>Nuværende mandat</small><strong class="${partyClass(r.inc)}">${party(r.inc)}</strong></div><div><small>Fører i målingerne</small><strong class="${partyClass(r.lead)}">${party(r.lead)}${leadMark}</strong></div><div><small>Margin (D/I – R)</small><strong>${format(r.margin)} pp${arrows('margin','Ændring i D/I-margin')}</strong></div><div><small>Trend pr. uge</small><strong>${format(r.trend)} pp${arrows('trend','Ændring i trend')}</strong></div><div><small>Acceleration pr. uge</small><strong>${format(r.accel)} pp${arrows('accel','Ændring i acceleration')}</strong></div><div><small>Sandsynlighed for D/I</small><strong>${prob}</strong></div><div><small>Målinger</small><strong>${r.points.length}${newCount?mark(true,newCount+' nye målinger'):''}</strong></div></div><div class="vf-chart-label">Hvilken vej går udviklingen?</div>${chart(r)}</article>`;
   }).join('');
   $('vf-jump').innerHTML='<option value="">Vælg delstat…</option>'+models.map((r,i)=>`<option value="valg-${i+1}" data-state="${escape(r.state)}">${String(i+1).padStart(2,'0')} · ${escape(r.state)}</option>`).join('');
   if(selectedState){const opt=[...$('vf-jump').options].find(o=>o.dataset.state===selectedState);if(opt)$('vf-jump').value=opt.value;}
