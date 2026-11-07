@@ -474,3 +474,8 @@ body:not(.play-only-view) #races{display:none!important}
 #thead th.num,#tbody td.num{white-space:nowrap}
 @media(max-width:1100px){#playcounts{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:700px){#playcounts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Actual results are visually distinguished from pre-election estimates. */
+#thead th:nth-child(8),#thead th:nth-child(9){background:#d8dfe8;color:#17283c}
+#tbody td:nth-child(8),#tbody td:nth-child(9){background:#e6ebf1;border-left:1px solid #c5cfdb;font-weight:650}
+#tbody tr:nth-child(even) td:nth-child(8),#tbody tr:nth-child(even) td:nth-child(9){background:#dce3ec}
