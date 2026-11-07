@@ -48,3 +48,14 @@ En stor kampagnekasse kan være resultatet af forventet succes snarere end årsa
 2. Verificér de 357 staging-marginer mod officielle/MIT-resultater, inkl. tredjepartskandidater og specialvalg.
 3. Importér verificerede resultater og kandidat-ID'er til `elections.csv` og `candidates.csv`.
 4. Indfør verificerede offentliggørelsesdatoer, så historiske målinger kan bruges i *as-of*-tests.
+
+## Fase 2 – gennemgang af brugerens historiske ZIP-udtræk (7. november 2026)
+Brugeren har fremsendt `forecasts.csv`, `summary(1).csv`, `bootstrap.csv`, `run.py`, `report.py` og `rapport.md` fra arkivet. De er analyseret separat; ingen dubletter er importeret til de primære datatabeller.
+
+- `forecasts.csv`: 5.814 model/scenarie-rækker (ikke 5.814 uafhængige valg). Kolonner omfatter år, race, model, horisont, prognose, faktisk margin, fejl, sigma og dækningsindikatorer.
+- `summary(1).csv`: 18 aggregerede scenarier; `bootstrap.csv`: 18 bootstrapintervaller.
+- `run.py` afhænger eksplicit af `/mnt/data/raw_polls.csv`, som **ikke** fulgte med de seks filer. Scriptet kræver desuden pandas, numpy og scipy.
+- `rapport.md` beskriver FiveThirtyEight raw_polls.csv (2024-version), 1998–2022, ordinære Sen-G med DEM/REP som førende kandidater og særlige valg. En historisk rekonstruktion er ikke en identisk genkørsel af webmodellen.
+- De fremsendte filer kan bruges til validering af historiske *modeloutputs*, men de dokumenterer ikke alle de underliggende råmålinger, stemmetal, kandidatidentiteter eller kilde-/publiceringsdatoer. **Undlad at behandle dem som en råmålingdatabase.**
+
+**Næste nødvendige input:** råfilen `raw_polls.csv` (eller den oprindelige kilde med dokumenterede felter). Derudover valgresultater fra MIT Election Lab eller statslige valgmyndigheder til uafhængig verifikation.
