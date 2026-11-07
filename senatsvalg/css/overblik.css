@@ -467,3 +467,10 @@ body:not(.play-only-view) #races{display:none!important}
 
 /* Senatets flertalsgrænser – redaktionelle, diskrete referencelinjer */
 .majority-explainer{border-top:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;margin:20px 0 23px;padding:14px 0 12px}.majority-explainer h2{font:700 20px/1.3 Georgia,serif;margin:0 0 8px}.majority-explainer p{margin:6px 0 9px}.majority-explainer ul{margin:8px 0 8px;padding-left:20px}.majority-explainer li{margin:6px 0;line-height:1.5}.majority-explainer .majority-explainer-note{font:12px/1.5 Arial,sans-serif;color:#626262}.mandate-guides{position:absolute;inset:0;pointer-events:none;z-index:4}.mandate-guide{position:absolute;top:0;bottom:0;border-left:1px dashed rgba(255,255,255,.88);filter:drop-shadow(0 0 1px #17243a)}.mandate-guide.major{border-left-width:2px}.mandate-guide:hover{cursor:help}#bars .bar::after{display:none}
+
+/* 2026 election result comparisons */
+#playcounts{grid-template-columns:repeat(7,minmax(0,1fr))}
+#playcounts .election-actual-card{border-top:3px solid #253e61;background:#f3f6fa}
+#thead th.num,#tbody td.num{white-space:nowrap}
+@media(max-width:1100px){#playcounts{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:700px){#playcounts{grid-template-columns:repeat(2,minmax(0,1fr))}}
