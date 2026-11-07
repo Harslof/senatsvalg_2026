@@ -12,13 +12,13 @@ return pred}
 function radar(){const half=+$('ev-half').value,compare=$('ev-compare').checked;$('ev-half-value').textContent=half+' uger';
 const samples=rows.filter(r=>r.n>0);const mae=(d,w)=>samples.reduce((sum,r)=>sum+Math.abs(prediction(r.state,d,half,w)-r.actual),0)/samples.length;
 const equal=[0,1,2].map(d=>mae(d,false)),weighted=[0,1,2].map(d=>mae(d,true));
-const cx=215,cy=205,R=122,max=10,point=(i,v)=>{const a=-Math.PI/2+i*2*Math.PI/3;return [cx+Math.cos(a)*R*v/max,cy+Math.sin(a)*R*v/max]},poly=arr=>arr.map((v,i)=>point(i,v).map(z=>z.toFixed(2)).join(',')).join(' ');
-let svg='<svg viewBox="0 0 430 420" role="img" aria-label="Sammenligning af tre modeller med lige og tidsvægtede målinger. Mindre afstand til centrum er bedre.">';
+const cx=270,cy=245,R=165,max=10,point=(i,v)=>{const a=-Math.PI/2+i*2*Math.PI/3;return [cx+Math.cos(a)*R*v/max,cy+Math.sin(a)*R*v/max]},poly=arr=>arr.map((v,i)=>point(i,v).map(z=>z.toFixed(2)).join(',')).join(' ');
+let svg='<svg viewBox="0 0 540 510" role="img" aria-label="Sammenligning af tre modeller med lige og tidsvægtede målinger. Mindre afstand til centrum er bedre.">';
 for(const v of [2,4,6,8,10])svg+='<polygon points="'+poly([v,v,v])+'" fill="none" stroke="#cdd6e0" stroke-width="1"/>';
 for(let i=0;i<3;i++){const [x,y]=point(i,max);svg+='<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="#b5c1d0"/>'}
-const polygon=(arr,color)=>'<polygon points="'+poly(arr)+'" fill="'+color+'" fill-opacity=".13" stroke="'+color+'" stroke-width="3"/>'+arr.map((v,i)=>{const [x,y]=point(i,v);return '<circle cx="'+x+'" cy="'+y+'" r="4" fill="'+color+'"/>'}).join('');
-if(compare)svg+=polygon(equal,'#b43b45');svg+=polygon(weighted,'#245b98');
-[['Gennemsnit',215,36],['Lineær',370,305],['Acceleration',60,305]].forEach(([label,x,y])=>svg+='<text x="'+x+'" y="'+y+'" text-anchor="middle" font-family="Arial" font-weight="700" font-size="13" fill="#26374c">'+label+'</text>');
+const polygon=(arr,color,offset)=>'<polygon points="'+poly(arr)+'" fill="'+color+'" fill-opacity=".10" stroke="'+color+'" stroke-width="3"/>'+arr.map((v,i)=>{const [x,y]=point(i,v),dx=Math.cos(-Math.PI/2+i*2*Math.PI/3)*offset,dy=Math.sin(-Math.PI/2+i*2*Math.PI/3)*offset;return '<circle cx="'+x+'" cy="'+y+'" r="5" fill="'+color+'"/><text x="'+(x+dx).toFixed(1)+'" y="'+(y+dy).toFixed(1)+'" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="'+color+'" stroke="#fbfbfa" stroke-width="4" paint-order="stroke">'+num(v)+'</text>'}).join('');
+if(compare)svg+=polygon(equal,'#b43b45',-23);svg+=polygon(weighted,'#245b98',23);
+[['Gennemsnit',270,31],['Lineær',475,384],['Acceleration',65,384]].forEach(([label,x,y])=>svg+='<text x="'+x+'" y="'+y+'" text-anchor="middle" font-family="Arial" font-weight="700" font-size="13" fill="#26374c">'+label+'</text>');
 svg+='</svg><div class="ev-radar-key"><span style="color:#245b98">● Tidsvægtet: '+weighted.map(num).join(' · ')+' pp</span>'+(compare?'<span style="color:#b43b45">● Lige: '+equal.map(num).join(' · ')+' pp</span>':'')+'</div>';
 $('ev-radar').innerHTML=svg;
 }
@@ -42,6 +42,16 @@ radar();displayRows();
 const biggest=rows.filter(r=>r.n).map(r=>({state:r.state,error:r.models[1]-r.actual})).sort((a,b)=>a.error-b.error).slice(0,5);
 $('ev-bias-bars').innerHTML=biggest.map(r=>'<div class="ev-bar-row ev-bias-row"><span>'+esc(r.state)+'</span><div class="ev-track"><div style="width:'+(Math.abs(r.error)/14*100).toFixed(1)+'%"></div></div><b>'+signed(r.error)+'</b></div>').join('');
 const groups=[['1–3',1,3],['4–9',4,9],['10–24',10,24],['25+',25,1000]];
-$('ev-poll-count-chart').innerHTML=groups.map(([label,min,max])=>{const a=rows.filter(r=>r.n>=min&&r.n<=max),mae=a.reduce((s,r)=>s+Math.abs(r.models[1]-r.actual),0)/a.length;return '<div class="ev-bar-row"><span>'+label+' målinger ('+a.length+')</span><div class="ev-track"><div style="width:'+(mae/9*100)+'%;background:#245b98"></div></div><b>'+num(mae)+'</b></div>'}).join('');
+const grouped=groups.map(([label,min,max])=>{const a=rows.filter(r=>r.n>=min&&r.n<=max),errors=a.map(r=>r.models[1]-r.actual);return {label,n:a.length,mae:errors.reduce((sum,e)=>sum+Math.abs(e),0)/a.length,bias:errors.reduce((sum,e)=>sum+e,0)/a.length}});
+const W=770,H=335,zero=172,scale=12.5,top=35,bottom=285;
+let chart='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Lodret søjlediagram: gennemsnitlig absolut fejl og bias efter antal meningsmålinger. Bias kan være negativ.">';
+for(const tick of [-8,-4,0,4,8]){const y=zero-tick*scale;chart+='<line x1="55" x2="755" y1="'+y+'" y2="'+y+'" stroke="'+(tick===0?'#45566b':'#d8e0e9')+'" stroke-width="'+(tick===0?2:1)+'"/><text x="44" y="'+(y+4)+'" text-anchor="end" font-size="12" fill="#526176">'+tick+'</text>'}
+grouped.forEach((g,i)=>{const x=112+i*170,maeH=g.mae*scale,biasH=Math.abs(g.bias)*scale,biasY=g.bias>=0?zero-biasH:zero;
+chart+='<rect x="'+x+'" y="'+(zero-maeH)+'" width="49" height="'+maeH+'" fill="#245b98"/><rect x="'+(x+54)+'" y="'+biasY+'" width="49" height="'+biasH+'" fill="#ad303a"/>';
+chart+='<text x="'+(x+24)+'" y="'+(zero-maeH-7)+'" text-anchor="middle" font-size="13" font-weight="700" fill="#245b98">'+num(g.mae)+'</text>';
+chart+='<text x="'+(x+78)+'" y="'+(g.bias<0?zero+biasH+17:zero-biasH-7)+'" text-anchor="middle" font-size="13" font-weight="700" fill="#ad303a">'+signed(g.bias)+'</text>';
+chart+='<text x="'+(x+51)+'" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#273b50">'+g.label+' målinger</text><text x="'+(x+51)+'" y="326" text-anchor="middle" font-size="11" fill="#647081">'+g.n+' delstater</text>'});
+chart+='</svg><div class="ev-chart-legend"><span><i style="background:#245b98"></i>MAE (fejlens størrelse)</span><span><i style="background:#ad303a"></i>Bias (fejlens retning)</span></div>';
+$('ev-poll-count-chart').innerHTML=chart;
 $('ev-correction-chart').innerHTML=[['Uden korrektion',5.94],['Med korrektion',4.86]].map(([label,value])=>'<div class="ev-bar-row"><span>'+label+'</span><div class="ev-track"><div style="width:'+(value/7*100)+'%;background:'+(value<5?'#245b98':'#a94651')+'"></div></div><b>'+num(value)+'</b></div>').join('');
 })();
