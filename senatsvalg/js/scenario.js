@@ -103,6 +103,14 @@ function renderChart(){
     });
     if(seat%2===0||seat===51)svg+=`<text x="${(groupX+dx/2).toFixed(2)}" y="280" text-anchor="middle" fill="currentColor" font-size="10">${seat}</text>`;
   });
+  const actualResults=window.VALGNAT_FEED?.results||{};
+  const actualRows=MODEL.states;
+  const known=actualRows.filter(r=>Number.isFinite(actualResults[r.state]?.margin));
+  if(known.length){
+    const actualDem=47+known.reduce((sum,r)=>{const m=actualResults[r.state].margin;const winner=m>0?'D':m<0?'R':null;const incumbent=r.inc==='I'?'D':r.inc;return sum+(winner&&winner!==incumbent?(winner==='D'?1:-1):0);},0);
+    const actualX=left+(actualDem-fixed+.5)*dx;
+    if(actualX>=left&&actualX<=right){svg+=`<line x1="${actualX}" x2="${actualX}" y1="20" y2="${bottom+2}" stroke="#198754" stroke-width="1.4" stroke-dasharray="3 4" pointer-events="none"/><circle cx="${actualX}" cy="20" r="7" fill="#198754" stroke="#fff" stroke-width="2"><title>Valgresultat: ${actualDem} D/I-mandater · ${known.length}/35 delstater med resultat</title></circle><text x="${actualX}" y="10" text-anchor="middle" font-size="10" font-weight="700" fill="#198754">${actualDem}</text>`;}
+  }
   if(boundary>=left&&boundary<=right)svg+=`<line x1="${boundary}" y1="24" x2="${boundary}" y2="${bottom+3}" stroke="currentColor" stroke-width="1.7" stroke-dasharray="5 4" pointer-events="none"/>`;
   [60,67].forEach(target=>{const pos=left+(target-fixed)*dx;if(pos>=left&&pos<=right){svg+=`<line x1="${pos}" x2="${pos}" y1="24" y2="${bottom+3}" stroke="#6b7280" stroke-width="1.1" stroke-dasharray="3 5" pointer-events="none"/><text x="${pos+3}" y="38" fill="#48566a" font-size="10" font-weight="700">${target}</text>`;}});
   svg+=`<text x="${(left+right)/2}" y="306" text-anchor="middle" fill="currentColor" font-size="12">Demokratiske og demokratisk tilknyttede mandater</text>`;
@@ -129,4 +137,6 @@ if(chart){
 window.updateProbabilityModel=calculate;
 
 calculate();
+// The same published result feed as the election-night page, loaded without modifying scenarios.
+if(!window.VALGNAT_FEED){const feed=document.createElement('script');feed.src='data/valgnat-feed.js?v=20261107-results-1';feed.onload=renderChart;document.head.appendChild(feed);}else renderChart();
 })();
