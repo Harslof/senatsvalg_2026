@@ -16,7 +16,7 @@ Samle meningsmålinger, valgresultater, historiske grundprognoser, incumbency, a
 | Historisk QA | `../historical-audit-2018-2022.md` | 71 valg og 565 målingsregistreringer i særskilt korttidskontrol; ikke automatisk repræsentativt for hele historikken |
 
 ## Tabeller og primærnøgler
-Se `manifest.json` for skemaer, datofelter og regler. CSV-filerne indeholder indledningsvis kun kolonneoverskrifter, ikke opdigtede rækker. Data fra eksisterende filer forbliver i deres oprindelige placering, indtil valideret import kan foretages.
+Se `manifest.json` for skemaer, datofelter og regler. De fleste faktortabeller indeholder fortsat kun kolonneoverskrifter. `polls.csv` er nu importeret fra eksisterende 2026-data; historiske resultater er placeret i særskilt staging indtil uafhængig kontrol. Data fra eksisterende filer forbliver i deres oprindelige placering, indtil valideret import kan foretages.
 
 ## Indsamlingsplan
 1. **Inventar og validering:** klassificér historiske filer som rå målinger, valgresultater eller modeloutput; undersøg ZIP og dubletter; dokumentér datoer og kildegrundlag.
@@ -35,3 +35,16 @@ En stor kampagnekasse kan være resultatet af forventet succes snarere end årsa
 - Eksisterende filer fundet, men endnu ikke fuldt migreret eller kvalitetssikret.
 - Ingen eksterne data er påstået hentet eller verificeret.
 - Ingen ændringer i hjemmesidens aktive prognose.
+
+## Fase 2 – faktisk udført 7. november 2026
+- **379** eksisterende målingsrækker fra `../polls-export.json` importeret til `polls.csv`. Feltperioder, målingsmargin, institut og eventuelt angivne D/R-procenter er bevaret. Ukendt offentliggørelsesdato og stikprøvestørrelse står tomme. `additional_poll_rounds` er **ikke** importeret som selvstændige målinger.
+- **357** unikke historiske valghændelser (1998–2022) identificeret i `../../analyser/heldout_predictions.csv`. Deres reference-marginer er udskilt i `historical_results_staging.csv`, med tydelig status `backtest_reference_not_independently_verified`. De er **ikke** lagt i `elections.csv` som certificerede valgresultater.
+- Intern kontrol: ingen indbyrdes modstridende `actual`-marginer for samme valghændelse på tværs af de eksisterende modeltest-rækker.
+- ZIP-arkivet med historiske grundlagsdata er identificeret, men **ikke åbnet** via den tilgængelige GitHub-forbindelse. Derfor er historiske råmålinger, stemmetal og kandidatnavne endnu ikke importeret.
+- **Vigtigt:** `election_id` for 2026 er foreløbig en teknisk importnøgle; specialvalg og uafhængige kandidater kræver endelig race-mapping før modellering.
+
+### Næste fase-2 kontrol
+1. Udpak og dokumentér historisk ZIP-indhold, og sammenhold med råfiler og tidligere valgaudits.
+2. Verificér de 357 staging-marginer mod officielle/MIT-resultater, inkl. tredjepartskandidater og specialvalg.
+3. Importér verificerede resultater og kandidat-ID'er til `elections.csv` og `candidates.csv`.
+4. Indfør verificerede offentliggørelsesdatoer, så historiske målinger kan bruges i *as-of*-tests.
