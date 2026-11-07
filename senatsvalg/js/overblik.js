@@ -327,3 +327,6 @@ document.addEventListener('click',e=>{const stage=e.target.closest('.seat-morph-
 
 // Keep the published results shared across both Senate pages, without changing the HTML structure.
 if(!window.VALGNAT_FEED){const feedScript=document.createElement('script');feedScript.src='data/valgnat-feed.js?v=20261107-results-1';feedScript.onload=()=>{if(state.length)draw();};document.head.appendChild(feedScript);}else if(state.length){draw();}
+
+// Add the evaluation section to the existing shared masthead on the main overview.
+(function(){const add=()=>{const nav=document.querySelector('.site-masthead .site-links');if(!nav||nav.querySelector('.ev-nav-link'))return;const a=document.createElement('a');a.className='ev-nav-link';a.href='evaluering.html';a.textContent='Evaluering';nav.appendChild(a);};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',add);else add();})();
