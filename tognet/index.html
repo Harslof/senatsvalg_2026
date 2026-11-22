@@ -6,8 +6,8 @@
 <nav class="topnav" id="topnav" aria-label="Projektmenu"><a class="brand" href="../index.html">Kontur</a><div class="toplinks"><a href="index.html" aria-current="page">KORTET</a><a href="data.html">DATAGRUNDLAG &amp; METODE</a><a href="../index.html">ALLE PROJEKTER</a></div></nav>
 <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="topnav">☰ Menu</button>
 <header class="heading"><p>EUROPA · JERNBANER</p><h1>Europas tognet</h1></header>
-<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Udforsk Europas jernbaner. Kortets jernbanesignatur vises med OpenRailwayMap som en indledende, ekstern korttjeneste.</p><label><input type="checkbox" id="rail-layer" checked> Jernbaner</label><label><input type="checkbox" id="station-layer" checked> Stednavne og stationer (grundkort)</label><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
-<div class="footer-note">Prototype · Jernbanelaget er endnu ikke EuroRegionalMap-data.</div>
+<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Udforsk Europas jernbaner. Kortets jernbanesignatur vises med OpenRailwayMap som en indledende, ekstern korttjeneste.</p><label><input type="checkbox" id="rail-layer" checked> Jernbaner</label><label><input type="checkbox" id="station-layer" checked> Stednavne og stationer (grundkort)</label><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.09em">EUROREGIONALMAP 2026</div><label><input type="checkbox" id="erm-DK"> Danmark · 2.310 linjer</label><label><input type="checkbox" id="erm-SE"> Sverige · 5.055 linjer</label><label><input type="checkbox" id="erm-DE"> Tyskland · 49.971 linjer</label><p style="font-size:11px;margin:3px 0">Slå landene til efter upload af GeoJSON-filerne til <code>tognet/data/processed/</code>.</p><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
+<div class="footer-note">Prototype · EuroRegionalMap-lag kan vælges for Danmark, Sverige og Tyskland.</div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
 (function(){
  const nav=document.getElementById('topnav'), toggle=document.getElementById('menu-toggle');
@@ -20,6 +20,38 @@
  const rail=L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png',{subdomains:'abc',maxZoom:18,attribution:'Jernbanesignatur: <a href="https://www.openrailwaymap.org/">OpenRailwayMap</a> · © OpenStreetMap-bidragydere'}).addTo(map);
  document.getElementById('rail-layer').addEventListener('change',e=>{e.target.checked?rail.addTo(map):map.removeLayer(rail)});
  document.getElementById('station-layer').addEventListener('change',e=>{e.target.checked?base.addTo(map):map.removeLayer(base); if(e.target.checked&&map.hasLayer(rail))rail.bringToFront()});
+ const status=document.getElementById('layer-status');
+ const ermLayers={};
+ ['DK','SE','DE'].forEach(function(country){
+   document.getElementById('erm-'+country).addEventListener('change',async function(e){
+     const checkbox=e.target;
+     if(!checkbox.checked){if(ermLayers[country])map.removeLayer(ermLayers[country]);return;}
+     if(ermLayers[country]){ermLayers[country].addTo(map);return;}
+     status.textContent='Indlæser EuroRegionalMap for '+country+'…';
+     try {
+       const response=await fetch('data/processed/jernbaner_'+country+'.geojson');
+       if(!response.ok)throw new Error('HTTP '+response.status);
+       const geojson=await response.json();
+       const layer=L.geoJSON(geojson,{
+         style:function(feature){
+           const p=feature.properties||{};
+           return {color:p.RSD===3?'#b14d59':p.RSD===2?'#d18a52':'#285d69',weight:1.8,opacity:0.85};
+         },
+         onEachFeature:function(feature,path){
+           const p=feature.properties||{};
+           const safe=x=>String(x??'Ukendt').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+           path.bindPopup('<strong>Jernbanestrækning</strong><br>Land: '+safe(p.ICC)+'<br>Længde (km): '+safe(p.LEN)+'<br>Hastighedskode: '+safe(p.RSD)+'<br>Elektrificering, kode: '+safe(p.RRA)+'<br>TEN-kode: '+safe(p.TEN));
+         }
+       });
+       ermLayers[country]=layer;
+       if(checkbox.checked)layer.addTo(map);
+       status.textContent='EuroRegionalMap '+country+': '+(geojson.features||[]).length.toLocaleString('da-DK')+' strækninger';
+     }catch(error){
+       checkbox.checked=false;
+       status.textContent='Filen for '+country+' er endnu ikke tilgængelig på GitHub Pages ('+error.message+').';
+     }
+   });
+ });
  rail.on('tileerror',function(){document.getElementById('layer-status').textContent='Nogle jernbanefliser kunne ikke indlæses fra korttjenesten.'});
 })();
 </script></body></html>
