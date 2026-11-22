@@ -3,10 +3,166 @@
   "attribution": "© EuroGeographics and contributing national mapping agencies",
   "countries": [
     {
+      "code": "AT",
+      "name": "Østrig",
+      "features": 5414,
+      "file": "jernbaner_AT.geojson"
+    },
+    {
+      "code": "BE",
+      "name": "Belgien",
+      "features": 4657,
+      "file": "jernbaner_BE.geojson"
+    },
+    {
+      "code": "CH",
+      "name": "Schweiz",
+      "features": 8756,
+      "file": "jernbaner_CH.geojson"
+    },
+    {
+      "code": "CZ",
+      "name": "Tjekkiet",
+      "features": 9880,
+      "file": "jernbaner_CZ.geojson"
+    },
+    {
+      "code": "DE",
+      "name": "Tyskland",
+      "features": 49971,
+      "file": "jernbaner_DE.geojson"
+    },
+    {
       "code": "DK",
       "name": "Danmark",
       "features": 2310,
       "file": "jernbaner_DK.geojson"
+    },
+    {
+      "code": "EE",
+      "name": "Estland",
+      "features": 678,
+      "file": "jernbaner_EE.geojson"
+    },
+    {
+      "code": "ES",
+      "name": "Spanien",
+      "features": 10383,
+      "file": "jernbaner_ES.geojson"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "features": 6004,
+      "file": "jernbaner_FI.geojson"
+    },
+    {
+      "code": "FR",
+      "name": "Frankrig",
+      "features": 17420,
+      "file": "jernbaner_FR.geojson"
+    },
+    {
+      "code": "GB",
+      "name": "Storbritannien",
+      "features": 12631,
+      "file": "jernbaner_GB.geojson"
+    },
+    {
+      "code": "GE",
+      "name": "Georgien",
+      "features": 474,
+      "file": "jernbaner_GE.geojson"
+    },
+    {
+      "code": "GR",
+      "name": "Grækenland",
+      "features": 1738,
+      "file": "jernbaner_GR.geojson"
+    },
+    {
+      "code": "HR",
+      "name": "Kroatien",
+      "features": 840,
+      "file": "jernbaner_HR.geojson"
+    },
+    {
+      "code": "IE",
+      "name": "Irland",
+      "features": 460,
+      "file": "jernbaner_IE.geojson"
+    },
+    {
+      "code": "IT",
+      "name": "Italien",
+      "features": 19001,
+      "file": "jernbaner_IT.geojson"
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "features": 10,
+      "file": "jernbaner_LI.geojson"
+    },
+    {
+      "code": "LT",
+      "name": "Litauen",
+      "features": 939,
+      "file": "jernbaner_LT.geojson"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "features": 376,
+      "file": "jernbaner_LU.geojson"
+    },
+    {
+      "code": "LV",
+      "name": "Letland",
+      "features": 1026,
+      "file": "jernbaner_LV.geojson"
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "features": 1,
+      "file": "jernbaner_MC.geojson"
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "features": 291,
+      "file": "jernbaner_MD.geojson"
+    },
+    {
+      "code": "MK",
+      "name": "Nordmakedonien",
+      "features": 311,
+      "file": "jernbaner_MK.geojson"
+    },
+    {
+      "code": "NL",
+      "name": "Nederlandene",
+      "features": 4129,
+      "file": "jernbaner_NL.geojson"
+    },
+    {
+      "code": "NO",
+      "name": "Norge",
+      "features": 2548,
+      "file": "jernbaner_NO.geojson"
+    },
+    {
+      "code": "PL",
+      "name": "Polen",
+      "features": 17531,
+      "file": "jernbaner_PL.geojson"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "features": 2731,
+      "file": "jernbaner_PT.geojson"
     },
     {
       "code": "SE",
@@ -15,10 +171,22 @@
       "file": "jernbaner_SE.geojson"
     },
     {
-      "code": "DE",
-      "name": "Tyskland",
-      "features": 49971,
-      "file": "jernbaner_DE.geojson"
+      "code": "SI",
+      "name": "Slovenien",
+      "features": 1928,
+      "file": "jernbaner_SI.geojson"
+    },
+    {
+      "code": "SK",
+      "name": "Slovakiet",
+      "features": 2721,
+      "file": "jernbaner_SK.geojson"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "features": 2857,
+      "file": "jernbaner_UA.geojson"
     }
   ]
 }
