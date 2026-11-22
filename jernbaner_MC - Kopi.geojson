@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "jernbaner_MC",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inspireId": "_EG.ERM:EG.3167bffd-7318-4a76-9ead-830a4cf5a413", "ICC": "MC", "LEN": 0.675, "EXS": 28, "RRC": 16, "RSD": 1, "RRA": 3, "RGC": 3, "TEN": 2, "TENTEC_ID": "UNK" }, "geometry": { "type": "LineString", "coordinates": [ [ 7.4141065, 43.735193994823774 ], [ 7.420385, 43.739150494825381 ] ] } }
+]
+}
