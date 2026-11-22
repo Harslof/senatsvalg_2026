@@ -1,0 +1,24 @@
+{
+  "source": "EuroRegionalMap 2026",
+  "attribution": "© EuroGeographics and contributing national mapping agencies",
+  "countries": [
+    {
+      "code": "DK",
+      "name": "Danmark",
+      "features": 2310,
+      "file": "jernbaner_DK.geojson"
+    },
+    {
+      "code": "SE",
+      "name": "Sverige",
+      "features": 5055,
+      "file": "jernbaner_SE.geojson"
+    },
+    {
+      "code": "DE",
+      "name": "Tyskland",
+      "features": 49971,
+      "file": "jernbaner_DE.geojson"
+    }
+  ]
+}
