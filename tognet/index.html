@@ -6,8 +6,8 @@
 <nav class="topnav" id="topnav" aria-label="Projektmenu"><a class="brand" href="../index.html">Kontur</a><div class="toplinks"><a href="index.html" aria-current="page">KORTET</a><a href="data.html">DATAGRUNDLAG &amp; METODE</a><a href="../index.html">ALLE PROJEKTER</a></div></nav>
 <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="topnav">☰ Menu</button>
 <header class="heading"><p>EUROPA · JERNBANER</p><h1>Europas tognet</h1></header>
-<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Udforsk Europas jernbaner. EuroRegionalMap 2026 indlæses automatisk på tværs af landegrænser. Kortet henter de relevante lande gradvist, mens du bevæger dig rundt.</p><label><input type="checkbox" id="rail-layer"> Vis OpenRailwayMap (sammenligning)</label><label><input type="checkbox" id="station-layer" checked> Stednavne og stationer (grundkort)</label><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.09em">EUROREGIONALMAP 2026 · HELE EUROPA</div><label><input type="checkbox" id="erm-all" checked> Vis samlet europæisk jernbanenet</label><div style="margin:8px 0 10px"><button id="show-europe" type="button" style="padding:8px 11px;border:1px solid #315b6a;background:#fff;cursor:pointer;font-size:12px">Vis hele Europa</button></div><details open><summary style="cursor:pointer;font-size:12px;padding:8px 0">Alle lande · <span id="country-count">indlæser</span></summary><div id="country-layers" style="max-height:170px;overflow-y:auto"><p>Indlæser oversigt…</p></div></details><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.08em">SIGNATUR · EUROREGIONALMAP</div><p style="margin:9px 0 4px"><span style="display:inline-block;width:23px;border-top:3px solid #285d69;margin-right:8px;vertical-align:middle"></span>Konventionel eller ukendt kategori<br><span style="display:inline-block;width:23px;border-top:3px solid #d18a52;margin-right:8px;vertical-align:middle"></span>Opgraderet højhastighed<br><span style="display:inline-block;width:23px;border-top:3px solid #b14d59;margin-right:8px;vertical-align:middle"></span>Dedikeret højhastighed</p><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
-<div class="footer-note">EuroRegionalMap 2026 © EuroGeographics og nationale kortmyndigheder · 31 lande · Generaliseret geografi · kortversion 2.</div>
+<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Jernbanerne er farvet efter hastighedskategori. Tynde linjer viser nettet på tværs af 31 lande; zoom ind for flere detaljer.</p><label><input type="checkbox" id="rail-layer"> Vis OpenRailwayMap (sammenligning)</label><label><input type="checkbox" id="station-layer" checked> Vis stednavne</label><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.09em">EUROREGIONALMAP 2026 · HELE EUROPA</div><label><input type="checkbox" id="erm-all" checked> Vis samlet europæisk jernbanenet</label><div style="margin:8px 0 10px"><button id="show-europe" type="button" style="padding:8px 11px;border:1px solid #315b6a;background:#fff;cursor:pointer;font-size:12px">Vis hele Europa</button></div><details open><summary style="cursor:pointer;font-size:12px;padding:8px 0">Alle lande · <span id="country-count">indlæser</span></summary><div id="country-layers" style="max-height:170px;overflow-y:auto"><p>Indlæser oversigt…</p></div></details><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.08em">HASTIGHEDSKATEGORIER</div><p style="margin:9px 0 4px;line-height:1.9"><span style="display:inline-block;width:23px;border-top:2px solid #647783;margin-right:8px;vertical-align:middle"></span>Konventionel (RSD 1)<br><span style="display:inline-block;width:23px;border-top:2px solid #dd9550;margin-right:8px;vertical-align:middle"></span>Opgraderet højhastighed (RSD 2)<br><span style="display:inline-block;width:23px;border-top:2px solid #bd4d56;margin-right:8px;vertical-align:middle"></span>Dedikeret højhastighed (RSD 3)<br><span style="display:inline-block;width:23px;border-top:2px dotted #a9adb0;margin-right:8px;vertical-align:middle"></span>Ukendt kategori</p><label><input type="checkbox" id="stations-toggle" disabled> Stationer fra EuroRegionalMap (afventer udtræk)</label><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
+<div class="footer-note">EuroRegionalMap 2026 © EuroGeographics og nationale kortmyndigheder · 31 lande · Generaliseret geografi · kortversion 3.</div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
 (function(){
  const nav=document.getElementById('topnav'), toggle=document.getElementById('menu-toggle');
@@ -16,10 +16,11 @@
  toggle.addEventListener('click',function(){let open=nav.classList.toggle('visible');toggle.setAttribute('aria-expanded',String(open))});
  if(!window.L){document.getElementById('layer-status').textContent='Kortbiblioteket kunne ikke indlæses. Tjek internetforbindelsen.';return}
  const map=L.map('map',{zoomControl:true,worldCopyJump:true,preferCanvas:true}).setView([54,15],4);
- const base=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bidragydere'}).addTo(map);
+ const base=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
+ const labels=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,attribution:'© OpenStreetMap · © CARTO',pane:'overlayPane'}).addTo(map);
  const rail=L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png',{subdomains:'abc',maxZoom:18,attribution:'Jernbanesignatur: <a href="https://www.openrailwaymap.org/">OpenRailwayMap</a> · © OpenStreetMap-bidragydere'});
  document.getElementById('rail-layer').addEventListener('change',e=>{e.target.checked?rail.addTo(map):map.removeLayer(rail)});
- document.getElementById('station-layer').addEventListener('change',e=>{e.target.checked?base.addTo(map):map.removeLayer(base); if(e.target.checked&&map.hasLayer(rail))rail.bringToFront()});
+ document.getElementById('station-layer').addEventListener('change',e=>{e.target.checked?labels.addTo(map):map.removeLayer(labels);});
  const status=document.getElementById('layer-status');
  const ermLayers={};
  const pending={};
@@ -48,6 +49,9 @@
    return v.intersects(L.latLngBounds([b[0],b[1]],[b[2],b[3]]));
  }
  const canvasRenderer=L.canvas({padding:.2});
+ function lineStyle(feature){const v=Number((feature.properties||{}).RSD);const zoom=map.getZoom();return {color:v===3?'#bd4d56':v===2?'#dd9550':v===1?'#647783':'#a9adb0',weight:zoom<5?.55:zoom<7?.8:zoom<9?1.1:1.5,opacity:v===3?.95:v===2?.92:.75,dashArray:![1,2,3].includes(v)?'2 3':null};}
+ function refreshStyles(){Object.values(ermLayers).forEach(layer=>layer.setStyle(lineStyle));}
+ map.on('zoomend',refreshStyles);
  async function getCountry(country){
    const code=country.code;
    inFlight++;
@@ -57,10 +61,7 @@
      const geojson=await response.json();
      const layer=L.geoJSON(geojson,{
        renderer:canvasRenderer,
-       style:feature=>{
-         const p=feature.properties||{};
-         return {color:p.RSD===3?'#b14d59':p.RSD===2?'#d18a52':'#285d69',weight:1.45,opacity:.85};
-       },
+       style:lineStyle,
        onEachFeature:(feature,path)=>{
          const p=feature.properties||{};
          path.bindPopup('<strong>Jernbanestrækning</strong><br>Land: '+safe(p.ICC)+'<br>Længde (km): '+safe(p.LEN)+'<br>Hastighedskode: '+safe(p.RSD)+'<br>Elektrificering, kode: '+safe(p.RRA)+'<br>TEN-kode: '+safe(p.TEN));
