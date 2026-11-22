@@ -6,8 +6,8 @@
 <nav class="topnav" id="topnav" aria-label="Projektmenu"><a class="brand" href="../index.html">Kontur</a><div class="toplinks"><a href="index.html" aria-current="page">KORTET</a><a href="data.html">DATAGRUNDLAG &amp; METODE</a><a href="../index.html">ALLE PROJEKTER</a></div></nav>
 <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="topnav">☰ Menu</button>
 <header class="heading"><p>EUROPA · JERNBANER</p><h1>Europas tognet</h1></header>
-<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Udforsk Europas jernbaner. EuroRegionalMap er det primære jernbanelag. Vælg lande, og sammenlign eventuelt med OpenRailwayMap.</p><label><input type="checkbox" id="rail-layer"> Vis OpenRailwayMap (sammenligning)</label><label><input type="checkbox" id="station-layer" checked> Stednavne og stationer (grundkort)</label><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.09em">EUROREGIONALMAP 2026 · LANDE</div><div id="country-layers"><p>Indlæser tilgængelige lande…</p></div><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.08em">SIGNATUR · EUROREGIONALMAP</div><p style="margin:9px 0 4px"><span style="display:inline-block;width:23px;border-top:3px solid #285d69;margin-right:8px;vertical-align:middle"></span>Konventionel eller ukendt kategori<br><span style="display:inline-block;width:23px;border-top:3px solid #d18a52;margin-right:8px;vertical-align:middle"></span>Opgraderet højhastighed<br><span style="display:inline-block;width:23px;border-top:3px solid #b14d59;margin-right:8px;vertical-align:middle"></span>Dedikeret højhastighed</p><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
-<div class="footer-note">EuroRegionalMap 2026 © EuroGeographics og nationale kortmyndigheder · Generaliseret geografi.</div>
+<aside class="panel" aria-label="Kortlag"><h2>Kortlag</h2><p>Udforsk Europas jernbaner. EuroRegionalMap 2026 indlæses automatisk på tværs af landegrænser. Kortet henter de relevante lande gradvist, mens du bevæger dig rundt.</p><label><input type="checkbox" id="rail-layer"> Vis OpenRailwayMap (sammenligning)</label><label><input type="checkbox" id="station-layer" checked> Stednavne og stationer (grundkort)</label><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.09em">EUROREGIONALMAP 2026 · HELE EUROPA</div><label><input type="checkbox" id="erm-all" checked> Vis samlet europæisk jernbanenet</label><details><summary style="cursor:pointer;font-size:12px;padding:8px 0">Vis lande og indlæsningsstatus</summary><div id="country-layers"><p>Indlæser oversigt…</p></div></details><div style="border-top:1px solid #dde0db;padding-top:12px;font:700 11px Arial,sans-serif;letter-spacing:.08em">SIGNATUR · EUROREGIONALMAP</div><p style="margin:9px 0 4px"><span style="display:inline-block;width:23px;border-top:3px solid #285d69;margin-right:8px;vertical-align:middle"></span>Konventionel eller ukendt kategori<br><span style="display:inline-block;width:23px;border-top:3px solid #d18a52;margin-right:8px;vertical-align:middle"></span>Opgraderet højhastighed<br><span style="display:inline-block;width:23px;border-top:3px solid #b14d59;margin-right:8px;vertical-align:middle"></span>Dedikeret højhastighed</p><div class="status" id="layer-status">Kortdata indlæses fra eksterne tjenester.</div><p><a href="data.html">Se kilder og kommende datalag ↗</a></p></aside>
+<div class="footer-note">EuroRegionalMap 2026 © EuroGeographics og nationale kortmyndigheder · 31 lande · Generaliseret geografi.</div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
 (function(){
  const nav=document.getElementById('topnav'), toggle=document.getElementById('menu-toggle');
@@ -15,7 +15,7 @@
  nav.addEventListener('mouseleave',function(e){if(e.clientY>65)nav.classList.remove('visible')});
  toggle.addEventListener('click',function(){let open=nav.classList.toggle('visible');toggle.setAttribute('aria-expanded',String(open))});
  if(!window.L){document.getElementById('layer-status').textContent='Kortbiblioteket kunne ikke indlæses. Tjek internetforbindelsen.';return}
- const map=L.map('map',{zoomControl:true,worldCopyJump:true,preferCanvas:true}).setView([52,13],5);
+ const map=L.map('map',{zoomControl:true,worldCopyJump:true,preferCanvas:true}).setView([54,15],4);
  const base=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bidragydere'}).addTo(map);
  const rail=L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png',{subdomains:'abc',maxZoom:18,attribution:'Jernbanesignatur: <a href="https://www.openrailwaymap.org/">OpenRailwayMap</a> · © OpenStreetMap-bidragydere'});
  document.getElementById('rail-layer').addEventListener('change',e=>{e.target.checked?rail.addTo(map):map.removeLayer(rail)});
@@ -23,49 +23,98 @@
  const status=document.getElementById('layer-status');
  const ermLayers={};
  const pending={};
- function safe(x){return String(x??'Ukendt').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
- async function toggleCountry(country,checkbox){
-   if(!checkbox.checked){if(ermLayers[country])map.removeLayer(ermLayers[country]);return;}
-   if(ermLayers[country]){ermLayers[country].addTo(map);return;}
-   if(pending[country])return;
-   pending[country]=true;
-   status.textContent='Indlæser '+country+'…';
+ const failed=new Set();
+ let available=[], active=true, inFlight=0;
+ const maxConcurrent=3;
+ const geoExtents={
+ AT:[46,9,50,18],BE:[49,2,52,7],CH:[45,5,48,11],CZ:[48,12,52,19],
+ DE:[47,5,56,16],DK:[54,7,58,16],EE:[57,21,60,29],ES:[35,-10,45,5],
+ FI:[59,19,71,33],FR:[41,-6,52,10],GB:[49,-9,60,3],GE:[40,39,44,47],
+ GR:[34,19,42,30],HR:[42,13,47,20],IE:[51,-11,56,-5],IT:[35,6,48,20],
+ LI:[46,9,48,11],LT:[53,20,57,27],LU:[49,5,51,7],LV:[55,20,59,29],
+ MC:[43,7,44,8],MD:[45,26,49,31],MK:[40,20,43,24],NL:[50,3,54,8],
+ NO:[57,4,72,32],PL:[48,13,56,25],PT:[36,-10,43,-6],SE:[54,10,70,25],
+ SI:[45,13,47,17],SK:[47,16,50,23],UA:[44,21,53,41]
+ };
+ const safe=x=>String(x??'Ukendt').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ function updateStatus(){
+   const loaded=Object.keys(ermLayers).length;
+   const visible=Object.keys(ermLayers).filter(code=>map.hasLayer(ermLayers[code])).length;
+   status.textContent=active?('Europakort: '+loaded+'/'+available.length+' lande hentet, '+visible+' vist'+(inFlight?' · indlæser…':'')):'Europakort skjult · '+loaded+' lande hentet';
+ }
+ function isNearView(code){
+   const b=geoExtents[code];if(!b)return true;
+   const v=map.getBounds().pad(.4);
+   return v.intersects(L.latLngBounds([b[0],b[1]],[b[2],b[3]]));
+ }
+ const canvasRenderer=L.canvas({padding:.2});
+ async function getCountry(country){
+   const code=country.code;
+   inFlight++;
    try{
-     const response=await fetch('data/processed/jernbaner_'+country+'.geojson');
+     const response=await fetch('data/processed/'+country.file);
      if(!response.ok)throw new Error('HTTP '+response.status);
-     const features=await response.json();
-     const layer=L.geoJSON(features,{
-       style:feature=>{const p=feature.properties||{};return {color:p.RSD===3?'#b14d59':p.RSD===2?'#d18a52':'#285d69',weight:1.7,opacity:.88};},
-       onEachFeature:(feature,path)=>{const p=feature.properties||{};path.bindPopup('<strong>Jernbanestrækning</strong><br>Land: '+safe(p.ICC)+'<br>Længde (km): '+safe(p.LEN)+'<br>Hastighedskode: '+safe(p.RSD)+'<br>Elektrificering, kode: '+safe(p.RRA)+'<br>TEN-kode: '+safe(p.TEN));}
+     const geojson=await response.json();
+     const layer=L.geoJSON(geojson,{
+       renderer:canvasRenderer,
+       style:feature=>{
+         const p=feature.properties||{};
+         return {color:p.RSD===3?'#b14d59':p.RSD===2?'#d18a52':'#285d69',weight:1.45,opacity:.85};
+       },
+       onEachFeature:(feature,path)=>{
+         const p=feature.properties||{};
+         path.bindPopup('<strong>Jernbanestrækning</strong><br>Land: '+safe(p.ICC)+'<br>Længde (km): '+safe(p.LEN)+'<br>Hastighedskode: '+safe(p.RSD)+'<br>Elektrificering, kode: '+safe(p.RRA)+'<br>TEN-kode: '+safe(p.TEN));
+       }
      });
-     ermLayers[country]=layer;
-     if(checkbox.checked)layer.addTo(map);
-     status.textContent=country+': '+(features.features||[]).length.toLocaleString('da-DK')+' strækninger indlæst.';
-   }catch(error){checkbox.checked=false;status.textContent='Kunne ikke indlæse '+country+': '+error.message;}
-   finally{delete pending[country];}
+     ermLayers[code]=layer;
+     if(active && isNearView(code))layer.addTo(map);
+   }catch(err){
+     failed.add(code);
+     console.warn('Kunne ikke indlæse '+country.name,err);
+   }finally{
+     inFlight--;delete pending[code];updateStatus();pump();
+   }
+ }
+ function syncVisible(){
+   if(!active){Object.values(ermLayers).forEach(layer=>map.removeLayer(layer));updateStatus();return;}
+   for(const country of available){
+     const layer=ermLayers[country.code];
+     if(!layer)continue;
+     if(isNearView(country.code)){if(!map.hasLayer(layer))layer.addTo(map);}
+     else if(map.hasLayer(layer))map.removeLayer(layer);
+   }
+   updateStatus();
+ }
+ function pump(){
+   if(!active)return;
+   syncVisible();
+   while(inFlight<maxConcurrent){
+     const next=available.find(c=>isNearView(c.code)&&!ermLayers[c.code]&&!pending[c.code]&&!failed.has(c.code));
+     if(!next)break;
+     pending[next.code]=true;getCountry(next);
+   }
  }
  async function loadCountries(){
-   const holder=document.getElementById('country-layers');
    try{
      const response=await fetch('data/processed/manifest.json');
      if(!response.ok)throw new Error('HTTP '+response.status);
      const manifest=await response.json();
+     available=manifest.countries;
+     const holder=document.getElementById('country-layers');
      holder.replaceChildren();
-     manifest.countries.forEach(country=>{
-       const label=document.createElement('label');
-       const checkbox=document.createElement('input');
-       checkbox.type='checkbox';
-       checkbox.setAttribute('aria-label',country.name);
-       const words=document.createElement('span');
-       words.textContent=country.name+' · '+country.features.toLocaleString('da-DK');
-       label.append(checkbox,words);
-       holder.append(label);
-       checkbox.addEventListener('change',()=>toggleCountry(country.code,checkbox));
-       if(country.code==='DK'){checkbox.checked=true;toggleCountry(country.code,checkbox);}
-     });
-     if(!manifest.countries.length)holder.textContent='Ingen lande er tilgængelige endnu.';
-   }catch(error){holder.textContent='Landelisten kunne ikke indlæses ('+error.message+').';}
+     for(const country of available){
+       const line=document.createElement('p');
+       line.style.cssText='font-size:11px;margin:5px 0';
+       line.textContent=country.name+' · '+country.features.toLocaleString('da-DK')+' strækninger';
+       holder.append(line);
+     }
+     map.on('moveend zoomend',pump);
+     pump();
+   }catch(err){status.textContent='Landelisten kunne ikke hentes: '+err.message;}
  }
+ document.getElementById('erm-all').addEventListener('change',function(event){
+   active=event.target.checked;syncVisible();if(active)pump();
+ });
  loadCountries();
  rail.on('tileerror',function(){document.getElementById('layer-status').textContent='Nogle jernbanefliser kunne ikke indlæses fra korttjenesten.'});
 })();
